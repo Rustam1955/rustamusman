@@ -1,22 +1,47 @@
 {% extends "base.html" %}
-{% block title %}{{ profile.reflections.title|localized(lang) }} — {{ profile.name|localized(lang) }}{% endblock %}
-{% block meta_description %}{{ profile.reflections.epigraph|localized(lang) }}{% endblock %}
+{% block title %}{{ t.reflections_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+{% block meta_description %}{{ profile.tagline|localized(lang) }}{% endblock %}
 
 {% block content %}
 <section class="section">
   <div class="container narrow">
     <h1 class="page-title">{{ t.reflections_title }}</h1>
 
-    <article class="essay">
-      <h2 class="essay-title">{{ profile.reflections.title|localized(lang) }}</h2>
-      <p class="essay-epigraph">{{ profile.reflections.epigraph|localized(lang) }}</p>
-
-      {% for para in profile.reflections.paragraphs|localized(lang) %}
-      <p>{{ para }}</p>
+    <div class="accordion-list">
+      {% for essay in profile.reflections.essays %}
+      <details class="acc"{% if loop.first %} open{% endif %}>
+        <summary>
+          <span class="acc-title">{{ essay.title|localized(lang) }}</span>
+          <span class="acc-icon" aria-hidden="true">+</span>
+        </summary>
+        <div class="acc-body essay">
+          {% for b in essay.blocks %}
+            {% if b.type == 'epigraph' %}
+            <p class="essay-epigraph">{{ b.text|localized(lang) }}</p>
+            {% elif b.type == 'subhead' %}
+            <h3 class="essay-subhead">{{ b.text|localized(lang) }}</h3>
+            {% elif b.type == 'closing' %}
+            <blockquote class="essay-closing">{{ b.text|localized(lang) }}</blockquote>
+            {% elif b.type == 'factors' %}
+            <ol class="essay-factors">
+              {% for it in b['items'] %}
+              <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
+              {% endfor %}
+            </ol>
+            {% elif b.type == 'list' %}
+            <ul class="essay-list">
+              {% for it in b['items'] %}
+              <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p>{{ b.text|localized(lang) }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </details>
       {% endfor %}
-
-      <blockquote class="essay-closing">{{ profile.reflections.closing|localized(lang) }}</blockquote>
-    </article>
+    </div>
   </div>
 </section>
 {% endblock %}

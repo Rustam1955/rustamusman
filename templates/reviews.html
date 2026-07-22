@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{ profile.reviews.title|localized(lang) }} — {{ profile.name|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ profile.reviews.title|localized(lang) }}</h1>
+    {% if profile.reviews.subtitle %}
+    <p class="reviews-subtitle">{{ profile.reviews.subtitle|localized(lang) }}</p>
+    {% endif %}
+
+    {% if profile.reviews.assessment %}
+    {% set a = profile.reviews.assessment %}
+    <div class="about-assessment about-assessment--first">
+      <p class="assessment-intro">{{ a.intro|localized(lang) }}</p>
+      {% if a.factors_lead %}<p class="assessment-lead">{{ a.factors_lead|localized(lang) }}</p>{% endif %}
+      {% if a.factors %}
+      <ol class="assessment-factors">
+        {% for f in a.factors %}
+        <li><strong>{{ f.title|localized(lang) }}</strong> {{ f.text|localized(lang) }}</li>
+        {% endfor %}
+      </ol>
+      {% endif %}
+      {% if a.verdict %}
+      <p class="assessment-verdict"><strong>{{ a.verdict_label|localized(lang) }}</strong> {{ a.verdict|localized(lang) }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if profile.reviews['items'] %}
+    <div class="reviews">
+      {% for r in profile.reviews['items'] %}
+      <figure class="review-card">
+        <blockquote class="review-text">
+          {% for para in r.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </blockquote>
+        <figcaption class="review-author">
+          <span class="review-avatar review-initials">{{ r.initials }}</span>
+          <span class="review-name">{{ r.name|localized(lang) }}</span>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

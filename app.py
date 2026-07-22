@@ -61,6 +61,7 @@ UI = {
         "nav_pubs": "Публикации",
         "nav_cv": "CV",
         "nav_reflections": "Размышления",
+        "nav_reviews": "Отзывы",
         "nav_contacts": "Контакты",
         "reflections_title": "Размышления",
         "hero_cta_pubs": "Публикации",
@@ -105,6 +106,7 @@ UI = {
         "nav_pubs": "Publications",
         "nav_cv": "CV",
         "nav_reflections": "Reflections",
+        "nav_reviews": "Reviews",
         "nav_contacts": "Contact",
         "reflections_title": "Reflections",
         "hero_cta_pubs": "Publications",
@@ -337,6 +339,11 @@ def cv(lang):
     return render_template("cv.html", lang=valid_lang(lang))
 
 
+@app.route("/<lang>/reviews/")
+def reviews(lang):
+    return render_template("reviews.html", lang=valid_lang(lang))
+
+
 @app.route("/<lang>/cv/download.pdf")
 def cv_pdf(lang):
     from pdf_cv import build_cv_pdf
@@ -369,7 +376,7 @@ def robots_txt():
 
 @app.route("/sitemap.xml")
 def sitemap_xml():
-    pages = ("home", "about", "dynasty", "publications", "reflections", "cv", "contacts")
+    pages = ("home", "about", "dynasty", "publications", "reflections", "cv", "reviews", "contacts")
     urls = []
     for endpoint in pages:
         for l in LANGS:

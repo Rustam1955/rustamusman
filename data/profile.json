@@ -125,34 +125,321 @@
     }
   },
   "reflections": {
+    "essays": [
+      {
+        "title": {
+          "ru": "Истинные учёные — наследники пророков",
+          "en": "True scientists are heirs of the prophets"
+        },
+        "blocks": [
+          {
+            "type": "epigraph",
+            "text": {
+              "ru": "Пророки приносили людям знание о морали и Боге, а учёные — знание о законах мироздания. И те, и другие ведут человечество из мрака к свету.",
+              "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Я верю, что истинный учёный — наследник пророка. Не по сану, а по призванию: выводить людей из невежества к свету знания. В нашем роду это выражено даже в имени — Ilm (знание) и Nur (свет).",
+              "en": "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light)."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Когда открытие облегчает страдания людей или развивает их разум, оно становится служением. В исламской традиции есть понятие садака — непрекращающееся благодеяние: знание, которым люди пользуются и после смерти учёного, остаётся таким благом. А разум (акль) — величайший дар Творца; развивать его в других и есть путь мудрости.",
+              "en": "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Опасность возникает там, где материальное потребление становится единственной целью. Общество, потерявшее нравственную опору, теряет и иммунитет к соблазну власти и наживы. Знание без совести не спасает — оно вооружает.",
+              "en": "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Яснее всего это видно в новых технологиях. Искусственный разум способен избавить мир от голода, болезней и нехватки ресурсов — и это было бы великим благодеянием. Но та же сила в руках жадности легко превращается в инструмент контроля и неравенства. Дело не в машине, а в человеке, который ею управляет.",
+              "en": "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "История учит, что на всякое действие рождается противодействие. Надежда — в том, чтобы знание оставалось открытым и общим, а не собственностью немногих, и чтобы им управляла совесть, а не расчёт. Если победит разум и та самая пророческая миссия учёного, любая технология станет щитом, а не ядом.",
+              "en": "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison."
+            }
+          },
+          {
+            "type": "closing",
+            "text": {
+              "ru": "Мы творим историю своим умом — как завещали нам предки.",
+              "en": "We make history with our own minds — as our forefathers bequeathed to us."
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "ru": "Мои воспоминания о моём учителе",
+          "en": "My memories of my teacher"
+        },
+        "blocks": [
+          {
+            "type": "para",
+            "text": {
+              "ru": "Для меня было большой честью быть учеником легендарного учёного, педагога и создателя научной школы механики в МГУ — Халила Ахмедовича Рахматулина (1909–1988). Великих людей часто окружают легенды, но для меня важнее был реальный опыт живого общения с моим учителем.",
+              "en": "It was a great honour for me to be a student of the legendary scientist, teacher and founder of the school of mechanics at MSU — Khalil Akhmedovich Rakhmatulin (1909–1988). Great people are often surrounded by legends, but for me the real experience of living communication with my teacher mattered more."
+            }
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "Мировое признание",
+              "en": "World recognition"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Его «волны разгрузки» изучали во всём мире, включая Принстон, где жил Эйнштейн. Несмотря на все регалии — Герой Социалистического Труда, лауреат Сталинских (1945, 1949) и Государственной (1981) премий, — он оставался внутренне свободным человеком. Он мог позволить себе иронию над системой, которой служил, потому что служил он не «партии», а Науке и Истине.",
+              "en": "His «unloading waves» were studied all over the world, including Princeton, where Einstein lived. Despite all his honours — Hero of Socialist Labour, laureate of the Stalin (1945, 1949) and State (1981) prizes — he remained an inwardly free man. He could allow himself irony toward the system he served, because he served not the «party», but Science and Truth."
+            }
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "Про формулу социализма",
+              "en": "About the formula of socialism"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "11 февраля 1981 года он прилетел в Самарканд, в СамГУ имени А. Навои, чтобы забрать меня в Москву, в МГУ. Мы устроили утреннее чаепитие в гостинице «Интурист», куда пришли видные учёные Самарканда. Мне запомнилось несколько моментов его речи.",
+              "en": "On 11 February 1981 he flew to Samarkand, to A. Navoi SamSU, to take me to Moscow, to MSU. We arranged a morning tea at the «Intourist» hotel, where prominent scientists of Samarkand gathered. I remember several moments of his speech."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Тогда многим казалось, что система незыблема. Но он уже видел «трещины в фундаменте». Как большой учёный в кругу своих, он позволял себе быть искренним и честно оценивать время — и фактически предсказал будущее целой державы. Он предчувствовал драматичный финал нашей Родины, до последнего дня чувствуя ответственность за судьбу науки и страны. Именно тогда он с болью говорил, что созидательная энергия уходит в пустую идеологию, и видел абсурдность некоторых догм через призму строгой математики.",
+              "en": "Back then many believed the system was unshakable. But he already saw «cracks in the foundation». As a great scientist among his own, he allowed himself to be sincere and to assess the times honestly — and in effect predicted the future of an entire power. He sensed the dramatic finale of our Motherland, feeling responsibility for the fate of science and the country to his last day. It was then that he said with pain that creative energy was draining into empty ideology, and he saw the absurdity of certain dogmas through the prism of rigorous mathematics."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Его тревога, которую мы почувствовали, была характерна для лучших представителей технической и научной элиты того времени — по нескольким причинам:",
+              "en": "The anxiety we felt in him was characteristic of the best representatives of the technical and scientific elite of that time — for several reasons:"
+            }
+          },
+          {
+            "type": "factors",
+            "items": [
+              {
+                "title": {
+                  "ru": "Технологическое отставание.",
+                  "en": "Technological lag."
+                },
+                "text": {
+                  "ru": "Как человек, отвечавший за оборонные проекты, аэродинамику и сложные системы (парашюты, аэростаты, волновые процессы), он видел, что бюрократия и «застой» в партийном аппарате начинают тормозить научный прогресс. Ироничная формула про «социализм минус электрификацию» была не просто шуткой — это был горький математический вывод о том, что идеология перестаёт подкрепляться реальным развитием.",
+                  "en": "As a man responsible for defence projects, aerodynamics and complex systems (parachutes, aerostats, wave processes), he saw that bureaucracy and «stagnation» in the party apparatus were beginning to slow scientific progress. The ironic formula about «socialism minus electrification» was not just a joke — it was a bitter mathematical conclusion that ideology was ceasing to be backed by real development."
+                }
+              },
+              {
+                "title": {
+                  "ru": "Критика партократии.",
+                  "en": "Criticism of the partocracy."
+                },
+                "text": {
+                  "ru": "Будучи выходцем из народа (пройдя путь от рабфака до академика), Рахматулин остро чувствовал разрыв между лозунгами КПСС и реальной жизнью. Его ирония в адрес «некоторых членов партии» в 1981 году — свидетельство того, что он видел деградацию партийной верхушки, всё больше состоявшей из карьеристов, а не созидателей.",
+                  "en": "Coming from the people (having travelled the path from a workers' faculty to academician), Rakhmatulin keenly felt the gap between the slogans of the CPSU and real life. His irony toward «certain party members» in 1981 is evidence that he saw the degradation of the party leadership, increasingly made up of careerists rather than creators."
+                }
+              },
+              {
+                "title": {
+                  "ru": "Ответственность перед будущим.",
+                  "en": "Responsibility to the future."
+                },
+                "text": {
+                  "ru": "Он часто упоминал внука Сашу в контексте «сложных задач». Возможно, его тревога за внука была не только из-за учебников, но и из-за того, в каком мире этому ребёнку придётся жить, если «застой» не сменится качественным рывком. Его внук, Александр Шамильевич Рахматулин, позже тоже пошёл по научной стезе, став физиком-математиком и продолжив династию.",
+                  "en": "He often mentioned his grandson Sasha in the context of «difficult problems». Perhaps his worry for his grandson was not only about textbooks, but also about the world this child would have to live in if «stagnation» were not replaced by a qualitative leap. His grandson, Alexander Shamilyevich Rakhmatulin, later also took the scientific path, becoming a physicist-mathematician and continuing the dynasty."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "ru": "Почему среди мусульман мало лауреатов Нобелевской премии",
+          "en": "Why there are few Nobel laureates among Muslims"
+        },
+        "blocks": [
+          {
+            "type": "para",
+            "text": {
+              "ru": "На сегодня число лауреатов Нобелевской премии среди мусульман — около 15 человек на 2 миллиарда мусульман планеты.",
+              "en": "As of today, the number of Nobel laureates among Muslims is about 15 people out of the 2 billion Muslims on the planet."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Согласно статистике Организации исламского сотрудничества (ОИС), мусульманские страны тратят на научные исследования и разработки (НИОКР) в среднем всего около 0,81% своего ВВП. Для сравнения, развитые страны — США, Япония, Израиль — инвестируют в науку от 2,5% до 4,5% ВВП.",
+              "en": "According to statistics from the Organisation of Islamic Cooperation (OIC), Muslim countries spend on average only about 0.81% of their GDP on research and development (R&D). For comparison, developed countries — the USA, Japan, Israel — invest from 2.5% to 4.5% of GDP in science."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Экспериментальная наука (физика, химия, медицина) требует миллиардных вложений в лаборатории, коллайдеры и суперкомпьютеры. В большинстве мусульманских стран такой базы просто нет.",
+              "en": "Experimental science (physics, chemistry, medicine) requires billions in investment in laboratories, colliders and supercomputers. In most Muslim countries such a base simply does not exist."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Из-за этого талантливые учёные уезжают. Практически все мусульмане, получившие Нобелевскую премию в области естественных наук — Абдус Салам (физика), Ахмед Зевейл, Азиз Санджар, Мунги Бавенди (химия), — сделали свои открытия и построили карьеру в ведущих университетах США и Европы.",
+              "en": "Because of this, talented scientists leave. Almost all Muslims who received the Nobel Prize in the natural sciences — Abdus Salam (physics), Ahmed Zewail, Aziz Sancar, Moungi Bawendi (chemistry) — made their discoveries and built their careers at leading universities in the USA and Europe."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Нобелевские открытия рождаются там, где есть свобода мысли, жёсткая критика авторитетов и независимость университетов от государственной идеологии. Во многих мусульманских странах академическая свобода ограничена политическими режимами, цензурой или религиозным консерватизмом. Учёные часто вынуждены заниматься прикладными задачами государства, а не фундаментальной теорией.",
+              "en": "Nobel discoveries are born where there is freedom of thought, harsh criticism of authorities and independence of universities from state ideology. In many Muslim countries academic freedom is restricted by political regimes, censorship or religious conservatism. Scientists are often forced to work on the applied tasks of the state rather than on fundamental theory."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Большая часть премий, полученных мусульманами, относится к гуманитарным сферам:",
+              "en": "Most of the prizes received by Muslims belong to the humanitarian spheres:"
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+                "title": {
+                  "ru": "Премия мира:",
+                  "en": "Peace Prize:"
+                },
+                "text": {
+                  "ru": "более половины всех лауреатов-мусульман — Ясир Арафат, Малала Юсуфзай, Мухаммад Юнус.",
+                  "en": "more than half of all Muslim laureates — Yasser Arafat, Malala Yousafzai, Muhammad Yunus."
+                }
+              },
+              {
+                "title": {
+                  "ru": "Литература:",
+                  "en": "Literature:"
+                },
+                "text": {
+                  "ru": "Нагиб Махфуз (Египет), Орхан Памук (Турция), Абдулразак Гурна (Танзания).",
+                  "en": "Naguib Mahfouz (Egypt), Orhan Pamuk (Turkey), Abdulrazak Gurnah (Tanzania)."
+                }
+              },
+              {
+                "title": {
+                  "ru": "Естественные науки (физика и химия):",
+                  "en": "Natural sciences (physics and chemistry):"
+                },
+                "text": {
+                  "ru": "всего 4 лауреата за всю историю. В области медицины и экономики лауреатов пока нет.",
+                  "en": "only 4 laureates in all of history. In medicine and economics there are as yet no laureates."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": {
     "title": {
-      "ru": "Истинные учёные — наследники пророков",
-      "en": "True scientists are heirs of the prophets"
+      "ru": "Отзывы читателей",
+      "en": "Readers' reviews"
     },
-    "epigraph": {
-      "ru": "Пророки приносили людям знание о морали и Боге, а учёные — знание о законах мироздания. И те, и другие ведут человечество из мрака к свету.",
-      "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light."
+    "subtitle": {
+      "ru": "Оценка специалистов и учёных МГУ, Росатом (Россия)",
+      "en": "Assessment by specialists and scientists of MSU, Rosatom (Russia)"
     },
-    "paragraphs": {
-      "ru": [
-        "Я верю, что истинный учёный — наследник пророка. Не по сану, а по призванию: выводить людей из невежества к свету знания. В нашем роду это выражено даже в имени — Ilm (знание) и Nur (свет).",
-        "Когда открытие облегчает страдания людей или развивает их разум, оно становится служением. В исламской традиции есть понятие садака — непрекращающееся благодеяние: знание, которым люди пользуются и после смерти учёного, остаётся таким благом. А разум (акль) — величайший дар Творца; развивать его в других и есть путь мудрости.",
-        "Опасность возникает там, где материальное потребление становится единственной целью. Общество, потерявшее нравственную опору, теряет и иммунитет к соблазну власти и наживы. Знание без совести не спасает — оно вооружает.",
-        "Яснее всего это видно в новых технологиях. Искусственный разум способен избавить мир от голода, болезней и нехватки ресурсов — и это было бы великим благодеянием. Но та же сила в руках жадности легко превращается в инструмент контроля и неравенства. Дело не в машине, а в человеке, который ею управляет.",
-        "История учит, что на всякое действие рождается противодействие. Надежда — в том, чтобы знание оставалось открытым и общим, а не собственностью немногих, и чтобы им управляла совесть, а не расчёт. Если победит разум и та самая пророческая миссия учёного, любая технология станет щитом, а не ядом."
+    "assessment": {
+      "intro": {
+        "ru": "Судя по его профессиональному пути и признанию на государственном уровне, Рустамжон Усманов — специалист исключительного класса, причём редкого типа.",
+        "en": "Judging by his professional path and recognition at the state level, Rustamzhon Usmanov is a specialist of exceptional class, and of a rare type at that."
+      },
+      "factors_lead": {
+        "ru": "Его уникальность заключается в сочетании трёх факторов:",
+        "en": "His uniqueness lies in the combination of three factors:"
+      },
+      "factors": [
+        {
+          "title": {
+            "ru": "Фундаментальная база (МГУ).",
+            "en": "A fundamental foundation (MSU)."
+          },
+          "text": {
+            "ru": "Он не просто «практик», а учёный-механик школы МГУ. Его понимание процессов тепло- и массопереноса на уровне математических моделей позволяет ему видеть физику процессов в безнадёжных, тупиковых ситуациях.",
+            "en": "He is not merely a «practitioner», but a mechanic-scientist of the MSU school. His understanding of heat- and mass-transfer processes at the level of mathematical models allows him to see the physics of processes in hopeless, dead-end situations."
+          }
+        },
+        {
+          "title": {
+            "ru": "Способность решать «безнадёжные» задачи.",
+            "en": "The ability to solve «hopeless» problems."
+          },
+          "text": {
+            "ru": "Его статья 2019 года по малообводнённым пластам и работа по упорным рудам (за которую он получил Госпремию) касались проблем, которые годами считались тупиковыми. Он умеет находить технические решения там, где стандартные методы бессильны.",
+            "en": "His 2019 article on low-water-cut strata and his work on refractory ores (for which he received the State Prize) addressed problems that had been considered dead ends for years. He knows how to find technical solutions where standard methods are powerless."
+          }
+        },
+        {
+          "title": {
+            "ru": "Признание коллегами и государством.",
+            "en": "Recognition by colleagues and the state."
+          },
+          "text": {
+            "ru": "Государственная премия Узбекистана I степени в области науки и техники и Золотая медаль ВОИС — это не формальные награды. Это подтверждение того, что его идеи приносят миллиардную прибыль комбинату и имеют мировое значение для горной науки.",
+            "en": "The State Prize of Uzbekistan of the first degree in science and technology and the WIPO Gold Medal are not formal awards. They confirm that his ideas bring billions in profit to the plant and are of global significance for mining science."
+          }
+        }
       ],
-      "en": [
-        "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light).",
-        "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom.",
-        "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms.",
-        "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it.",
-        "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison."
-      ]
+      "verdict_label": {
+        "ru": "Вердикт:",
+        "en": "Verdict:"
+      },
+      "verdict": {
+        "ru": "это эксперт-инноватор, который обеспечил технологический суверенитет НГМК в таких критических областях, как добыча урана и золота. Тот факт, что его работы до сих пор вызывают «резонанс в хорошем смысле», говорит о том, что он опережает своё время. Он доказал, что повышение эффективности добычи в XXI веке достигается не за счёт увеличения объёмов производства, а за счёт точности физико-химических расчётов. Именно поэтому его работы цитируются и в академической среде (МГУ, РАН), и в производственной (НГМК, Росатом).",
+        "en": "he is an expert-innovator who secured the technological sovereignty of NMMC in such critical areas as uranium and gold mining. The fact that his works still cause «resonance in the good sense» shows that he is ahead of his time. He proved that increasing extraction efficiency in the 21st century is achieved not by increasing production volumes, but through the precision of physico-chemical calculations. That is precisely why his works are cited both in academia (MSU, RAS) and in industry (NMMC, Rosatom)."
+      }
     },
-    "closing": {
-      "ru": "Мы творим историю своим умом — как завещали нам предки.",
-      "en": "We make history with our own minds — as our forefathers bequeathed to us."
-    }
+    "items": [
+      {
+        "initials": "ВГ",
+        "name": {
+          "ru": "В.А. Груцинов",
+          "en": "V.A. Grutsinov"
+        },
+        "text": {
+          "ru": [
+            "Дорогой Рустам! Восхищаюсь твоей статьёй в «Горном вестнике». Это невероятно, что таким способом можно получить золото из арсенопирита.",
+            "Это великое изобретение — большого учёного. Дальнейших тебе успехов. Горжусь знакомством с тобой."
+          ],
+          "en": [
+            "Dear Rustam! I admire your article in «Gorny Vestnik». It is incredible that gold can be obtained from arsenopyrite in this way.",
+            "This is a great invention — of a great scientist. I wish you further success. I am proud to know you."
+          ]
+        }
+      }
+    ]
   },
   "cv": {
     "education": [
