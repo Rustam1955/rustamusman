@@ -34,6 +34,29 @@
       </div>
     </details>
 
+    {% if h.mother %}
+    <details class="acc" id="mother">
+      <summary>
+        <span class="acc-title">{{ h.mother.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        {% if h.mother.image %}
+        <figure class="heritage-figure heritage-figure--portrait">
+          <img src="{{ url_for('static', filename=h.mother.image) }}"
+               alt="{{ h.mother.title|localized(lang) }}" loading="lazy"
+               onerror="this.closest('.heritage-figure').style.display='none';">
+        </figure>
+        {% endif %}
+        <div class="heritage-text">
+          {% for para in h.mother.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
     {% if h.lineage %}
     <details class="acc" id="lineage">
       <summary>
@@ -75,6 +98,30 @@
         {% endif %}
         <div class="heritage-text">
           {% for para in story.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
+    {% if h.teachers %}
+    <details class="acc" id="teachers">
+      <summary>
+        <span class="acc-title">{{ h.teachers.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        {% if h.teachers.image %}
+        <figure class="story-figure story-figure--single">
+          <img src="{{ url_for('static', filename=h.teachers.image) }}"
+               alt="{{ h.teachers.caption|localized(lang) }}" loading="lazy"
+               onerror="this.closest('.story-figure').style.display='none';">
+          {% if h.teachers.caption %}<figcaption>{{ h.teachers.caption|localized(lang) }}</figcaption>{% endif %}
+        </figure>
+        {% endif %}
+        <div class="heritage-text">
+          {% for para in h.teachers.text|localized(lang) %}
           <p>{{ para }}</p>
           {% endfor %}
         </div>

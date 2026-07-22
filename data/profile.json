@@ -53,6 +53,60 @@
       "ru": "Его имя теперь — наш девиз. Его жизнь — наш пример. Мы творим историю своим умом, как он и завещал нам.",
       "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us."
     },
+    "mother": {
+      "title": {
+        "ru": "Моя мама",
+        "en": "My mother"
+      },
+      "image": "img/My_mother.jpg",
+      "text": {
+        "ru": [
+          "Чему я достиг... Я благодарен моему Дяде Фанису и моей Ангел, любимой, неповторимой Маме Анфисы... Всю оставшую жизнь, новые изобретения и достижения посвящаю памяти моих близких безаветно преданных мне дорогих близких…",
+          "Моя мама- Гилемнурова Анфиса родилась в селе Ишкарово (Башкирия) в известной башкирской семье 17.12.1933 года. Окончила 8 классов Башкирской школы. Ее отца (моего деда) звали ИлмНур(Гылымнур- по башкирски), маму — Мавтуха. Дед из рода Ишкаровых, бабушка — из рода Султановых.",
+          "Немного истории: Основатель села Ишкар - Дворянин Башкирии Ишкар Арсланов. Сын Ишкары- Кульмет Ишкарин(1720-1800). Дети Кульмета-Мухамедрахим, Мухамедшариф, МухамедСадык. Миндияр (1850-). Дети Миндияра. Миндияровы Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (ИлмНур, мой дед) …",
+          "Был также знаменитый род Султановых - которых в народе часто именовались «губернаторами» из-за их огромной власти.",
+          "Моя Бабушка Мавтуха (в переводе «открытая» было популярное имя в башкирской среде 18-19 веках) была из этого знаменитого рода.",
+          "В 1938 году моего деда Миндиярова ИлмНура репрессировали из родного села Ишкарово в Самаркандские земли. Моя мама вместе с братьями осталась в селе. Только в 1947 году после окончания 8 классов Башкирской школы моя мама приехала с младшими братьями в поселок «Митан» (Самаркандская область) к отцу и там же окончила среднюю узбекскую школу."
+        ],
+        "en": [
+          "What I have achieved... I am grateful to my Uncle Fanis and to my Angel, my beloved, unique Mother Anfisa... All the rest of my life, my new inventions and achievements I dedicate to the memory of my loved ones, who were selflessly devoted to me…",
+          "My mother, Gilemnurova Anfisa, was born in the village of Ishkarovo (Bashkiria) into a well-known Bashkir family on 17 December 1933. She completed 8 grades of the Bashkir school. Her father (my grandfather) was named IlmNur (Gylymnur in Bashkir), her mother — Mavtukha. My grandfather was of the Ishkarov family, my grandmother — of the Sultanov family.",
+          "A bit of history: the founder of the village of Ishkar was a nobleman of Bashkiria, Ishkar Arslanov. Ishkara's son — Kulmet Ishkarin (1720–1800). Kulmet's children — Mukhamedrakhim, Mukhamedsharif, MukhamedSadyk. Mindiyar (1850–). Mindiyar's children — the Mindiyarovs: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (IlmNur, my grandfather)…",
+          "There was also the famous Sultanov family, whom the people often called «governors» because of their enormous power.",
+          "My grandmother Mavtukha (translated as «open» — a name popular in the Bashkir community in the 18th–19th centuries) was from this famous family.",
+          "In 1938 my grandfather Mindiyarov IlmNur was repressed from his native village of Ishkarovo to the Samarkand lands. My mother, together with her brothers, remained in the village. Only in 1947, after finishing 8 grades of the Bashkir school, did my mother come with her younger brothers to the village of «Mitan» (Samarkand region) to their father, and there she finished the Uzbek secondary school."
+        ]
+      }
+    },
+    "teachers": {
+      "title": {
+        "ru": "Мои учителя",
+        "en": "My teachers"
+      },
+      "image": "img/Nigmatullin_n.jpg",
+      "caption": {
+        "ru": "Академик Р.И. Нигматулин",
+        "en": "Academician R.I. Nigmatulin"
+      },
+      "text": {
+        "ru": [
+          "О моих учителях.",
+          "Моим научным руководителем и консультантом в сфере механики жидкости, газа и плазмы являются — всемирно известные ученые Х.А. Рахматулин и Р. И. Нигматулин.",
+          "Под их руководством мною были выполнены кандидатская (1987) и докторская (2015). Работа выполнялась на кафедре волновой и газовой динамики МГУ имени М. В. Ломоносова. Исследования и прикладная научная часть велась в тесной связи с Навоийским горно-металлургическим комбинатом (НГМК) в Узбекистане.",
+          "Под руководством моих наставников была создана уникальная база в области механики многофазных сред. Были разработаны формулы и численные методы, описывающие, как ведут себя жидкости, газы и тепло внутри пористых геологических рудных тел.",
+          "Фундаментальные модели выявили точное прогнозирование динамики растекания растворов. Это легло в основу высокоэффективной и экологически безопасной комплексной технологии добычи и переработки урана, редких, редкоземельных и драгоценных металлов на объектах НГМК.",
+          "Математические расчеты помогли спроектировать новые технологические процессы для извлечения золота из сложного, труднообрабатываемого сырья и техногенных отходов."
+        ],
+        "en": [
+          "About my teachers.",
+          "My scientific supervisors and consultants in the field of fluid, gas and plasma mechanics are the world-renowned scientists Kh.A. Rakhmatulin and R.I. Nigmatulin.",
+          "Under their guidance I completed my candidate's (1987) and doctoral (2015) dissertations. The work was carried out at the Department of Wave and Gas Dynamics of Lomonosov Moscow State University. The research and applied scientific part was conducted in close cooperation with the Navoi Mining and Metallurgical Combine (NMMC) in Uzbekistan.",
+          "Under the guidance of my mentors, a unique foundation was created in the field of multiphase-media mechanics. Formulas and numerical methods were developed that describe how liquids, gases and heat behave inside porous geological ore bodies.",
+          "The fundamental models made possible the accurate prediction of the dynamics of solution spreading. This formed the basis of a highly efficient and environmentally safe integrated technology for the extraction and processing of uranium, rare, rare-earth and precious metals at NMMC facilities.",
+          "Mathematical calculations helped to design new technological processes for extracting gold from complex, hard-to-process raw materials and technogenic waste."
+        ]
+      }
+    },
     "lineage": {
       "title": {
         "ru": "История нашего рода: от отважного полковника до мудрых учителей",

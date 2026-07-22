@@ -60,8 +60,10 @@
           <a href="{{ url_for('dynasty', lang=lang) }}" class="nav-dropdown-toggle {{ 'active' if current_endpoint=='dynasty' }}">{{ t.nav_dynasty }}<span class="caret" aria-hidden="true">▾</span></a>
           <div class="nav-dropdown-menu">
             <a href="{{ url_for('dynasty', lang=lang) }}#grandfather">{{ t.dynasty_sub_grandfather }}</a>
+            <a href="{{ url_for('dynasty', lang=lang) }}#mother">{{ t.dynasty_sub_mother }}</a>
             <a href="{{ url_for('dynasty', lang=lang) }}#lineage">{{ t.dynasty_sub_lineage }}</a>
             <a href="{{ url_for('dynasty', lang=lang) }}#salvation">{{ t.dynasty_sub_story }}</a>
+            <a href="{{ url_for('dynasty', lang=lang) }}#teachers">{{ t.dynasty_sub_teachers }}</a>
           </div>
         </div>
 

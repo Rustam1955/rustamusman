@@ -243,6 +243,7 @@ img { max-width: 100%; display: block; }
 .acc > summary:hover .acc-icon { border-color: var(--accent); }
 .acc-body { padding: 4px 26px 26px; }
 .acc-body .heritage-figure { margin-top: 4px; }
+.heritage-figure--portrait { max-width: 340px; margin-left: auto; margin-right: auto; }
 
 /* ---------- Story «История одного спасения» ---------- */
 .story-subtitle { font-family: "Source Serif 4", serif; font-style: italic; font-size: 1.1rem; line-height: 1.5; color: var(--text-soft); margin: 0 0 26px; }
@@ -288,6 +289,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .story-gallery { grid-template-columns: 1fr; gap: 26px; }
 }
+.story-figure--single { max-width: 300px; margin: 0 0 26px; }
 
 /* ---------- Essay / Reflections ---------- */
 .essay { max-width: 720px; }
