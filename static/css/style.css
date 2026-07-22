@@ -137,6 +137,24 @@ img { max-width: 100%; display: block; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 6px; }
 .nav-toggle span { width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
 
+/* Раскрывающееся меню «Научная династия» */
+.nav-dropdown { position: relative; }
+.nav-dropdown-toggle { display: inline-flex; align-items: center; gap: 5px; font-size: .93rem; color: var(--text-soft); font-weight: 500; cursor: pointer; transition: color .15s; }
+.nav-dropdown-toggle:hover, .nav-dropdown.active .nav-dropdown-toggle, .nav-dropdown:hover .nav-dropdown-toggle { color: var(--text); }
+.nav-dropdown .caret { font-size: .7em; transition: transform .18s; }
+.nav-dropdown:hover .caret { transform: rotate(180deg); }
+.nav-dropdown-menu {
+  position: absolute; top: 100%; left: 0; margin-top: 10px; min-width: 250px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  box-shadow: var(--shadow); padding: 8px; z-index: 60;
+  opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity .16s, transform .16s, visibility .16s;
+}
+.nav-dropdown:hover .nav-dropdown-menu, .nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1; visibility: visible; transform: translateY(0);
+}
+.nav-dropdown-menu a { display: block; padding: 9px 12px; border-radius: 7px; font-size: .9rem; color: var(--text-soft); font-weight: 500; transition: background .12s, color .12s; }
+.nav-dropdown-menu a:hover { background: var(--bg-soft); color: var(--text); }
+
 /* ---------- Hero ---------- */
 .hero { padding: 72px 0 40px; }
 .hero-grid { display: grid; grid-template-columns: 1.4fr .9fr; gap: 48px; align-items: center; }
@@ -198,6 +216,42 @@ img { max-width: 100%; display: block; }
   background: var(--accent-soft); border-radius: 0 var(--radius) var(--radius) 0;
   font-family: "Source Serif 4", serif; font-size: 1.15rem; line-height: 1.55;
   font-style: italic; color: var(--text);
+}
+/* ---------- Аккордеон рубрик династии ---------- */
+.acc {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); box-shadow: var(--shadow);
+  margin: 0 0 18px; overflow: hidden; scroll-margin-top: 84px;
+}
+.acc > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 16px;
+  padding: 22px 26px;
+}
+.acc > summary::-webkit-details-marker { display: none; }
+.acc > summary::marker { content: ""; }
+.acc-title {
+  font-family: "Source Serif 4", serif; font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  line-height: 1.25; letter-spacing: -.01em; color: var(--text);
+}
+.acc-icon {
+  margin-left: auto; flex: none; width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--border); display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; line-height: 1; color: var(--accent); background: var(--bg-soft);
+  transition: transform .22s ease, background .22s;
+}
+.acc[open] .acc-icon { transform: rotate(45deg); background: var(--accent-soft); }
+.acc > summary:hover .acc-icon { border-color: var(--accent); }
+.acc-body { padding: 4px 26px 26px; }
+.acc-body .heritage-figure { margin-top: 4px; }
+
+/* ---------- Story «История одного спасения» ---------- */
+.story-subtitle { font-family: "Source Serif 4", serif; font-style: italic; font-size: 1.1rem; line-height: 1.5; color: var(--text-soft); margin: 0 0 26px; }
+.story-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin: 0 0 32px; }
+.story-figure { margin: 0; }
+.story-figure img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); display: block; }
+.story-figure figcaption { margin-top: 10px; font-size: .88rem; line-height: 1.45; color: var(--text-soft); text-align: center; }
+@media (max-width: 640px) {
+  .story-gallery { grid-template-columns: 1fr; gap: 26px; }
 }
 
 /* ---------- Essay / Reflections ---------- */
@@ -285,6 +339,17 @@ img { max-width: 100%; display: block; }
   }
   body.nav-open .site-nav { transform: translateY(0); }
   .lang-switch { margin-left: 0; }
+
+  /* Дропдаун в мобильном меню — подпункты видны сразу, встроены в столбец */
+  .nav-dropdown { width: 100%; }
+  .nav-dropdown .caret { display: none; }
+  .nav-dropdown-menu {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    box-shadow: none; border: 0; background: transparent; padding: 6px 0 2px 14px;
+    margin-top: 6px; min-width: 0;
+    border-left: 1px solid var(--border);
+  }
+  .nav-dropdown-menu a { padding: 6px 8px; }
 }
 @media (max-width: 520px) {
   .stats-grid { grid-template-columns: 1fr; }

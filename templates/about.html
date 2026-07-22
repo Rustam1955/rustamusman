@@ -16,26 +16,6 @@
         {% endfor %}
       </div>
     </div>
-
-    {% if profile.heritage %}
-    <div class="heritage">
-      <h2 class="heritage-title">{{ profile.heritage.title|localized(lang) }}</h2>
-      {% if profile.heritage.image %}
-      <figure class="heritage-figure">
-        <img src="{{ url_for('static', filename=profile.heritage.image) }}"
-             alt="{{ 'Ilm Nur — свет знаний и чистота души' if lang=='ru' else 'Ilm Nur — the light of knowledge and purity of the soul' }}"
-             loading="lazy"
-             onerror="this.closest('.heritage-figure').style.display='none';">
-      </figure>
-      {% endif %}
-      <div class="heritage-text">
-        {% for para in profile.heritage.text|localized(lang) %}
-        <p>{{ para }}</p>
-        {% endfor %}
-      </div>
-      <blockquote class="heritage-motto">{{ profile.heritage.motto|localized(lang) }}</blockquote>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endblock %}

@@ -46,6 +46,82 @@
     "motto": {
       "ru": "Его имя теперь — наш девиз. Его жизнь — наш пример. Мы творим историю своим умом, как он и завещал нам.",
       "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us."
+    },
+    "lineage": {
+      "title": {
+        "ru": "История нашего рода: от отважного полковника до мудрых учителей",
+        "en": "The story of our family: from a brave colonel to wise teachers"
+      },
+      "text": {
+        "ru": [
+          "Дорогие мои внуки! Я хочу, чтобы вы знали историю нашей большой семьи. Наш род по моей маминой (Анфиса Гилемнурова) линии начинается в Башкирии, в красивом селе Ишкарово. Знаете ли вы, что это село названо в честь нашего прямого предка? Его звали Ишкара Арасланов. Больше 250 лет назад он был настоящим башкирским полковником, вождем и соратником Емельяна Пугачева. Он воевал за свободу своего народа.",
+          "Когда восстание угасло, Ишкара проявил мудрость: он сам пришел к генералам, смог защитить свою семью и сохранил за собой эти земли. В 1795 году во всем селе было всего 10 домов, и жили там только наши родственники! Имя «Миндияров», которое носит семья моей мамы, пошло от имени внука полковника — Миндияра. Наша родословная линия крепка и идет сквозь века: от Ишкары к Кульмету, затем к Миндияру, Мухаметнуру и, наконец, к моему дедушке Гылымнуру.",
+          "Мои дедушка Гилемнур и бабушка Мавтуха (ее имя красиво переводится как «открытая душа») были удивительными людьми. Они были просветителями — несли людям грамоту, культуру и добро. В трудный 1938 год начались гонения, и дедушке пришлось уехать из родной Башкирии в далекий Самарканд. Но самое главное: в своем сердце он привез на новую землю не злобу или обиду, а созидание, любовь к труду и огромные знания.",
+          "Ваша прабабушка Анфиса училась в той самой башкирской школе в Ишкарово и окончила ее в 1947 году. А прямо сейчас в соседней деревне Гремучий Ключ живет ее двоюродная сестра — бабушка Ильгиза, которой уже 90 лет! Помните свои корни, гордитесь своими предками и будьте такими же созидателями, какими были они."
+        ],
+        "en": [
+          "My dear grandchildren! I want you to know the story of our large family. On my mother's side (Anfisa Gilemnurova), our family begins in Bashkiria, in the beautiful village of Ishkarovo. Did you know that this village is named after our direct ancestor? His name was Ishkara Araslanov. More than 250 years ago he was a real Bashkir colonel, a leader and comrade-in-arms of Yemelyan Pugachev. He fought for the freedom of his people.",
+          "When the uprising died down, Ishkara showed wisdom: he came to the generals himself, managed to protect his family and kept these lands. In 1795 there were only 10 houses in the whole village, and only our relatives lived there! The name «Mindiyarov», borne by my mother's family, comes from the name of the colonel's grandson — Mindiyar. Our lineage is strong and runs through the centuries: from Ishkara to Kulmet, then to Mindiyar, Mukhametnur and, finally, to my grandfather Gylymnur.",
+          "My grandfather Gilemnur and grandmother Mavtukha (her name beautifully translates as «open soul») were remarkable people. They were enlighteners — bringing people literacy, culture and kindness. In the difficult year of 1938 the persecutions began, and my grandfather had to leave his native Bashkiria for distant Samarkand. But most importantly: in his heart he brought to the new land not malice or resentment, but creation, love of labor and immense knowledge.",
+          "Your great-grandmother Anfisa studied in that very Bashkir school in Ishkarovo and graduated from it in 1947. And right now, in the neighboring village of Gremuchy Klyuch, lives her cousin — grandmother Ilgiza, who is already 90 years old! Remember your roots, be proud of your ancestors, and be creators just as they were."
+        ]
+      }
+    },
+    "story": {
+      "title": {
+        "ru": "История одного спасения",
+        "en": "The story of one rescue"
+      },
+      "subtitle": {
+        "ru": "Памяти моего отца — Усманова Исо, фронтовика Великой Отечественной войны, и его спасительницы, Бабушки Нади",
+        "en": "In memory of my father — Usmanov Iso, a front-line soldier of the Great Patriotic War, and his rescuer, Grandmother Nadya"
+      },
+      "images": [
+        {
+          "src": "img/father.jpg",
+          "caption": {
+            "ru": "Усманов Исо — фронтовик 1-го Украинского фронта",
+            "en": "Usmanov Iso — a front-line soldier of the 1st Ukrainian Front"
+          }
+        },
+        {
+          "src": "img/father_medal.jpg",
+          "caption": {
+            "ru": "Юбилейная медаль «60 лет освобождения Украины от фашистских захватчиков» (1944–2004)",
+            "en": "Jubilee medal «60 years of the liberation of Ukraine from the fascist invaders» (1944–2004)"
+          }
+        }
+      ],
+      "text": {
+        "ru": [
+          "У каждой семьи, пережившей Великую Отечественную войну, своя память. Но в нашей семье эта память особенная — она соткана из горьких слёз утраты, невероятного мужества и великого материнского милосердия, которое оказалось сильнее войны и национальной розни.",
+          "В страшные годы войны наша семья понесла невосполнимую утрату. Три родных брата моего отца были зверски убиты бандеровцами. Это случилось в самый кровавый и жестокий период противостояния — в 1944–1945 годах. Для нашей семьи эта трагедия осталась незаживающей раной на всю жизнь. Но в то же самое время, на той же опалённой войной украинской земле, произошло настоящее чудо. Мой отец выжил. И выжил он благодаря той, кого мы до сих пор вспоминаем с трепетом и слезами благодарности, — простой украинской женщине, которую звали Бабушка Надя (Надежда).",
+          "Мой отец, Усманов Исо (сын Усмана, внук Икрома), узбек по национальности, попал в самое жерло той беспощадной партизанской войны на Западной Украине. Он доблестно сражался на передовой в рядах легендарного 1-го Украинского фронта под командованием маршала Ивана Степановича Конева. В ходе тяжелейших боёв 1944–1945 годов Исо был тяжело ранен и обречён на гибель.",
+          "Но бесстрашная Бабушка Надя укрыла его на самой окраине села. Она спрятала израненного узбекского солдата в закрытой яме, где обычно хранили картошку и припасы. Риск был смертельным: если бы бандеровцы или каратели узнали, что она прячет бойца Красной Армии, её и всю её семью ждала бы неминуемая, жестокая казнь.",
+          "Каждый день, рискуя собственной жизнью, она спускалась в эту холодную земляную яму, обрабатывала раны молодого Исо и выхаживала его, отпаивая тёплым козьим молоком — единственным доступным лекарством в те страшные дни. Отец вспоминал, как она часто плакала над ним и говорила на родном языке: «У меня ведь тоже трое сыновей… Они тоже где-то там, как и ты, наверное, ранены…»",
+          "В её материнском сердце не было деления на «своих» и «чужих». Спасая чужого сына-узбека, Надежда молила Бога о том, чтобы кто-то точно так же спас и пощадил её собственных детей. К великому сожалению, война безжалостно обошлась с её исполненной боли семьёй: двое её сыновей погибли на фронте, а третий вернулся, но подорвал здоровье и умер буквально сразу после войны. Мой отец, Усманов Исо, стал для неё тем самым сыном, которого ей удалось вырвать из лап смерти.",
+          "Находясь в этой яме и долгие дни общаясь со своей спасительницей, мой отец не просто слушал её — он всем сердцем впитывал её речь. Узбек по национальности, прекрасно знавший русский язык, он в совершенстве выучил украинский. Этот язык стал для него не просто средством общения, а языком его второго рождения.",
+          "Прошли десятилетия. История, казалось, ушла в прошлое, но память о подвиге простой украинской женщины и мужестве советского солдата жила в нашей семье в Узбекистане. Справедливость восторжествовала спустя долгие 59 лет.",
+          "В 2004 году в наш город Навои официально прибыл Чрезвычайный и Полномочный Посол Украины в Республике Узбекистан. От имени Президента Леонида Кучмы нашему отцу, ветерану Усманову Исо, была торжественно вручена государственная награда — юбилейная медаль «60 лет освобождения Украины от фашистских захватчиков».",
+          "Эта высокая награда на груди Исо Усманова стала священным памятником им обоим. В металле этой медали навсегда слились воедино и доблесть солдата маршала Конева, и великое милосердие Бабушки Нади, и вечная память о её погибших сыновьях-героях. Эта медаль подтвердила: их общая правда и их человечность победили забвение.",
+          "В день вручения произошло то, что поразило всю дипломатическую миссию до глубины души. Мой отец, пожилой узбек Усманов Исо, спустя почти 60 лет заговорил с послом на чистейшем, безупречном украинском языке. Он не забыл ни единого слова, ни единой интонации. Этот язык остался с ним как священная дань памяти, как вечная благодарность Бабушке Наде, которая подарила ему жизнь.",
+          "В нашем семейном архиве бережно хранится фотография с того памятного дня в Навои. Этот снимок и сама медаль — наше главное сокровище. Они доказывают, что даже в самые тёмные времена человечность, доброта и верность побеждают любую жестокость. Медаль солдата, воевавшего под началом маршала Конева, и великий подвиг Бабушки Нади навсегда останутся в памяти нашего рода."
+        ],
+        "en": [
+          "Every family that lived through the Great Patriotic War has its own memory. But in our family this memory is special — it is woven from the bitter tears of loss, incredible courage, and the great motherly mercy that proved stronger than war and ethnic hatred.",
+          "In the terrible years of the war our family suffered an irreplaceable loss. Three of my father's own brothers were brutally murdered by Bandera's men. It happened in the bloodiest and cruelest period of the confrontation — in 1944–1945. For our family this tragedy remained an unhealing wound for life. But at the very same time, on that same war-scorched Ukrainian soil, a true miracle took place. My father survived. And he survived thanks to the one whom we still remember with awe and tears of gratitude — a simple Ukrainian woman named Grandmother Nadya (Nadezhda).",
+          "My father, Usmanov Iso (son of Usman, grandson of Ikrom), an Uzbek by nationality, found himself in the very heart of that merciless partisan war in Western Ukraine. He fought valiantly on the front line in the ranks of the legendary 1st Ukrainian Front under the command of Marshal Ivan Stepanovich Konev. During the heaviest battles of 1944–1945, Iso was severely wounded and doomed to die.",
+          "But the fearless Grandmother Nadya hid him on the very outskirts of the village. She concealed the wounded Uzbek soldier in a closed pit where potatoes and provisions were usually stored. The risk was deadly: had the Bandera men or the punishers found out that she was hiding a Red Army fighter, she and her whole family would have faced an inevitable, cruel execution.",
+          "Every day, risking her own life, she climbed down into that cold earthen pit, tended young Iso's wounds and nursed him, giving him warm goat's milk to drink — the only medicine available in those terrible days. Father recalled how she often wept over him and said in her native tongue: «I too have three sons… They are also somewhere out there, wounded like you, perhaps…»",
+          "In her motherly heart there was no division into «ours» and «strangers». Saving a stranger's Uzbek son, Nadezhda prayed to God that someone would likewise save and spare her own children. Sadly, the war dealt mercilessly with her grief-stricken family: two of her sons died at the front, and the third returned but had ruined his health and died almost immediately after the war. My father, Usmanov Iso, became for her that very son whom she managed to snatch from the clutches of death.",
+          "While in that pit and speaking for long days with his rescuer, my father did not merely listen to her — he absorbed her speech with all his heart. An Uzbek by nationality who knew Russian perfectly, he mastered Ukrainian to perfection. That language became for him not just a means of communication, but the language of his second birth.",
+          "Decades passed. History seemed to have receded into the past, but the memory of the feat of a simple Ukrainian woman and the courage of a Soviet soldier lived on in our family in Uzbekistan. Justice triumphed after 59 long years.",
+          "In 2004, the Ambassador Extraordinary and Plenipotentiary of Ukraine to the Republic of Uzbekistan officially arrived in our city of Navoi. On behalf of President Leonid Kuchma, our father, veteran Usmanov Iso, was solemnly presented with a state award — the jubilee medal «60 years of the liberation of Ukraine from the fascist invaders».",
+          "This high award on the chest of Iso Usmanov became a sacred monument to them both. In the metal of this medal there merged forever the valor of Marshal Konev's soldier, the great mercy of Grandmother Nadya, and the eternal memory of her fallen hero sons. This medal confirmed: their shared truth and their humanity defeated oblivion.",
+          "On the day of the presentation, something happened that struck the entire diplomatic mission to the depths of their souls. My father, the elderly Uzbek Usmanov Iso, after almost 60 years spoke to the ambassador in the purest, flawless Ukrainian. He had not forgotten a single word, a single intonation. That language stayed with him as a sacred tribute of memory, as eternal gratitude to Grandmother Nadya, who gave him life.",
+          "In our family archive we carefully keep a photograph from that memorable day in Navoi. This picture and the medal itself are our greatest treasure. They prove that even in the darkest times, humanity, kindness and loyalty defeat any cruelty. The medal of a soldier who fought under Marshal Konev, and the great feat of Grandmother Nadya, will forever remain in the memory of our family."
+        ]
+      }
     }
   },
   "reflections": {

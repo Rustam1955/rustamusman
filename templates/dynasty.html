@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}{{ t.dynasty_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ t.dynasty_title }}</h1>
+
+    {% if profile.heritage %}
+    {% set h = profile.heritage %}
+
+    <details class="acc" id="grandfather" open>
+      <summary>
+        <span class="acc-title">{{ h.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        {% if h.image %}
+        <figure class="heritage-figure">
+          <img src="{{ url_for('static', filename=h.image) }}"
+               alt="{{ 'Ilm Nur — свет знаний и чистота души' if lang=='ru' else 'Ilm Nur — the light of knowledge and purity of the soul' }}"
+               loading="lazy"
+               onerror="this.closest('.heritage-figure').style.display='none';">
+        </figure>
+        {% endif %}
+        <div class="heritage-text">
+          {% for para in h.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+        {% if h.motto %}
+        <blockquote class="heritage-motto">{{ h.motto|localized(lang) }}</blockquote>
+        {% endif %}
+      </div>
+    </details>
+
+    {% if h.lineage %}
+    <details class="acc" id="lineage">
+      <summary>
+        <span class="acc-title">{{ h.lineage.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        <div class="heritage-text">
+          {% for para in h.lineage.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
+    {% if h.story %}
+    {% set story = h.story %}
+    <details class="acc" id="salvation">
+      <summary>
+        <span class="acc-title">{{ story.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        {% if story.subtitle %}
+        <p class="story-subtitle">{{ story.subtitle|localized(lang) }}</p>
+        {% endif %}
+        {% if story.images %}
+        <div class="story-gallery">
+          {% for img in story.images %}
+          <figure class="story-figure">
+            <img src="{{ url_for('static', filename=img.src) }}"
+                 alt="{{ img.caption|localized(lang) }}" loading="lazy"
+                 onerror="this.closest('.story-figure').style.display='none';">
+            <figcaption>{{ img.caption|localized(lang) }}</figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="heritage-text">
+          {% for para in story.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  // Раскрывать нужную рубрику при переходе по ссылке-якорю (#grandfather и т.п.)
+  (function () {
+    function openFromHash() {
+      var id = location.hash.replace('#', '');
+      if (!id) return;
+      var el = document.getElementById(id);
+      if (el && el.tagName.toLowerCase() === 'details') {
+        el.open = true;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+    window.addEventListener('hashchange', openFromHash);
+    openFromHash();
+  })();
+</script>
+{% endblock %}

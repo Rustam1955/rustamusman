@@ -57,6 +57,7 @@ UI = {
     "ru": {
         "nav_home": "Главная",
         "nav_about": "О себе",
+        "nav_dynasty": "Научная династия",
         "nav_pubs": "Публикации",
         "nav_cv": "CV",
         "nav_reflections": "Размышления",
@@ -65,6 +66,10 @@ UI = {
         "hero_cta_pubs": "Публикации",
         "hero_cta_about": "Обо мне",
         "about_title": "О себе",
+        "dynasty_title": "Научная династия и признание",
+        "dynasty_sub_grandfather": "Мой дед — Ильмнур Миндияров",
+        "dynasty_sub_lineage": "История нашего рода",
+        "dynasty_sub_story": "История одного спасения",
         "pubs_title": "Публикации и патенты",
         "pubs_all": "Все",
         "pubs_year": "Год",
@@ -96,6 +101,7 @@ UI = {
     "en": {
         "nav_home": "Home",
         "nav_about": "About",
+        "nav_dynasty": "Scientific dynasty",
         "nav_pubs": "Publications",
         "nav_cv": "CV",
         "nav_reflections": "Reflections",
@@ -104,6 +110,10 @@ UI = {
         "hero_cta_pubs": "Publications",
         "hero_cta_about": "About me",
         "about_title": "About",
+        "dynasty_title": "Scientific dynasty and recognition",
+        "dynasty_sub_grandfather": "My grandfather — Ilmnur Mindiyarov",
+        "dynasty_sub_lineage": "The story of our family",
+        "dynasty_sub_story": "The story of one rescue",
         "pubs_title": "Publications and patents",
         "pubs_all": "All",
         "pubs_year": "Year",
@@ -239,6 +249,11 @@ def about(lang):
     return render_template("about.html", lang=valid_lang(lang))
 
 
+@app.route("/<lang>/dynasty/")
+def dynasty(lang):
+    return render_template("dynasty.html", lang=valid_lang(lang))
+
+
 @app.route("/<lang>/publications/")
 def publications(lang):
     lang = valid_lang(lang)
@@ -354,7 +369,7 @@ def robots_txt():
 
 @app.route("/sitemap.xml")
 def sitemap_xml():
-    pages = ("home", "about", "publications", "reflections", "cv", "contacts")
+    pages = ("home", "about", "dynasty", "publications", "reflections", "cv", "contacts")
     urls = []
     for endpoint in pages:
         for l in LANGS:
