@@ -1,0 +1,124 @@
+{
+  "name": {
+    "ru": "Усманов Рустамжон",
+    "en": "Rustamzhon Usmanov"
+  },
+  "tagline": {
+    "ru": "Прикладная математика и механика — механика жидкости, газа и плазмы",
+    "en": "Applied mathematics and mechanics — fluid, gas and plasma mechanics"
+  },
+  "photo": "img/photo.jpg",
+  "email": "sgdoodjes.tx@gmail.com",
+  "bio": {
+    "ru": [
+      "Исследователь в области прикладной математики и механики. Научные интересы охватывают механику жидкости, газа и плазмы, численное моделирование физических процессов, а также геотехнологию добычи полезных ископаемых.",
+      "Окончил аспирантуру механико-математического факультета МГУ имени М.В. Ломоносова (1981–1986) по специальности «Механика жидкости, газа и плазмы».",
+      "Автор более двадцати научных статей, патентов и защищённых диссертаций. Здесь собраны мои публикации и научные результаты."
+    ],
+    "en": [
+      "Researcher in applied mathematics and mechanics. Research interests span fluid, gas and plasma mechanics, numerical modeling of physical processes, and geotechnology of mineral extraction.",
+      "Completed postgraduate studies at the Faculty of Mechanics and Mathematics, Lomonosov Moscow State University (1981–1986), specializing in fluid, gas and plasma mechanics.",
+      "Author of more than twenty scientific articles, patents and defended dissertations. This site collects my publications and research results."
+    ]
+  },
+  "heritage": {
+    "title": {
+      "ru": "Мой дед — Ильмнур Миндияров (1878–1974)",
+      "en": "My grandfather — Ilmnur Mindiyarov (1878–1974)"
+    },
+    "image": "img/grandfather.jpg",
+    "text": {
+      "ru": [
+        "Мой дед Ильмнур Миндияров (1878–1974, отец моей матери — Анфисы Гилемнуровой) — ровесник сложных эпох. Он прожил путь от старого уклада Российской империи до советского Самарканда, сохранив в себе веру и свет знаний.",
+        "Он был настоящим просветителем и созидателем. Сквозь годы репрессий и испытаний он пронёс самое ценное — свет знаний (Ilm) и чистоту души (Nur).",
+        "В годы репрессий (1938 год) из родного села Ишкарово в Башкирии на самаркандскую землю он привёз не обиду, а созидание. Он привёз с собой знания и культуру.",
+        "Он учил грамоте, был муфассиром, обладал глубокими знаниями арабского языка и учил правильно произносить арабский текст. Он дарил тепло и открывал окна в мир каждому, кто хотел учиться.",
+        "Он не просто давал знания — он закалял характер, готовя нас к большим вершинам и победам."
+      ],
+      "en": [
+        "My grandfather, Ilmnur Mindiyarov (1878–1974, the father of my mother, Anfisa Gilemnurova), was a contemporary of difficult eras. He lived through the path from the old order of the Russian Empire to Soviet Samarkand, keeping his faith and the light of knowledge.",
+        "He was a true enlightener and creator. Through years of repression and hardship he carried the most precious thing of all — the light of knowledge (Ilm) and the purity of the soul (Nur).",
+        "During the repressions of 1938, from his native village of Ishkarovo in Bashkiria to the land of Samarkand, he brought not resentment but creation. He brought with him knowledge and culture.",
+        "He taught literacy, was a mufassir, had a deep command of the Arabic language and taught the correct pronunciation of Arabic text. He gave warmth and opened windows to the world for everyone who wished to learn.",
+        "He did not merely give knowledge — he tempered character, preparing us for great heights and victories."
+      ]
+    },
+    "motto": {
+      "ru": "Его имя теперь — наш девиз. Его жизнь — наш пример. Мы творим историю своим умом, как он и завещал нам.",
+      "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us."
+    }
+  },
+  "reflections": {
+    "title": {
+      "ru": "Истинные учёные — наследники пророков",
+      "en": "True scientists are heirs of the prophets"
+    },
+    "epigraph": {
+      "ru": "Пророки приносили людям знание о морали и Боге, а учёные — знание о законах мироздания. И те, и другие ведут человечество из мрака к свету.",
+      "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light."
+    },
+    "paragraphs": {
+      "ru": [
+        "Я верю, что истинный учёный — наследник пророка. Не по сану, а по призванию: выводить людей из невежества к свету знания. В нашем роду это выражено даже в имени — Ilm (знание) и Nur (свет).",
+        "Когда открытие облегчает страдания людей или развивает их разум, оно становится служением. В исламской традиции есть понятие садака — непрекращающееся благодеяние: знание, которым люди пользуются и после смерти учёного, остаётся таким благом. А разум (акль) — величайший дар Творца; развивать его в других и есть путь мудрости.",
+        "Опасность возникает там, где материальное потребление становится единственной целью. Общество, потерявшее нравственную опору, теряет и иммунитет к соблазну власти и наживы. Знание без совести не спасает — оно вооружает.",
+        "Яснее всего это видно в новых технологиях. Искусственный разум способен избавить мир от голода, болезней и нехватки ресурсов — и это было бы великим благодеянием. Но та же сила в руках жадности легко превращается в инструмент контроля и неравенства. Дело не в машине, а в человеке, который ею управляет.",
+        "История учит, что на всякое действие рождается противодействие. Надежда — в том, чтобы знание оставалось открытым и общим, а не собственностью немногих, и чтобы им управляла совесть, а не расчёт. Если победит разум и та самая пророческая миссия учёного, любая технология станет щитом, а не ядом."
+      ],
+      "en": [
+        "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light).",
+        "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom.",
+        "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms.",
+        "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it.",
+        "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison."
+      ]
+    },
+    "closing": {
+      "ru": "Мы творим историю своим умом — как завещали нам предки.",
+      "en": "We make history with our own minds — as our forefathers bequeathed to us."
+    }
+  },
+  "cv": {
+    "education": [
+      {
+        "period": "1981–1986",
+        "ru": "Аспирантура, механико-математический факультет, МГУ имени М.В. Ломоносова. Специальность: механика жидкости, газа и плазмы.",
+        "en": "Postgraduate studies, Faculty of Mechanics and Mathematics, Lomonosov Moscow State University. Specialization: fluid, gas and plasma mechanics."
+      }
+    ],
+    "research_areas": {
+      "ru": [
+        "Механика жидкости, газа и плазмы",
+        "Численное моделирование физических процессов",
+        "Геотехнология добычи полезных ископаемых",
+        "Прикладная математика"
+      ],
+      "en": [
+        "Fluid, gas and plasma mechanics",
+        "Numerical modeling of physical processes",
+        "Geotechnology of mineral extraction",
+        "Applied mathematics"
+      ]
+    },
+    "highlights": {
+      "ru": [
+        "Более 20 статей в научных журналах",
+        "Патенты на изобретения",
+        "2 защищённые диссертации",
+        "Научные доклады и отчёты"
+      ],
+      "en": [
+        "More than 20 journal articles",
+        "Invention patents",
+        "2 defended dissertations",
+        "Scientific talks and reports"
+      ]
+    }
+  },
+  "links": {
+    "istina": "https://istina.msu.ru/workers/258800219/",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57204527509",
+    "scopus_id": "57204527509",
+    "istina_id": "258800219"
+  }
+}

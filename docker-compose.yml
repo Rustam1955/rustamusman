@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    image: usmanov-site
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    # data/ содержит profile.json и publications.json — монтируем,
+    # чтобы обновлять контент без пересборки образа
+    volumes:
+      - ./data:/app/data

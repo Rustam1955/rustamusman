@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:istina.msu.ru)",
+      "Bash(npm view *)",
+      "Bash(pip index *)",
+      "Bash(pip install *)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh)",
+      "Bash(sh)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/python -m pip install --quiet --upgrade pip)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(.venv/bin/pip freeze *)",
+      "Bash(.venv/bin/python scraper/scrape_istina.py)",
+      "Bash(.venv/bin/python app.py)",
+      "Bash(curl -s \"http://127.0.0.1:5000/ru/publications/\")",
+      "Bash(grep -oP 'class=\"pub-title\"[^>]*>[^<]{10,90}')",
+      "Bash(curl -s \"http://127.0.0.1:5000/en/\")",
+      "Bash(find /home/rustam -maxdepth 4 -iname \"photo_2026-03-14_15-19-09.jpg\" 2>/dev/null; echo \"---also newistina---\"; ls -la /home/rustam/newistina/ | grep -i photo; ls -la /home/rustam/newistina/static/img/ 2>/dev/null)",
+      "Read(//home/rustam/**)",
+      "Bash(curl -s -o /dev/null -w \"photo.jpg -> %{http_code} \\(%{size_download} bytes\\)\\\\n\" http://127.0.0.1:5000/static/img/photo.jpg)",
+      "Bash(.venv/bin/python -)",
+      "Bash(timeout 25 ssh -o BatchMode=yes -o ConnectTimeout=15 -o StrictHostKeyChecking=accept-new root@167.172.37.50 'echo CONNECTED; hostname; uname -a; whoami')",
+      "Bash(timeout 15 ssh -o BatchMode=yes -o ConnectTimeout=10 -o PreferredAuthentications=none root@167.172.37.50)",
+      "Bash(ssh-keygen -t *)",
+      "Bash(getent hosts *)",
+      "Bash(nslookup gogalabs.com)",
+      "Bash(host gogalabs.com)",
+      "Bash(timeout 6 bash -c 'echo > /dev/tcp/167.172.37.50/80')",
+      "Bash(timeout 6 bash -c 'echo > /dev/tcp/167.172.37.50/443')",
+      "Bash(/home/rustam/newistina/.venv/bin/python --version)",
+      "Bash(/home/rustam/newistina/.venv/bin/pip show *)",
+      "Bash(docker build *)",
+      "Bash(command -v podman docker nerdctl)",
+      "Bash(echo \"exit: $?\")",
+      "Read(//usr/bin/**)",
+      "Bash(snap list *)",
+      "Bash(rm -f /tmp/cv_test.pdf /tmp/gunicorn_test.log /tmp/gunicorn_test.pid)",
+      "Bash(timeout 25 ssh -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15 -o BatchMode=yes root@167.172.37.50 'echo CONNECTED; hostname; uname -a; whoami')"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}

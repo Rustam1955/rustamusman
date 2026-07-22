@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ t.contacts_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ t.contacts_title }}</h1>
+
+    <div class="contact-card">
+      <span class="contact-label">{{ t.contacts_email }}</span>
+      <a class="contact-email" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+    </div>
+
+    <h2 class="sub-head">{{ t.contacts_profiles }}</h2>
+    <div class="profile-links">
+      <a class="profile-link" href="{{ profile.links.istina }}" target="_blank" rel="noopener">
+        <span class="pl-name">ИСТИНА МГУ</span>
+        <span class="pl-id">ID: {{ profile.links.istina_id }}</span>
+      </a>
+      <a class="profile-link" href="{{ profile.links.scopus }}" target="_blank" rel="noopener">
+        <span class="pl-name">Scopus</span>
+        <span class="pl-id">Author ID: {{ profile.links.scopus_id }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

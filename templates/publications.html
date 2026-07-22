@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ t.pubs_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <h1 class="page-title">{{ t.pubs_title }}</h1>
+
+    <div class="filters">
+      <input type="search" id="pub-search" class="filter-search" placeholder="{{ t.pubs_search }}">
+      <div class="filter-group" id="type-filters">
+        <button class="chip active" data-type="all">{{ t.pubs_all }}</button>
+        {% for ty in types %}
+        <button class="chip" data-type="{{ ty.key }}">{{ ty[lang] }}</button>
+        {% endfor %}
+      </div>
+      <select id="year-filter" class="filter-select">
+        <option value="all">{{ t.pubs_year }}: {{ t.pubs_all }}</option>
+        {% for y in years %}
+        <option value="{{ y }}">{{ y }}</option>
+        {% endfor %}
+      </select>
+      <select id="sort-filter" class="filter-select" aria-label="{{ t.pubs_sort }}">
+        <option value="year_desc">{{ t.sort_year_desc }}</option>
+        <option value="year_asc">{{ t.sort_year_asc }}</option>
+        <option value="type">{{ t.sort_type }}</option>
+        <option value="journal">{{ t.sort_journal }}</option>
+      </select>
+      <a class="btn btn-ghost btn-sm" href="{{ url_for('export_bibtex', lang=lang) }}">{{ t.pubs_export }} ↓</a>
+    </div>
+
+    <ul class="pub-list" id="pub-list">
+      {% for p in publications %}
+      <li class="pub-item" data-type="{{ p.type }}" data-year="{{ p.year }}"
+          data-title="{{ p.title|lower }}" data-typelabel="{{ p['type_' + lang]|lower }}"
+          data-journal="{{ (p.journal or '')|lower }}">
+        <span class="pub-year">{{ p.year or '—' }}</span>
+        <div class="pub-body">
+          <div class="pub-top">
+            <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+            {% if p.ranked %}<span class="badge" title="{{ t.ranked }}">★ WoS/Scopus</span>{% endif %}
+          </div>
+          {% if p.authors %}
+          <p class="pub-authors">{{ p.authors|join(', ') }}</p>
+          {% endif %}
+          {% if p.journal %}
+          <p class="pub-journal">
+            {% if p.journal_url %}<a href="{{ p.journal_url }}" target="_blank" rel="noopener">{{ p.journal }}</a>
+            {% else %}{{ p.journal }}{% endif %}
+          </p>
+          {% endif %}
+          {% if p.number %}<p class="pub-journal">{{ 'Свидетельство' if lang=='ru' else 'Certificate' }} {{ p.number }}</p>{% endif %}
+          {% if p.citation %}<p class="pub-cite">{{ p.citation }}</p>{% endif %}
+          <div class="pub-meta">
+            <span class="pub-type">{{ p['type_' + lang] }}</span>
+            {% if p.source_url %}<a class="pub-link pub-source" href="{{ p.source_url }}" target="_blank" rel="noopener">{{ t.pubs_source }} ↗</a>{% endif %}
+            {% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI: {{ p.doi }}</a>{% endif %}
+            {% if p.url %}<a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.pubs_open }} →</a>{% endif %}
+            {% if p.pdf %}<a class="pub-link" href="{{ url_for('static', filename='pdfs/' + p.pdf) }}" target="_blank">{{ t.pubs_pdf }} ↓</a>{% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="empty-state" id="empty-state" hidden>{{ t.pubs_none }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/filter.js') }}"></script>
+{% endblock %}

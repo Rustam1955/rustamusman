@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ profile.reflections.title|localized(lang) }} — {{ profile.name|localized(lang) }}{% endblock %}
+{% block meta_description %}{{ profile.reflections.epigraph|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ t.reflections_title }}</h1>
+
+    <article class="essay">
+      <h2 class="essay-title">{{ profile.reflections.title|localized(lang) }}</h2>
+      <p class="essay-epigraph">{{ profile.reflections.epigraph|localized(lang) }}</p>
+
+      {% for para in profile.reflections.paragraphs|localized(lang) %}
+      <p>{{ para }}</p>
+      {% endfor %}
+
+      <blockquote class="essay-closing">{{ profile.reflections.closing|localized(lang) }}</blockquote>
+    </article>
+  </div>
+</section>
+{% endblock %}

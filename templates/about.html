@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ t.about_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ t.about_title }}</h1>
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="{{ url_for('static', filename=profile.photo) }}" alt="{{ profile.name|localized(lang) }}"
+             onerror="this.classList.add('photo-fallback');this.removeAttribute('src');">
+      </div>
+      <div class="about-text">
+        {% for para in profile.bio|localized(lang) %}
+        <p>{{ para }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% if profile.heritage %}
+    <div class="heritage">
+      <h2 class="heritage-title">{{ profile.heritage.title|localized(lang) }}</h2>
+      {% if profile.heritage.image %}
+      <figure class="heritage-figure">
+        <img src="{{ url_for('static', filename=profile.heritage.image) }}"
+             alt="{{ 'Ilm Nur — свет знаний и чистота души' if lang=='ru' else 'Ilm Nur — the light of knowledge and purity of the soul' }}"
+             loading="lazy"
+             onerror="this.closest('.heritage-figure').style.display='none';">
+      </figure>
+      {% endif %}
+      <div class="heritage-text">
+        {% for para in profile.heritage.text|localized(lang) %}
+        <p>{{ para }}</p>
+        {% endfor %}
+      </div>
+      <blockquote class="heritage-motto">{{ profile.heritage.motto|localized(lang) }}</blockquote>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

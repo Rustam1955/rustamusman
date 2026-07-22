@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}{{ profile.name|localized(lang) }} — {{ 'механика жидкости и газа, геотехнология добычи' if lang=='ru' else 'fluid and gas mechanics, mineral extraction' }}{% endblock %}
+{% block meta_description %}{{ 'Официальный сайт учёного Рустамжона Усманова (Усманов Рустамжон): механика жидкости, газа и плазмы, технология добычи урана, геотехнология добычи полезных ископаемых. Публикации, патенты, CV.' if lang=='ru' else 'Official website of scientist Rustamzhon Usmanov: fluid, gas and plasma mechanics, uranium mining technology, geotechnology of mineral extraction. Publications, patents and CV.' }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">{{ profile.tagline|localized(lang) }}</p>
+      <h1>{{ profile.name|localized(lang) }}</h1>
+      <p class="lead">{{ profile.bio|localized(lang)|first }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ url_for('publications', lang=lang) }}">{{ t.hero_cta_pubs }} →</a>
+        <a class="btn btn-ghost" href="{{ url_for('about', lang=lang) }}">{{ t.hero_cta_about }}</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ url_for('static', filename=profile.photo) }}" alt="{{ profile.name|localized(lang) }}"
+           onerror="this.classList.add('photo-fallback');this.removeAttribute('src');">
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><span class="stat-num">{{ pub_count }}</span><span class="stat-label">{{ t.stat_pubs }}</span></div>
+    <div class="stat"><span class="stat-num">{{ counts.get('patent', 0) }}</span><span class="stat-label">{{ 'патентов' if lang=='ru' else 'patents' }}</span></div>
+    <div class="stat"><span class="stat-num">{{ counts.get('dissertation', 2) }}</span><span class="stat-label">{{ 'диссертации' if lang=='ru' else 'dissertations' }}</span></div>
+    <div class="stat"><span class="stat-num">40+</span><span class="stat-label">{{ 'лет в науке' if lang=='ru' else 'years in science' }}</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>{{ t.nav_pubs }}</h2>
+      <a class="link-more" href="{{ url_for('publications', lang=lang) }}">{{ t.pubs_all }} →</a>
+    </div>
+    <ul class="pub-list">
+      {% for p in recent %}
+      <li class="pub-item">
+        <span class="pub-year">{{ p.year }}</span>
+        <div class="pub-body">
+          <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+          <span class="pub-type">{{ p['type_' + lang] }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}
