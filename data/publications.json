@@ -289,7 +289,15 @@
     "doi": "10.17580/gzh.2019.04.10",
     "source_url": "https://doi.org/10.17580/gzh.2019.04.10",
     "journal": "Горный журнал",
-    "journal_url": "https://istina.msu.ru/journals/94741/"
+    "journal_url": "https://istina.msu.ru/journals/94741/",
+    "pdf": "img/2019/GJ_2019_04.pdf",
+    "images": [
+      "img/2019/рис/Застойная зона до и после.jpg",
+      "img/2019/рис/Застойная зона.jpg",
+      "img/2019/рис/Карбонатность рудного поля.jpg",
+      "img/2019/рис/РИС_№2_u238_Депрессионные воронки.jpg",
+      "img/2019/рис/после.jpg"
+    ]
   },
   {
     "year": "2019",

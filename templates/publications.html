@@ -58,8 +58,20 @@
             {% if p.source_url %}<a class="pub-link pub-source" href="{{ p.source_url }}" target="_blank" rel="noopener">{{ t.pubs_source }} ↗</a>{% endif %}
             {% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI: {{ p.doi }}</a>{% endif %}
             {% if p.url %}<a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.pubs_open }} →</a>{% endif %}
-            {% if p.pdf %}<a class="pub-link" href="{{ url_for('static', filename='pdfs/' + p.pdf) }}" target="_blank">{{ t.pubs_pdf }} ↓</a>{% endif %}
+            {% if p.pdf %}
+              {% set pdf_path = p.pdf if '/' in p.pdf else 'pdfs/' + p.pdf %}
+              <a class="pub-link" href="{{ url_for('static', filename=pdf_path) }}" target="_blank">{{ t.pubs_pdf }} ↓</a>
+            {% endif %}
           </div>
+          {% if p.images %}
+          <div class="pub-images">
+            {% for image in p.images %}
+            <figure class="pub-figure">
+              <img src="{{ url_for('static', filename=image) }}" alt="{{ p.title }} {{ loop.index }}">
+            </figure>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </li>
       {% endfor %}
