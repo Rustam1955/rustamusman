@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .codegraph/
 .DS_Store
+
+# TIFF source originals of figures (site uses the .jpg versions)
+*.tif
+*.TIF
