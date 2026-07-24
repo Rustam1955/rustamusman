@@ -20,6 +20,14 @@
             <p class="essay-epigraph">{{ b.text|localized(lang) }}</p>
             {% elif b.type == 'subhead' %}
             <h3 class="essay-subhead">{{ b.text|localized(lang) }}</h3>
+            {% elif b.type == 'subhead2' %}
+            <h4 class="essay-subhead2">{{ b.text|localized(lang) }}</h4>
+            {% elif b.type == 'bullets' %}
+            <ul class="essay-list essay-bullets">
+              {% for it in b['items'] %}
+              <li>{{ it|localized(lang) }}</li>
+              {% endfor %}
+            </ul>
             {% elif b.type == 'closing' %}
             <blockquote class="essay-closing">{{ b.text|localized(lang) }}</blockquote>
             {% elif b.type == 'factors' %}
