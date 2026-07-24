@@ -7,3 +7,11 @@ __pycache__/
 # TIFF source originals of figures (site uses the .jpg versions)
 *.tif
 *.TIF
+
+# LibreOffice lock files
+.~lock.*#
+
+# Scanned source originals in drafts/ — already published as static/pdfs/*.pdf
+drafts/**/*.pdf
+drafts/**/*.docx
+drafts/2019-yanvar-mart.pdf_2.pdf
