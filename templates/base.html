@@ -75,7 +75,7 @@
 
         <div class="lang-switch">
           {% for l in langs %}
-            <a href="{{ url_for(current_endpoint or 'home', lang=l) }}" class="{{ 'active' if l==lang }}">{{ l|upper }}</a>
+            <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="{{ 'active' if l==lang }}">{{ l|upper }}</a>
           {% endfor %}
         </div>
         <button class="theme-toggle" aria-label="Theme" onclick="toggleTheme()">◐</button>

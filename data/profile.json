@@ -422,8 +422,8 @@
       },
       {
         "title": {
-          "ru": "Кризис сырьевой базы урана в Узбекистане: тупик «экстенсивной химии» и высокотехнологичные решения будущего",
-          "en": "The uranium resource-base crisis in Uzbekistan: the dead end of “extensive chemistry” and the high-tech solutions of the future"
+          "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
+          "en": "On technological solutions in uranium production in Uzbekistan"
         },
         "blocks": [
           {
@@ -436,78 +436,50 @@
           {
             "type": "para",
             "text": {
-              "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — форсировать объемы добычи природного урана до 10 000 тонн в год, опираясь на бумажный прирост запасов по международным стандартам JORC (до 96,6 тыс. тонн). Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла 80%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 50%.",
-              "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans — to force natural uranium output up to 10,000 tonnes a year, relying on a paper increase in reserves under the international JORC standards (up to 96.6 thousand tonnes). Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has reached 80%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 50%."
+              "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — в рамках государственной стратегии планируется довести ежегодную добычу урана до 7 200 тонн к 2030 году.",
+              "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030."
             }
           },
           {
             "type": "para",
             "text": {
-              "ru": "Отрасль оказалась перед системным вызовом: попытка закрыть кадровый голод «эффективными менеджерами» и раздутыми министерскими штатами (включая агентство «Узатом») привела к слепому копированию устаревших методов. Погоня за валом выливается в варварское, бесконтрольное закисление недр тоннами серной кислоты. Это ведет к технологическому и экологическому тупику.",
-              "en": "The industry faces a systemic challenge: the attempt to close the personnel gap with “effective managers” and bloated ministerial staffs (including the Uzatom agency) has led to blind copying of outdated methods. The chase after gross volume spills over into barbaric, uncontrolled acidification of the subsurface with tonnes of sulphuric acid. This leads to a technological and environmental dead end."
+              "ru": "Суммарные запасы урана в недрах Узбекистана официально оцениваются в 139 000 тонн. Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла более 40%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 20%.",
+              "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%."
             }
           },
           {
             "type": "subhead",
             "text": {
-              "ru": "ЧАСТЬ 1. Главные беды современной урановой индустрии",
-              "en": "PART 1. The main afflictions of the modern uranium industry"
+              "ru": "Проблемы современной урановой индустрии",
+              "en": "Problems of the modern uranium industry"
             }
           },
           {
             "type": "subhead2",
             "text": {
-              "ru": "1. Технологический тупик: Кольматация и истощение пластов",
-              "en": "1. The technological dead end: colmatation and depletion of the ore beds"
+              "ru": "1. Кольматация и истощение пластов",
+              "en": "1. Colmatation and depletion of the ore beds"
             }
           },
           {
             "type": "para",
             "text": {
-              "ru": "При отработке пластов на 80% остаточный уран заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — на таких объектах, как Северный Канимех, приводит к мгновенной химической катастрофе. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Рудники гоняют по трубам миллионы кубометров пустой слабокислой жижи, уничтожая оборудование и колоссально завышая себестоимость.",
-              "en": "When beds are 80% mined out, the residual uranium is locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — at sites such as Severny Kanimekh leads to an instant chemical catastrophe. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. The mines drive millions of cubic metres of empty, weakly acidic slurry through their pipes, destroying equipment and enormously inflating the cost of production."
-            }
-          },
-          {
-            "type": "subhead2",
-            "text": {
-              "ru": "2. Экологическая мина замедленного действия",
-              "en": "2. An environmental time bomb"
-            }
-          },
-          {
-            "type": "para",
-            "text": {
-              "ru": "Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором игнорируются и не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты.",
-              "en": "In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are ignored and left unused, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers."
-            }
-          },
-          {
-            "type": "para",
-            "text": {
-              "ru": "Тонны растворов мигрируют по пластам, насыщая воду тяжелыми металлами и остаточной радиацией. Финансирование уходит на содержание раздутых штатов чиновников, в то время как будущим поколениям оставляется отравленная пустыня, рекультивация которой потребует сотен миллионов долларов.",
-              "en": "Tonnes of solutions migrate through the beds, saturating the water with heavy metals and residual radioactivity. Funding goes to maintaining bloated bureaucratic staffs, while future generations are left a poisoned desert whose remediation will require hundreds of millions of dollars."
+              "ru": "При отработке пластов остаточный уран в основном заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — приводит к экологической катастрофе подземных вод. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором должным образом не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты, рекультивация которых потребует сотен миллионов долларов.",
+              "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars."
             }
           },
           {
             "type": "subhead",
             "text": {
-              "ru": "ЧАСТЬ 2. Высокотехнологичные решения: Опыт, опередивший время",
-              "en": "PART 2. High-tech solutions: experience ahead of its time"
-            }
-          },
-          {
-            "type": "para",
-            "text": {
-              "ru": "Выход из сырьевого и экологического кризиса лежит не в кабинетах Ташкента, а в возвращении к фундаментальным научным разработкам школы практиков НГМК 15–30-летней давности. Под каждое специфическое месторождение авторами был разработан свой индивидуальный рецепт, защищенный официальными патентами на изобретения.",
-              "en": "The way out of the resource and environmental crisis lies not in the offices of Tashkent, but in a return to the fundamental scientific developments of the NMMC school of practitioners of 15–30 years ago. For each specific deposit the authors developed an individual recipe, protected by official patents for inventions."
+              "ru": "2. Технологичные решения",
+              "en": "2. Technological solutions"
             }
           },
           {
             "type": "subhead2",
             "text": {
-              "ru": "Решение №1. Кислородно-бактериальный комплекс (Опыт СевРУ, Северный Кенимех. Сугралы)",
-              "en": "Solution No. 1. The oxygen–bacterial complex (the experience of SevRU: Severny Kenimekh, Sugraly)"
+              "ru": "Решение №1. Способ подземного выщелачивания урана (патент № IAP 05336)",
+              "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)"
             }
           },
           {
@@ -520,8 +492,8 @@
           {
             "type": "para",
             "text": {
-              "ru": "Вместо закупки чистой кислоты, на участках Северного рудоуправления (СевРУ) и глубоких пластах месторождения Сугралы была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
-              "en": "Instead of purchasing pure acid, at the sites of the Northern Mining Directorate (SevRU) and in the deep beds of the Sugraly deposit a brilliant synergy of the uranium and gold operations was introduced and tested. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
+              "ru": "Вместо закупки чистой кислоты на глубоких пластах месторождений Северного рудоуправления (СевРУ) была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
+              "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
             }
           },
           {
@@ -540,15 +512,48 @@
                 "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed."
               },
               {
-                "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического блока.",
-                "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production block."
+                "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического участка.",
+                "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site."
+              }
+            ]
+          },
+          {
+            "type": "figures",
+            "items": [
+              {
+                "src": "img/patents/iap-05336-patent.jpg",
+                "caption": {
+                  "ru": "Патент Республики Узбекистан № IAP 05336 «Способ выщелачивания урана», заявка от 26.03.2013",
+                  "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013"
+                }
+              },
+              {
+                "src": "img/patents/iap-05336-desc-1.jpg",
+                "caption": {
+                  "ru": "Описание изобретения, с. 1: область применения и сущность способа",
+                  "en": "Description of the invention, p. 1: field of application and essence of the method"
+                }
+              },
+              {
+                "src": "img/patents/iap-05336-desc-2.jpg",
+                "caption": {
+                  "ru": "Описание, с. 2: известные аналоги, задача изобретения, пример агитационного выщелачивания",
+                  "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example"
+                }
+              },
+              {
+                "src": "img/patents/iap-05336-desc-3.jpg",
+                "caption": {
+                  "ru": "Описание, с. 3: кинетика выщелачивания (табл. 1–2) и формула изобретения",
+                  "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim"
+                }
               }
             ]
           },
           {
             "type": "subhead2",
             "text": {
-              "ru": "Решение №2. Бескислотная добыча технической водой (Опыт Кетменчи)",
+              "ru": "Решение №2. Бескислотная добыча технической водой (опыт Кетменчи)",
               "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)"
             }
           },
@@ -565,37 +570,6 @@
               "ru": "Авторами метода была внедрена добыча простой технической водой с растворенными газами, без единой капли серной кислоты. Вода мягко вымывала готовый уранил-ион, обеспечивая практически нулевую себестоимость по реагентам и абсолютную экологическую чистоту.",
               "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness."
             }
-          },
-          {
-            "type": "subhead2",
-            "text": {
-              "ru": "Решение №3. Изотопная шихтовка для мирового рынка",
-              "en": "Solution No. 3. Isotopic blending for the world market"
-            }
-          },
-          {
-            "type": "para",
-            "text": {
-              "ru": "Западные компании (США, Европа) отказывались покупать уран Кетменчи из-за специфических сопутствующих примесей, обусловленных водным методом. Решение было найдено на стыке ядерной физики и коммерческого маркетинга:",
-              "en": "Western companies (the USA, Europe) refused to buy Ketmenchi uranium because of the specific accompanying impurities produced by the water method. The solution was found at the intersection of nuclear physics and commercial marketing:"
-            }
-          },
-          {
-            "type": "bullets",
-            "items": [
-              {
-                "ru": "На месторождении Северный Канимех была обнаружена уникальная природная аномалия — повышенное содержание делящегося изотопа урана-235 (²³⁵U) выше мирового стандарта в 0,72%.",
-                "en": "At the Severny Kanimekh deposit a unique natural anomaly was discovered — a content of the fissile isotope uranium-235 (²³⁵U) above the world standard of 0.72%."
-              },
-              {
-                "ru": "Была внедрена принудительная шихтовка (смешивание) растворов Кетменчи и Северного Канимеха.",
-                "en": "Forced blending (mixing) of the Ketmenchi and Severny Kanimekh solutions was introduced."
-              },
-              {
-                "ru": "Высокая доля ²³⁵U из Канимеха выступала изотопным суперконцентратом, который полностью перекрывал любые вопросы западных лабораторий по примесям Кетменчи. На выходе ГМЗ-1 выдавал безупречный экспортный продукт, сэкономив государству сотни миллионов долларов.",
-                "en": "The high share of ²³⁵U from Kanimekh acted as an isotopic super-concentrate that fully offset any questions from Western laboratories about the Ketmenchi impurities. As a result, Hydrometallurgical Plant No. 1 delivered a flawless export product, saving the state hundreds of millions of dollars."
-              }
-            ]
           }
         ]
       }

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% from "_blocks.html" import essay_blocks %}
+{% block title %}{{ article.title|localized(lang) }} — {{ profile.name|localized(lang) }}{% endblock %}
+{% block meta_description %}{{ article.abstract|localized(lang) or profile.tagline|localized(lang) }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <a class="back-link" href="{{ url_for('publications', lang=lang) }}">← {{ t.nav_pubs }}</a>
+
+    <article class="essay article-page">
+      <h1 class="essay-title">{{ article.title|localized(lang) }}</h1>
+
+      <p class="article-meta">
+        {% if article.authors %}<span>{{ article.authors|join(', ') }}</span>{% endif %}
+        {% if article.year %}<span>{{ article.year }}</span>{% endif %}
+        {% if article.type_ru %}<span>{{ article['type_' + lang] }}</span>{% endif %}
+      </p>
+
+      {{ essay_blocks(article.blocks, lang) }}
+    </article>
+  </div>
+</section>
+{% endblock %}

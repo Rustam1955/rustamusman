@@ -81,6 +81,7 @@ UI = {
         "pubs_open": "Открыть на ИСТИНА",
         "pubs_source": "Источник",
         "pubs_pdf": "Скачать PDF",
+        "pubs_read_full": "Читать полностью",
         "pubs_none": "Ничего не найдено",
         "pubs_export": "Скачать BibTeX",
         "pubs_sort": "Сортировка",
@@ -128,6 +129,7 @@ UI = {
         "pubs_open": "Open on ISTINA",
         "pubs_source": "Source",
         "pubs_pdf": "Download PDF",
+        "pubs_read_full": "Read in full",
         "pubs_none": "Nothing found",
         "pubs_export": "Download BibTeX",
         "pubs_sort": "Sort",
@@ -163,6 +165,14 @@ def get_publications():
     path = DATA_DIR / "publications.json"
     if not path.exists():
         return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def get_articles():
+    """Полные тексты статей: {slug: {title, year, authors, blocks, ...}}."""
+    path = DATA_DIR / "articles.json"
+    if not path.exists():
+        return {}
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -207,12 +217,15 @@ def inject_globals():
     endpoint = request.endpoint
     canonical = SITE_URL + request.path
     alternates = {}
+    # Относительные ссылки для переключателя языка: на страницах с параметрами
+    # (например, статья со slug) одного lang в url_for недостаточно.
+    lang_urls = {}
     if endpoint and request.view_args and "lang" in request.view_args:
         for l in LANGS:
             try:
-                alternates[l] = SITE_URL + url_for(
-                    endpoint, **{**request.view_args, "lang": l}
-                )
+                path = url_for(endpoint, **{**request.view_args, "lang": l})
+                lang_urls[l] = path
+                alternates[l] = SITE_URL + path
             except Exception:
                 pass
 
@@ -225,6 +238,7 @@ def inject_globals():
         "site_url": SITE_URL,
         "canonical": canonical,
         "alternates": alternates,
+        "lang_urls": lang_urls,
         "meta_keywords": SEO_KEYWORDS[lang],
         "person_jsonld": build_person_jsonld(profile, lang),
     }
@@ -279,6 +293,15 @@ def publications(lang):
         years=years,
         types=types,
     )
+
+
+@app.route("/<lang>/publications/<slug>/")
+def article(lang, slug):
+    lang = valid_lang(lang)
+    art = get_articles().get(slug)
+    if art is None:
+        abort(404)
+    return render_template("article.html", lang=lang, article=art, slug=slug)
 
 
 BIBTEX_TYPES = {
@@ -381,13 +404,15 @@ def robots_txt():
 @app.route("/sitemap.xml")
 def sitemap_xml():
     pages = ("home", "about", "dynasty", "publications", "reflections", "cv", "reviews", "contacts")
+    entries = [(endpoint, {}) for endpoint in pages]
+    entries += [("article", {"slug": slug}) for slug in get_articles()]
     urls = []
-    for endpoint in pages:
+    for endpoint, params in entries:
         for l in LANGS:
-            loc = SITE_URL + url_for(endpoint, lang=l)
+            loc = SITE_URL + url_for(endpoint, lang=l, **params)
             alts = "".join(
                 f'<xhtml:link rel="alternate" hreflang="{a}" '
-                f'href="{SITE_URL + url_for(endpoint, lang=a)}"/>'
+                f'href="{SITE_URL + url_for(endpoint, lang=a, **params)}"/>'
                 for a in LANGS
             )
             urls.append(f"<url><loc>{loc}</loc>{alts}</url>")

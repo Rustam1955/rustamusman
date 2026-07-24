@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_blocks.html" import essay_blocks %}
 {% block title %}{{ t.reflections_title }} — {{ profile.name|localized(lang) }}{% endblock %}
 {% block meta_description %}{{ profile.tagline|localized(lang) }}{% endblock %}
 
@@ -15,37 +16,7 @@
           <span class="acc-icon" aria-hidden="true">+</span>
         </summary>
         <div class="acc-body essay">
-          {% for b in essay.blocks %}
-            {% if b.type == 'epigraph' %}
-            <p class="essay-epigraph">{{ b.text|localized(lang) }}</p>
-            {% elif b.type == 'subhead' %}
-            <h3 class="essay-subhead">{{ b.text|localized(lang) }}</h3>
-            {% elif b.type == 'subhead2' %}
-            <h4 class="essay-subhead2">{{ b.text|localized(lang) }}</h4>
-            {% elif b.type == 'bullets' %}
-            <ul class="essay-list essay-bullets">
-              {% for it in b['items'] %}
-              <li>{{ it|localized(lang) }}</li>
-              {% endfor %}
-            </ul>
-            {% elif b.type == 'closing' %}
-            <blockquote class="essay-closing">{{ b.text|localized(lang) }}</blockquote>
-            {% elif b.type == 'factors' %}
-            <ol class="essay-factors">
-              {% for it in b['items'] %}
-              <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
-              {% endfor %}
-            </ol>
-            {% elif b.type == 'list' %}
-            <ul class="essay-list">
-              {% for it in b['items'] %}
-              <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
-              {% endfor %}
-            </ul>
-            {% else %}
-            <p>{{ b.text|localized(lang) }}</p>
-            {% endif %}
-          {% endfor %}
+          {{ essay_blocks(essay.blocks, lang) }}
         </div>
       </details>
       {% endfor %}

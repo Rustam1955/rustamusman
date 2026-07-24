@@ -1,0 +1,47 @@
+{# Разметка текстовых блоков статьи/эссе. Используется в reflections.html и article.html. #}
+{% macro essay_blocks(blocks, lang) %}
+  {% for b in blocks %}
+    {% if b.type == 'epigraph' %}
+    <p class="essay-epigraph">{{ b.text|localized(lang) }}</p>
+    {% elif b.type == 'subhead' %}
+    <h3 class="essay-subhead">{{ b.text|localized(lang) }}</h3>
+    {% elif b.type == 'subhead2' %}
+    <h4 class="essay-subhead2">{{ b.text|localized(lang) }}</h4>
+    {% elif b.type == 'figures' %}
+    <div class="essay-figures">
+      {% for f in b['items'] %}
+      <figure class="essay-figure">
+        <a href="{{ url_for('static', filename=f.src) }}" target="_blank" rel="noopener">
+          <img src="{{ url_for('static', filename=f.src) }}" alt="{{ f.caption|localized(lang) }}"
+               loading="lazy"
+               onerror="this.closest('.essay-figure').style.display='none';">
+        </a>
+        <figcaption>{{ f.caption|localized(lang) }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% elif b.type == 'bullets' %}
+    <ul class="essay-list essay-bullets">
+      {% for it in b['items'] %}
+      <li>{{ it|localized(lang) }}</li>
+      {% endfor %}
+    </ul>
+    {% elif b.type == 'closing' %}
+    <blockquote class="essay-closing">{{ b.text|localized(lang) }}</blockquote>
+    {% elif b.type == 'factors' %}
+    <ol class="essay-factors">
+      {% for it in b['items'] %}
+      <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
+      {% endfor %}
+    </ol>
+    {% elif b.type == 'list' %}
+    <ul class="essay-list">
+      {% for it in b['items'] %}
+      <li><strong>{{ it.title|localized(lang) }}</strong> {{ it.text|localized(lang) }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>{{ b.text|localized(lang) }}</p>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
