@@ -38,13 +38,14 @@ SITE_URL = os.environ.get("SITE_URL", "https://rustamusman.com").rstrip("/")
 # Ключевые слова для мета-тега keywords (под запросы, по которым ищут).
 SEO_KEYWORDS = {
     "ru": (
-        "Усманов Рустамжон, Рустамжон Усманов, Rustamzhon Usmanov, "
+        "Усманов Рустамжон, Рустамжон Усманов, Усманов Рустамжон Исаевич, "
+        "Усманов Р.И., Rustamzhon Usmanov, Usmanov Rustamjon, "
         "механика жидкости и газа, механика жидкости газа и плазмы, "
         "добыча урана технология, геотехнология добычи полезных ископаемых, "
         "прикладная математика, численное моделирование, научные публикации, МГУ"
     ),
     "en": (
-        "Rustamzhon Usmanov, Usmanov Rustamzhon, "
+        "Rustamzhon Usmanov, Usmanov Rustamzhon, Usmanov Rustamjon, "
         "fluid and gas mechanics, fluid gas and plasma mechanics, "
         "uranium mining technology, geotechnology of mineral extraction, "
         "applied mathematics, numerical modeling, research publications, "
