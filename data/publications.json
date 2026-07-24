@@ -17,7 +17,8 @@
     "source_url": "",
     "journal": "",
     "journal_url": "",
-    "article": "uranium-solutions-2026"
+    "article": "uranium-solutions-2026",
+    "type_uz": "Mualliflik maqolasi"
   },
   {
     "year": "2026",
@@ -36,7 +37,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горный вестник",
-    "journal_url": ""
+    "journal_url": "",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2025",
@@ -63,7 +65,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Журнал физической химии",
-    "journal_url": "https://istina.msu.ru/journals/94959/"
+    "journal_url": "https://istina.msu.ru/journals/94959/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2025",
@@ -91,7 +94,8 @@
     "source_url": "https://doi.org/10.1134/S0036024425702231",
     "journal": "Russian Journal of Physical Chemistry A",
     "journal_url": "https://istina.msu.ru/journals/400970/",
-    "pdf": "physcha-2025.pdf"
+    "pdf": "physcha-2025.pdf",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2022",
@@ -110,7 +114,8 @@
     "source_url": "https://doi.org/10.54073/GV.2022.2.89.019",
     "journal": "Горный вестник Узбекистана",
     "journal_url": "https://istina.msu.ru/journals/258805016/",
-    "pdf": "gvu-2022.pdf"
+    "pdf": "gvu-2022.pdf",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2022",
@@ -141,7 +146,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 06962",
-    "pdf": "patent-iap06962.pdf"
+    "pdf": "patent-iap06962.pdf",
+    "type_uz": "Patent"
   },
   {
     "year": "2022",
@@ -168,7 +174,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 06729",
-    "pdf": "patent-iap06729.pdf"
+    "pdf": "patent-iap06729.pdf",
+    "type_uz": "Patent"
   },
   {
     "year": "2021",
@@ -190,7 +197,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 20210573",
-    "pdf": ""
+    "pdf": "",
+    "type_uz": "Patent"
   },
   {
     "year": "2021",
@@ -220,7 +228,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 07075",
-    "pdf": "patent-iap07075.pdf"
+    "pdf": "patent-iap07075.pdf",
+    "type_uz": "Patent"
   },
   {
     "year": "2021",
@@ -242,7 +251,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 06895",
-    "pdf": ""
+    "pdf": "",
+    "type_uz": "Patent"
   },
   {
     "year": "2020",
@@ -261,7 +271,8 @@
     "source_url": "https://doi.org/10.21662/mfs2020.1",
     "journal": "Многофазные системы",
     "journal_url": "https://istina.msu.ru/journals/296432041/",
-    "pdf": "tezis-2019.pdf"
+    "pdf": "tezis-2019.pdf",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2020",
@@ -279,7 +290,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горный вестник Узбекистана",
-    "journal_url": "https://istina.msu.ru/journals/258805016/"
+    "journal_url": "https://istina.msu.ru/journals/258805016/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2020",
@@ -295,7 +307,8 @@
     "doi": "",
     "source_url": "",
     "journal": "",
-    "journal_url": ""
+    "journal_url": "",
+    "type_uz": "Dissertatsiya"
   },
   {
     "year": "2019",
@@ -314,7 +327,8 @@
     "source_url": "",
     "journal": "Горный вестник Узбекистана",
     "journal_url": "https://istina.msu.ru/journals/258805016/",
-    "pdf": "gvu-2019.pdf"
+    "pdf": "gvu-2019.pdf",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2019",
@@ -340,7 +354,8 @@
       "img/2019/рис/Карбонатность рудного поля.jpg",
       "img/2019/рис/РИС_№2_u238_Депрессионные воронки.jpg",
       "img/2019/рис/после.jpg"
-    ]
+    ],
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2019",
@@ -362,7 +377,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 05985",
-    "pdf": ""
+    "pdf": "",
+    "type_uz": "Patent"
   },
   {
     "year": "2018",
@@ -380,7 +396,8 @@
     "doi": "10.17580/gzh.2018.09.06",
     "source_url": "https://doi.org/10.17580/gzh.2018.09.06",
     "journal": "Горный журнал",
-    "journal_url": "https://istina.msu.ru/journals/94741/"
+    "journal_url": "https://istina.msu.ru/journals/94741/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2017",
@@ -398,7 +415,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горный журнал",
-    "journal_url": "https://istina.msu.ru/journals/94741/"
+    "journal_url": "https://istina.msu.ru/journals/94741/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2017",
@@ -416,7 +434,8 @@
     "doi": "10.17580/gzh.2017.01.11",
     "source_url": "https://doi.org/10.17580/gzh.2017.01.11",
     "journal": "Горный журнал",
-    "journal_url": "https://istina.msu.ru/journals/94741/"
+    "journal_url": "https://istina.msu.ru/journals/94741/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2015",
@@ -434,7 +453,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горная книга. Современные инновационные технологии добычи и переработки полезных ископаемых. Сборник докладов II международной научно-технической конференции",
-    "journal_url": "https://istina.msu.ru/journals/260247742/"
+    "journal_url": "https://istina.msu.ru/journals/260247742/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2015",
@@ -452,7 +472,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Современные инновационные технологии добычи и переработки полезных ископаемых. Сборник докладов II международной научно-технической конференции",
-    "journal_url": "https://istina.msu.ru/journals/259656474/"
+    "journal_url": "https://istina.msu.ru/journals/259656474/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2015",
@@ -470,7 +491,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горный вестник Узбекистана",
-    "journal_url": "https://istina.msu.ru/journals/258805016/"
+    "journal_url": "https://istina.msu.ru/journals/258805016/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2013",
@@ -491,7 +513,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№FAP 01012",
-    "pdf": ""
+    "pdf": "",
+    "type_uz": "Patent"
   },
   {
     "year": "2013",
@@ -512,7 +535,8 @@
     "journal": "",
     "journal_url": "",
     "number": "№IAP 05336",
-    "pdf": ""
+    "pdf": "",
+    "type_uz": "Patent"
   },
   {
     "year": "2010",
@@ -530,7 +554,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Горный вестник Узбекистана",
-    "journal_url": "https://istina.msu.ru/journals/258805016/"
+    "journal_url": "https://istina.msu.ru/journals/258805016/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2010",
@@ -548,7 +573,8 @@
     "doi": "10.17580/gzh.2019.04.10",
     "source_url": "https://doi.org/10.17580/gzh.2019.04.10",
     "journal": "Горный журнал",
-    "journal_url": "https://istina.msu.ru/journals/94741/"
+    "journal_url": "https://istina.msu.ru/journals/94741/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "2000",
@@ -566,7 +592,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Нетрадиционные технологии добычи и переработки полезных ископаемых – прогресс горной науки XXI века",
-    "journal_url": "https://istina.msu.ru/journals/259953667/"
+    "journal_url": "https://istina.msu.ru/journals/259953667/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "1999",
@@ -584,7 +611,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Современные проблемы газовой и волновой динамики: тезисы докладов международной конференции посвященной 90-летию со дня рождения академика Х.А. Рахматулина",
-    "journal_url": "https://istina.msu.ru/journals/259663692/"
+    "journal_url": "https://istina.msu.ru/journals/259663692/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "1999",
@@ -602,7 +630,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Современные проблемы газовой и волновой динамики: тезисы докладов международной конференции посвященной 90-летию со дня рождения академика Х.А. Рахматулина",
-    "journal_url": "https://istina.msu.ru/journals/259663692/"
+    "journal_url": "https://istina.msu.ru/journals/259663692/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "1996",
@@ -620,7 +649,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Проблемы механики",
-    "journal_url": "https://istina.msu.ru/journals/259953148/"
+    "journal_url": "https://istina.msu.ru/journals/259953148/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "1995",
@@ -638,7 +668,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Проблемы механики",
-    "journal_url": "https://istina.msu.ru/journals/259953148/"
+    "journal_url": "https://istina.msu.ru/journals/259953148/",
+    "type_uz": "Jurnaldagi maqola"
   },
   {
     "year": "1987",
@@ -654,7 +685,8 @@
     "doi": "",
     "source_url": "",
     "journal": "",
-    "journal_url": ""
+    "journal_url": "",
+    "type_uz": "Dissertatsiya"
   },
   {
     "year": "1986",
@@ -672,7 +704,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Тезисы докладов 4-ой Всесоюзной школы молодых учёных и специалистов «Современные проблемы теплофизики», Новосибирск, Изд. ИТФ СО АН России, 1986, с. 209-210",
-    "journal_url": "https://istina.msu.ru/collections/260253421/"
+    "journal_url": "https://istina.msu.ru/collections/260253421/",
+    "type_uz": "Maʼruza tezislari"
   },
   {
     "year": "1979",
@@ -690,7 +723,8 @@
     "doi": "",
     "source_url": "",
     "journal": "Труды Самаркандского государственного университета им. Алишера Навои",
-    "journal_url": "https://istina.msu.ru/collections/259658491/"
+    "journal_url": "https://istina.msu.ru/collections/259658491/",
+    "type_uz": "Toʻplamdagi maqola"
   },
   {
     "year": "1978",
@@ -708,6 +742,7 @@
     "doi": "",
     "source_url": "",
     "journal": "Труды Самаркандского государственного университета им. Алишера Навои",
-    "journal_url": "https://istina.msu.ru/collections/259658355/"
+    "journal_url": "https://istina.msu.ru/collections/259658355/",
+    "type_uz": "Toʻplamdagi maqola"
   }
 ]

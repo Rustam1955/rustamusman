@@ -14,7 +14,7 @@
       {% for e in profile.cv.education %}
       <div class="cv-row">
         <span class="cv-period">{{ e.period }}</span>
-        <p>{{ e[lang] }}</p>
+        <p>{{ e|localized(lang) }}</p>
       </div>
       {% endfor %}
     </div>
@@ -22,7 +22,7 @@
     <div class="cv-block">
       <h2>{{ t.cv_areas }}</h2>
       <ul class="tag-list">
-        {% for a in profile.cv.research_areas[lang] %}
+        {% for a in profile.cv.research_areas|localized(lang) %}
         <li class="tag">{{ a }}</li>
         {% endfor %}
       </ul>
@@ -31,7 +31,7 @@
     <div class="cv-block">
       <h2>{{ t.cv_highlights }}</h2>
       <ul class="bullet-list">
-        {% for h in profile.cv.highlights[lang] %}
+        {% for h in profile.cv.highlights|localized(lang) %}
         <li>{{ h }}</li>
         {% endfor %}
       </ul>

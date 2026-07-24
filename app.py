@@ -1,6 +1,6 @@
 """
 Персональный научный сайт — Усманов Рустамжон.
-Flask-приложение, двуязычие RU/EN, данные из data/*.json.
+Flask-приложение, три языка RU/EN/UZ, данные из data/*.json.
 
 Локальный запуск:
     .venv/bin/python app.py
@@ -28,8 +28,12 @@ DATA_DIR = BASE_DIR / "data"
 
 app = Flask(__name__)
 
-LANGS = ("ru", "en")
+LANGS = ("ru", "en", "uz")
 DEFAULT_LANG = "ru"
+
+# Узбекский — латиница (uz-Latn): для hreflang и og:locale нужен полный код.
+LOCALES = {"ru": "ru_RU", "en": "en_US", "uz": "uz_Latn_UZ"}
+HREFLANG = {"ru": "ru", "en": "en", "uz": "uz-Latn"}
 
 # Базовый адрес сайта (для canonical, Open Graph, sitemap).
 # Можно переопределить переменной окружения SITE_URL.
@@ -50,6 +54,14 @@ SEO_KEYWORDS = {
         "uranium mining technology, geotechnology of mineral extraction, "
         "applied mathematics, numerical modeling, research publications, "
         "Moscow State University"
+    ),
+    "uz": (
+        "Usmanov Rustamjon, Rustamjon Usmanov, Usmanov Rustamjon Isayevich, "
+        "Usmanov R.I., Rustamzhon Usmanov, "
+        "suyuqlik va gaz mexanikasi, suyuqlik, gaz va plazma mexanikasi, "
+        "uran qazib olish texnologiyasi, foydali qazilmalarni qazib olish "
+        "geotexnologiyasi, yer osti ishqorlash, amaliy matematika, "
+        "sonli modellashtirish, ilmiy nashrlar, MDU"
     ),
 }
 
@@ -101,6 +113,17 @@ UI = {
         "contacts_profiles": "Научные профили",
         "ranked": "Журнал из списка RSCI / Web of Science / Scopus",
         "stat_pubs": "публикаций",
+        "stat_patents": "патентов",
+        "stat_dissertations": "диссертации",
+        "stat_years": "лет в науке",
+        "cert": "Свидетельство",
+        "ilmnur_alt": "Ilm Nur — свет знаний и чистота души",
+        "home_title_tag": "механика жидкости и газа, геотехнология добычи",
+        "home_meta_desc": (
+            "Официальный сайт учёного Рустамжона Усманова (Усманов Рустамжон): "
+            "механика жидкости, газа и плазмы, технология добычи урана, "
+            "геотехнология добычи полезных ископаемых. Публикации, патенты, CV."
+        ),
         "footer": "Личный научный сайт",
     },
     "en": {
@@ -149,7 +172,77 @@ UI = {
         "contacts_profiles": "Research profiles",
         "ranked": "Journal indexed in RSCI / Web of Science / Scopus",
         "stat_pubs": "publications",
+        "stat_patents": "patents",
+        "stat_dissertations": "dissertations",
+        "stat_years": "years in science",
+        "cert": "Certificate",
+        "ilmnur_alt": "Ilm Nur — the light of knowledge and purity of the soul",
+        "home_title_tag": "fluid and gas mechanics, mineral extraction",
+        "home_meta_desc": (
+            "Official website of scientist Rustamzhon Usmanov: fluid, gas and "
+            "plasma mechanics, uranium mining technology, geotechnology of "
+            "mineral extraction. Publications, patents and CV."
+        ),
         "footer": "Personal research website",
+    },
+    "uz": {
+        "nav_home": "Bosh sahifa",
+        "nav_about": "Men haqimda",
+        "nav_dynasty": "Ilmiy sulola",
+        "nav_pubs": "Nashrlar",
+        "nav_cv": "CV",
+        "nav_reflections": "Mulohazalar",
+        "nav_reviews": "Taqrizlar",
+        "nav_contacts": "Aloqa",
+        "reflections_title": "Mulohazalar",
+        "hero_cta_pubs": "Nashrlar",
+        "hero_cta_about": "Men haqimda",
+        "about_title": "Men haqimda",
+        "dynasty_title": "Ilmiy sulola va eʼtirof",
+        "dynasty_sub_grandfather": "Bobom — Ilmnur Mindiyarov",
+        "dynasty_sub_mother": "Onam",
+        "dynasty_sub_lineage": "Naslimiz tarixi",
+        "dynasty_sub_story": "Bir najot qissasi",
+        "dynasty_sub_teachers": "Ustozlarim",
+        "pubs_title": "Nashrlar va patentlar",
+        "pubs_all": "Barchasi",
+        "pubs_year": "Yil",
+        "pubs_type": "Turi",
+        "pubs_search": "Nomi boʻyicha qidirish…",
+        "pubs_open": "ISTINA saytida ochish",
+        "pubs_source": "Manba",
+        "pubs_pdf": "PDF yuklab olish",
+        "pubs_read_full": "Toʻliq oʻqish",
+        "pubs_none": "Hech narsa topilmadi",
+        "pubs_export": "BibTeX yuklab olish",
+        "pubs_sort": "Saralash",
+        "sort_year_desc": "Yil — yangilari",
+        "sort_year_asc": "Yil — eskilari",
+        "sort_type": "Turi boʻyicha",
+        "sort_journal": "Jurnal boʻyicha",
+        "pubs_authors": "Mualliflar",
+        "cv_title": "CV — rezyume",
+        "cv_download": "CV yuklab olish (PDF)",
+        "cv_education": "Taʼlim",
+        "cv_areas": "Ilmiy qiziqishlar",
+        "cv_highlights": "Asosiy natijalar",
+        "contacts_title": "Aloqa",
+        "contacts_email": "Elektron pochta",
+        "contacts_profiles": "Ilmiy profillar",
+        "ranked": "RSCI / Web of Science / Scopus roʻyxatidagi jurnal",
+        "stat_pubs": "nashr",
+        "stat_patents": "patent",
+        "stat_dissertations": "dissertatsiya",
+        "stat_years": "yil ilmda",
+        "cert": "Guvohnoma",
+        "ilmnur_alt": "Ilm Nur — bilim nuri va qalb pokligi",
+        "home_title_tag": "suyuqlik va gaz mexanikasi, qazib olish geotexnologiyasi",
+        "home_meta_desc": (
+            "Olim Rustamjon Usmanovning rasmiy sayti: suyuqlik, gaz va plazma "
+            "mexanikasi, uran qazib olish texnologiyasi, foydali qazilmalarni "
+            "qazib olish geotexnologiyasi. Nashrlar, patentlar, CV."
+        ),
+        "footer": "Shaxsiy ilmiy sayt",
     },
 }
 
@@ -166,7 +259,13 @@ def get_publications():
     path = DATA_DIR / "publications.json"
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    pubs = json.loads(path.read_text(encoding="utf-8"))
+    # Подписи типа на каждом языке: если перевода нет — берём русский,
+    # чтобы шаблоны с p['type_' + lang] не падали.
+    for p in pubs:
+        for l in LANGS:
+            p.setdefault(f"type_{l}", p.get("type_ru", p.get("type", "")))
+    return pubs
 
 
 def get_articles():
@@ -174,7 +273,11 @@ def get_articles():
     path = DATA_DIR / "articles.json"
     if not path.exists():
         return {}
-    return json.loads(path.read_text(encoding="utf-8"))
+    arts = json.loads(path.read_text(encoding="utf-8"))
+    for a in arts.values():
+        for l in LANGS:
+            a.setdefault(f"type_{l}", a.get("type_ru", ""))
+    return arts
 
 
 def valid_lang(lang):
@@ -191,7 +294,7 @@ def build_person_jsonld(profile, lang):
         "@context": "https://schema.org",
         "@type": "Person",
         "name": name.get(lang) or name.get(DEFAULT_LANG),
-        "alternateName": [name.get("ru"), name.get("en")],
+        "alternateName": [name.get(l) for l in LANGS if name.get(l)],
         "url": SITE_URL + f"/{lang}/",
         "image": SITE_URL + url_for("static", filename=profile.get("photo", "img/photo.jpg")),
         "email": profile.get("email"),
@@ -200,9 +303,11 @@ def build_person_jsonld(profile, lang):
         "knowsAbout": profile.get("cv", {}).get("research_areas", {}).get(lang, []),
         "alumniOf": {
             "@type": "CollegeOrUniversity",
-            "name": "Lomonosov Moscow State University"
-            if lang == "en"
-            else "МГУ имени М.В. Ломоносова",
+            "name": {
+                "ru": "МГУ имени М.В. Ломоносова",
+                "en": "Lomonosov Moscow State University",
+                "uz": "M.V. Lomonosov nomidagi Moskva davlat universiteti",
+            }[lang],
         },
         "sameAs": same_as,
     }
@@ -226,7 +331,7 @@ def inject_globals():
             try:
                 path = url_for(endpoint, **{**request.view_args, "lang": l})
                 lang_urls[l] = path
-                alternates[l] = SITE_URL + path
+                alternates[HREFLANG[l]] = SITE_URL + path
             except Exception:
                 pass
 
@@ -241,6 +346,7 @@ def inject_globals():
         "alternates": alternates,
         "lang_urls": lang_urls,
         "meta_keywords": SEO_KEYWORDS[lang],
+        "og_locale": LOCALES[lang],
         "person_jsonld": build_person_jsonld(profile, lang),
     }
 
@@ -286,7 +392,7 @@ def publications(lang):
     for p in pubs:
         if p["type"] not in seen:
             seen.add(p["type"])
-            types.append({"key": p["type"], "ru": p["type_ru"], "en": p["type_en"]})
+            types.append({"key": p["type"], **{l: p[f"type_{l}"] for l in LANGS}})
     return render_template(
         "publications.html",
         lang=lang,
@@ -412,7 +518,7 @@ def sitemap_xml():
         for l in LANGS:
             loc = SITE_URL + url_for(endpoint, lang=l, **params)
             alts = "".join(
-                f'<xhtml:link rel="alternate" hreflang="{a}" '
+                f'<xhtml:link rel="alternate" hreflang="{HREFLANG[a]}" '
                 f'href="{SITE_URL + url_for(endpoint, lang=a, **params)}"/>'
                 for a in LANGS
             )
@@ -429,7 +535,9 @@ def sitemap_xml():
 
 @app.template_filter("localized")
 def localized(value, lang):
-    """Взять поле по языку: dict {'ru':..,'en':..} -> строка."""
+    """Взять поле по языку: dict {'ru':..,'en':..,'uz':..} -> строка.
+
+    Если перевода на запрошенный язык ещё нет, откатываемся на русский."""
     if isinstance(value, dict):
         return value.get(lang) or value.get(DEFAULT_LANG) or ""
     return value

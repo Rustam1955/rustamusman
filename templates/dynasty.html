@@ -18,7 +18,7 @@
         {% if h.image %}
         <figure class="heritage-figure">
           <img src="{{ url_for('static', filename=h.image) }}"
-               alt="{{ 'Ilm Nur — свет знаний и чистота души' if lang=='ru' else 'Ilm Nur — the light of knowledge and purity of the soul' }}"
+               alt="{{ t.ilmnur_alt }}"
                loading="lazy"
                onerror="this.closest('.heritage-figure').style.display='none';">
         </figure>

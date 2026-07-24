@@ -50,7 +50,7 @@
             {% else %}{{ p.journal }}{% endif %}
           </p>
           {% endif %}
-          {% if p.number %}<p class="pub-journal">{{ 'Свидетельство' if lang=='ru' else 'Certificate' }} {{ p.number }}</p>{% endif %}
+          {% if p.number %}<p class="pub-journal">{{ t.cert }} {{ p.number }}</p>{% endif %}
           {% if p.abstract %}<p class="pub-abstract">{{ p.abstract }}</p>{% endif %}
           {% if p.citation %}<p class="pub-cite">{{ p.citation }}</p>{% endif %}
           <div class="pub-meta">

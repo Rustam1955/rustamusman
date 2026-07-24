@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ profile.name|localized(lang) }} — {{ 'механика жидкости и газа, геотехнология добычи' if lang=='ru' else 'fluid and gas mechanics, mineral extraction' }}{% endblock %}
-{% block meta_description %}{{ 'Официальный сайт учёного Рустамжона Усманова (Усманов Рустамжон): механика жидкости, газа и плазмы, технология добычи урана, геотехнология добычи полезных ископаемых. Публикации, патенты, CV.' if lang=='ru' else 'Official website of scientist Rustamzhon Usmanov: fluid, gas and plasma mechanics, uranium mining technology, geotechnology of mineral extraction. Publications, patents and CV.' }}{% endblock %}
+{% block title %}{{ profile.name|localized(lang) }} — {{ t.home_title_tag }}{% endblock %}
+{% block meta_description %}{{ t.home_meta_desc }}{% endblock %}
 
 {% block content %}
 <section class="hero">
@@ -24,9 +24,9 @@
 <section class="stats">
   <div class="container stats-grid">
     <div class="stat"><span class="stat-num">{{ pub_count }}</span><span class="stat-label">{{ t.stat_pubs }}</span></div>
-    <div class="stat"><span class="stat-num">{{ counts.get('patent', 0) }}</span><span class="stat-label">{{ 'патентов' if lang=='ru' else 'patents' }}</span></div>
-    <div class="stat"><span class="stat-num">{{ counts.get('dissertation', 2) }}</span><span class="stat-label">{{ 'диссертации' if lang=='ru' else 'dissertations' }}</span></div>
-    <div class="stat"><span class="stat-num">40+</span><span class="stat-label">{{ 'лет в науке' if lang=='ru' else 'years in science' }}</span></div>
+    <div class="stat"><span class="stat-num">{{ counts.get('patent', 0) }}</span><span class="stat-label">{{ t.stat_patents }}</span></div>
+    <div class="stat"><span class="stat-num">{{ counts.get('dissertation', 2) }}</span><span class="stat-label">{{ t.stat_dissertations }}</span></div>
+    <div class="stat"><span class="stat-num">40+</span><span class="stat-label">{{ t.stat_years }}</span></div>
   </div>
 </section>
 

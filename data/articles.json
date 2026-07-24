@@ -2,7 +2,8 @@
   "uranium-solutions-2026": {
     "title": {
       "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
-      "en": "On technological solutions in uranium production in Uzbekistan"
+      "en": "On technological solutions in uranium production in Uzbekistan",
+      "uz": "Oʻzbekistonda uran ishlab chiqarishdagi texnologik yechimlar masalasiga doir"
     },
     "year": "2026",
     "authors": [
@@ -12,77 +13,88 @@
     "type_en": "Feature article",
     "abstract": {
       "ru": "Технологические решения для урановой промышленности Узбекистана. При планах довести добычу до 7 200 тонн в год к 2030 году реальная отработка ключевых месторождений превысила 40%, а остаточный уран заперт в слабопроницаемых, глинистых и высококарбонатных зонах. Показано, что закачка сверхнормативных объёмов серной кислоты образует гипс, кольматирует пласт и обнуляет приемистость скважин, а работа без барражных скважин необратимо губит водоносные горизонты Центральных Кызылкумов. Описаны два промышленно испытанных решения: способ подземного выщелачивания по патенту РУз № IAP 05336 — использование жидких сульфидных отходов биоокисления золотых руд ГМЗ-3, где бактерии Acidithiobacillus ferrooxidans непрерывно регенерируют Fe³⁺ и переводят U⁴⁺ → U⁶⁺ без закисления пласта (более 80 т закиси-окиси урана с одного участка), — и бескислотная добыча технической водой на месторождении Кетменчи, где уран изначально находится в естественной шестивалентной форме. Приведены копии патента и описания изобретения.",
-      "en": "Technological solutions for Uzbekistan's uranium industry. Against plans to raise output to 7,200 tonnes a year by 2030, actual depletion of the key deposits has passed 40%, while the residual uranium is locked in low-permeability, clayey and highly carbonate zones. The paper shows that injecting above-normative volumes of sulphuric acid forms gypsum, colmatates the bed and drops well injectivity to zero, while operating without barrier wells irreversibly ruins the aquifers of the Central Kyzylkum. Two industrially tested solutions are described: an in-situ leaching method under Uzbek patent No. IAP 05336 — using the liquid sulphide waste of gold-ore bio-oxidation at Hydrometallurgical Plant No. 3, where Acidithiobacillus ferrooxidans continuously regenerates Fe³⁺ and converts U⁴⁺ → U⁶⁺ without acidifying the bed (over 80 t of U₃O₈ from a single site) — and acid-free extraction with process water at the Ketmenchi deposit, where uranium is originally present in its natural hexavalent form. Copies of the patent and its description are included."
+      "en": "Technological solutions for Uzbekistan's uranium industry. Against plans to raise output to 7,200 tonnes a year by 2030, actual depletion of the key deposits has passed 40%, while the residual uranium is locked in low-permeability, clayey and highly carbonate zones. The paper shows that injecting above-normative volumes of sulphuric acid forms gypsum, colmatates the bed and drops well injectivity to zero, while operating without barrier wells irreversibly ruins the aquifers of the Central Kyzylkum. Two industrially tested solutions are described: an in-situ leaching method under Uzbek patent No. IAP 05336 — using the liquid sulphide waste of gold-ore bio-oxidation at Hydrometallurgical Plant No. 3, where Acidithiobacillus ferrooxidans continuously regenerates Fe³⁺ and converts U⁴⁺ → U⁶⁺ without acidifying the bed (over 80 t of U₃O₈ from a single site) — and acid-free extraction with process water at the Ketmenchi deposit, where uranium is originally present in its natural hexavalent form. Copies of the patent and its description are included.",
+      "uz": "Oʻzbekiston uran sanoati uchun texnologik yechimlar. 2030-yilga borib qazib olishni yiliga 7 200 tonnaga yetkazish rejalari fonida asosiy konlarning real ishlanishi 40 foizdan oshdi, qoldiq uran esa kam oʻtkazuvchan, gilli va yuqori karbonatli zonalarda qamalib qoldi. Koʻrsatilishicha, meʼyordan ortiq hajmda sulfat kislota haydash gips hosil qiladi, qatlamni kolmatatsiyalaydi va quduqlarning qabul qilish qobiliyatini nolga tushiradi, barraj quduqlarisiz ishlash esa Markaziy Qizilqumning suv gorizontlarini qaytarib boʻlmas darajada nobud qiladi. Sanoat sinovidan oʻtgan ikkita yechim tavsiflangan: Oʻzbekiston Respublikasi patenti № IAP 05336 boʻyicha yer osti ishqorlash usuli — GMZ-3 oltin rudalarini biooksidlash majmuasining suyuq sulfidli chiqindilaridan foydalanish, bunda Acidithiobacillus ferrooxidans bakteriyalari Fe³⁺ ni uzluksiz regeneratsiya qilib, qatlamni kislotalantirmasdan U⁴⁺ → U⁶⁺ oʻtkazadi (bitta uchastkadan 80 tonnadan ortiq uran zakis-okisi), — hamda uran dastlabdan tabiiy olti valentli shaklda boʻlgan Ketmenchi konida texnik suv bilan kislotasiz qazib olish. Patent va ixtiro tavsifi nusxalari keltirilgan."
     },
     "blocks": [
       {
         "type": "subhead",
         "text": {
           "ru": "Введение",
-          "en": "Introduction"
+          "en": "Introduction",
+          "uz": "Kirish"
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — в рамках государственной стратегии планируется довести ежегодную добычу урана до 7 200 тонн к 2030 году.",
-          "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030."
+          "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030.",
+          "uz": "2026-yil holatiga koʻra Oʻzbekiston uran sanoati shijoatli rejalarni eʼlon qilmoqda — davlat strategiyasi doirasida 2030-yilga borib yillik uran qazib olish hajmini 7 200 tonnaga yetkazish rejalashtirilgan."
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "Суммарные запасы урана в недрах Узбекистана официально оцениваются в 139 000 тонн. Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла более 40%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 20%.",
-          "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%."
+          "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%.",
+          "uz": "Oʻzbekiston yer qaʼridagi uranning umumiy zaxiralari rasman 139 000 tonna deb baholanadi. Biroq Markaziy Qizilqumda tadqiqot olib borgan amaliyotchi geolog va muhandislar bu raqamlarning yashirin tomonini bilishadi. Asosiy ishlanayotgan konlarning real qazib olinishi 40 foizdan oshdi, davlat geologiya xizmatining C1 toifasidagi zaxiralar boʻyicha maʼlumotlari esa tarixan ruda boshqarmalarining qatʼiy ekspluatatsion qidiruv natijalaridan 20 foizgacha farq qilib kelgan."
         }
       },
       {
         "type": "subhead",
         "text": {
           "ru": "Проблемы современной урановой индустрии",
-          "en": "Problems of the modern uranium industry"
+          "en": "Problems of the modern uranium industry",
+          "uz": "Zamonaviy uran sanoati muammolari"
         }
       },
       {
         "type": "subhead2",
         "text": {
           "ru": "1. Кольматация и истощение пластов",
-          "en": "1. Colmatation and depletion of the ore beds"
+          "en": "1. Colmatation and depletion of the ore beds",
+          "uz": "1. Qatlamlarning kolmatatsiyasi va tugashi"
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "При отработке пластов остаточный уран в основном заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — приводит к экологической катастрофе подземных вод. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором должным образом не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты, рекультивация которых потребует сотен миллионов долларов.",
-          "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars."
+          "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars.",
+          "uz": "Qatlamlar ishlanganda qoldiq uran asosan kam oʻtkazuvchan, gilli yoki yuqori karbonatli zonalarda qamalib qoladi. Ekstensiv usul — meʼyordan ortiq hajmda sulfat kislota haydash — yer osti suvlari uchun ekologik falokatga olib keladi. Kislota qatlamdagi kalsit bilan reaksiyaga kirishib, gips hosil qiladi. Qatlam butunlay «koʻr boʻlib» qoladi (kolmatatsiyalanadi), quduqlarning qabul qilish qobiliyati nolga tushadi, mahsuldor eritmalardagi uran konsentratsiyasi esa kritik minimumgacha pasayadi. Barraj quduqlaridan tegishli tarzda foydalanmasdan, sulfat kislotani oʻylamay haydashga asoslangan yer osti quduqli ishqorlash (YoI) usuli Markaziy Qizilqumning strategik zaxirasini — rekultivatsiyasi yuzlab million dollar talab qiladigan yer osti suv gorizontlarini abadiy yoʻq qiladi."
         }
       },
       {
         "type": "subhead",
         "text": {
           "ru": "2. Технологичные решения",
-          "en": "2. Technological solutions"
+          "en": "2. Technological solutions",
+          "uz": "2. Texnologik yechimlar"
         }
       },
       {
         "type": "subhead2",
         "text": {
           "ru": "Решение №1. Способ подземного выщелачивания урана (патент № IAP 05336)",
-          "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)"
+          "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)",
+          "uz": "1-yechim. Uranni yer osti ishqorlash usuli (patent № IAP 05336)"
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "Фундаментальная основа химии урана — перевод инертной, нерастворимой четырехвалентной формы (U⁴⁺) в подвижную шестивалентную (U⁶⁺).",
-          "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺)."
+          "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺).",
+          "uz": "Uran kimyosining fundamental asosi — inert, erimaydigan toʻrt valentli shaklni (U⁴⁺) harakatchan olti valentli shaklga (U⁶⁺) oʻtkazish."
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "Вместо закупки чистой кислоты на глубоких пластах месторождений Северного рудоуправления (СевРУ) была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
-          "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
+          "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas).",
+          "uz": "Shimoliy ruda boshqarmasi (ShRB) konlarining chuqur qatlamlarida toza kislota sotib olish oʻrniga uran va oltin ishlab chiqarishning genial sinergiyasi joriy etilib, sinovdan oʻtkazildi. Texnologiya GMZ-3 (Koʻkpatas) oltin rudalarini biooksidlash majmuasining suyuq sulfidli chiqindilaridan foydalandi."
         }
       },
       {
@@ -90,19 +102,23 @@
         "items": [
           {
             "ru": "В пласт подавался бесплатный биореагент, содержащий культуру бактерий Acidithiobacillus ferrooxidans и двухвалентное железо (Fe²⁺).",
-            "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed."
+            "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed.",
+            "uz": "Qatlamga Acidithiobacillus ferrooxidans bakteriyalari kulturasi va ikki valentli temir (Fe²⁺) saqlagan bepul bioreagent uzatildi."
           },
           {
             "ru": "Параллельно через специализированные узлы нагнетался технический кислород и сбалансированная питательная среда для поддержания живучести бактерий в анаэробных условиях недр.",
-            "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface."
+            "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface.",
+            "uz": "Bir vaqtning oʻzida maxsus tugunlar orqali texnik kislorod hamda yer qaʼridagi anaerob sharoitda bakteriyalarning yashovchanligini saqlash uchun muvozanatlashtirilgan oziq muhit haydaldi."
           },
           {
             "ru": "Бактерии непрерывно регенерировали железо в трехвалентную форму (Fe³⁺), которая выступала мощнейшим идеальным окислителем, переводящим U⁴⁺ → U⁶⁺ без закисления пласта.",
-            "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed."
+            "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed.",
+            "uz": "Bakteriyalar temirni uzluksiz ravishda uch valentli shaklga (Fe³⁺) regeneratsiya qilib turdi; bu shakl qatlamni kislotalantirmasdan U⁴⁺ → U⁶⁺ oʻtkazuvchi eng kuchli, ideal oksidlovchi vazifasini bajardi."
           },
           {
             "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического участка.",
-            "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site."
+            "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site.",
+            "uz": "Natija: yer qaʼri oʻtkazuvchanligining barqarorligi va ulkan hosil — bitta texnologik uchastkaning oʻzidan 80 tonnadan ortiq uran zakis-okisi."
           }
         ]
       },
@@ -113,28 +129,32 @@
             "src": "img/patents/iap-05336-patent.jpg",
             "caption": {
               "ru": "Патент Республики Узбекистан № IAP 05336 «Способ выщелачивания урана», заявка от 26.03.2013",
-              "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013"
+              "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013",
+              "uz": "Oʻzbekiston Respublikasi patenti № IAP 05336 «Uranni ishqorlash usuli», 26.03.2013 dagi ariza"
             }
           },
           {
             "src": "img/patents/iap-05336-desc-1.jpg",
             "caption": {
               "ru": "Описание изобретения, с. 1: область применения и сущность способа",
-              "en": "Description of the invention, p. 1: field of application and essence of the method"
+              "en": "Description of the invention, p. 1: field of application and essence of the method",
+              "uz": "Ixtiro tavsifi, 1-bet: qoʻllanish sohasi va usulning mohiyati"
             }
           },
           {
             "src": "img/patents/iap-05336-desc-2.jpg",
             "caption": {
               "ru": "Описание, с. 2: известные аналоги, задача изобретения, пример агитационного выщелачивания",
-              "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example"
+              "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example",
+              "uz": "Tavsif, 2-bet: maʼlum analoglar, ixtiro vazifasi, agitatsion ishqorlash misoli"
             }
           },
           {
             "src": "img/patents/iap-05336-desc-3.jpg",
             "caption": {
               "ru": "Описание, с. 3: кинетика выщелачивания (табл. 1–2) и формула изобретения",
-              "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim"
+              "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim",
+              "uz": "Tavsif, 3-bet: ishqorlash kinetikasi (1–2-jadval) va ixtiro formulasi"
             }
           }
         ]
@@ -143,23 +163,27 @@
         "type": "subhead2",
         "text": {
           "ru": "Решение №2. Бескислотная добыча технической водой (опыт Кетменчи)",
-          "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)"
+          "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)",
+          "uz": "2-yechim. Texnik suv bilan kislotasiz qazib olish (Ketmenchi tajribasi)"
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "Еще 30 лет назад, в середине 1990-х годов, в условиях экономического хаоса, на месторождении Кетменчи был доказан геохимический факт: уран там изначально находится в естественной шестивалентной форме (U⁶⁺) благодаря вековой природной инфильтрации кислородных вод.",
-          "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters."
+          "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters.",
+          "uz": "Yana 30 yil avval, 1990-yillarning oʻrtalarida, iqtisodiy tartibsizlik sharoitida Ketmenchi konida geokimyoviy dalil isbotlangan edi: u yerda uran asrlar davomida kislorodli suvlarning tabiiy infiltratsiyasi tufayli dastlabdan tabiiy olti valentli shaklda (U⁶⁺) boʻladi."
         }
       },
       {
         "type": "para",
         "text": {
           "ru": "Авторами метода была внедрена добыча простой технической водой с растворенными газами, без единой капли серной кислоты. Вода мягко вымывала готовый уранил-ион, обеспечивая практически нулевую себестоимость по реагентам и абсолютную экологическую чистоту.",
-          "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness."
+          "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness.",
+          "uz": "Usul mualliflari bir tomchi ham sulfat kislotasiz, erigan gazlar saqlagan oddiy texnik suv bilan qazib olishni joriy etdi. Suv tayyor uranil-ionni yumshoq yuvib chiqarar, reagentlar boʻyicha deyarli nol tannarxni va mutlaq ekologik tozalikni taʼminlar edi."
         }
       }
-    ]
+    ],
+    "type_uz": "Mualliflik maqolasi"
   }
 }

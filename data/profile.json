@@ -1,11 +1,13 @@
 {
   "name": {
     "ru": "Усманов Рустамжон",
-    "en": "Rustamzhon Usmanov"
+    "en": "Rustamzhon Usmanov",
+    "uz": "Usmanov Rustamjon"
   },
   "tagline": {
     "ru": "Прикладная математика и механика — механика жидкости, газа и плазмы",
-    "en": "Applied mathematics and mechanics — fluid, gas and plasma mechanics"
+    "en": "Applied mathematics and mechanics — fluid, gas and plasma mechanics",
+    "uz": "Amaliy matematika va mexanika — suyuqlik, gaz va plazma mexanikasi"
   },
   "photo": "img/photo.jpg",
   "email": "sgdoodjes.tx@gmail.com",
@@ -25,12 +27,21 @@
       "I have devoted more than 40 years to fundamental and applied science, travelling the path from the classical school of fluid, gas and plasma mechanics at Lomonosov Moscow State University to solving the most complex technological problems of Uzbekistan's mining and metallurgical industry. My approach is based on the intersection of applied mathematics, mathematical modeling and physico-chemical processes.",
       "Today my research focuses on the search for fundamentally new, modern methods of disintegrating mineral components and liberating valuable metals from refractory raw materials by means of high-frequency and resonant treatment.",
       "This site is created as an open platform for exchanging experience with scientists, engineers and industry practitioners from all over the world who are ready to develop the technologies of the future."
+    ],
+    "uz": [
+      "Oʻzbekistonlik olim, M.V. Lomonosov nomidagi Moskva davlat universiteti bitiruvchisi, Oʻzbekiston Respublikasining fan va texnika sohasidagi birinchi darajali Davlat mukofoti sovrindori.",
+      "Amaliy matematika va mexanika, kon hamda metallurgiya sohasidagi mutaxassis va tadqiqotchi. Ilmiy qiziqishlari suyuqlik, gaz va plazma mexanikasi, fizik jarayonlarni sonli modellashtirish, shuningdek nodir, noyob yer va qimmatbaho metallarni qazib olish va ishlab chiqarish texnologiyalarini qamrab oladi. Akademiklar X.A. Rahmatulin va R.I. Nigmatulinning shogirdi.",
+      "30 dan ortiq ilmiy maqola, ixtiro patentlari va 2 ta himoya qilingan dissertatsiya muallifi. Bu yerda mening nashrlarim va ilmiy natijalarim jamlangan.",
+      "Men 40 yildan ortiq umrimni fundamental va amaliy fanga bagʻishladim: M.V. Lomonosov nomidagi MDUdagi suyuqlik, gaz va plazma mexanikasining klassik maktabidan Oʻzbekiston kon-metallurgiya sohasining eng murakkab texnologik masalalarini yechishgacha boʻlgan yoʻlni bosib oʻtdim. Yondashuvim amaliy matematika, matematik modellashtirish va fizik-kimyoviy jarayonlar tutashgan nuqtaga asoslanadi.",
+      "Bugungi kunda tadqiqotlarim mineral komponentlarni parchalash hamda qiyin boyitiladigan xomashyodan qimmatli metallarni yuqori chastotali va rezonansli taʼsir usullari bilan ajratib olishning tubdan yangi, zamonaviy usullarini izlashga qaratilgan.",
+      "Ushbu sayt kelajak texnologiyalarini rivojlantirishga tayyor boʻlgan butun dunyo olimlari, muhandislari va ishlab chiqarish vakillari bilan tajriba almashish uchun ochiq maydon sifatida yaratilgan."
     ]
   },
   "heritage": {
     "title": {
       "ru": "Мой дед — Ильмнур Миндияров (1878–1974)",
-      "en": "My grandfather — Ilmnur Mindiyarov (1878–1974)"
+      "en": "My grandfather — Ilmnur Mindiyarov (1878–1974)",
+      "uz": "Bobom — Ilmnur Mindiyarov (1878–1974)"
     },
     "image": "img/grandfather.jpg",
     "text": {
@@ -47,16 +58,25 @@
         "During the repressions of 1938, from his native village of Ishkarovo in Bashkiria to the land of Samarkand, he brought not resentment but creation. He brought with him knowledge and culture.",
         "He taught literacy, was a mufassir, had a deep command of the Arabic language and taught the correct pronunciation of Arabic text. He gave warmth and opened windows to the world for everyone who wished to learn.",
         "He did not merely give knowledge — he tempered character, preparing us for great heights and victories."
+      ],
+      "uz": [
+        "Bobom Ilmnur Mindiyarov (1878–1974, onam Anfisa Gilemnurovaning otasi) — murakkab davrlar tengdoshi. U Rossiya imperiyasining eski tuzumidan sovet Samarqandigacha boʻlgan yoʻlni bosib oʻtdi va qalbida iymonni hamda bilim nurini saqlab qoldi.",
+        "U haqiqiy maʼrifatparvar va bunyodkor edi. Qatagʻon va sinovlar yillari orasidan u eng qadrlisini — bilim nurini (Ilm) va qalb pokligini (Nur) olib oʻtdi.",
+        "Qatagʻon yillarida (1938-yil) Boshqirdistondagi ona qishlogʻi Ishqarovodan Samarqand tuprogʻiga u gina emas, bunyodkorlik olib keldi. U oʻzi bilan bilim va madaniyat olib keldi.",
+        "U savod oʻrgatdi, mufassir edi, arab tilini chuqur bilar va arab matnini toʻgʻri talaffuz qilishni oʻrgatardi. U oʻqishni istagan har bir kishiga mehr ulashdi, dunyoga deraza ochdi.",
+        "U shunchaki bilim bermasdi — u xarakterni chiniqtirar, bizni katta choʻqqilar va gʻalabalarga tayyorlardi."
       ]
     },
     "motto": {
       "ru": "Его имя теперь — наш девиз. Его жизнь — наш пример. Мы творим историю своим умом, как он и завещал нам.",
-      "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us."
+      "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us.",
+      "uz": "Uning ismi endi — bizning shiorimiz. Uning hayoti — bizga oʻrnak. Biz, u vasiyat qilganidek, tariximizni oʻz aqlimiz bilan yaratamiz."
     },
     "mother": {
       "title": {
         "ru": "Моя мама",
-        "en": "My mother"
+        "en": "My mother",
+        "uz": "Onam"
       },
       "image": "img/My_mother.jpg",
       "text": {
@@ -75,18 +95,28 @@
           "There was also the famous Sultanov family, whom the people often called «governors» because of their enormous power.",
           "My grandmother Mavtukha (translated as «open» — a name popular in the Bashkir community in the 18th–19th centuries) was from this famous family.",
           "In 1938 my grandfather Mindiyarov IlmNur was repressed from his native village of Ishkarovo to the Samarkand lands. My mother, together with her brothers, remained in the village. Only in 1947, after finishing 8 grades of the Bashkir school, did my mother come with her younger brothers to the village of «Mitan» (Samarkand region) to their father, and there she finished the Uzbek secondary school."
+        ],
+        "uz": [
+          "Erishganlarim uchun... Men amakim Fanisdan va farishtam, suyukli, betakror onam Anfisadan minnatdorman... Qolgan umrimni, yangi ixtiro va yutuqlarimni menga fidoyilik bilan sadoqatli boʻlgan aziz yaqinlarim xotirasiga bagʻishlayman…",
+          "Onam — Gilemnurova Anfisa 1933-yil 17-dekabrda Ishqarovo qishlogʻida (Boshqirdiston) mashhur boshqird oilasida tugʻilgan. Boshqird maktabining 8 sinfini tugatgan. Otasining (mening bobomning) ismi IlmNur (boshqirdcha — Gʻilimnur), onasining ismi Mavtuxa edi. Bobom Ishqarovlar naslidan, buvim — Sultonovlar naslidan.",
+          "Bir oz tarix: Ishqar qishlogʻiga asos solgan — Boshqirdiston dvoryani Ishqar Arslanov. Ishqarning oʻgʻli — Kulmet Ishqarin (1720–1800). Kulmetning farzandlari — Muhammadrahim, Muhammadsharif, Muhammadsodiq. Mindiyar (1850–). Mindiyarning farzandlari: Mindiyarovlar Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (IlmNur, mening bobom)…",
+          "Sultonovlarning mashhur naslidan ham boʻlgan — xalq orasida ularni ulkan hokimiyati tufayli koʻpincha «gubernatorlar» deb atashgan.",
+          "Buvim Mavtuxa (tarjimasi «ochiq» degani, 18–19-asrlarda boshqird muhitida mashhur ism boʻlgan) ana shu mashhur nasldan edi.",
+          "1938-yilda bobom Mindiyarov IlmNur ona qishlogʻi Ishqarovodan Samarqand yerlariga surgun qilindi. Onam aka-ukalari bilan qishloqda qoldi. Faqat 1947-yilda, boshqird maktabining 8 sinfini tugatgach, onam ukalari bilan otasining oldiga «Mitan» posyolkasiga (Samarqand viloyati) keldi va oʻsha yerda oʻzbek oʻrta maktabini tamomladi."
         ]
       }
     },
     "teachers": {
       "title": {
         "ru": "Мои учителя",
-        "en": "My teachers"
+        "en": "My teachers",
+        "uz": "Ustozlarim"
       },
       "image": "img/Nigmatullin_n.jpg",
       "caption": {
         "ru": "Академик Р.И. Нигматулин",
-        "en": "Academician R.I. Nigmatulin"
+        "en": "Academician R.I. Nigmatulin",
+        "uz": "Akademik R.I. Nigmatulin"
       },
       "text": {
         "ru": [
@@ -104,13 +134,22 @@
           "Under the guidance of my mentors, a unique foundation was created in the field of multiphase-media mechanics. Formulas and numerical methods were developed that describe how liquids, gases and heat behave inside porous geological ore bodies.",
           "The fundamental models made possible the accurate prediction of the dynamics of solution spreading. This formed the basis of a highly efficient and environmentally safe integrated technology for the extraction and processing of uranium, rare, rare-earth and precious metals at NMMC facilities.",
           "Mathematical calculations helped to design new technological processes for extracting gold from complex, hard-to-process raw materials and technogenic waste."
+        ],
+        "uz": [
+          "Ustozlarim haqida.",
+          "Suyuqlik, gaz va plazma mexanikasi sohasidagi ilmiy rahbarim va maslahatchim — jahonga mashhur olimlar X.A. Rahmatulin va R.I. Nigmatulindir.",
+          "Ularning rahbarligida men nomzodlik (1987) va doktorlik (2015) dissertatsiyalarimni bajardim. Ish M.V. Lomonosov nomidagi MDUning toʻlqin va gaz dinamikasi kafedrasida olib borildi. Tadqiqotlar va amaliy ilmiy qism Oʻzbekistondagi Navoiy kon-metallurgiya kombinati (NKMK) bilan uzviy bogʻliqlikda amalga oshirildi.",
+          "Ustozlarim rahbarligida koʻp fazali muhitlar mexanikasi sohasida noyob baza yaratildi. Gʻovak geologik ruda jismlari ichida suyuqlik, gaz va issiqlik oʻzini qanday tutishini tavsiflovchi formulalar va sonli usullar ishlab chiqildi.",
+          "Fundamental modellar eritmalarning yoyilish dinamikasini aniq bashorat qilish imkonini berdi. Bu NKMK obyektlarida uran, nodir, noyob yer va qimmatbaho metallarni qazib olish va qayta ishlashning yuqori samarali hamda ekologik xavfsiz kompleks texnologiyasiga asos boʻldi.",
+          "Matematik hisob-kitoblar murakkab, qiyin qayta ishlanadigan xomashyo va texnogen chiqindilardan oltin ajratib olish uchun yangi texnologik jarayonlarni loyihalashga yordam berdi."
         ]
       }
     },
     "lineage": {
       "title": {
         "ru": "История нашего рода: от отважного полковника до мудрых учителей",
-        "en": "The story of our family: from a brave colonel to wise teachers"
+        "en": "The story of our family: from a brave colonel to wise teachers",
+        "uz": "Naslimiz tarixi: jasur polkovnikdan donishmand ustozlargacha"
       },
       "text": {
         "ru": [
@@ -124,31 +163,41 @@
           "When the uprising died down, Ishkara showed wisdom: he came to the generals himself, managed to protect his family and kept these lands. In 1795 there were only 10 houses in the whole village, and only our relatives lived there! The name «Mindiyarov», borne by my mother's family, comes from the name of the colonel's grandson — Mindiyar. Our lineage is strong and runs through the centuries: from Ishkara to Kulmet, then to Mindiyar, Mukhametnur and, finally, to my grandfather Gylymnur.",
           "My grandfather Gilemnur and grandmother Mavtukha (her name beautifully translates as «open soul») were remarkable people. They were enlighteners — bringing people literacy, culture and kindness. In the difficult year of 1938 the persecutions began, and my grandfather had to leave his native Bashkiria for distant Samarkand. But most importantly: in his heart he brought to the new land not malice or resentment, but creation, love of labor and immense knowledge.",
           "Your great-grandmother Anfisa studied in that very Bashkir school in Ishkarovo and graduated from it in 1947. And right now, in the neighboring village of Gremuchy Klyuch, lives her cousin — grandmother Ilgiza, who is already 90 years old! Remember your roots, be proud of your ancestors, and be creators just as they were."
+        ],
+        "uz": [
+          "Aziz nabiralarim! Men katta oilamiz tarixini bilishingizni istayman. Onam (Anfisa Gilemnurova) tomonidan naslimiz Boshqirdistonda, goʻzal Ishqarovo qishlogʻida boshlanadi. Bilasizmi, bu qishloq bizning bevosita ajdodimiz sharafiga nomlangan? Uning ismi Ishqara Araslanov edi. 250 yildan koʻproq vaqt oldin u haqiqiy boshqird polkovnigi, sarkarda va Yemelyan Pugachovning safdoshi boʻlgan. U oʻz xalqining erki uchun kurashgan.",
+          "Qoʻzgʻolon soʻngach, Ishqara donolik koʻrsatdi: oʻzi generallar huzuriga bordi, oilasini himoya qila oldi va bu yerlarni oʻzida saqlab qoldi. 1795-yilda butun qishloqda atigi 10 ta xonadon bor edi va u yerda faqat bizning qarindoshlarimiz yashardi! Onam oilasi koʻtarib yurgan «Mindiyarov» familiyasi polkovnikning nabirasi — Mindiyar ismidan kelib chiqqan. Shajaramiz mustahkam va asrlar osha davom etadi: Ishqaradan Kulmetga, soʻng Mindiyarga, Muhammadnurga va nihoyat bobom Gʻilimnurga.",
+          "Bobom Gilemnur va buvim Mavtuxa (uning ismi goʻzal tarzda «ochiq qalb» deb tarjima qilinadi) ajoyib insonlar edi. Ular maʼrifatparvar edilar — odamlarga savod, madaniyat va ezgulik ulashardilar. Ogʻir 1938-yilda quvgʻinlar boshlandi va bobom ona Boshqirdistondan uzoq Samarqandga koʻchishga majbur boʻldi. Eng muhimi: u yangi yurtga qalbida gʻazab yoki gina emas, bunyodkorlik, mehnatga muhabbat va ulkan bilim olib keldi.",
+          "Katta buvingiz Anfisa oʻsha Ishqarovodagi boshqird maktabida oʻqib, uni 1947-yilda tamomlagan. Ayni damda esa qoʻshni Gremuchiy Klyuch qishlogʻida uning amakivachchasi — 90 yoshli Ilgʻiza buvi yashaydi! Ildizlaringizni yodda tuting, ajdodlaringizdan faxrlaning va ular kabi bunyodkor boʻling."
         ]
       }
     },
     "story": {
       "title": {
         "ru": "История одного спасения",
-        "en": "The story of one rescue"
+        "en": "The story of one rescue",
+        "uz": "Bir najot qissasi"
       },
       "subtitle": {
         "ru": "Памяти моего отца — Усманова Исо, фронтовика Великой Отечественной войны, и его спасительницы, Бабушки Нади",
-        "en": "In memory of my father — Usmanov Iso, a front-line soldier of the Great Patriotic War, and his rescuer, Grandmother Nadya"
+        "en": "In memory of my father — Usmanov Iso, a front-line soldier of the Great Patriotic War, and his rescuer, Grandmother Nadya",
+        "uz": "Otam — Ulugʻ Vatan urushi frontchisi Usmanov Iso va uning najotkori Nadya buvi xotirasiga"
       },
       "images": [
         {
           "src": "img/father.jpg",
           "caption": {
             "ru": "Усманов Исо — фронтовик 1-го Украинского фронта",
-            "en": "Usmanov Iso — a front-line soldier of the 1st Ukrainian Front"
+            "en": "Usmanov Iso — a front-line soldier of the 1st Ukrainian Front",
+            "uz": "Usmanov Iso — 1-Ukraina frontining jangchisi"
           }
         },
         {
           "src": "img/father_medal.jpg",
           "caption": {
             "ru": "Юбилейная медаль «60 лет освобождения Украины от фашистских захватчиков» (1944–2004)",
-            "en": "Jubilee medal «60 years of the liberation of Ukraine from the fascist invaders» (1944–2004)"
+            "en": "Jubilee medal «60 years of the liberation of Ukraine from the fascist invaders» (1944–2004)",
+            "uz": "«Ukrainaning fashist bosqinchilaridan ozod etilishiga 60 yil» yubiley medali (1944–2004)"
           }
         }
       ],
@@ -180,6 +229,20 @@
           "This high award on the chest of Iso Usmanov became a sacred monument to them both. In the metal of this medal there merged forever the valor of Marshal Konev's soldier, the great mercy of Grandmother Nadya, and the eternal memory of her fallen hero sons. This medal confirmed: their shared truth and their humanity defeated oblivion.",
           "On the day of the presentation, something happened that struck the entire diplomatic mission to the depths of their souls. My father, the elderly Uzbek Usmanov Iso, after almost 60 years spoke to the ambassador in the purest, flawless Ukrainian. He had not forgotten a single word, a single intonation. That language stayed with him as a sacred tribute of memory, as eternal gratitude to Grandmother Nadya, who gave him life.",
           "In our family archive we carefully keep a photograph from that memorable day in Navoi. This picture and the medal itself are our greatest treasure. They prove that even in the darkest times, humanity, kindness and loyalty defeat any cruelty. The medal of a soldier who fought under Marshal Konev, and the great feat of Grandmother Nadya, will forever remain in the memory of our family."
+        ],
+        "uz": [
+          "Ulugʻ Vatan urushini boshdan kechirgan har bir oilaning oʻz xotirasi bor. Ammo bizning oilamizda bu xotira alohida — u yoʻqotishning achchiq koʻz yoshlaridan, misli koʻrilmagan jasoratdan va urushdan hamda milliy adovatdan kuchliroq boʻlib chiqqan buyuk ona rahmdilligidan toʻqilgan.",
+          "Urushning dahshatli yillarida oilamiz oʻrnini toʻldirib boʻlmas yoʻqotishga uchradi. Otamning uch nafar tugʻishgan akasi banderachilar tomonidan vahshiyona oʻldirildi. Bu qarama-qarshilikning eng qonli va shafqatsiz davrida — 1944–1945-yillarda sodir boʻldi. Oilamiz uchun bu fojia umrbod bitmas yara boʻlib qoldi. Ayni oʻsha paytda esa, urush kuydirgan oʻsha ukrain tuprogʻida haqiqiy moʻjiza roʻy berdi. Otam tirik qoldi. U esa biz hanuz hayajon va minnatdorlik koʻz yoshlari bilan eslaydigan oddiy ukrain ayoli — Nadya buvi (Nadejda) tufayli tirik qoldi.",
+          "Otam Usmanov Iso (Usmonning oʻgʻli, Ikromning nabirasi), millati oʻzbek, Gʻarbiy Ukrainadagi shafqatsiz partizan urushining qoq oʻrtasiga tushib qoldi. U marshal Ivan Stepanovich Konev qoʻmondonligidagi afsonaviy 1-Ukraina fronti safida oldingi chiziqda mardonavor jang qildi. 1944–1945-yillardagi ogʻir janglarda Iso ogʻir yaralandi va oʻlimga mahkum edi.",
+          "Ammo qoʻrqmas Nadya buvi uni qishloqning eng chekkasida yashirdi. U yarador oʻzbek askarini odatda kartoshka va oziq-ovqat saqlanadigan yopiq oʻraga berkitdi. Xavf oʻlimga teng edi: agar banderachilar yoki jazochilar uning Qizil Armiya jangchisini yashirayotganini bilib qolsalar, uni va butun oilasini muqarrar, shafqatsiz qatl kutardi.",
+          "Har kuni oʻz hayotini xavf ostiga qoʻyib, u shu sovuq yer oʻrasiga tushar, yosh Isoning yaralarini davolar va oʻsha dahshatli kunlarda yagona mavjud dori boʻlgan iliq echki suti bilan uni parvarish qilardi. Otam eslardiki, u koʻpincha uning ustida yigʻlab, ona tilida shunday derdi: «Mening ham uchta oʻgʻlim bor-ku… Ular ham allaqayerda, sen kabi, balki yaralangandir…»",
+          "Uning ona qalbida «oʻzimizniki» va «begona» degan boʻlinish yoʻq edi. Begona oʻzbek oʻgʻlini qutqarar ekan, Nadejda kimdir xuddi shunday uning oʻz farzandlarini ham qutqarishi va ayashini soʻrab Xudoga iltijo qilardi. Afsuski, urush uning dardga toʻla oilasiga shafqatsiz munosabatda boʻldi: ikki oʻgʻli frontda halok boʻldi, uchinchisi qaytdi, lekin sogʻligʻi buzilib, urushdan soʻng deyarli darhol vafot etdi. Otam, Usmanov Iso, u uchun oʻlim changalidan tortib olishga muvaffaq boʻlgan oʻsha oʻgʻil boʻlib qoldi.",
+          "Shu oʻrada boʻlib, najotkori bilan uzoq kunlar suhbatlashar ekan, otam uni shunchaki tinglamadi — u butun qalbi bilan uning nutqini oʻziga singdirdi. Millati oʻzbek boʻlib, rus tilini mukammal bilgan u ukrain tilini benuqson oʻrgandi. Bu til u uchun shunchaki muloqot vositasi emas, ikkinchi tugʻilishining tili boʻlib qoldi.",
+          "Oʻn yilliklar oʻtdi. Tarix goʻyo oʻtmishga aylanganday edi, ammo oddiy ukrain ayolining jasorati va sovet askarining mardligi haqidagi xotira Oʻzbekistondagi oilamizda yashab keldi. Adolat uzoq 59 yildan soʻng qaror topdi.",
+          "2004-yilda shahrimiz Navoiyga Ukrainaning Oʻzbekiston Respublikasidagi Favqulodda va Muxtor elchisi rasman tashrif buyurdi. Prezident Leonid Kuchma nomidan otamiz, faxriy Usmanov Isoga davlat mukofoti — «Ukrainaning fashist bosqinchilaridan ozod etilishiga 60 yil» yubiley medali tantanali ravishda topshirildi.",
+          "Iso Usmanovning koʻksidagi bu yuksak mukofot ikkalasiga ham muqaddas yodgorlik boʻldi. Bu medal metallida marshal Konev askarining jasorati ham, Nadya buvining buyuk rahmdilligi ham, uning halok boʻlgan qahramon oʻgʻillari haqidagi abadiy xotira ham mangu qoʻshilib ketdi. Bu medal tasdiqladi: ularning umumiy haqiqati va insoniyligi unutilishni yengdi.",
+          "Topshirish kunida butun diplomatik missiyani qalbdan larzaga solgan voqea yuz berdi. Otam, keksa oʻzbek Usmanov Iso, qariyb 60 yildan soʻng elchi bilan sof, benuqson ukrain tilida gaplashdi. U birorta soʻzni ham, birorta ohangni ham unutmagan edi. Bu til unga hayot bagʻishlagan Nadya buviga muqaddas xotira izhori, abadiy minnatdorlik boʻlib qolgan edi.",
+          "Oilaviy arxivimizda Navoiydagi oʻsha esda qolarli kundan olingan fotosurat ehtiyotkorlik bilan saqlanadi. Bu surat va medalning oʻzi — bizning asosiy boyligimiz. Ular eng qorongʻi zamonlarda ham insoniylik, ezgulik va sadoqat har qanday shafqatsizlikni yengishini isbotlaydi. Marshal Konev qoʻmondonligida jang qilgan askarning medali va Nadya buvining buyuk jasorati naslimiz xotirasida abadiy qoladi."
         ]
       }
     }
@@ -189,56 +252,64 @@
       {
         "title": {
           "ru": "Истинные учёные — наследники пророков",
-          "en": "True scientists are heirs of the prophets"
+          "en": "True scientists are heirs of the prophets",
+          "uz": "Chin olimlar — paygʻambarlar merosxoʻrlari"
         },
         "blocks": [
           {
             "type": "epigraph",
             "text": {
               "ru": "Пророки приносили людям знание о морали и Боге, а учёные — знание о законах мироздания. И те, и другие ведут человечество из мрака к свету.",
-              "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light."
+              "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light.",
+              "uz": "Paygʻambarlar odamlarga axloq va Xudo haqidagi bilimni keltirgan, olimlar esa — koinot qonunlari haqidagi bilimni. Ikkalasi ham insoniyatni zulmatdan nur sari yetaklaydi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Я верю, что истинный учёный — наследник пророка. Не по сану, а по призванию: выводить людей из невежества к свету знания. В нашем роду это выражено даже в имени — Ilm (знание) и Nur (свет).",
-              "en": "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light)."
+              "en": "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light).",
+              "uz": "Men chin olim paygʻambarning merosxoʻri deb ishonaman. Martaba boʻyicha emas, daʼvat boʻyicha: odamlarni jaholatdan bilim nuri sari olib chiqish. Bizning naslimizda bu hatto ismda ifodalangan — Ilm (bilim) va Nur (yorugʻlik)."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Когда открытие облегчает страдания людей или развивает их разум, оно становится служением. В исламской традиции есть понятие садака — непрекращающееся благодеяние: знание, которым люди пользуются и после смерти учёного, остаётся таким благом. А разум (акль) — величайший дар Творца; развивать его в других и есть путь мудрости.",
-              "en": "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom."
+              "en": "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom.",
+              "uz": "Kashfiyot odamlarning azobini yengillashtirsa yoki aqlini rivojlantirsa, u xizmatga aylanadi. Islom anʼanasida sadaqa tushunchasi bor — uzluksiz ezgulik: olim vafotidan keyin ham odamlar foydalanadigan bilim ana shunday ezgulik boʻlib qoladi. Aql esa — Yaratganning eng buyuk inʼomi; uni boshqalarda rivojlantirish donishmandlik yoʻlidir."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Опасность возникает там, где материальное потребление становится единственной целью. Общество, потерявшее нравственную опору, теряет и иммунитет к соблазну власти и наживы. Знание без совести не спасает — оно вооружает.",
-              "en": "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms."
+              "en": "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms.",
+              "uz": "Xavf moddiy isteʼmol yagona maqsadga aylangan joyda paydo boʻladi. Axloqiy tayanchini yoʻqotgan jamiyat hokimiyat va manfaat vasvasasiga qarshi immunitetini ham yoʻqotadi. Vijdonsiz bilim qutqarmaydi — u qurollantiradi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Яснее всего это видно в новых технологиях. Искусственный разум способен избавить мир от голода, болезней и нехватки ресурсов — и это было бы великим благодеянием. Но та же сила в руках жадности легко превращается в инструмент контроля и неравенства. Дело не в машине, а в человеке, который ею управляет.",
-              "en": "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it."
+              "en": "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it.",
+              "uz": "Bu eng yaqqol yangi texnologiyalarda koʻrinadi. Sunʼiy aql dunyoni ochlik, kasallik va resurs tanqisligidan xalos qila oladi — bu buyuk ezgulik boʻlardi. Ammo oʻsha kuch ochkoʻzlik qoʻlida osongina nazorat va tengsizlik quroliga aylanadi. Gap mashinada emas, uni boshqaradigan insonda."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "История учит, что на всякое действие рождается противодействие. Надежда — в том, чтобы знание оставалось открытым и общим, а не собственностью немногих, и чтобы им управляла совесть, а не расчёт. Если победит разум и та самая пророческая миссия учёного, любая технология станет щитом, а не ядом.",
-              "en": "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison."
+              "en": "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison.",
+              "uz": "Tarix oʻrgatadiki, har bir taʼsirga qarshi taʼsir tugʻiladi. Umid — bilimning ochiq va umumiy boʻlib qolishida, sanoqli kishilar mulkiga aylanmasligida, uni hisob-kitob emas, vijdon boshqarishida. Agar aql va olimning oʻsha paygʻambarona vazifasi gʻalaba qozonsa, har qanday texnologiya zahar emas, qalqonga aylanadi."
             }
           },
           {
             "type": "closing",
             "text": {
               "ru": "Мы творим историю своим умом — как завещали нам предки.",
-              "en": "We make history with our own minds — as our forefathers bequeathed to us."
+              "en": "We make history with our own minds — as our forefathers bequeathed to us.",
+              "uz": "Biz tariximizni oʻz aqlimiz bilan yaratamiz — ajdodlarimiz vasiyat qilganidek."
             }
           }
         ]
@@ -246,56 +317,64 @@
       {
         "title": {
           "ru": "Мои воспоминания о моём учителе",
-          "en": "My memories of my teacher"
+          "en": "My memories of my teacher",
+          "uz": "Ustozim haqidagi xotiralarim"
         },
         "blocks": [
           {
             "type": "para",
             "text": {
               "ru": "Для меня было большой честью быть учеником легендарного учёного, педагога и создателя научной школы механики в МГУ — Халила Ахмедовича Рахматулина (1909–1988). Великих людей часто окружают легенды, но для меня важнее был реальный опыт живого общения с моим учителем.",
-              "en": "It was a great honour for me to be a student of the legendary scientist, teacher and founder of the school of mechanics at MSU — Khalil Akhmedovich Rakhmatulin (1909–1988). Great people are often surrounded by legends, but for me the real experience of living communication with my teacher mattered more."
+              "en": "It was a great honour for me to be a student of the legendary scientist, teacher and founder of the school of mechanics at MSU — Khalil Akhmedovich Rakhmatulin (1909–1988). Great people are often surrounded by legends, but for me the real experience of living communication with my teacher mattered more.",
+              "uz": "Men uchun MDUdagi mexanika ilmiy maktabining asoschisi, afsonaviy olim va pedagog Xalil Ahmedovich Rahmatulinning (1909–1988) shogirdi boʻlish katta sharaf edi. Buyuk insonlarni koʻpincha afsonalar oʻrab oladi, ammo men uchun ustozim bilan jonli muloqotning haqiqiy tajribasi muhimroq edi."
             }
           },
           {
             "type": "subhead",
             "text": {
               "ru": "Мировое признание",
-              "en": "World recognition"
+              "en": "World recognition",
+              "uz": "Jahon eʼtirofi"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Его «волны разгрузки» изучали во всём мире, включая Принстон, где жил Эйнштейн. Несмотря на все регалии — Герой Социалистического Труда, лауреат Сталинских (1945, 1949) и Государственной (1981) премий, — он оставался внутренне свободным человеком. Он мог позволить себе иронию над системой, которой служил, потому что служил он не «партии», а Науке и Истине.",
-              "en": "His «unloading waves» were studied all over the world, including Princeton, where Einstein lived. Despite all his honours — Hero of Socialist Labour, laureate of the Stalin (1945, 1949) and State (1981) prizes — he remained an inwardly free man. He could allow himself irony toward the system he served, because he served not the «party», but Science and Truth."
+              "en": "His «unloading waves» were studied all over the world, including Princeton, where Einstein lived. Despite all his honours — Hero of Socialist Labour, laureate of the Stalin (1945, 1949) and State (1981) prizes — he remained an inwardly free man. He could allow himself irony toward the system he served, because he served not the «party», but Science and Truth.",
+              "uz": "Uning «yuk boʻshalish toʻlqinlari» butun dunyoda, jumladan Eynshteyn yashagan Prinstonda ham oʻrganilgan. Barcha unvonlarga — Sotsialistik Mehnat Qahramoni, Stalin (1945, 1949) va Davlat (1981) mukofotlari sovrindori boʻlishiga qaramay, u ichdan erkin inson boʻlib qoldi. U oʻzi xizmat qilgan tizim ustidan kinoya qilishga haqli edi, chunki u «partiya»ga emas, Fan va Haqiqatga xizmat qilardi."
             }
           },
           {
             "type": "subhead",
             "text": {
               "ru": "Про формулу социализма",
-              "en": "About the formula of socialism"
+              "en": "About the formula of socialism",
+              "uz": "Sotsializm formulasi haqida"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "11 февраля 1981 года он прилетел в Самарканд, в СамГУ имени А. Навои, чтобы забрать меня в Москву, в МГУ. Мы устроили утреннее чаепитие в гостинице «Интурист», куда пришли видные учёные Самарканда. Мне запомнилось несколько моментов его речи.",
-              "en": "On 11 February 1981 he flew to Samarkand, to A. Navoi SamSU, to take me to Moscow, to MSU. We arranged a morning tea at the «Intourist» hotel, where prominent scientists of Samarkand gathered. I remember several moments of his speech."
+              "en": "On 11 February 1981 he flew to Samarkand, to A. Navoi SamSU, to take me to Moscow, to MSU. We arranged a morning tea at the «Intourist» hotel, where prominent scientists of Samarkand gathered. I remember several moments of his speech.",
+              "uz": "1981-yil 11-fevralda u meni Moskvaga, MDUga olib ketish uchun Samarqandga, A. Navoiy nomidagi SamDUga uchib keldi. Biz «Intourist» mehmonxonasida ertalabki choy uyushtirdik, u yerga Samarqandning taniqli olimlari kelishdi. Uning nutqidan bir necha lahza yodimda qoldi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Тогда многим казалось, что система незыблема. Но он уже видел «трещины в фундаменте». Как большой учёный в кругу своих, он позволял себе быть искренним и честно оценивать время — и фактически предсказал будущее целой державы. Он предчувствовал драматичный финал нашей Родины, до последнего дня чувствуя ответственность за судьбу науки и страны. Именно тогда он с болью говорил, что созидательная энергия уходит в пустую идеологию, и видел абсурдность некоторых догм через призму строгой математики.",
-              "en": "Back then many believed the system was unshakable. But he already saw «cracks in the foundation». As a great scientist among his own, he allowed himself to be sincere and to assess the times honestly — and in effect predicted the future of an entire power. He sensed the dramatic finale of our Motherland, feeling responsibility for the fate of science and the country to his last day. It was then that he said with pain that creative energy was draining into empty ideology, and he saw the absurdity of certain dogmas through the prism of rigorous mathematics."
+              "en": "Back then many believed the system was unshakable. But he already saw «cracks in the foundation». As a great scientist among his own, he allowed himself to be sincere and to assess the times honestly — and in effect predicted the future of an entire power. He sensed the dramatic finale of our Motherland, feeling responsibility for the fate of science and the country to his last day. It was then that he said with pain that creative energy was draining into empty ideology, and he saw the absurdity of certain dogmas through the prism of rigorous mathematics.",
+              "uz": "Oʻshanda koʻpchilikka tizim mustahkamdek tuyulardi. Ammo u allaqachon «poydevordagi yoriqlar»ni koʻrayotgan edi. Katta olim sifatida oʻz davrasida u samimiy boʻlishga va zamonni halol baholashga haqli edi — va aslida butun bir davlatning kelajagini bashorat qildi. U Vatanimizning dramatik yakunini oldindan sezar, soʻnggi kunigacha fan va mamlakat taqdiri uchun masʼullikni his qilardi. Aynan oʻshanda u ogʻriq bilan bunyodkor kuch quruq mafkuraga sarflanayotganini aytar va ayrim aqidalarning bemaʼniligini qatʼiy matematika prizmasi orqali koʻrardi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Его тревога, которую мы почувствовали, была характерна для лучших представителей технической и научной элиты того времени — по нескольким причинам:",
-              "en": "The anxiety we felt in him was characteristic of the best representatives of the technical and scientific elite of that time — for several reasons:"
+              "en": "The anxiety we felt in him was characteristic of the best representatives of the technical and scientific elite of that time — for several reasons:",
+              "uz": "Biz sezgan uning tashvishi oʻsha davr texnik va ilmiy elitasining eng yaxshi vakillariga xos edi — bir necha sabablarga koʻra:"
             }
           },
           {
@@ -304,31 +383,37 @@
               {
                 "title": {
                   "ru": "Технологическое отставание.",
-                  "en": "Technological lag."
+                  "en": "Technological lag.",
+                  "uz": "Texnologik ortda qolish."
                 },
                 "text": {
                   "ru": "Как человек, отвечавший за оборонные проекты, аэродинамику и сложные системы (парашюты, аэростаты, волновые процессы), он видел, что бюрократия и «застой» в партийном аппарате начинают тормозить научный прогресс. Ироничная формула про «социализм минус электрификацию» была не просто шуткой — это был горький математический вывод о том, что идеология перестаёт подкрепляться реальным развитием.",
-                  "en": "As a man responsible for defence projects, aerodynamics and complex systems (parachutes, aerostats, wave processes), he saw that bureaucracy and «stagnation» in the party apparatus were beginning to slow scientific progress. The ironic formula about «socialism minus electrification» was not just a joke — it was a bitter mathematical conclusion that ideology was ceasing to be backed by real development."
+                  "en": "As a man responsible for defence projects, aerodynamics and complex systems (parachutes, aerostats, wave processes), he saw that bureaucracy and «stagnation» in the party apparatus were beginning to slow scientific progress. The ironic formula about «socialism minus electrification» was not just a joke — it was a bitter mathematical conclusion that ideology was ceasing to be backed by real development.",
+                  "uz": "Mudofaa loyihalari, aerodinamika va murakkab tizimlar (parashyutlar, aerostatlar, toʻlqin jarayonlari) uchun masʼul inson sifatida u byurokratiya va partiya apparatidagi «turgʻunlik» ilmiy taraqqiyotni sekinlashtira boshlaganini koʻrardi. «Sotsializm minus elektrlashtirish» haqidagi kinoyali formula shunchaki hazil emas edi — bu mafkura real rivojlanish bilan mustahkamlanmay qolayotgani haqidagi achchiq matematik xulosa edi."
                 }
               },
               {
                 "title": {
                   "ru": "Критика партократии.",
-                  "en": "Criticism of the partocracy."
+                  "en": "Criticism of the partocracy.",
+                  "uz": "Partokratiya tanqidi."
                 },
                 "text": {
                   "ru": "Будучи выходцем из народа (пройдя путь от рабфака до академика), Рахматулин остро чувствовал разрыв между лозунгами КПСС и реальной жизнью. Его ирония в адрес «некоторых членов партии» в 1981 году — свидетельство того, что он видел деградацию партийной верхушки, всё больше состоявшей из карьеристов, а не созидателей.",
-                  "en": "Coming from the people (having travelled the path from a workers' faculty to academician), Rakhmatulin keenly felt the gap between the slogans of the CPSU and real life. His irony toward «certain party members» in 1981 is evidence that he saw the degradation of the party leadership, increasingly made up of careerists rather than creators."
+                  "en": "Coming from the people (having travelled the path from a workers' faculty to academician), Rakhmatulin keenly felt the gap between the slogans of the CPSU and real life. His irony toward «certain party members» in 1981 is evidence that he saw the degradation of the party leadership, increasingly made up of careerists rather than creators.",
+                  "uz": "Xalq orasidan chiqqan (ishchi fakultetidan akademiklikkacha yoʻlni bosib oʻtgan) Rahmatulin KPSS shiorlari bilan real hayot oʻrtasidagi tafovutni oʻtkir his qilardi. Uning 1981-yilda «ayrim partiya aʼzolari»ga qaratilgan kinoyasi — u bunyodkorlardan koʻra karyeristlardan tobora koʻproq iborat boʻlib borayotgan partiya yuqori qatlamining tanazzulini koʻrganidan dalolat."
                 }
               },
               {
                 "title": {
                   "ru": "Ответственность перед будущим.",
-                  "en": "Responsibility to the future."
+                  "en": "Responsibility to the future.",
+                  "uz": "Kelajak oldidagi masʼuliyat."
                 },
                 "text": {
                   "ru": "Он часто упоминал внука Сашу в контексте «сложных задач». Возможно, его тревога за внука была не только из-за учебников, но и из-за того, в каком мире этому ребёнку придётся жить, если «застой» не сменится качественным рывком. Его внук, Александр Шамильевич Рахматулин, позже тоже пошёл по научной стезе, став физиком-математиком и продолжив династию.",
-                  "en": "He often mentioned his grandson Sasha in the context of «difficult problems». Perhaps his worry for his grandson was not only about textbooks, but also about the world this child would have to live in if «stagnation» were not replaced by a qualitative leap. His grandson, Alexander Shamilyevich Rakhmatulin, later also took the scientific path, becoming a physicist-mathematician and continuing the dynasty."
+                  "en": "He often mentioned his grandson Sasha in the context of «difficult problems». Perhaps his worry for his grandson was not only about textbooks, but also about the world this child would have to live in if «stagnation» were not replaced by a qualitative leap. His grandson, Alexander Shamilyevich Rakhmatulin, later also took the scientific path, becoming a physicist-mathematician and continuing the dynasty.",
+                  "uz": "U koʻpincha nabirasi Sashani «murakkab masalalar» kontekstida tilga olardi. Ehtimol, nabirasi uchun tashvishi faqat darsliklar sababli emas, agar «turgʻunlik» sifat sakrashi bilan almashmasa, bu bola qanday dunyoda yashashiga toʻgʻri kelishi sababli ham boʻlgandir. Uning nabirasi Aleksandr Shamilyevich Rahmatulin keyinchalik ham ilm yoʻlidan bordi, fizik-matematik boʻlib, sulolani davom ettirdi."
                 }
               }
             ]
@@ -338,49 +423,56 @@
       {
         "title": {
           "ru": "Почему среди мусульман мало лауреатов Нобелевской премии",
-          "en": "Why there are few Nobel laureates among Muslims"
+          "en": "Why there are few Nobel laureates among Muslims",
+          "uz": "Nima uchun musulmonlar orasida Nobel mukofoti sovrindorlari kam"
         },
         "blocks": [
           {
             "type": "para",
             "text": {
               "ru": "На сегодня число лауреатов Нобелевской премии среди мусульман — около 15 человек на 2 миллиарда мусульман планеты.",
-              "en": "As of today, the number of Nobel laureates among Muslims is about 15 people out of the 2 billion Muslims on the planet."
+              "en": "As of today, the number of Nobel laureates among Muslims is about 15 people out of the 2 billion Muslims on the planet.",
+              "uz": "Bugungi kunda musulmonlar orasidagi Nobel mukofoti sovrindorlari soni — sayyoradagi 2 milliard musulmonga qariyb 15 kishi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Согласно статистике Организации исламского сотрудничества (ОИС), мусульманские страны тратят на научные исследования и разработки (НИОКР) в среднем всего около 0,81% своего ВВП. Для сравнения, развитые страны — США, Япония, Израиль — инвестируют в науку от 2,5% до 4,5% ВВП.",
-              "en": "According to statistics from the Organisation of Islamic Cooperation (OIC), Muslim countries spend on average only about 0.81% of their GDP on research and development (R&D). For comparison, developed countries — the USA, Japan, Israel — invest from 2.5% to 4.5% of GDP in science."
+              "en": "According to statistics from the Organisation of Islamic Cooperation (OIC), Muslim countries spend on average only about 0.81% of their GDP on research and development (R&D). For comparison, developed countries — the USA, Japan, Israel — invest from 2.5% to 4.5% of GDP in science.",
+              "uz": "Islom hamkorlik tashkiloti (IHT) statistikasiga koʻra, musulmon davlatlari ilmiy tadqiqot va tajriba-konstruktorlik ishlariga (ITTKI) oʻrtacha yalpi ichki mahsulotning atigi 0,81 foizini sarflaydi. Taqqoslash uchun: rivojlangan davlatlar — AQSh, Yaponiya, Isroil — fanga YaIMning 2,5 dan 4,5 foizigacha investitsiya kiritadi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Экспериментальная наука (физика, химия, медицина) требует миллиардных вложений в лаборатории, коллайдеры и суперкомпьютеры. В большинстве мусульманских стран такой базы просто нет.",
-              "en": "Experimental science (physics, chemistry, medicine) requires billions in investment in laboratories, colliders and supercomputers. In most Muslim countries such a base simply does not exist."
+              "en": "Experimental science (physics, chemistry, medicine) requires billions in investment in laboratories, colliders and supercomputers. In most Muslim countries such a base simply does not exist.",
+              "uz": "Eksperimental fan (fizika, kimyo, tibbiyot) laboratoriyalar, kollayderlar va superkompyuterlarga milliardlab mablagʻ talab qiladi. Aksariyat musulmon davlatlarida bunday baza umuman yoʻq."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Из-за этого талантливые учёные уезжают. Практически все мусульмане, получившие Нобелевскую премию в области естественных наук — Абдус Салам (физика), Ахмед Зевейл, Азиз Санджар, Мунги Бавенди (химия), — сделали свои открытия и построили карьеру в ведущих университетах США и Европы.",
-              "en": "Because of this, talented scientists leave. Almost all Muslims who received the Nobel Prize in the natural sciences — Abdus Salam (physics), Ahmed Zewail, Aziz Sancar, Moungi Bawendi (chemistry) — made their discoveries and built their careers at leading universities in the USA and Europe."
+              "en": "Because of this, talented scientists leave. Almost all Muslims who received the Nobel Prize in the natural sciences — Abdus Salam (physics), Ahmed Zewail, Aziz Sancar, Moungi Bawendi (chemistry) — made their discoveries and built their careers at leading universities in the USA and Europe.",
+              "uz": "Shu sababli isteʼdodli olimlar chetga ketadi. Tabiiy fanlar sohasida Nobel mukofotini olgan deyarli barcha musulmonlar — Abdus Salom (fizika), Ahmad Zuvayl, Aziz Sanjar, Mungi Bavendi (kimyo) — oʻz kashfiyotlarini AQSh va Yevropaning yetakchi universitetlarida qilgan hamda karyerasini oʻsha yerda qurgan."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Нобелевские открытия рождаются там, где есть свобода мысли, жёсткая критика авторитетов и независимость университетов от государственной идеологии. Во многих мусульманских странах академическая свобода ограничена политическими режимами, цензурой или религиозным консерватизмом. Учёные часто вынуждены заниматься прикладными задачами государства, а не фундаментальной теорией.",
-              "en": "Nobel discoveries are born where there is freedom of thought, harsh criticism of authorities and independence of universities from state ideology. In many Muslim countries academic freedom is restricted by political regimes, censorship or religious conservatism. Scientists are often forced to work on the applied tasks of the state rather than on fundamental theory."
+              "en": "Nobel discoveries are born where there is freedom of thought, harsh criticism of authorities and independence of universities from state ideology. In many Muslim countries academic freedom is restricted by political regimes, censorship or religious conservatism. Scientists are often forced to work on the applied tasks of the state rather than on fundamental theory.",
+              "uz": "Nobel kashfiyotlari fikr erkinligi, obroʻlarga qatʼiy tanqid va universitetlarning davlat mafkurasidan mustaqilligi boʻlgan joyda tugʻiladi. Koʻplab musulmon davlatlarida akademik erkinlik siyosiy rejimlar, senzura yoki diniy konservatizm bilan cheklangan. Olimlar koʻpincha fundamental nazariya bilan emas, davlatning amaliy vazifalari bilan shugʻullanishga majbur."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Большая часть премий, полученных мусульманами, относится к гуманитарным сферам:",
-              "en": "Most of the prizes received by Muslims belong to the humanitarian spheres:"
+              "en": "Most of the prizes received by Muslims belong to the humanitarian spheres:",
+              "uz": "Musulmonlar olgan mukofotlarning katta qismi gumanitar sohalarga tegishli:"
             }
           },
           {
@@ -389,31 +481,37 @@
               {
                 "title": {
                   "ru": "Премия мира:",
-                  "en": "Peace Prize:"
+                  "en": "Peace Prize:",
+                  "uz": "Tinchlik mukofoti:"
                 },
                 "text": {
                   "ru": "более половины всех лауреатов-мусульман — Ясир Арафат, Малала Юсуфзай, Мухаммад Юнус.",
-                  "en": "more than half of all Muslim laureates — Yasser Arafat, Malala Yousafzai, Muhammad Yunus."
+                  "en": "more than half of all Muslim laureates — Yasser Arafat, Malala Yousafzai, Muhammad Yunus.",
+                  "uz": "musulmon sovrindorlarning yarmidan koʻpi — Yosir Arafat, Malala Yusufzay, Muhammad Yunus."
                 }
               },
               {
                 "title": {
                   "ru": "Литература:",
-                  "en": "Literature:"
+                  "en": "Literature:",
+                  "uz": "Adabiyot:"
                 },
                 "text": {
                   "ru": "Нагиб Махфуз (Египет), Орхан Памук (Турция), Абдулразак Гурна (Танзания).",
-                  "en": "Naguib Mahfouz (Egypt), Orhan Pamuk (Turkey), Abdulrazak Gurnah (Tanzania)."
+                  "en": "Naguib Mahfouz (Egypt), Orhan Pamuk (Turkey), Abdulrazak Gurnah (Tanzania).",
+                  "uz": "Najib Mahfuz (Misr), Orhan Pamuk (Turkiya), Abdulrazak Gurna (Tanzaniya)."
                 }
               },
               {
                 "title": {
                   "ru": "Естественные науки (физика и химия):",
-                  "en": "Natural sciences (physics and chemistry):"
+                  "en": "Natural sciences (physics and chemistry):",
+                  "uz": "Tabiiy fanlar (fizika va kimyo):"
                 },
                 "text": {
                   "ru": "всего 4 лауреата за всю историю. В области медицины и экономики лауреатов пока нет.",
-                  "en": "only 4 laureates in all of history. In medicine and economics there are as yet no laureates."
+                  "en": "only 4 laureates in all of history. In medicine and economics there are as yet no laureates.",
+                  "uz": "butun tarix davomida atigi 4 sovrindor. Tibbiyot va iqtisodiyot sohasida sovrindorlar hozircha yoʻq."
                 }
               }
             ]
@@ -423,77 +521,88 @@
       {
         "title": {
           "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
-          "en": "On technological solutions in uranium production in Uzbekistan"
+          "en": "On technological solutions in uranium production in Uzbekistan",
+          "uz": "Oʻzbekistonda uran ishlab chiqarishdagi texnologik yechimlar masalasiga doir"
         },
         "blocks": [
           {
             "type": "subhead",
             "text": {
               "ru": "Введение",
-              "en": "Introduction"
+              "en": "Introduction",
+              "uz": "Kirish"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — в рамках государственной стратегии планируется довести ежегодную добычу урана до 7 200 тонн к 2030 году.",
-              "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030."
+              "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030.",
+              "uz": "2026-yil holatiga koʻra Oʻzbekiston uran sanoati shijoatli rejalarni eʼlon qilmoqda — davlat strategiyasi doirasida 2030-yilga borib yillik uran qazib olish hajmini 7 200 tonnaga yetkazish rejalashtirilgan."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Суммарные запасы урана в недрах Узбекистана официально оцениваются в 139 000 тонн. Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла более 40%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 20%.",
-              "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%."
+              "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%.",
+              "uz": "Oʻzbekiston yer qaʼridagi uranning umumiy zaxiralari rasman 139 000 tonna deb baholanadi. Biroq Markaziy Qizilqumda tadqiqot olib borgan amaliyotchi geolog va muhandislar bu raqamlarning yashirin tomonini bilishadi. Asosiy ishlanayotgan konlarning real qazib olinishi 40 foizdan oshdi, davlat geologiya xizmatining C1 toifasidagi zaxiralar boʻyicha maʼlumotlari esa tarixan ruda boshqarmalarining qatʼiy ekspluatatsion qidiruv natijalaridan 20 foizgacha farq qilib kelgan."
             }
           },
           {
             "type": "subhead",
             "text": {
               "ru": "Проблемы современной урановой индустрии",
-              "en": "Problems of the modern uranium industry"
+              "en": "Problems of the modern uranium industry",
+              "uz": "Zamonaviy uran sanoati muammolari"
             }
           },
           {
             "type": "subhead2",
             "text": {
               "ru": "1. Кольматация и истощение пластов",
-              "en": "1. Colmatation and depletion of the ore beds"
+              "en": "1. Colmatation and depletion of the ore beds",
+              "uz": "1. Qatlamlarning kolmatatsiyasi va tugashi"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "При отработке пластов остаточный уран в основном заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — приводит к экологической катастрофе подземных вод. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором должным образом не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты, рекультивация которых потребует сотен миллионов долларов.",
-              "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars."
+              "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars.",
+              "uz": "Qatlamlar ishlanganda qoldiq uran asosan kam oʻtkazuvchan, gilli yoki yuqori karbonatli zonalarda qamalib qoladi. Ekstensiv usul — meʼyordan ortiq hajmda sulfat kislota haydash — yer osti suvlari uchun ekologik falokatga olib keladi. Kislota qatlamdagi kalsit bilan reaksiyaga kirishib, gips hosil qiladi. Qatlam butunlay «koʻr boʻlib» qoladi (kolmatatsiyalanadi), quduqlarning qabul qilish qobiliyati nolga tushadi, mahsuldor eritmalardagi uran konsentratsiyasi esa kritik minimumgacha pasayadi. Barraj quduqlaridan tegishli tarzda foydalanmasdan, sulfat kislotani oʻylamay haydashga asoslangan yer osti quduqli ishqorlash (YoI) usuli Markaziy Qizilqumning strategik zaxirasini — rekultivatsiyasi yuzlab million dollar talab qiladigan yer osti suv gorizontlarini abadiy yoʻq qiladi."
             }
           },
           {
             "type": "subhead",
             "text": {
               "ru": "2. Технологичные решения",
-              "en": "2. Technological solutions"
+              "en": "2. Technological solutions",
+              "uz": "2. Texnologik yechimlar"
             }
           },
           {
             "type": "subhead2",
             "text": {
               "ru": "Решение №1. Способ подземного выщелачивания урана (патент № IAP 05336)",
-              "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)"
+              "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)",
+              "uz": "1-yechim. Uranni yer osti ishqorlash usuli (patent № IAP 05336)"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Фундаментальная основа химии урана — перевод инертной, нерастворимой четырехвалентной формы (U⁴⁺) в подвижную шестивалентную (U⁶⁺).",
-              "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺)."
+              "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺).",
+              "uz": "Uran kimyosining fundamental asosi — inert, erimaydigan toʻrt valentli shaklni (U⁴⁺) harakatchan olti valentli shaklga (U⁶⁺) oʻtkazish."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Вместо закупки чистой кислоты на глубоких пластах месторождений Северного рудоуправления (СевРУ) была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
-              "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
+              "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas).",
+              "uz": "Shimoliy ruda boshqarmasi (ShRB) konlarining chuqur qatlamlarida toza kislota sotib olish oʻrniga uran va oltin ishlab chiqarishning genial sinergiyasi joriy etilib, sinovdan oʻtkazildi. Texnologiya GMZ-3 (Koʻkpatas) oltin rudalarini biooksidlash majmuasining suyuq sulfidli chiqindilaridan foydalandi."
             }
           },
           {
@@ -501,19 +610,23 @@
             "items": [
               {
                 "ru": "В пласт подавался бесплатный биореагент, содержащий культуру бактерий Acidithiobacillus ferrooxidans и двухвалентное железо (Fe²⁺).",
-                "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed."
+                "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed.",
+                "uz": "Qatlamga Acidithiobacillus ferrooxidans bakteriyalari kulturasi va ikki valentli temir (Fe²⁺) saqlagan bepul bioreagent uzatildi."
               },
               {
                 "ru": "Параллельно через специализированные узлы нагнетался технический кислород и сбалансированная питательная среда для поддержания живучести бактерий в анаэробных условиях недр.",
-                "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface."
+                "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface.",
+                "uz": "Bir vaqtning oʻzida maxsus tugunlar orqali texnik kislorod hamda yer qaʼridagi anaerob sharoitda bakteriyalarning yashovchanligini saqlash uchun muvozanatlashtirilgan oziq muhit haydaldi."
               },
               {
                 "ru": "Бактерии непрерывно регенерировали железо в трехвалентную форму (Fe³⁺), которая выступала мощнейшим идеальным окислителем, переводящим U⁴⁺ → U⁶⁺ без закисления пласта.",
-                "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed."
+                "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed.",
+                "uz": "Bakteriyalar temirni uzluksiz ravishda uch valentli shaklga (Fe³⁺) regeneratsiya qilib turdi; bu shakl qatlamni kislotalantirmasdan U⁴⁺ → U⁶⁺ oʻtkazuvchi eng kuchli, ideal oksidlovchi vazifasini bajardi."
               },
               {
                 "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического участка.",
-                "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site."
+                "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site.",
+                "uz": "Natija: yer qaʼri oʻtkazuvchanligining barqarorligi va ulkan hosil — bitta texnologik uchastkaning oʻzidan 80 tonnadan ortiq uran zakis-okisi."
               }
             ]
           },
@@ -524,28 +637,32 @@
                 "src": "img/patents/iap-05336-patent.jpg",
                 "caption": {
                   "ru": "Патент Республики Узбекистан № IAP 05336 «Способ выщелачивания урана», заявка от 26.03.2013",
-                  "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013"
+                  "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013",
+                  "uz": "Oʻzbekiston Respublikasi patenti № IAP 05336 «Uranni ishqorlash usuli», 26.03.2013 dagi ariza"
                 }
               },
               {
                 "src": "img/patents/iap-05336-desc-1.jpg",
                 "caption": {
                   "ru": "Описание изобретения, с. 1: область применения и сущность способа",
-                  "en": "Description of the invention, p. 1: field of application and essence of the method"
+                  "en": "Description of the invention, p. 1: field of application and essence of the method",
+                  "uz": "Ixtiro tavsifi, 1-bet: qoʻllanish sohasi va usulning mohiyati"
                 }
               },
               {
                 "src": "img/patents/iap-05336-desc-2.jpg",
                 "caption": {
                   "ru": "Описание, с. 2: известные аналоги, задача изобретения, пример агитационного выщелачивания",
-                  "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example"
+                  "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example",
+                  "uz": "Tavsif, 2-bet: maʼlum analoglar, ixtiro vazifasi, agitatsion ishqorlash misoli"
                 }
               },
               {
                 "src": "img/patents/iap-05336-desc-3.jpg",
                 "caption": {
                   "ru": "Описание, с. 3: кинетика выщелачивания (табл. 1–2) и формула изобретения",
-                  "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim"
+                  "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim",
+                  "uz": "Tavsif, 3-bet: ishqorlash kinetikasi (1–2-jadval) va ixtiro formulasi"
                 }
               }
             ]
@@ -554,21 +671,24 @@
             "type": "subhead2",
             "text": {
               "ru": "Решение №2. Бескислотная добыча технической водой (опыт Кетменчи)",
-              "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)"
+              "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)",
+              "uz": "2-yechim. Texnik suv bilan kislotasiz qazib olish (Ketmenchi tajribasi)"
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Еще 30 лет назад, в середине 1990-х годов, в условиях экономического хаоса, на месторождении Кетменчи был доказан геохимический факт: уран там изначально находится в естественной шестивалентной форме (U⁶⁺) благодаря вековой природной инфильтрации кислородных вод.",
-              "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters."
+              "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters.",
+              "uz": "Yana 30 yil avval, 1990-yillarning oʻrtalarida, iqtisodiy tartibsizlik sharoitida Ketmenchi konida geokimyoviy dalil isbotlangan edi: u yerda uran asrlar davomida kislorodli suvlarning tabiiy infiltratsiyasi tufayli dastlabdan tabiiy olti valentli shaklda (U⁶⁺) boʻladi."
             }
           },
           {
             "type": "para",
             "text": {
               "ru": "Авторами метода была внедрена добыча простой технической водой с растворенными газами, без единой капли серной кислоты. Вода мягко вымывала готовый уранил-ион, обеспечивая практически нулевую себестоимость по реагентам и абсолютную экологическую чистоту.",
-              "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness."
+              "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness.",
+              "uz": "Usul mualliflari bir tomchi ham sulfat kislotasiz, erigan gazlar saqlagan oddiy texnik suv bilan qazib olishni joriy etdi. Suv tayyor uranil-ionni yumshoq yuvib chiqarar, reagentlar boʻyicha deyarli nol tannarxni va mutlaq ekologik tozalikni taʼminlar edi."
             }
           }
         ]
@@ -578,68 +698,85 @@
   "reviews": {
     "title": {
       "ru": "Отзывы читателей",
-      "en": "Readers' reviews"
+      "en": "Readers' reviews",
+      "uz": "Oʻquvchilar fikri"
     },
     "subtitle": {
       "ru": "Оценка специалистов и учёных МГУ, Росатом (Россия)",
-      "en": "Assessment by specialists and scientists of MSU, Rosatom (Russia)"
+      "en": "Assessment by specialists and scientists of MSU, Rosatom (Russia)",
+      "uz": "MDU va Rosatom (Rossiya) mutaxassislari hamda olimlari bahosi"
     },
     "assessment": {
       "intro": {
         "ru": "Судя по его профессиональному пути и признанию на государственном уровне, Рустамжон Усманов — специалист исключительного класса, причём редкого типа.",
-        "en": "Judging by his professional path and recognition at the state level, Rustamzhon Usmanov is a specialist of exceptional class, and of a rare type at that."
+        "en": "Judging by his professional path and recognition at the state level, Rustamzhon Usmanov is a specialist of exceptional class, and of a rare type at that.",
+        "uz": "Uning kasbiy yoʻli va davlat darajasidagi eʼtirofidan kelib chiqib aytish mumkinki, Rustamjon Usmanov — favqulodda darajadagi, qolaversa noyob turdagi mutaxassis."
       },
       "factors_lead": {
         "ru": "Его уникальность заключается в сочетании трёх факторов:",
-        "en": "His uniqueness lies in the combination of three factors:"
+        "en": "His uniqueness lies in the combination of three factors:",
+        "uz": "Uning betakrorligi uch omilning uygʻunligidadir:"
       },
       "factors": [
         {
           "title": {
             "ru": "Фундаментальная база (МГУ).",
-            "en": "A fundamental foundation (MSU)."
+            "en": "A fundamental foundation (MSU).",
+            "uz": "Fundamental baza (MDU)."
           },
           "text": {
             "ru": "Он не просто «практик», а учёный-механик школы МГУ. Его понимание процессов тепло- и массопереноса на уровне математических моделей позволяет ему видеть физику процессов в безнадёжных, тупиковых ситуациях.",
-            "en": "He is not merely a «practitioner», but a mechanic-scientist of the MSU school. His understanding of heat- and mass-transfer processes at the level of mathematical models allows him to see the physics of processes in hopeless, dead-end situations."
+            "en": "He is not merely a «practitioner», but a mechanic-scientist of the MSU school. His understanding of heat- and mass-transfer processes at the level of mathematical models allows him to see the physics of processes in hopeless, dead-end situations.",
+            "uz": "U shunchaki «amaliyotchi» emas, MDU maktabining olim-mexanigi. Issiqlik va massa almashinuvi jarayonlarini matematik modellar darajasida tushunishi unga umidsiz, boshi berk vaziyatlarda jarayonlarning fizikasini koʻrish imkonini beradi."
           }
         },
         {
           "title": {
             "ru": "Способность решать «безнадёжные» задачи.",
-            "en": "The ability to solve «hopeless» problems."
+            "en": "The ability to solve «hopeless» problems.",
+            "uz": "«Umidsiz» masalalarni yechish qobiliyati."
           },
           "text": {
             "ru": "Его статья 2019 года по малообводнённым пластам и работа по упорным рудам (за которую он получил Госпремию) касались проблем, которые годами считались тупиковыми. Он умеет находить технические решения там, где стандартные методы бессильны.",
-            "en": "His 2019 article on low-water-cut strata and his work on refractory ores (for which he received the State Prize) addressed problems that had been considered dead ends for years. He knows how to find technical solutions where standard methods are powerless."
+            "en": "His 2019 article on low-water-cut strata and his work on refractory ores (for which he received the State Prize) addressed problems that had been considered dead ends for years. He knows how to find technical solutions where standard methods are powerless.",
+            "uz": "Uning kam suvli qatlamlar boʻyicha 2019-yilgi maqolasi va qiyin boyitiladigan rudalar boʻyicha ishi (u uchun Davlat mukofotini olgan) yillar davomida boshi berk deb hisoblangan muammolarga tegishli edi. U standart usullar ojiz boʻlgan joyda texnik yechim topa oladi."
           }
         },
         {
           "title": {
             "ru": "Признание коллегами и государством.",
-            "en": "Recognition by colleagues and the state."
+            "en": "Recognition by colleagues and the state.",
+            "uz": "Hamkasblar va davlat eʼtirofi."
           },
           "text": {
             "ru": "Государственная премия Узбекистана I степени в области науки и техники и Золотая медаль ВОИС — это не формальные награды. Это подтверждение того, что его идеи приносят миллиардную прибыль комбинату и имеют мировое значение для горной науки.",
-            "en": "The State Prize of Uzbekistan of the first degree in science and technology and the WIPO Gold Medal are not formal awards. They confirm that his ideas bring billions in profit to the plant and are of global significance for mining science."
+            "en": "The State Prize of Uzbekistan of the first degree in science and technology and the WIPO Gold Medal are not formal awards. They confirm that his ideas bring billions in profit to the plant and are of global significance for mining science.",
+            "uz": "Oʻzbekistonning fan va texnika sohasidagi I darajali Davlat mukofoti hamda JIMTning Oltin medali — rasmiyatchilik uchun berilgan mukofotlar emas. Bu uning gʻoyalari kombinatga milliardlab foyda keltirayotgani va kon ilmi uchun jahon ahamiyatiga ega ekanligining tasdigʻidir."
           }
         }
       ],
       "verdict_label": {
         "ru": "Вердикт:",
-        "en": "Verdict:"
+        "en": "Verdict:",
+        "uz": "Xulosa:"
       },
       "verdict": {
         "ru": "это эксперт-инноватор, который обеспечил технологический суверенитет НГМК в таких критических областях, как добыча урана и золота. Тот факт, что его работы до сих пор вызывают «резонанс в хорошем смысле», говорит о том, что он опережает своё время. Он доказал, что повышение эффективности добычи в XXI веке достигается не за счёт увеличения объёмов производства, а за счёт точности физико-химических расчётов. Именно поэтому его работы цитируются и в академической среде (МГУ, РАН), и в производственной (НГМК, Росатом).",
-        "en": "he is an expert-innovator who secured the technological sovereignty of NMMC in such critical areas as uranium and gold mining. The fact that his works still cause «resonance in the good sense» shows that he is ahead of his time. He proved that increasing extraction efficiency in the 21st century is achieved not by increasing production volumes, but through the precision of physico-chemical calculations. That is precisely why his works are cited both in academia (MSU, RAS) and in industry (NMMC, Rosatom)."
+        "en": "he is an expert-innovator who secured the technological sovereignty of NMMC in such critical areas as uranium and gold mining. The fact that his works still cause «resonance in the good sense» shows that he is ahead of his time. He proved that increasing extraction efficiency in the 21st century is achieved not by increasing production volumes, but through the precision of physico-chemical calculations. That is precisely why his works are cited both in academia (MSU, RAS) and in industry (NMMC, Rosatom).",
+        "uz": "bu — uran va oltin qazib olish kabi kritik sohalarda NKMKning texnologik suverenitetini taʼminlagan ekspert-innovator. Uning ishlari hanuzgacha «yaxshi maʼnodagi rezonans» uygʻotayotgani u oʻz zamonidan oldinda ekanidan darak beradi. U XXI asrda qazib olish samaradorligini oshirish ishlab chiqarish hajmini koʻpaytirish hisobiga emas, fizik-kimyoviy hisob-kitoblar aniqligi hisobiga erishilishini isbotladi. Aynan shu sababli uning ishlari ham akademik muhitda (MDU, RFA), ham ishlab chiqarishda (NKMK, Rosatom) iqtibos keltiriladi."
       }
     },
     "items": [
       {
-        "initials": "ВГ",
+        "initials": {
+          "ru": "ВГ",
+          "en": "VG",
+          "uz": "VG"
+        },
         "name": {
           "ru": "В.А. Груцинов",
-          "en": "V.A. Grutsinov"
+          "en": "V.A. Grutsinov",
+          "uz": "V.A. Grutsinov"
         },
         "text": {
           "ru": [
@@ -649,6 +786,10 @@
           "en": [
             "Dear Rustam! I admire your article in «Gorny Vestnik». It is incredible that gold can be obtained from arsenopyrite in this way.",
             "This is a great invention — of a great scientist. I wish you further success. I am proud to know you."
+          ],
+          "uz": [
+            "Aziz Rustam! Sening «Gorniy vestnik»dagi maqolangga qoyil qoldim. Arsenopiritdan shu usulda oltin olish mumkinligi aql bovar qilmaydi.",
+            "Bu buyuk ixtiro — katta olimning ixtirosi. Senga bundan keyingi ishlaringda ham omad tilayman. Sen bilan tanishligimdan faxrlanaman."
           ]
         }
       }
@@ -659,7 +800,8 @@
       {
         "period": "1981–1986",
         "ru": "Аспирантура, механико-математический факультет, МГУ имени М.В. Ломоносова. Специальность: механика жидкости, газа и плазмы.",
-        "en": "Postgraduate studies, Faculty of Mechanics and Mathematics, Lomonosov Moscow State University. Specialization: fluid, gas and plasma mechanics."
+        "en": "Postgraduate studies, Faculty of Mechanics and Mathematics, Lomonosov Moscow State University. Specialization: fluid, gas and plasma mechanics.",
+        "uz": "Aspirantura, mexanika-matematika fakulteti, M.V. Lomonosov nomidagi Moskva davlat universiteti. Mutaxassislik: suyuqlik, gaz va plazma mexanikasi."
       }
     ],
     "research_areas": {
@@ -674,6 +816,12 @@
         "Numerical modeling of physical processes",
         "Geotechnology of mineral extraction",
         "Applied mathematics"
+      ],
+      "uz": [
+        "Suyuqlik, gaz va plazma mexanikasi",
+        "Fizik jarayonlarni sonli modellashtirish",
+        "Foydali qazilmalarni qazib olish geotexnologiyasi",
+        "Amaliy matematika"
       ]
     },
     "highlights": {
@@ -688,6 +836,12 @@
         "Invention patents",
         "2 defended dissertations",
         "Scientific talks and reports"
+      ],
+      "uz": [
+        "Ilmiy jurnallarda 20 dan ortiq maqola",
+        "Ixtiro patentlari",
+        "2 ta himoya qilingan dissertatsiya",
+        "Ilmiy maʼruza va hisobotlar"
       ]
     }
   },

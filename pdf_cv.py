@@ -56,7 +56,26 @@ LABELS = {
         "contact": "Contact",
         "more": "and other works — see the website and ISTINA profile",
     },
+    "uz": {
+        "cv": "Rezyume (CV)",
+        "education": "Taʼlim",
+        "areas": "Ilmiy qiziqishlar",
+        "highlights": "Asosiy natijalar",
+        "pubs": "Tanlangan nashrlar",
+        "contact": "Aloqa",
+        "more": "va boshqa ishlar — saytga hamda ISTINA profiliga qarang",
+    },
 }
+
+DEFAULT_LANG = "ru"
+
+
+def _loc(value, lang):
+    """Поле вида {'ru':..,'en':..,'uz':..} -> значение нужного языка.
+    Если перевода ещё нет, откатываемся на русский."""
+    if isinstance(value, dict):
+        return value.get(lang) or value.get(DEFAULT_LANG)
+    return value
 
 
 def _styles():
@@ -87,7 +106,7 @@ def build_cv_pdf(profile, pubs, lang="ru"):
         buf, pagesize=A4,
         leftMargin=20 * mm, rightMargin=20 * mm,
         topMargin=18 * mm, bottomMargin=16 * mm,
-        title=f"CV — {profile['name'][lang]}",
+        title=f"CV — {_loc(profile['name'], lang)}",
     )
     story = []
 
@@ -97,29 +116,29 @@ def build_cv_pdf(profile, pubs, lang="ru"):
         story.append(Spacer(1, 2))
 
     # Шапка
-    story.append(Paragraph(profile["name"][lang], S["name"]))
-    story.append(Paragraph(profile["tagline"][lang], S["tagline"]))
+    story.append(Paragraph(_loc(profile["name"], lang), S["name"]))
+    story.append(Paragraph(_loc(profile["tagline"], lang), S["tagline"]))
     story.append(Paragraph(
         f'{L["contact"]}: {profile["email"]} · ISTINA: {profile["links"]["istina"]}',
         S["muted"]))
     rule()
 
     # Био
-    for para in profile["bio"][lang]:
+    for para in _loc(profile["bio"], lang):
         story.append(Paragraph(para, S["body"]))
 
     # Образование
     story.append(Paragraph(L["education"], S["h2"]))
     for e in profile["cv"]["education"]:
-        story.append(Paragraph(f'<b>{e["period"]}</b> — {e[lang]}', S["item"]))
+        story.append(Paragraph(f'<b>{e["period"]}</b> — {_loc(e, lang)}', S["item"]))
 
     # Научные интересы
     story.append(Paragraph(L["areas"], S["h2"]))
-    story.append(Paragraph(" · ".join(profile["cv"]["research_areas"][lang]), S["body"]))
+    story.append(Paragraph(" · ".join(_loc(profile["cv"]["research_areas"], lang)), S["body"]))
 
     # Ключевые результаты
     story.append(Paragraph(L["highlights"], S["h2"]))
-    for h in profile["cv"]["highlights"][lang]:
+    for h in _loc(profile["cv"]["highlights"], lang):
         story.append(Paragraph(f"• {h}", S["item"]))
 
     # Избранные публикации (до 10 последних)

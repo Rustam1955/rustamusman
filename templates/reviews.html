@@ -37,7 +37,7 @@
           {% endfor %}
         </blockquote>
         <figcaption class="review-author">
-          <span class="review-avatar review-initials">{{ r.initials }}</span>
+          <span class="review-avatar review-initials">{{ r.initials|localized(lang) }}</span>
           <span class="review-name">{{ r.name|localized(lang) }}</span>
         </figcaption>
       </figure>
