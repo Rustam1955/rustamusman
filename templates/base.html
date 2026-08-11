@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,20 +10,25 @@
   <meta name="author" content="{{ profile.name|localized(lang) }}">
   <meta name="robots" content="index, follow">
 
-  {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+  {% if canonical %}
+  <link rel="canonical" href="{{ canonical }}">{% endif %}
   {% for l, href in alternates.items() %}
   <link rel="alternate" hreflang="{{ l }}" href="{{ href }}">
   {% endfor %}
-  {% if alternates.get('ru') %}<link rel="alternate" hreflang="x-default" href="{{ alternates['ru'] }}">{% endif %}
+  {% if alternates.get('ru') %}
+  <link rel="alternate" hreflang="x-default" href="{{ alternates['ru'] }}">{% endif %}
 
   <!-- Open Graph (соцсети, мессенджеры) -->
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="{{ profile.name|localized(lang) }}">
   <meta property="og:title" content="{{ self.title() }}">
   <meta property="og:description" content="{{ self.meta_description() }}">
-  {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+  {% if canonical %}
+  <meta property="og:url" content="{{ canonical }}">{% endif %}
   <meta property="og:locale" content="{{ og_locale }}">
   <meta property="og:image" content="{{ site_url }}{{ url_for('static', filename=profile.photo) }}">
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/favicon-180.png') }}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -32,10 +38,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script type="application/ld+json">{{ person_jsonld|safe }}</script>
 </head>
+
 <body>
   <div class="bg-decor" aria-hidden="true">
     <span class="bg-orb bg-orb-1"></span>
@@ -46,18 +55,26 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="{{ url_for('home', lang=lang) }}">{{ profile.name|localized(lang) }}</a>
+      <a class="brand" href="{{ url_for('home', lang=lang) }}">
+        <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="Логотип Усманова Рустамжона"
+          class="brand-logo">
+        <span class="brand-text">Усманов Рустамжон</span>
+      </a>
 
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">
         <span></span><span></span><span></span>
       </button>
 
       <nav class="site-nav">
-        <a href="{{ url_for('home', lang=lang) }}" class="{{ 'active' if current_endpoint=='home' }}">{{ t.nav_home }}</a>
-        <a href="{{ url_for('about', lang=lang) }}" class="{{ 'active' if current_endpoint=='about' }}">{{ t.nav_about }}</a>
+        <a href="{{ url_for('home', lang=lang) }}" class="{{ 'active' if current_endpoint=='home' }}">{{ t.nav_home
+          }}</a>
+        <a href="{{ url_for('about', lang=lang) }}" class="{{ 'active' if current_endpoint=='about' }}">{{ t.nav_about
+          }}</a>
 
         <div class="nav-dropdown {{ 'active' if current_endpoint=='dynasty' }}">
-          <a href="{{ url_for('dynasty', lang=lang) }}" class="nav-dropdown-toggle {{ 'active' if current_endpoint=='dynasty' }}">{{ t.nav_dynasty }}<span class="caret" aria-hidden="true">▾</span></a>
+          <a href="{{ url_for('dynasty', lang=lang) }}"
+            class="nav-dropdown-toggle {{ 'active' if current_endpoint=='dynasty' }}">{{ t.nav_dynasty }}<span
+              class="caret" aria-hidden="true">▾</span></a>
           <div class="nav-dropdown-menu">
             <a href="{{ url_for('dynasty', lang=lang) }}#grandfather">{{ t.dynasty_sub_grandfather }}</a>
             <a href="{{ url_for('dynasty', lang=lang) }}#mother">{{ t.dynasty_sub_mother }}</a>
@@ -67,15 +84,20 @@
           </div>
         </div>
 
-        <a href="{{ url_for('publications', lang=lang) }}" class="{{ 'active' if current_endpoint=='publications' }}">{{ t.nav_pubs }}</a>
-        <a href="{{ url_for('reflections', lang=lang) }}" class="{{ 'active' if current_endpoint=='reflections' }}">{{ t.nav_reflections }}</a>
+        <a href="{{ url_for('publications', lang=lang) }}" class="{{ 'active' if current_endpoint=='publications' }}">{{
+          t.nav_pubs }}</a>
+        <a href="{{ url_for('reflections', lang=lang) }}" class="{{ 'active' if current_endpoint=='reflections' }}">{{
+          t.nav_reflections }}</a>
         <a href="{{ url_for('cv', lang=lang) }}" class="{{ 'active' if current_endpoint=='cv' }}">{{ t.nav_cv }}</a>
-        <a href="{{ url_for('reviews', lang=lang) }}" class="{{ 'active' if current_endpoint=='reviews' }}">{{ t.nav_reviews }}</a>
-        <a href="{{ url_for('contacts', lang=lang) }}" class="{{ 'active' if current_endpoint=='contacts' }}">{{ t.nav_contacts }}</a>
+        <a href="{{ url_for('reviews', lang=lang) }}" class="{{ 'active' if current_endpoint=='reviews' }}">{{
+          t.nav_reviews }}</a>
+        <a href="{{ url_for('contacts', lang=lang) }}" class="{{ 'active' if current_endpoint=='contacts' }}">{{
+          t.nav_contacts }}</a>
 
         <div class="lang-switch">
           {% for l in langs %}
-            <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="{{ 'active' if l==lang }}">{{ l|upper }}</a>
+          <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="{{ 'active' if l==lang }}">{{ l|upper
+            }}</a>
           {% endfor %}
         </div>
         <button class="theme-toggle" aria-label="Theme" onclick="toggleTheme()">◐</button>
@@ -98,15 +120,16 @@
     function toggleTheme() {
       const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', cur);
-      try { localStorage.setItem('theme', cur); } catch(e) {}
+      try { localStorage.setItem('theme', cur); } catch (e) { }
     }
-    (function() {
+    (function () {
       try {
         const saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);
-      } catch(e) {}
+      } catch (e) { }
     })();
   </script>
   {% block scripts %}{% endblock %}
 </body>
+
 </html>
