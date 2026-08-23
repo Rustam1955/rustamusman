@@ -185,5 +185,211 @@
       }
     ],
     "type_uz": "Mualliflik maqolasi"
+  },
+  "plasma-gold-synthesis-2026": {
+    "title": {
+      "ru": "Высокочастотный плазмохимический синтез и извлечение благородных металлов из упорных сульфидных руд Кызылкумского региона",
+      "en": "High-frequency plasma-chemical synthesis and extraction of precious metals from refractory sulfide ores of the Kyzylkum region",
+      "uz": "Qizilqum mintaqasining oʻta chidamli sulfidli rudalaridan qimmatbaho metallarni yuqori chastotali plazmokimyoviy sintez qilish va ajratib olish"
+    },
+    "year": "2026",
+    "authors": [
+      "Усманов Р.И."
+    ],
+    "type_ru": "Статья в журнале",
+    "type_en": "Journal article",
+    "type_uz": "Jurnaldagi maqola",
+    "abstract": {
+      "ru": "В данной работе представлены результаты экспериментального исследования бесконтактного высокочастотного электромагнитного воздействия на упорный золотосодержащий минерал — арсенопирит (FeAsS) месторождений Кокпатас и Даугызтау (Центральный Кызылкум) в присутствии дейтериевой среды. Установлено, что в условиях резкого резонанса высокочастотного электромагнитного поля (ВЧ ЭМП) и неравновесной дейтериевой плазмы происходит деструкция кристаллической решетки минерала с последующим осаждением элементного золота на приемную антенну. Присутствие благородного металла на медном коллекторе подтверждено пробирным анализом в Центральной научно-исследовательской лаборатории (ЦНИЛ). Методом гамма-активационного анализа (Центральная лаборатория ГАА, Зарафшан) на линейном ускорителе электронов обнаружен аномальный изотопный состав синтезированного золота, включающий изотопы Au-196, Au-197, Au-198 и Au-199. Выдвинута гипотеза эндогенного нуклеосинтеза благородных металлов в земной коре при аналогичных физико-химических и волновых условиях.",
+      "en": "This paper presents the results of an experimental study on non-contact high-frequency electromagnetic exposure applied to a refractory gold-bearing mineral — arsenopyrite (FeAsS) from the Kokpatas and Daugyztau deposits (Central Kyzylkum) in the presence of a deuterated environment. It was established that under conditions of sharp resonance of the high-frequency electromagnetic field (HF EMF) and non-equilibrium deuterium plasma, disintegration of the mineral's crystal lattice occurs, followed by the deposition of elemental gold onto the receiving antenna. The presence of the precious metal on the copper collector was confirmed via fire assay at the Central Research Laboratory (CNIL). Utilizing gamma-activation analysis (Central Laboratory of GAA, Zarafshan) on a linear electron accelerator, an anomalous isotopic composition of the synthesized gold was detected, including the isotopes Au-196, Au-197, Au-198, and Au-199. A hypothesis regarding the endogenous nucleosynthesis of precious metals within the Earth's crust under identical physicochemical and wave-induced conditions is proposed.",
+      "uz": "Ushbu maqolada Markaziy Qizilqumdagi Koʻkpatas va Daugʻiztau konlarining oʻta chidamli oltin saqlovchi minerali — arsenopiritga (FeAsS) deyteriyli muhit ishtirokida bevosita bogʻlanmagan yuqori chastotali elektromagnit taʼsir koʻrsatish boʻyicha tajriba natijalari keltirilgan. Yuqori chastotali elektromagnit maydon (YuCH EMM) keskin rezonansi va muvozanatsiz deyteriy plazmasi sharoitida mineralning kristall panjarasi buzilib, keyin elementar oltin qabul qiluvchi antennaga choʻkishi aniqlandi. Qimmatbaho metallning mis kollektordagi mavjudligi Markaziy ilmiy-tadqiqot laboratoriyasida (MITL) probir tahlili bilan tasdiqlandi. Chiziqli elektron tezlatgichda gamma-aktivatsion tahlil usuli (Zarafshon GAA Markaziy laboratoriyasi) bilan sintez qilingan oltinning anomal izotop tarkibi — Au-196, Au-197, Au-198 va Au-199 izotoplari — aniqlandi. Shu kabi fizik-kimyoviy va toʻlqinli sharoitlarda yer qaʼrida qimmatbaho metallarning endogen nukleosintezi haqida gipoteza ilgari surildi."
+    },
+    "blocks": [
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "Введение и постановка проблемы",
+          "en": "Introduction and problem statement",
+          "uz": "Kirish va muammoning qoʻyilishi"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Переработка упорных золото-мышьяковых руд Центрально-Кызылкумского региона традиционными металлургическими методами (биоокисление, автоклавное окисление) связана со значительными энергозатратами и серьезными экологическими рисками. Золото в арсенопиритах (FeAsS) находится преимущественно в тонкодисперсном («невидимом») изоморфном состоянии, заблокированном внутри кристаллической решетки.",
+          "en": "The processing of refractory gold-arsenic ores of the Central Kyzylkum region via traditional metallurgical methods (bio-oxidation, autoclave oxidation) involves substantial energy expenditures and severe environmental risks. Gold within arsenopyrites (FeAsS) resides predominantly in a finely dispersed ('invisible') isomorphic state locked inside the crystal lattice.",
+          "uz": "Markaziy Qizilqum mintaqasining oʻta chidamli oltin-mishyakli rudalarini anʼanaviy metallurgik usullar (biooksidlash, avtoklavli oksidlash) bilan qayta ishlash katta energiya sarfi va jiddiy ekologik xavflar bilan bogʻliq. Arsenopiritlardagi (FeAsS) oltin asosan kristall panjara ichida qamalib qolgan mayda dispersli («koʻrinmas») izomorf holatda boʻladi."
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Целью данного исследования являлась оценка принципиально нового физико-химического метода вскрытия сульфидной матрицы и извлечения капсулированных металлов посредством направленного резонансного высокочастотного воздействия в бескислородной, изотопно-модифицированной среде.",
+          "en": "The objective of this study was to evaluate a fundamentally new physicochemical method for unlocking the sulfide matrix and extracting encapsulated metals through targeted, resonant high-frequency exposure within an oxygen-free, isotope-modified medium.",
+          "uz": "Ushbu tadqiqotning maqsadi — kislorodsiz, izotop jihatdan modifikatsiyalangan muhitda yoʻnaltirilgan rezonans yuqori chastotali taʼsir orqali sulfidli matritsani ochish va kapsulalangan metallarni ajratib olishning tubdan yangi fizik-kimyoviy usulini baholash edi."
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "[ДОБАВЛЕНО] Ранее автором была опубликована методика резонансной ВЧ-дезинтеграции упорных руд — «Способ дезинтеграции минеральных компонентов и вскрытия золота из особо упорных сульфидно-золотомышьяковых руд и концентратов резонансным воздействием ВЧ ЭМВ» (Горный вестник Узбекистана, №2(89), 2022, с. 85–91). Настоящая работа развивает эту методику и сообщает о дополнительно зафиксированном эффекте — аномальном изотопном составе синтезированного золота.",
+          "en": "[ADDED] An earlier method of resonant HF disintegration of refractory ores was published by the author — \"A method for disintegrating mineral components and unlocking gold from especially refractory sulfide gold-arsenic ores and concentrates via resonant HF EMF exposure\" (Gorny Vestnik Uzbekistana, No. 2(89), 2022, pp. 85-91). The present work builds on that method and reports an additionally observed effect — an anomalous isotopic composition of the synthesized gold.",
+          "uz": "[QOʻSHILDI] Ilgari muallif tomonidan rezonans YuCH-parchalash usuli — «Yuqori chastotali elektromagnit toʻlqin taʼsirida oʻta chidamli sulfidli-oltin-mishyakli rudalar va kontsentratlardan mineral komponentlarni parchalash va oltinni ochish usuli» (Oʻzbekiston Togʻ-kon Vestnigi, №2(89), 2022, 85–91-betlar) nashr etilgan edi. Ushbu ish shu usulni rivojlantiradi va qoʻshimcha ravishda qayd etilgan effekt — sintez qilingan oltinning anomal izotop tarkibi haqida xabar beradi."
+        }
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "Экспериментальная методика и материалы",
+          "en": "Experimental methodology and materials",
+          "uz": "Tajriba metodikasi va materiallar"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "В качестве объекта исследования служили образцы упорного арсенопирита (всего исследовано 27 отдельных проб руды), полученные с месторождений Кокпатас и Даугызтау. Время облучения каждой пробы составляло от 1 до 3 часов.",
+          "en": "Samples of refractory arsenopyrite (a total of 27 distinct ore samples investigated) obtained from the Kokpatas and Daugyztau deposits served as the object of study. Irradiation time per sample ranged from 1 to 3 hours.",
+          "uz": "Tadqiqot obyekti sifatida Koʻkpatas va Daugʻiztau konlaridan olingan oʻta chidamli arsenopirit namunalari (jami 27 ta alohida ruda namunasi) xizmat qildi. Har bir namunani nurlantirish vaqti 1 dan 3 soatgacha boʻldi."
+        }
+      },
+      {
+        "type": "subhead2",
+        "text": {
+          "ru": "Архитектура экспериментальной установки",
+          "en": "Experimental setup architecture",
+          "uz": "Tajriba qurilmasining arxitekturasi"
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "title": {
+              "ru": "Зона реакции",
+              "en": "Reaction zone",
+              "uz": "Reaksiya zonasi"
+            },
+            "text": {
+              "ru": "Образец минерала помещался внутри герметичной бескислородной ячейки непосредственно над сосудом с жидкой фазой.",
+              "en": "The mineral sample was positioned inside a hermetically sealed, oxygen-free cell directly above a vessel containing the liquid phase.",
+              "uz": "Mineral namunasi germetik, kislorodsiz katak ichida, suyuq faza solingan idish tepasiga bevosita joylashtirildi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Изотопный модификатор среды",
+              "en": "Isotopic medium modifier",
+              "uz": "Muhitning izotop modifikatori"
+            },
+            "text": {
+              "ru": "Жидкая фаза состояла из конденсата тяжелой воды (дейтерия), полученного путем кинетического разделения изотопов при контролируемом испарении природного водоема под воздействием солнечной энергии в течение 2–3 дней.",
+              "en": "The liquid phase consisted of a heavy water (deuterium) condensate, produced via kinetic isotope separation during the controlled solar-driven evaporation of a natural water body conducted over a 2-3 day period.",
+              "uz": "Suyuq faza tabiiy suv havzasining quyosh energiyasi taʼsirida 2–3 kun davomida boshqariladigan bugʻlanishi orqali kinetik izotop ajratish yoʻli bilan olingan ogʻir suv (deyteriy) kondensatidan iborat edi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Источник поля и излучатель",
+              "en": "Field source and emitter",
+              "uz": "Maydon manbai va nurlantirgich"
+            },
+            "text": {
+              "ru": "Электромагнитное воздействие осуществлялось через специальную медную трубчатую антенну ВЧ-диапазона, подключенную к высокочастотному генератору.",
+              "en": "Electromagnetic exposure was delivered via a specialized copper tubular HF-range antenna coupled to a high-frequency generator.",
+              "uz": "Elektromagnit taʼsir yuqori chastotali generatorga ulangan maxsus mis quvursimon YuCH diapazonli antenna orqali amalga oshirildi."
+            }
+          }
+        ]
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Экспериментальный протокол: при подаче питания на систему ВЧ ЭМП колебательный контур выводился в состояние резкого волнового резонанса. Из-за интенсивного скин-эффекта и высокой плотности поверхностного тока температура медной антенны превышала температуру плавления меди (1085°C). Одновременно происходило бурное испарение подстилающей дейтерированной жидкости. При достижении раскаленной поверхности антенны пары дейтерия подвергались ионизации с образованием плотного факела неравновесной высокочастотной плазмы, выступающей в роли катализатора процесса.",
+          "en": "Experimental protocol: upon applying power to the HF EMF system, the oscillating circuit was brought into a state of sharp wave resonance. Due to an intense skin effect and a high surface current density, the temperature of the copper antenna exceeded the melting point of copper (1085°C). Simultaneously, rapid evaporation of the underlying deuterated liquid took place. Upon reaching the incandescent surface of the antenna, the deuterium vapors underwent ionization, generating a dense torch of non-equilibrium high-frequency plasma acting as a process catalyst.",
+          "uz": "Tajriba protokoli: YuCH EMM tizimiga quvvat berilganda tebranish konturi keskin toʻlqin rezonansi holatiga chiqdi. Kuchli skin-effekt va yuqori sirt tok zichligi tufayli mis antennaning harorati misning erish nuqtasidan (1085°C) yuqori boʻldi. Bir vaqtning oʻzida ostidagi deyterlangan suyuqlikning jadal bugʻlanishi sodir boʻldi. Antennaning qizigan sirtiga yetganda deyteriy bugʻlari ionlanib, jarayon katalizatori vazifasini bajaruvchi zich muvozanatsiz yuqori chastotali plazma faklyoni hosil qildi."
+        }
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "Результаты и обсуждение",
+          "en": "Results and discussion",
+          "uz": "Natijalar va muhokama"
+        }
+      },
+      {
+        "type": "subhead2",
+        "text": {
+          "ru": "Макроскопические трансформации и пробирный анализ",
+          "en": "Macroscopic transformations and fire assay",
+          "uz": "Makroskopik oʻzgarishlar va probir tahlili"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Под действием дейтериевой ВЧ-плазмы происходило как термическое, так и электродинамическое разрушение кристаллической структуры арсенопирита. Ионы высвобожденного (или вновь синтезированного) металла переносились электромагнитными силами в зону максимального градиента поля, осаждаясь на поверхности плавящейся медной трубки. На поверхности медной антенны макроскопически наблюдался отчетливый эффект «позолоты» за счет глубокой термической диффузии. Оплавленные элементы антенны были переданы в лабораторию ЦНИЛ. Стандартный пробирный анализ (метод купелирования) однозначно подтвердил наличие элементного золота в медном сплаве.",
+          "en": "Under the influence of the deuterium HF-plasma, both thermal and electrodynamic destruction of the arsenopyrite crystal structure occurred. Ions of the liberated (or newly synthesized) metal were transported by electromagnetic forces toward the maximum field gradient zone, depositing onto the surface of the melting copper tube. A distinct 'gilding' effect was macroscopically observed on the surface of the copper antenna due to deep thermal diffusion. The melted elements of the antenna were transferred to the CNIL facility. Standard fire assay (cupellation method) unequivocally verified the presence of elemental gold within the copper alloy.",
+          "uz": "Deyteriyli YuCH-plazma taʼsirida arsenopiritning kristall tuzilishi ham termik, ham elektrodinamik jihatdan buzildi. Ozod boʻlgan (yoki yangidan sintez qilingan) metall ionlari elektromagnit kuchlar taʼsirida maydonning maksimal gradient zonasiga koʻchirilib, eriyotgan mis nayning sirtiga choʻkdi. Mis antenna sirtida chuqur termik diffuziya hisobiga aniq «oltinlash» effekti makroskopik darajada kuzatildi. Antennaning erigan elementlari MITL laboratoriyasiga topshirildi. Standart probir tahlili (kupelyatsiya usuli) mis qotishmasida elementar oltin mavjudligini bir maʼnoda tasdiqladi."
+        }
+      },
+      {
+        "type": "subhead2",
+        "text": {
+          "ru": "Ядерно-физическая верификация и изотопный спектр",
+          "en": "Nuclear-physical verification and isotopic spectrum",
+          "uz": "Yadro-fizik tekshiruv va izotop spektri"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Для исключения матричного влияния элементы медной антенны вместе со всеми 27 образцами были направлены в Центральную лабораторию гамма-активационного анализа (ЦЛ ГАА) в г. Зарафшан. Все образцы подвергались облучению интенсивным потоком высокоэнергетического тормозного гамма-излучения, генерируемого линейным ускорителем электронов при ударе о тугоплавкую (вольфрамовую) мишень. Автоматизированный спектрометрический комплекс зафиксировал отчетливый пик при 409 кэВ, соответствующий изомеру Au-197m (период полураспада 7.7 с), что подтверждает наличие стабильного нуклида Au-197. Однако помимо стабильной фазы спектрометр идентифицировал аномальную изотопную цепь золота: Au-196, Au-198, Au-199, а также коррелирующие линии серебра (Ag) и урана (U).",
+          "en": "To eliminate matrix interference, the melted elements of the copper antenna along with all 27 ore samples were dispatched to the Central Laboratory of Gamma-Activation Analysis (CL GAA) in Zarafshan. All specimens were irradiated with an intense flux of high-energy bremsstrahlung gamma radiation generated by a linear electron accelerator striking a refractory (tungsten) target. The spectrometry complex recorded a distinct peak at 409 keV, corresponding to the Au-197m isomer (half-life of 7.7 s), which validates the presence of the stable nuclide Au-197. However, beyond the stable phase, the spectrometer identified an anomalous isotopic chain of gold: Au-196, Au-198, and Au-199, as well as correlating lines for silver (Ag) and uranium (U).",
+          "uz": "Matritsa taʼsirini istisno qilish uchun mis antennaning erigan elementlari 27 ta namuna bilan birgalikda Zarafshon shahridagi Gamma-aktivatsion tahlil Markaziy laboratoriyasiga (GAA ML) yuborildi. Barcha namunalar volfram (qiyin eriydigan) nishonga urilganda chiziqli elektron tezlatgich tomonidan hosil qilingan yuqori energiyali tormoz gamma-nurlanishining intensiv oqimi bilan nurlantirildi. Spektrometriya kompleksi 409 keV da aniq choʻqqi qayd etdi, bu Au-197m izomeriga (yarim yemirilish davri 7.7 s) mos keladi va barqaror Au-197 nuklidining mavjudligini tasdiqlaydi. Biroq barqaror fazadan tashqari spektrometr oltinning anomal izotop zanjirini — Au-196, Au-198, Au-199 — hamda kumush (Ag) va uran (U) uchun mos keluvchi chiziqlarni aniqladi."
+        }
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "Физическая интерпретация и геофизические выводы",
+          "en": "Physical interpretation and geophysical conclusions",
+          "uz": "Fizik talqin va geofizik xulosalar"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Обнаружение короткоживущих изотопов Au-198 и Au-199 доказывает, что в ходе эксперимента ядра золота подверглись воздействию плотного потока свободных нейтронов. Динамика формирования этого изотопного спектра свидетельствует о протекании низкоэнергетических ядерных процессов (трансмутации или изотопного обмена) непосредственно внутри неравновесной дейтериевой ВЧ-плазмы на межфазной границе «медь–арсенопирит».",
+          "en": "The detection of the short-lived isotopes Au-198 and Au-199 demonstrates that during the experiment, the gold nuclei were exposed to a dense flux of free neutrons. The dynamics behind the formation of this isotopic spectrum point to low-energy nuclear processes (transmutation or isotopic exchange) taking place directly within the non-equilibrium deuterium HF-plasma at the 'copper-arsenopyrite' phase boundary.",
+          "uz": "Qisqa umr koʻruvchi Au-198 va Au-199 izotoplarining aniqlanishi tajriba davomida oltin yadrolari zich erkin neytron oqimi taʼsiriga uchraganini isbotlaydi. Ushbu izotop spektrining shakllanish dinamikasi «mis–arsenopirit» faza chegarasida muvozanatsiz deyteriyli YuCH-plazma ichida bevosita past energiyali yadro jarayonlari (transmutatsiya yoki izotop almashinuvi) sodir boʻlishidan dalolat beradi."
+        }
+      },
+      {
+        "type": "subhead2",
+        "text": {
+          "ru": "Геофизическая гипотеза",
+          "en": "Geophysical hypothesis",
+          "uz": "Geofizik gipoteza"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Эмпирические данные, полученные в ходе этого лабораторного моделирования, могут быть экстраполированы на интерпретацию масштабных эндогенных процессов в литосфере Земли. Подземная архитектура Кызылкумских месторождений эффективно функционирует как естественные волновые реакторы. Тектонические сдвиги вдоль зон глубоких разломов генерируют локальные сверхвысокие давления, сейсмогенные токи и пьезоэлектрические поля, способные мгновенно разогревать микрообъемы пласта выше 1000°C, переводя полупроводниковые сульфиды (FeAsS) в плазменное состояние. В присутствии глубинных флюидов, естественно обогащенных дейтерием, запускается непрерывный процесс эндогенного нуклеосинтеза («рождения») золота и сопутствующих элементов. Это необходимо для фундаментального пересмотра классических космогонических моделей формирования рудных месторождений.",
+          "en": "The empirical data gathered from this laboratory simulation can be extrapolated to interpret large-scale endogenous processes within the Earth's lithosphere. The subterranean architecture of the Kyzylkum deposits functions effectively as natural wave reactors. Tectonic shifts along deep-seated fault zones generate localized ultra-high pressures, seismogenic currents, and piezoelectric fields capable of instantaneously heating micro-volumes of the formation above 1000°C, driving semiconducting sulfides (FeAsS) into a plasma state. In the presence of deep-seated fluids naturally enriched with deuterium, a continuous process of endogenous nucleosynthesis ('birth') of gold and associated elements is triggered. This necessitates a fundamental revision of classical cosmogonic models governing the formation of ore deposits.",
+          "uz": "Ushbu laboratoriya modellashtirishi davomida olingan empirik maʼlumotlar Yer litosferasidagi kengmiqyosli endogen jarayonlarni talqin qilishga ekstrapolyatsiya qilinishi mumkin. Qizilqum konlarining yer osti arxitekturasi tabiiy toʻlqin reaktorlari sifatida samarali ishlaydi. Chuqur yoriq zonalari boʻylab tektonik siljishlar mahalliy oʻta yuqori bosimlarni, seysmogen toklarni va pezoelektrik maydonlarni hosil qiladi, ular qatlam mikrohajmlarini bir zumda 1000°C dan yuqori qizdirib, yarimoʻtkazgich sulfidlarni (FeAsS) plazma holatiga oʻtkazishga qodir. Deyteriy bilan tabiiy boyitilgan chuqur flyuidlar ishtirokida oltin va unga hamroh elementlarning uzluksiz endogen nukleosintezi («tugʻilishi») jarayoni ishga tushadi. Bu rudali konlar shakllanishining klassik kosmogonik modellarini tubdan qayta koʻrib chiqishni taqozo etadi."
+        }
+      },
+      {
+        "type": "closing",
+        "text": {
+          "ru": "[ДОБАВЛЕНО] Изложенная в этом разделе геофизическая гипотеза не проходила независимой рецензии и требует дальнейшей проверки — в отличие от методики резонансной ВЧ-дезинтеграции руды, опубликованной ранее в «Горном вестнике Узбекистана».",
+          "en": "[ADDED] The geophysical hypothesis presented in this section has not undergone independent peer review and requires further verification — unlike the resonant HF ore-disintegration method published earlier in Gorny Vestnik Uzbekistana.",
+          "uz": "[QOʻSHILDI] Ushbu boʻlimda keltirilgan geofizik gipoteza mustaqil taqrizdan oʻtmagan va qoʻshimcha tekshiruvni talab qiladi — bu esa ilgari «Oʻzbekiston Togʻ-kon Vestnigi»da nashr etilgan rezonans YuCH-parchalash usulidan farq qiladi."
+        }
+      }
+    ]
   }
 }
