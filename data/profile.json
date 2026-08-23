@@ -692,6 +692,71 @@
             }
           }
         ]
+      },
+      {
+        "title": {
+          "ru": "От нуля и единицы к сложности Вселенной: философия единого алгоритма",
+          "en": "From zero and one to the complexity of the universe: the philosophy of a single algorithm",
+          "uz": "Noldan va birdan Koinot murakkabligigacha: yagona algoritm falsafasi"
+        },
+        "blocks": [
+          {
+            "type": "epigraph",
+            "text": {
+              "ru": "Вся колоссальная сложность окружающего нас мира — созданная человеком и самой природой — в своей основе подчинена единому, строгому и удивительно простому закону: в начале всего лежат Ноль и Единица.",
+              "en": "All the immense complexity of the world around us — created by humankind and by nature itself — is governed at its core by a single, strict, and beautifully simple law: at the beginning of everything lie Zero and One.",
+              "uz": "Atrofimizdagi dunyoning ulkan murakkabligi — inson tomonidan ham, tabiatning oʻzi tomonidan ham yaratilgan — tubida yagona, qatʼiy va ajablanarli darajada oddiy qonunga boʻysunadi: hamma narsaning boshida Nol va Bir yotadi."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Когда на рубеже 1970-х годов мы на Мехмате МГУ и в Вычислительном центре АН вручную набивали двоичные коды на бумажные перфоленты, управляя логикой ламповых ЭВМ вроде «Урал-1» или транзисторных «Минск-22», слова «операционная система» ещё не существовало. Программирование было обнажённым диалогом человеческого разума с физическим током: «тока нет» (0) или «ток есть» (1). Ошибка в одном бите рушила структуру вычислений.",
+              "en": "When at the turn of the 1970s we at the Faculty of Mechanics and Mathematics of Moscow State University and the Computer Center of the Academy of Sciences manually punched binary codes onto paper tapes, guiding the logic of vacuum-tube computers like \"Ural-1\" or transistorized machines like \"Minsk-22\", the term \"operating system\" did not even exist. Programming was a raw dialogue between the human mind and physical currents: \"no current\" (0) or \"current present\" (1). A single bit error would completely shatter the computational structure.",
+              "uz": "1970-yillar boshida biz MDU Mexanika-matematika fakultetida va Fanlar akademiyasi Hisoblash markazida qogʻoz perfolentalarga qoʻlda ikkilik kodlarni teshib, «Ural-1» kabi lampali yoki «Minsk-22» kabi tranzistorli EHMlar mantigʻini boshqarganimizda, «operatsion tizim» degan soʻz hali mavjud ham emas edi. Dasturlash inson aqli bilan jismoniy tok orasidagi ochiq dialog edi: «tok yoʻq» (0) yoki «tok bor» (1). Bitta bitdagi xato butun hisoblash tuzilmasini buzardi."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Сегодня, работая под Linux на современных многоядерных ноутбуках и ведя диалог с искусственным интеллектом, легко поддаться иллюзии, что мы ушли в принципиально иную реальность. Но это не так. Архитектура кремниевых транзисторов и математические матрицы нейросетей на своём самом глубоком, физическом уровне по-прежнему оперируют триллионами тех самых нулей и единиц, которые мы когда-то наносили пробойником на бумагу. Меняются языки программирования — от машинных кодов и Алгола-68 до современного Python, — но дискретный фундамент Вселенной остаётся монолитным.",
+              "en": "Today, working under the Linux operating system on modern multi-core laptops and engaging in a dialogue with artificial intelligence, it is easy to succumb to the illusion that we have entered a fundamentally different reality. But we have not. The architecture of silicon transistors and the mathematical matrices of neural networks still operate, at their deepest physical level, with the trillions of those same zeros and ones that we once punched into paper. Programming languages change — from machine codes and Algol-68 to modern Python — but the discrete foundation of the Universe remains monolithic.",
+              "uz": "Bugun zamonaviy koʻp yadroli noutbuklarda Linux ostida ishlab, sunʼiy intellekt bilan muloqot qilar ekanmiz, tubdan boshqa voqelikka oʻtganimiz haqidagi illyuziyaga berilish oson. Ammo bu unday emas. Kremniyli tranzistorlar arxitekturasi va neyron tarmoqlarning matematik matritsalari eng chuqur, fizik darajada hali ham biz bir paytlar qogʻozga teshgan xuddi shu trillionlab nol va birlar bilan ishlaydi. Dasturlash tillari oʻzgaradi — mashina kodlari va Algol-68 dan zamonaviy Python gacha — ammo Koinotning diskret poydevori monolit boʻlib qoladi."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Этот закон пошагового усложнения — не изобретение человека. Человечество лишь скопировало его у самой природы. Миллиарды лет Земля была обитаема лишь простейшими одноклеточными организмами. Каждая амёба или бактерия жила как отдельное машинное слово, выполняя линейный код выживания и деления.",
+              "en": "This law of step-by-step complexity is not a human invention. Humanity merely copied it from nature itself. For billions of years, the Earth was inhabited only by simple single-celled organisms. Each amoeba or bacterium lived like a single machine word, executing a linear code of survival and division.",
+              "uz": "Bosqichma-bosqich murakkablashish qonuni inson ixtirosi emas. Insoniyat uni faqat tabiatning oʻzidan koʻchirib olgan. Milliardlab yillar davomida Yerda faqat oddiy bir hujayrali organizmlar yashagan. Har bir amyoba yoki bakteriya alohida mashina soʻzi kabi yashab, yashash va boʻlinishning chiziqli kodini bajargan."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Но в определённый момент истории планеты произошёл великий «сбой компиляции» — мутация, из-за которой разделившиеся клетки не смогли оторваться друг от друга и остались склеенными. Из этой случайной сцепки родилась многоклеточная жизнь. Клеткам пришлось вырабатывать первые биологические «протоколы связи», разделять между собой функции сумматора и памяти. Из склейки простейших элементов природа со временем «вывела» сложнейший алгоритм человеческого мозга.",
+              "en": "Yet at a certain moment in the planet's history, a great \"compilation error\" occurred — a mutation due to which divided cells failed to separate from each other and remained glued together. From this accidental binding, multicellular life was born. The cells had to develop the first biological \"communication protocols\", dividing the functions of the accumulator and memory among themselves. From the clustering of the simplest elements, nature eventually \"compiled\" the ultra-complex algorithm of the human brain.",
+              "uz": "Ammo sayyora tarixining maʼlum bir daqiqasida buyuk «kompilyatsiya xatosi» yuz berdi — mutatsiya tufayli boʻlingan hujayralar bir-biridan ajralib keta olmay, yopishgan holda qoldi. Shu tasodifiy yopishishdan koʻp hujayrali hayot tugʻildi. Hujayralar birinchi biologik «aloqa protokollari»ni ishlab chiqishga, sumator va xotira vazifalarini oʻzaro boʻlishga majbur boʻldi. Eng oddiy elementlarning yopishishidan tabiat vaqt oʻtishi bilan inson miyasining ulkan murakkab algoritmini «kompilyatsiya qildi»."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Та же квантованная логика, как мне кажется, прослеживается и в геофизике. Мои многолетние численные исследования процессов фильтрации флюидов и недавние эксперименты по воздействию высокочастотного электромагнитного поля на арсенопирит в присутствии дейтерия наводят на мысль, что элементы не так статичны, как принято считать. Возможно, атомное ядро тоже можно рассматривать как своего рода дискретный счётчик. В экстремальных условиях подземных геодинамических процессов Кызылкумов (месторождения Кокпатас, Даугызтау), где сейсмогенные токи способны зажигать природную плазму, ядра элементов, предположительно, могут захватывать или терять частицы. Это одна из рабочих гипотез, которую я развиваю в своих последних работах и которая, возможно, объясняет наблюдаемые изотопные аномалии в недрах Земли.",
+              "en": "The same quantized logic, I believe, can be traced in geophysics as well. My years of numerical research on fluid filtration processes and recent experiments involving high-frequency electromagnetic field exposure on arsenopyrite in the presence of deuterium suggest that elements may not be as static as commonly assumed. The atomic nucleus, too, might perhaps be viewed as a kind of discrete counter. Under the extreme conditions of the subterranean geodynamic processes of the Kyzylkum desert (the Kokpatas and Daugyztau deposits), where seismogenic currents can ignite natural plasma, the nuclei of elements may capture or lose particles. This is one of the working hypotheses I am developing in my recent work, and it may help explain the isotopic anomalies observed within the depths of the Earth.",
+              "uz": "Menimcha, xuddi shu kvantlangan mantiqni geofizikada ham kuzatish mumkin. Fluid filtratsiyasi jarayonlari boʻyicha koʻp yillik sonli tadqiqotlarim va deyteriy ishtirokida arsenopiritga yuqori chastotali elektromagnit maydon taʼsiri boʻyicha soʻnggi tajribalarim shunga ishora qiladiki, elementlar odatda oʻylanganidek statik boʻlmasligi mumkin. Atom yadrosini ham, ehtimol, oʻziga xos diskret hisoblagich sifatida koʻrish mumkin. Qizilqumning yer osti geodinamik jarayonlari (Koʻkpatas, Daugʻiztau konlari) kabi ekstremal sharoitlarda, u yerda seysmogen toklar tabiiy plazmani yoqishi mumkin boʻlgan joyda, elementlar yadrolari zarrachalarni ushlab olishi yoki yoʻqotishi mumkin. Bu — men soʻnggi ishlarimda rivojlantirayotgan ishchi gipotezalardan biri boʻlib, Yer qaʼrida kuzatiladigan izotop anomaliyalarini tushuntirishga yordam berishi mumkin."
+            }
+          },
+          {
+            "type": "closing",
+            "text": {
+              "ru": "Вселенная прекрасна в своей простоте. Из двоичного кода физических микросостояний рождается биологическое разнообразие от амёбы до человека, а из элементарных математических шагов — сложнейшие физико-химические технологии. Пройдя путь от раскалённых радиоламп «Урала» до терафлопсных процессоров сегодняшнего дня, я вижу, что инструменты Творца неизменны. Мы лишь учимся читать этот бесконечный алгоритм, написанный с помощью Ноля и Единицы.",
+              "en": "The Universe is beautiful in its simplicity. From the binary code of physical microstates, biological diversity emerges from the amoeba to the human being, and from elementary mathematical steps — the most complex physicochemical technologies. Having traversed the path from the incandescent vacuum tubes of \"Ural\" to the teraflop processors of today, I see that the Creator's tools remain unchanged. We are merely learning to read this infinite algorithm, written with the help of Zero and One.",
+              "uz": "Koinot oʻz soddaligi bilan goʻzaldir. Fizik mikroholatlarning ikkilik kodidan amyobadan insongacha boʻlgan biologik xilma-xillik tugʻiladi, eng oddiy matematik qadamlardan esa — eng murakkab fizik-kimyoviy texnologiyalar. «Ural»ning qizigan radiolampalaridan bugungi teraflopli protsessorlargacha boʻlgan yoʻlni bosib oʻtib, men Yaratganning vositalari oʻzgarmasligini koʻraman. Biz faqat Nol va Bir yordamida yozilgan ushbu cheksiz algoritmni oʻqishni oʻrganmoqdamiz."
+            }
+          }
+        ]
       }
     ]
   },
