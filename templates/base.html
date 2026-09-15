@@ -81,7 +81,8 @@
       <a class="brand" href="{{ url_for('home', lang=lang) }}">
         <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="Логотип Усманова Рустамжона"
           class="brand-logo">
-        <span class="brand-text">Усманов Рустамжон</span>
+        <!-- Имени рядом с логотипом нет (Рустам, 16.09.2026): оно крупно на
+             самой странице, а в шапке тесно — девять пунктов меню -->
       </a>
 
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">

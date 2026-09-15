@@ -188,15 +188,8 @@ img {
     height: 30px;
   }
 
-  /* На телефоне имя — только крупным заголовком на странице, а плашку
-     «Прикладная математика и механика…» над ним не показываем: на узком
-     экране она занимала три строки (Рустам, 16.09.2026) */
-  /* .site-header — чтобы перебить .brand-text {display: inline-block},
-     который стоит в файле ниже этого блока */
-  .site-header .brand-text {
-    display: none;
-  }
-
+  /* На телефоне плашку «Прикладная математика и механика…» над именем не
+     показываем: на узком экране она занимала три строки (Рустам, 16.09.2026) */
   .hero .eyebrow {
     display: none;
   }
@@ -309,12 +302,6 @@ img {
   max-width: none;
   object-fit: contain;
   flex-shrink: 0;
-}
-
-.brand-text {
-  display: inline-block;
-  line-height: 1.15;
-  white-space: nowrap;
 }
 
 .site-nav {
