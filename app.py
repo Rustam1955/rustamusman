@@ -155,7 +155,8 @@ UI = {
             "механика жидкости, газа и плазмы, технология добычи урана, "
             "геотехнология добычи полезных ископаемых. Публикации, патенты, CV."
         ),
-        "footer": "Личный научный сайт",
+        # Подвал — одной фразой, имя внутри (Рустам, 16.09.2026)
+        "footer": "Личный научный сайт «IlmNur» Усманова Р.",
     },
     "en": {
         "nav_home": "Home",
@@ -236,7 +237,7 @@ UI = {
             "plasma mechanics, uranium mining technology, geotechnology of "
             "mineral extraction. Publications, patents and CV."
         ),
-        "footer": "Personal research website",
+        "footer": "«IlmNur» — personal research website of R. Usmanov",
     },
     "uz": {
         "nav_home": "Bosh sahifa",
@@ -317,7 +318,7 @@ UI = {
             "mexanikasi, uran qazib olish texnologiyasi, foydali qazilmalarni "
             "qazib olish geotexnologiyasi. Nashrlar, patentlar, CV."
         ),
-        "footer": "Shaxsiy ilmiy sayt",
+        "footer": "Usmanov R.ning «IlmNur» shaxsiy ilmiy sayti",
     },
 }
 
