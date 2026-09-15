@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}{{ t.appendix_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+{% block meta_description %}{{ t.appendix_app_desc }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container narrow">
+    <h1 class="page-title">{{ t.appendix_title }}</h1>
+
+    <div class="app-card">
+      <div class="app-head">
+        <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="{{ t.ilmnur_alt }}"
+          class="app-logo" width="267" height="261">
+        <div>
+          <h2 class="app-name">{{ t.appendix_app_name }}</h2>
+          <p class="app-desc">{{ t.appendix_app_desc }}</p>
+          <p class="app-hint"><a href="{{ url_for('dynasty', lang=lang) }}#grandfather">{{ t.appendix_named }}</a></p>
+        </div>
+      </div>
+
+      <div class="app-ways">
+        <!-- APK отдаёт Caddy облака; QR ведёт туда же — навёл камеру с экрана
+             компьютера, и скачалось. На самом телефоне QR прячется (CSS) -->
+        <div class="app-way">
+          <img class="app-qr" src="{{ url_for('static', filename='img/ilmnur-apk-qr.svg') }}"
+            alt="QR: {{ apk_url }}" width="120" height="120">
+          <div>
+            <h3>{{ t.appendix_android }}</h3>
+            <p class="app-scan">{{ t.appendix_scan }}</p>
+            <a class="btn btn-primary" href="{{ apk_url }}">{{ t.appendix_download }}</a>
+          </div>
+        </div>
+
+        <div class="app-way">
+          <div>
+            <h3>{{ t.appendix_talk }}</h3>
+            <p>{{ t.appendix_talk_desc }}</p>
+            <a class="btn btn-primary" href="{{ talk_url }}">{{ t.appendix_talk_enter }}</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="app-login">{{ t.appendix_login }}</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -22,11 +22,16 @@ from flask import (
     request,
     url_for,
 )
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
 app = Flask(__name__)
+# В облаке сайт стоит за Caddy: без этого Flask считает запрос http и шлёт
+# переадресации вида http://ilmnur.org/ru/. Верим одному посреднику —
+# gunicorn слушает только 127.0.0.1, так что заголовки ставит лишь Caddy
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
 
 LANGS = ("ru", "en", "uz")
 DEFAULT_LANG = "ru"
@@ -36,8 +41,9 @@ LOCALES = {"ru": "ru_RU", "en": "en_US", "uz": "uz_Latn_UZ"}
 HREFLANG = {"ru": "ru", "en": "en", "uz": "uz-Latn"}
 
 # Базовый адрес сайта (для canonical, Open Graph, sitemap).
-# Можно переопределить переменной окружения SITE_URL.
-SITE_URL = os.environ.get("SITE_URL", "https://rustamusman.com").rstrip("/")
+# Можно переопределить переменной окружения SITE_URL. С 16.09.2026 сайт
+# живёт на ilmnur.org, в облаке вместе с IlmNur (раньше — rustamusman.com)
+SITE_URL = os.environ.get("SITE_URL", "https://ilmnur.org").rstrip("/")
 
 # Ключевые слова для мета-тега keywords (под запросы, по которым ищут).
 SEO_KEYWORDS = {
@@ -73,10 +79,31 @@ UI = {
         "nav_dynasty": "Научная династия",
         "nav_pubs": "Публикации",
         "nav_cv": "CV",
+        "nav_appendix": "Приложения",
         "nav_reflections": "Размышления",
         "nav_reviews": "Отзывы",
         "nav_contacts": "Контакты",
+        "settings_title": "Настройки",
+        "set_lang": "Язык",
+        "set_theme": "Тема",
+        "theme_day": "День",
+        "theme_night": "Ночь",
+        "set_bg": "Фон экрана",
+        "bg_glow": "Сияние",
+        "bg_photo": "Фото",
+        "bg_plain": "Без фона",
         "reflections_title": "Размышления",
+        "appendix_title": "Приложения",
+        "appendix_app_name": "IlmNur",
+        "appendix_app_desc": "Семейное приложение: родословная, шахматы, музыка и разговор со звуком — на телефоне и на компьютере, на двадцати языках.",
+        "appendix_named": "Названо в честь моего деда — Ильмнура Миндиярова.",
+        "appendix_android": "Приложение для Android",
+        "appendix_scan": "Наведите камеру телефона на код — приложение скачается само.",
+        "appendix_download": "Скачать для Android",
+        "appendix_talk": "Разговор",
+        "appendix_talk_desc": "Разговор со звуком прямо в браузере — до десяти человек.",
+        "appendix_talk_enter": "Войти в разговор",
+        "appendix_login": "Вход — по своей учётной записи IlmNur; новую учётную запись одобряет администратор.",
         "hero_cta_pubs": "Публикации",
         "hero_cta_about": "Обо мне",
         "about_title": "О себе",
@@ -132,10 +159,31 @@ UI = {
         "nav_dynasty": "Scientific dynasty",
         "nav_pubs": "Publications",
         "nav_cv": "CV",
+        "nav_appendix": "Appendices",
         "nav_reflections": "Reflections",
         "nav_reviews": "Reviews",
         "nav_contacts": "Contact",
+        "settings_title": "Settings",
+        "set_lang": "Language",
+        "set_theme": "Theme",
+        "theme_day": "Day",
+        "theme_night": "Night",
+        "set_bg": "Background",
+        "bg_glow": "Glow",
+        "bg_photo": "Photo",
+        "bg_plain": "Plain",
         "reflections_title": "Reflections",
+        "appendix_title": "Appendices",
+        "appendix_app_name": "IlmNur",
+        "appendix_app_desc": "A family app: family tree, chess, music and voice talk — on the phone and the computer, in twenty languages.",
+        "appendix_named": "Named after my grandfather, Ilmnur Mindiyarov.",
+        "appendix_android": "App for Android",
+        "appendix_scan": "Point your phone camera at the code — the app will download.",
+        "appendix_download": "Download for Android",
+        "appendix_talk": "Voice talk",
+        "appendix_talk_desc": "Voice conversation right in the browser — up to ten people.",
+        "appendix_talk_enter": "Join the talk",
+        "appendix_login": "Sign in with your IlmNur account; new accounts are approved by the administrator.",
         "hero_cta_pubs": "Publications",
         "hero_cta_about": "About me",
         "about_title": "About",
@@ -191,10 +239,31 @@ UI = {
         "nav_dynasty": "Ilmiy sulola",
         "nav_pubs": "Nashrlar",
         "nav_cv": "CV",
+        "nav_appendix": "Ilovalar",
         "nav_reflections": "Mulohazalar",
         "nav_reviews": "Taqrizlar",
         "nav_contacts": "Aloqa",
+        "settings_title": "Sozlamalar",
+        "set_lang": "Til",
+        "set_theme": "Mavzu",
+        "theme_day": "Kunduz",
+        "theme_night": "Tun",
+        "set_bg": "Ekran foni",
+        "bg_glow": "Nur",
+        "bg_photo": "Foto",
+        "bg_plain": "Fonsiz",
         "reflections_title": "Mulohazalar",
+        "appendix_title": "Ilovalar",
+        "appendix_app_name": "IlmNur",
+        "appendix_app_desc": "Oilaviy ilova: shajara, shaxmat, musiqa va ovozli suhbat — telefonda va kompyuterda, yigirmata tilda.",
+        "appendix_named": "Bobom — Ilmnur Mindiyarov sharafiga nomlangan.",
+        "appendix_android": "Android uchun ilova",
+        "appendix_scan": "Telefon kamerasini kodga qarating — ilova oʻzi yuklab olinadi.",
+        "appendix_download": "Android uchun yuklab olish",
+        "appendix_talk": "Suhbat",
+        "appendix_talk_desc": "Toʻgʻridan-toʻgʻri brauzerda ovozli suhbat — oʻn kishigacha.",
+        "appendix_talk_enter": "Suhbatga kirish",
+        "appendix_login": "Kirish — oʻzingizning IlmNur hisobingiz orqali; yangi hisobni administrator tasdiqlaydi.",
         "hero_cta_pubs": "Nashrlar",
         "hero_cta_about": "Men haqimda",
         "about_title": "Men haqimda",
@@ -463,6 +532,26 @@ def export_bibtex(lang):
     )
 
 
+# ---- Приложение IlmNur ---------------------------------------------------
+# Сайт живёт на ilmnur.org вместе с IlmNur (16.09.2026). APK отдаёт Caddy
+# облака из /var/www/ilmnur, разговор — своя служба на talk.ilmnur.org.
+# Раньше здесь была кнопка запуска настольного приложения на машине сайта.
+# Её убрали: в облаке окно открыть негде, а за Caddy «свой» адрес 127.0.0.1
+# у всех посетителей — любой из интернета запускал бы программы на сервере
+APK_URL = os.environ.get("ILMNUR_APK_URL", "https://ilmnur.org/ilmnur.apk")
+TALK_URL = os.environ.get("ILMNUR_TALK_URL", "https://talk.ilmnur.org/")
+
+
+@app.route("/<lang>/appendix/")
+def appendix(lang):
+    return render_template(
+        "appendix.html",
+        lang=valid_lang(lang),
+        apk_url=APK_URL,
+        talk_url=TALK_URL,
+    )
+
+
 @app.route("/<lang>/reflections/")
 def reflections(lang):
     return render_template("reflections.html", lang=valid_lang(lang))
@@ -510,7 +599,7 @@ def robots_txt():
 
 @app.route("/sitemap.xml")
 def sitemap_xml():
-    pages = ("home", "about", "dynasty", "publications", "reflections", "cv", "reviews", "contacts")
+    pages = ("home", "about", "dynasty", "publications", "appendix", "reflections", "cv", "reviews", "contacts")
     entries = [(endpoint, {}) for endpoint in pages]
     entries += [("article", {"slug": slug}) for slug in get_articles()]
     urls = []

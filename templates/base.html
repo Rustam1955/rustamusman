@@ -43,6 +43,18 @@
     rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script type="application/ld+json">{{ person_jsonld|safe }}</script>
+  <script>
+    // Применяем сохранённые тему и фон до первой отрисовки — без этого
+    // страница успевает моргнуть светлой темой.
+    (function () {
+      try {
+        var root = document.documentElement;
+        var theme = localStorage.getItem('theme');
+        if (theme) root.setAttribute('data-theme', theme);
+        root.setAttribute('data-bg', localStorage.getItem('bg') || 'glow');
+      } catch (e) { }
+    })();
+  </script>
 </head>
 
 <body>
@@ -86,6 +98,8 @@
 
         <a href="{{ url_for('publications', lang=lang) }}" class="{{ 'active' if current_endpoint=='publications' }}">{{
           t.nav_pubs }}</a>
+        <a href="{{ url_for('appendix', lang=lang) }}" class="{{ 'active' if current_endpoint=='appendix' }}">{{
+          t.nav_appendix }}</a>
         <a href="{{ url_for('reflections', lang=lang) }}" class="{{ 'active' if current_endpoint=='reflections' }}">{{
           t.nav_reflections }}</a>
         <a href="{{ url_for('cv', lang=lang) }}" class="{{ 'active' if current_endpoint=='cv' }}">{{ t.nav_cv }}</a>
@@ -94,13 +108,54 @@
         <a href="{{ url_for('contacts', lang=lang) }}" class="{{ 'active' if current_endpoint=='contacts' }}">{{
           t.nav_contacts }}</a>
 
-        <div class="lang-switch">
-          {% for l in langs %}
-          <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="{{ 'active' if l==lang }}">{{ l|upper
-            }}</a>
-          {% endfor %}
+        <!-- ЕДИНАЯ КНОПКА НАСТРОЕК: язык + тема (день/ночь) + фон экрана -->
+        <div class="settings">
+          <button type="button" class="settings-btn" id="settings-btn" aria-haspopup="true" aria-expanded="false"
+            aria-controls="settings-menu" title="{{ t.settings_title }}" aria-label="{{ t.settings_title }}">
+            <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3.2"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33
+                       1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06
+                       a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09
+                       A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6
+                       a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06
+                       a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09
+                       a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </button>
+
+          <div class="settings-menu" id="settings-menu" role="menu" hidden>
+            <div class="set-group">
+              <span class="set-label">{{ t.set_lang }}</span>
+              <div class="set-row">
+                {% for l in langs %}
+                <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}"
+                  class="set-chip {{ 'active' if l==lang }}" role="menuitem">{{ l|upper }}</a>
+                {% endfor %}
+              </div>
+            </div>
+
+            <div class="set-group">
+              <span class="set-label">{{ t.set_theme }}</span>
+              <div class="set-row">
+                <button type="button" class="set-chip" data-theme-value="light" role="menuitem">{{ t.theme_day
+                  }}</button>
+                <button type="button" class="set-chip" data-theme-value="dark" role="menuitem">{{ t.theme_night
+                  }}</button>
+              </div>
+            </div>
+
+            <div class="set-group">
+              <span class="set-label">{{ t.set_bg }}</span>
+              <div class="set-row">
+                <button type="button" class="set-chip" data-bg-value="glow" role="menuitem">{{ t.bg_glow }}</button>
+                <button type="button" class="set-chip" data-bg-value="photo" role="menuitem">{{ t.bg_photo }}</button>
+                <button type="button" class="set-chip" data-bg-value="plain" role="menuitem">{{ t.bg_plain }}</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="theme-toggle" aria-label="Theme" onclick="toggleTheme()">◐</button>
       </nav>
     </div>
   </header>
@@ -116,19 +171,7 @@
     </div>
   </footer>
 
-  <script>
-    function toggleTheme() {
-      const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', cur);
-      try { localStorage.setItem('theme', cur); } catch (e) { }
-    }
-    (function () {
-      try {
-        const saved = localStorage.getItem('theme');
-        if (saved) document.documentElement.setAttribute('data-theme', saved);
-      } catch (e) { }
-    })();
-  </script>
+  <script src="{{ url_for('static', filename='js/settings.js') }}" defer></script>
   {% block scripts %}{% endblock %}
 </body>
 
