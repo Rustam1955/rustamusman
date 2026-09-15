@@ -2,9 +2,11 @@
 {% block title %}{{ t.about_title }} — {{ profile.name|localized(lang) }}{% endblock %}
 
 {% block content %}
-<section class="section">
+<!-- Крупного «О себе» на экране нет (Рустам, 16.09.2026): раздел и так
+     подсвечен в меню. Заголовок остаётся для поисковиков и программ чтения -->
+<section class="section section-no-title">
   <div class="container narrow">
-    <h1 class="page-title">{{ t.about_title }}</h1>
+    <h1 class="page-title visually-hidden">{{ t.about_title }}</h1>
     <div class="about-grid">
       <div class="about-photo">
         <img src="{{ url_for('static', filename=profile.photo) }}" alt="{{ profile.name|localized(lang) }}"
