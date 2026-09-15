@@ -788,6 +788,22 @@ img {
   margin: 0 0 32px;
 }
 
+/* Не видно на экране, но есть для поисковиков и программ чтения с экрана */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* «Приложения» без крупного заголовка — карточка ближе к шапке */
+.section-app {
+  padding-top: 24px;
+}
+
 .section-head {
   display: flex;
   align-items: baseline;
