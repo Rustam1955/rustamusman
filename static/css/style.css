@@ -1815,6 +1815,12 @@ a.pub-title:hover {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 820px) {
+  /* Фото здесь первым, над текстом — пустые 72px над ним были лишними:
+     поднимаем его к шапке (Рустам, 16.09.2026) */
+  .hero {
+    padding-top: 20px;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
   }
