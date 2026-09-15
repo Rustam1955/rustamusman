@@ -51,7 +51,18 @@
         var root = document.documentElement;
         var theme = localStorage.getItem('theme');
         if (theme) root.setAttribute('data-theme', theme);
-        root.setAttribute('data-bg', localStorage.getItem('bg') || 'glow');
+        // Фон — «glow», «plain» или картинка из набора приложения IlmNur
+        // «img:<имя>» (её отдаёт служба IlmNur: /backgrounds/<имя>).
+        // Прежний «photo» — та же картинка, она есть в наборе
+        var bg = localStorage.getItem('bg') || 'glow';
+        if (bg === 'photo') bg = 'img:site_bg.jpg';
+        if (bg.indexOf('img:') === 0) {
+          root.style.setProperty('--bg-image',
+            'url("/backgrounds/' + encodeURIComponent(bg.slice(4)) + '")');
+          root.setAttribute('data-bg', 'img');
+        } else {
+          root.setAttribute('data-bg', bg);
+        }
       } catch (e) { }
     })();
   </script>
@@ -125,33 +136,60 @@
             </svg>
           </button>
 
+          <!-- Как в приложении IlmNur: три строки — язык (флаг и название),
+               день/ночь, фон экрана. Язык и фон открываются своими панелями -->
           <div class="settings-menu" id="settings-menu" role="menu" hidden>
-            <div class="set-group">
-              <span class="set-label">{{ t.set_lang }}</span>
-              <div class="set-row">
-                {% for l in langs %}
-                <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}"
-                  class="set-chip {{ 'active' if l==lang }}" role="menuitem">{{ l|upper }}</a>
-                {% endfor %}
-              </div>
+            <div class="set-panel" data-panel="main">
+              <button type="button" class="set-item" data-open="lang" role="menuitem">
+                <img class="set-icon set-flag" src="{{ url_for('static', filename='img/flags/' ~ lang ~ '.png') }}"
+                  alt="" width="24" height="24">
+                <span>{{ lang_names[lang] }}</span>
+              </button>
+              <button type="button" class="set-item" id="set-theme" role="menuitem" data-day="{{ t.theme_day }}"
+                data-night="{{ t.theme_night }}">
+                <svg class="set-icon set-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4.2"></circle>
+                  <path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"></path>
+                </svg>
+                <svg class="set-icon set-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20.5 13.2A8.6 8.6 0 1 1 10.8 3.5a6.7 6.7 0 0 0 9.7 9.7z"></path>
+                </svg>
+                <span class="set-theme-text">{{ t.theme_day }}</span>
+              </button>
+              <button type="button" class="set-item" data-open="bg" role="menuitem">
+                <svg class="set-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2.5"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.6"></circle>
+                  <path d="M21 15.5l-5-5L5 21"></path>
+                </svg>
+                <span>{{ t.set_bg }}</span>
+              </button>
             </div>
 
-            <div class="set-group">
-              <span class="set-label">{{ t.set_theme }}</span>
-              <div class="set-row">
-                <button type="button" class="set-chip" data-theme-value="light" role="menuitem">{{ t.theme_day
-                  }}</button>
-                <button type="button" class="set-chip" data-theme-value="dark" role="menuitem">{{ t.theme_night
-                  }}</button>
-              </div>
+            <div class="set-panel" data-panel="lang" hidden>
+              <button type="button" class="set-back" data-open="main">← {{ t.set_back }}</button>
+              {% for l in langs %}
+              <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="set-item {{ 'active' if l==lang }}"
+                role="menuitem" lang="{{ l }}">
+                <img class="set-icon set-flag" src="{{ url_for('static', filename='img/flags/' ~ l ~ '.png') }}" alt=""
+                  width="24" height="24">
+                <span>{{ lang_names[l] }}</span>
+              </a>
+              {% endfor %}
             </div>
 
-            <div class="set-group">
-              <span class="set-label">{{ t.set_bg }}</span>
-              <div class="set-row">
-                <button type="button" class="set-chip" data-bg-value="glow" role="menuitem">{{ t.bg_glow }}</button>
-                <button type="button" class="set-chip" data-bg-value="photo" role="menuitem">{{ t.bg_photo }}</button>
-                <button type="button" class="set-chip" data-bg-value="plain" role="menuitem">{{ t.bg_plain }}</button>
+            <!-- Картинки — тот же набор, что в приложении (images/background):
+                 список и превью отдаёт служба IlmNur на этом же домене -->
+            <div class="set-panel" data-panel="bg" hidden>
+              <button type="button" class="set-back" data-open="main">← {{ t.set_back }}</button>
+              <div class="set-bg-grid" id="set-bg-grid" data-list="/backgrounds">
+                <button type="button" class="set-bg-tile set-bg-glow" data-bg-value="glow" title="{{ t.bg_glow }}">
+                  <span>{{ t.bg_glow }}</span></button>
+                <button type="button" class="set-bg-tile set-bg-plain" data-bg-value="plain" title="{{ t.bg_plain }}">
+                  <span>{{ t.bg_plain }}</span></button>
               </div>
             </div>
           </div>

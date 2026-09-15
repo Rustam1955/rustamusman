@@ -233,6 +233,31 @@ img {
   }
 }
 
+/* Фон из набора приложения IlmNur: картинку (--bg-image) ставит скрипт в
+   <head> и settings.js, отдаёт служба IlmNur (/backgrounds/<имя>). Как в
+   приложении — картинка под всем экраном; приглушена, чтобы текст читался */
+:root[data-bg="img"] .bg-orb,
+:root[data-bg="img"] .bg-grid {
+  display: none;
+}
+
+:root[data-bg="img"] .bg-decor {
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  opacity: .42;
+}
+
+:root[data-theme="dark"][data-bg="img"] .bg-decor {
+  opacity: .5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])[data-bg="img"] .bg-decor {
+    opacity: .5;
+  }
+}
+
 /* ---------- Header ---------- */
 .site-header {
   position: sticky;
@@ -348,14 +373,12 @@ img {
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  min-width: 232px;
-  padding: 14px;
+  width: 280px;
+  padding: 8px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
   box-shadow: var(--shadow);
-  display: grid;
-  gap: 14px;
   z-index: 60;
 }
 
@@ -365,45 +388,142 @@ img {
   display: none;
 }
 
-.set-label {
-  display: block;
-  font-size: .74rem;
-  font-weight: 600;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  color: var(--text-soft);
-  margin-bottom: 7px;
+/* Меню настроек — как в приложении IlmNur: строки со значком слева
+   (флаг языка, солнце/луна, картинка), язык и фон — своими панелями */
+.set-panel {
+  display: grid;
+  gap: 2px;
 }
 
-.set-row {
+.set-panel[hidden] {
+  display: none;
+}
+
+.set-item {
   display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.set-chip {
-  flex: 1 1 auto;
-  text-align: center;
-  background: var(--bg-soft);
-  border: 1px solid transparent;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  padding: 8px 12px;
+  background: none;
+  border: 0;
   border-radius: 8px;
-  padding: 6px 10px;
-  font-size: .82rem;
-  font-weight: 600;
-  color: var(--text-soft);
+  color: var(--text);
+  font: inherit;
+  font-size: .95rem;
+  text-align: left;
   cursor: pointer;
-  transition: background .15s, color .15s;
+  transition: background .15s;
 }
 
-.set-chip:hover {
+.set-item:hover {
+  background: var(--bg-soft);
+}
+
+.set-item.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.set-icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+}
+
+.set-flag {
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--border);
+}
+
+/* Солнце — днём, луна — ночью: какой значок виден, решает settings.js */
+.set-moon {
+  display: none;
+}
+
+#set-theme.is-night .set-sun {
+  display: none;
+}
+
+#set-theme.is-night .set-moon {
+  display: block;
+}
+
+.set-back {
+  justify-self: start;
+  margin: 0 0 4px;
+  padding: 6px 10px;
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  color: var(--text-soft);
+  font: inherit;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.set-back:hover {
   color: var(--text);
+  background: var(--bg-soft);
 }
 
-.set-chip.active {
-  background: var(--surface);
+/* Сетка фонов — три столбца, как в приложении. Высота строк задана прямо:
+   aspect-ratio у кнопок в прокручиваемой сетке не держался, и плитки
+   сплющивались в полоски */
+.set-bg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 84px;
+  gap: 6px;
+  max-height: 330px;
+  overflow-y: auto;
+  padding: 2px;
+}
+
+.set-bg-tile {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  background: var(--bg-soft);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.set-bg-tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.set-bg-tile.active {
+  border-color: var(--accent);
+}
+
+.set-bg-tile span {
+  position: absolute;
+  inset: auto 0 6px;
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+}
+
+.set-bg-glow {
+  background: radial-gradient(circle at 30% 30%, var(--accent-soft), transparent 70%),
+    radial-gradient(circle at 75% 70%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 65%),
+    var(--bg);
+}
+
+.set-bg-plain {
+  background: var(--bg);
   border-color: var(--border);
-  color: var(--text);
-  box-shadow: var(--shadow);
 }
 
 .nav-toggle {

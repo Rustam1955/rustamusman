@@ -35,6 +35,9 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
 
 LANGS = ("ru", "en", "uz")
 DEFAULT_LANG = "ru"
+# Как языки называют себя в меню настроек — те же слова, что в приложении
+# IlmNur (lang_name в его словарях SETUP_APP/locales), рядом с тем же флагом
+LANG_NAMES = {"ru": "Русский", "en": "English", "uz": "Oʻzbekcha"}
 
 # Узбекский — латиница (uz-Latn): для hreflang и og:locale нужен полный код.
 LOCALES = {"ru": "ru_RU", "en": "en_US", "uz": "uz_Latn_UZ"}
@@ -92,6 +95,7 @@ UI = {
         "bg_glow": "Сияние",
         "bg_photo": "Фото",
         "bg_plain": "Без фона",
+        "set_back": "Назад",
         "reflections_title": "Размышления",
         "appendix_title": "Приложения",
         "appendix_app_name": "IlmNur",
@@ -172,6 +176,7 @@ UI = {
         "bg_glow": "Glow",
         "bg_photo": "Photo",
         "bg_plain": "Plain",
+        "set_back": "Back",
         "reflections_title": "Reflections",
         "appendix_title": "Appendices",
         "appendix_app_name": "IlmNur",
@@ -252,6 +257,7 @@ UI = {
         "bg_glow": "Nur",
         "bg_photo": "Foto",
         "bg_plain": "Fonsiz",
+        "set_back": "Orqaga",
         "reflections_title": "Mulohazalar",
         "appendix_title": "Ilovalar",
         "appendix_app_name": "IlmNur",
@@ -407,6 +413,7 @@ def inject_globals():
     return {
         "lang": lang,
         "langs": LANGS,
+        "lang_names": LANG_NAMES,
         "t": UI[lang],
         "profile": profile,
         "current_endpoint": endpoint,
