@@ -55,10 +55,10 @@
           {% if p.citation %}<p class="pub-cite">{{ p.citation }}</p>{% endif %}
           <div class="pub-meta">
             <span class="pub-type">{{ p['type_' + lang] }}</span>
-            {% if p.article %}<a class="pub-link pub-readmore" href="{{ url_for('article', lang=lang, slug=p.article) }}">{{ t.pubs_read_full }} →</a>{% endif %}
-            {% if p.source_url %}<a class="pub-link pub-source" href="{{ p.source_url }}" target="_blank" rel="noopener">{{ t.pubs_source }} ↗</a>{% endif %}
+            {% if p.article %}<a class="pub-link pub-readmore" href="{{ url_for('article', lang=lang, slug=p.article) }}">{{ t.pubs_read_full }} <span class="arrow" aria-hidden="true">→</span></a>{% endif %}
+            {% if p.source_url %}<a class="pub-link pub-source" href="{{ p.source_url }}" target="_blank" rel="noopener">{{ t.pubs_source }} <span class="arrow" aria-hidden="true">↗</span></a>{% endif %}
             {% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI: {{ p.doi }}</a>{% endif %}
-            {% if p.url %}<a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.pubs_open }} →</a>{% endif %}
+            {% if p.url %}<a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.pubs_open }} <span class="arrow" aria-hidden="true">→</span></a>{% endif %}
             {% if p.pdf %}
               {% set pdf_path = p.pdf if '/' in p.pdf else 'pdfs/' + p.pdf %}
               <a class="pub-link" href="{{ url_for('static', filename=pdf_path) }}" target="_blank">{{ t.pubs_pdf }} ↓</a>

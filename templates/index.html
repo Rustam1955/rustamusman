@@ -10,7 +10,7 @@
       <h1>{{ profile.name|localized(lang) }}</h1>
       <p class="lead">{{ profile.bio|localized(lang)|first }}</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ url_for('publications', lang=lang) }}">{{ t.hero_cta_pubs }} →</a>
+        <a class="btn btn-primary" href="{{ url_for('publications', lang=lang) }}">{{ t.hero_cta_pubs }} <span class="arrow" aria-hidden="true">→</span></a>
         <a class="btn btn-ghost" href="{{ url_for('about', lang=lang) }}">{{ t.hero_cta_about }}</a>
       </div>
     </div>
@@ -34,7 +34,7 @@
   <div class="container">
     <div class="section-head">
       <h2>{{ t.nav_pubs }}</h2>
-      <a class="link-more" href="{{ url_for('publications', lang=lang) }}">{{ t.pubs_all }} →</a>
+      <a class="link-more" href="{{ url_for('publications', lang=lang) }}">{{ t.pubs_all }} <span class="arrow" aria-hidden="true">→</span></a>
     </div>
     <ul class="pub-list">
       {% for p in recent %}

@@ -71,10 +71,10 @@ DEFAULT_LANG = "ru"
 
 
 def _loc(value, lang):
-    """Поле вида {'ru':..,'en':..,'uz':..} -> значение нужного языка.
-    Если перевода ещё нет, откатываемся на русский."""
+    """Поле вида {'ru':..,'en':..,'uz':.., <переводы>} -> значение нужного
+    языка. Если перевода нет — английский, нет и его — русский."""
     if isinstance(value, dict):
-        return value.get(lang) or value.get(DEFAULT_LANG)
+        return value.get(lang) or value.get("en") or value.get(DEFAULT_LANG)
     return value
 
 
@@ -95,10 +95,11 @@ def _styles():
     }
 
 
-def build_cv_pdf(profile, pubs, lang="ru"):
+def build_cv_pdf(profile, pubs, lang="ru", labels=None):
+    """labels — подписи разделов на языке резюме. Для ru/en/uz они здесь, в
+    LABELS; для остальных языков их передаёт app.py из переводов data/i18n"""
     _ensure_fonts()
-    lang = lang if lang in LABELS else "ru"
-    L = LABELS[lang]
+    L = labels or LABELS.get(lang) or LABELS["en"]
     S = _styles()
 
     buf = BytesIO()

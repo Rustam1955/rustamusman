@@ -33,15 +33,38 @@ app = Flask(__name__)
 # gunicorn слушает только 127.0.0.1, так что заголовки ставит лишь Caddy
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
 
-LANGS = ("ru", "en", "uz")
+# С 16.09.2026 — все 20 языков приложения IlmNur (Рустам: «мы же договорились
+# на 20 языках»). Тексты ru/en/uz лежат в самих данных, остальные — переводы
+# из data/i18n/<код>.json (выгрузку делает tools/i18n_extract.py), их
+# накладываем при загрузке. Чего в переводе нет — по-английски (Рустам: «где
+# невозможно перевод, оставь текст на английском»)
+LANGS = ("ru", "en", "uz", "ar", "be", "de", "es", "fa", "fr", "he", "hi",
+         "it", "ja", "kk", "ko", "pl", "pt", "tg", "tr", "zh")
 DEFAULT_LANG = "ru"
+FALLBACK_LANG = "en"
+# Пишутся справа налево: <html dir="rtl">, стороны в стилях — логические
+RTL_LANGS = {"ar", "fa", "he"}
+# Шрифт DejaVu в резюме PDF знает латиницу и кириллицу; арабское письмо,
+# иврит, деванагари и иероглифы не нарисует — там резюме по-английски
+PDF_LANGS = set(LANGS) - {"ar", "fa", "he", "hi", "ja", "ko", "zh"}
+I18N_DIR = DATA_DIR / "i18n"
 # Как языки называют себя в меню настроек — те же слова, что в приложении
 # IlmNur (lang_name в его словарях SETUP_APP/locales), рядом с тем же флагом
-LANG_NAMES = {"ru": "Русский", "en": "English", "uz": "Oʻzbekcha"}
+LANG_NAMES = {
+    "ru": "Русский", "en": "English", "uz": "Oʻzbekcha", "ar": "العربية",
+    "be": "Беларуская", "de": "Deutsch", "es": "Español", "fa": "فارسی",
+    "fr": "Français", "he": "עברית", "hi": "हिन्दी", "it": "Italiano",
+    "ja": "日本語", "kk": "Қазақ тілі", "ko": "한국어", "pl": "Polski",
+    "pt": "Português", "tg": "Тоҷикӣ", "tr": "Türkçe", "zh": "中文",
+}
 
 # Узбекский — латиница (uz-Latn): для hreflang и og:locale нужен полный код.
-LOCALES = {"ru": "ru_RU", "en": "en_US", "uz": "uz_Latn_UZ"}
-HREFLANG = {"ru": "ru", "en": "en", "uz": "uz-Latn"}
+LOCALES = {"ru": "ru_RU", "en": "en_US", "uz": "uz_Latn_UZ", "ar": "ar_AR",
+           "be": "be_BY", "de": "de_DE", "es": "es_ES", "fa": "fa_IR",
+           "fr": "fr_FR", "he": "he_IL", "hi": "hi_IN", "it": "it_IT",
+           "ja": "ja_JP", "kk": "kk_KZ", "ko": "ko_KR", "pl": "pl_PL",
+           "pt": "pt_BR", "tg": "tg_TJ", "tr": "tr_TR", "zh": "zh_CN"}
+HREFLANG = {l: l for l in LANGS} | {"uz": "uz-Latn", "zh": "zh-Hans"}
 
 # Базовый адрес сайта (для canonical, Open Graph, sitemap).
 # Можно переопределить переменной окружения SITE_URL. С 16.09.2026 сайт
@@ -164,7 +187,8 @@ UI = {
         "nav_dynasty": "Scientific dynasty",
         "nav_pubs": "Publications",
         "nav_cv": "CV",
-        "nav_appendix": "Appendices",
+        # Раздел — приложение IlmNur, а не «приложения к книге» (16.09.2026)
+        "nav_appendix": "Apps",
         "nav_reflections": "Reflections",
         "nav_reviews": "Reviews",
         "nav_contacts": "Contact",
@@ -179,7 +203,7 @@ UI = {
         "bg_plain": "Plain",
         "set_back": "Back",
         "reflections_title": "Reflections",
-        "appendix_title": "Appendices",
+        "appendix_title": "Apps",
         "appendix_app_name": "IlmNur",
         "appendix_app_desc": "A family app: family tree, chess, music and voice talk — on the phone and the computer, in twenty languages.",
         "appendix_named": "Named after my grandfather, Ilmnur Mindiyarov.",
@@ -323,12 +347,61 @@ UI = {
 }
 
 
+# ---- Переводы на 17 языков сверх ru/en/uz --------------------------------
+def _load_translations():
+    """{код: {метка: перевод}}; нет файла или он испорчен — пусто, и язык
+    целиком идёт по-английски"""
+    out = {}
+    for l in LANGS:
+        if l in ("ru", "en", "uz"):
+            continue
+        try:
+            out[l] = json.loads((I18N_DIR / f"{l}.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            out[l] = {}
+    return out
+
+
+TRANSLATIONS = _load_translations()
+ALUMNI = {"ru": "МГУ имени М.В. Ломоносова",
+          "en": "Lomonosov Moscow State University",
+          "uz": "M.V. Lomonosov nomidagi Moskva davlat universiteti"}
+for _l, _t in TRANSLATIONS.items():
+    UI[_l] = {**UI[FALLBACK_LANG],
+              **{k[3:]: v for k, v in _t.items() if k.startswith("ui:")}}
+    SEO_KEYWORDS[_l] = _t.get("seo") or SEO_KEYWORDS[FALLBACK_LANG]
+    ALUMNI[_l] = _t.get("alumni") or ALUMNI[FALLBACK_LANG]
+
+
+def _overlay(data, prefix):
+    """Кладёт переводы в узлы {ru, en, uz} данных: узел[код] = перевод.
+    Метка вида «profile:/heritage/text» — путь от корня файла"""
+    for l, t in TRANSLATIONS.items():
+        for label, text in t.items():
+            if not label.startswith(prefix + ":/"):
+                continue
+            node = data
+            try:
+                for part in label[len(prefix) + 2:].split("/"):
+                    node = node[int(part)] if isinstance(node, list) else node[part]
+            except (KeyError, IndexError, ValueError, TypeError):
+                continue      # данные поменялись после выгрузки — перевод пропускаем
+            if isinstance(node, dict):
+                node[l] = text
+    return data
+
+
+def type_name(kind, lang, fallback=""):
+    """Вид публикации на языке: перевод, иначе английский, иначе как есть"""
+    return TRANSLATIONS.get(lang, {}).get(f"type:{kind}") or fallback
+
+
 def load_json(name):
     return json.loads((DATA_DIR / name).read_text(encoding="utf-8"))
 
 
 def get_profile():
-    return load_json("profile.json")
+    return _overlay(load_json("profile.json"), "profile")
 
 
 def get_publications():
@@ -336,11 +409,12 @@ def get_publications():
     if not path.exists():
         return []
     pubs = json.loads(path.read_text(encoding="utf-8"))
-    # Подписи типа на каждом языке: если перевода нет — берём русский,
-    # чтобы шаблоны с p['type_' + lang] не падали.
+    # Подписи типа на каждом языке: перевод, иначе английский — чтобы
+    # шаблоны с p['type_' + lang] не падали.
     for p in pubs:
+        english = p.get("type_en") or p.get("type_ru", p.get("type", ""))
         for l in LANGS:
-            p.setdefault(f"type_{l}", p.get("type_ru", p.get("type", "")))
+            p.setdefault(f"type_{l}", type_name(p.get("type"), l, english))
     return pubs
 
 
@@ -349,10 +423,13 @@ def get_articles():
     path = DATA_DIR / "articles.json"
     if not path.exists():
         return {}
-    arts = json.loads(path.read_text(encoding="utf-8"))
+    arts = _overlay(json.loads(path.read_text(encoding="utf-8")), "article")
+    # Вида у статьи нет полем — узнаём по русской подписи из публикаций
+    kinds = {p.get("type_ru"): p.get("type") for p in get_publications()}
     for a in arts.values():
+        english = a.get("type_en") or a.get("type_ru", "")
         for l in LANGS:
-            a.setdefault(f"type_{l}", a.get("type_ru", ""))
+            a.setdefault(f"type_{l}", type_name(kinds.get(a.get("type_ru")), l, english))
     return arts
 
 
@@ -369,21 +446,17 @@ def build_person_jsonld(profile, lang):
     data = {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": name.get(lang) or name.get(DEFAULT_LANG),
-        "alternateName": [name.get(l) for l in LANGS if name.get(l)],
+        "name": localized(name, lang),
+        "alternateName": sorted({name.get(l) for l in LANGS if name.get(l)}),
         "url": SITE_URL + f"/{lang}/",
         "image": SITE_URL + url_for("static", filename=profile.get("photo", "img/photo.jpg")),
         "email": profile.get("email"),
-        "jobTitle": profile.get("tagline", {}).get(lang),
-        "description": profile.get("tagline", {}).get(lang),
-        "knowsAbout": profile.get("cv", {}).get("research_areas", {}).get(lang, []),
+        "jobTitle": localized(profile.get("tagline", {}), lang),
+        "description": localized(profile.get("tagline", {}), lang),
+        "knowsAbout": localized(profile.get("cv", {}).get("research_areas", {}), lang) or [],
         "alumniOf": {
             "@type": "CollegeOrUniversity",
-            "name": {
-                "ru": "МГУ имени М.В. Ломоносова",
-                "en": "Lomonosov Moscow State University",
-                "uz": "M.V. Lomonosov nomidagi Moskva davlat universiteti",
-            }[lang],
+            "name": ALUMNI.get(lang, ALUMNI[FALLBACK_LANG]),
         },
         "sameAs": same_as,
     }
@@ -413,6 +486,7 @@ def inject_globals():
 
     return {
         "lang": lang,
+        "dir": "rtl" if lang in RTL_LANGS else "ltr",
         "langs": LANGS,
         "lang_names": LANG_NAMES,
         "t": UI[lang],
@@ -577,10 +651,15 @@ def reviews(lang):
 
 @app.route("/<lang>/cv/download.pdf")
 def cv_pdf(lang):
-    from pdf_cv import build_cv_pdf
+    from pdf_cv import LABELS, build_cv_pdf
 
     lang = valid_lang(lang)
-    pdf = build_cv_pdf(get_profile(), get_publications(), lang)
+    # Языки, которые шрифт PDF не нарисует, — резюме по-английски (PDF_LANGS)
+    pdf_lang = lang if lang in PDF_LANGS else FALLBACK_LANG
+    labels = LABELS.get(pdf_lang) or {
+        **LABELS[FALLBACK_LANG],
+        **{k[3:]: v for k, v in TRANSLATIONS.get(pdf_lang, {}).items() if k.startswith("cv:")}}
+    pdf = build_cv_pdf(get_profile(), get_publications(), pdf_lang, labels)
     # ASCII-имя для совместимости + UTF-8 (RFC 5987) для отображаемого имени
     ascii_name = "Usmanov-CV.pdf"
     utf8_name = quote("Усманов-CV.pdf" if lang == "ru" else "Usmanov-CV.pdf")
@@ -632,11 +711,12 @@ def sitemap_xml():
 
 @app.template_filter("localized")
 def localized(value, lang):
-    """Взять поле по языку: dict {'ru':..,'en':..,'uz':..} -> строка.
+    """Взять поле по языку: dict {'ru':..,'en':..,'uz':.., <переводы>} -> строка.
 
-    Если перевода на запрошенный язык ещё нет, откатываемся на русский."""
+    Если перевода на запрошенный язык нет — по-английски (Рустам: «где
+    невозможно перевод, оставь текст на английском»), нет и его — русский."""
     if isinstance(value, dict):
-        return value.get(lang) or value.get(DEFAULT_LANG) or ""
+        return value.get(lang) or value.get(FALLBACK_LANG) or value.get(DEFAULT_LANG) or ""
     return value
 
 

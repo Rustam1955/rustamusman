@@ -6,7 +6,7 @@
 {% block content %}
 <section class="section">
   <div class="container narrow">
-    <a class="back-link" href="{{ url_for('publications', lang=lang) }}">← {{ t.nav_pubs }}</a>
+    <a class="back-link" href="{{ url_for('publications', lang=lang) }}"><span class="arrow" aria-hidden="true">←</span> {{ t.nav_pubs }}</a>
 
     <article class="essay article-page">
       <h1 class="essay-title">{{ article.title|localized(lang) }}</h1>

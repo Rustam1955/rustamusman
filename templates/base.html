@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="{{ lang }}" dir="{{ dir }}">
 
 <head>
   <meta charset="utf-8">
@@ -79,7 +79,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="{{ url_for('home', lang=lang) }}">
-        <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="Логотип Усманова Рустамжона"
+        <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="IlmNur"
           class="brand-logo">
         <!-- Имени рядом с логотипом нет (Рустам, 16.09.2026): оно крупно на
              самой странице, а в шапке тесно — девять пунктов меню -->
@@ -171,7 +171,7 @@
             </div>
 
             <div class="set-panel" data-panel="lang" hidden>
-              <button type="button" class="set-back" data-open="main">← {{ t.set_back }}</button>
+              <button type="button" class="set-back" data-open="main"><span class="arrow" aria-hidden="true">←</span> {{ t.set_back }}</button>
               {% for l in langs %}
               <a href="{{ lang_urls.get(l) or url_for('home', lang=l) }}" class="set-item {{ 'active' if l==lang }}"
                 role="menuitem" lang="{{ l }}">
@@ -185,7 +185,7 @@
             <!-- Картинки — тот же набор, что в приложении (images/background):
                  список и превью отдаёт служба IlmNur на этом же домене -->
             <div class="set-panel" data-panel="bg" hidden>
-              <button type="button" class="set-back" data-open="main">← {{ t.set_back }}</button>
+              <button type="button" class="set-back" data-open="main"><span class="arrow" aria-hidden="true">←</span> {{ t.set_back }}</button>
               <div class="set-bg-grid" id="set-bg-grid" data-list="/backgrounds">
                 <button type="button" class="set-bg-tile set-bg-glow" data-bg-value="glow" title="{{ t.bg_glow }}">
                   <span>{{ t.bg_glow }}</span></button>

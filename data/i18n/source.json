@@ -1,0 +1,1110 @@
+{
+ "profile:/name": {
+  "ru": "Усманов Рустамжон",
+  "en": "Rustamzhon Usmanov"
+ },
+ "profile:/tagline": {
+  "ru": "Прикладная математика и механика — механика жидкости, газа и плазмы",
+  "en": "Applied mathematics and mechanics — fluid, gas and plasma mechanics"
+ },
+ "profile:/bio": {
+  "ru": [
+   "Узбекистанский учёный, выпускник МГУ имени М.В. Ломоносова, лауреат Государственной премии Республики Узбекистан первой степени в области науки и техники.",
+   "Специалист и исследователь в области прикладной математики и механики, горной и металлургической отрасли. Научные интересы охватывают механику жидкости, газа и плазмы, численное моделирование физических процессов, а также технологии добычи и производства редких, редкоземельных и благородных металлов. Ученик академиков Х.А. Рахматулина и Р.И. Нигматулина.",
+   "Автор более 30 научных статей, патентов на изобретения и 2 защищённых диссертаций. Здесь собраны мои публикации и научные результаты.",
+   "Я посвятил более 40 лет фундаментальной и прикладной науке, пройдя путь от классической школы механики жидкости, газа и плазмы в МГУ имени М.В. Ломоносова до решения сложнейших технологических задач горно-металлургической отрасли Узбекистана. Мой подход основан на стыке прикладной математики, математического моделирования и физико-химических процессов.",
+   "Сегодня мои исследования сосредоточены на поиске принципиально новых, современных методов дезинтеграции минеральных компонентов и вскрытия ценных металлов из упорного сырья методами высокочастотного и резонансного воздействия.",
+   "Этот сайт создан как открытая площадка для обмена опытом с учёными, инженерами и производственниками со всего мира, готовыми развивать технологии будущего."
+  ],
+  "en": [
+   "An Uzbek scientist, graduate of Lomonosov Moscow State University, laureate of the State Prize of the Republic of Uzbekistan of the first degree in science and technology.",
+   "A specialist and researcher in applied mathematics and mechanics, and in the mining and metallurgical industry. Research interests span fluid, gas and plasma mechanics, numerical modeling of physical processes, and technologies for the extraction and production of rare, rare-earth and precious metals. A student of academicians Kh.A. Rakhmatulin and R.I. Nigmatulin.",
+   "Author of more than 30 scientific articles, invention patents and 2 defended dissertations. This site collects my publications and research results.",
+   "I have devoted more than 40 years to fundamental and applied science, travelling the path from the classical school of fluid, gas and plasma mechanics at Lomonosov Moscow State University to solving the most complex technological problems of Uzbekistan's mining and metallurgical industry. My approach is based on the intersection of applied mathematics, mathematical modeling and physico-chemical processes.",
+   "Today my research focuses on the search for fundamentally new, modern methods of disintegrating mineral components and liberating valuable metals from refractory raw materials by means of high-frequency and resonant treatment.",
+   "This site is created as an open platform for exchanging experience with scientists, engineers and industry practitioners from all over the world who are ready to develop the technologies of the future."
+  ]
+ },
+ "profile:/heritage/title": {
+  "ru": "Мой дед — Ильмнур Миндияров (1878–1974)",
+  "en": "My grandfather — Ilmnur Mindiyarov (1878–1974)"
+ },
+ "profile:/heritage/text": {
+  "ru": [
+   "Мой дед Ильмнур Миндияров (1878–1974, отец моей матери — Анфисы Гилемнуровой) — ровесник сложных эпох. Он прожил путь от старого уклада Российской империи до советского Самарканда, сохранив в себе веру и свет знаний.",
+   "Он был настоящим просветителем и созидателем. Сквозь годы репрессий и испытаний он пронёс самое ценное — свет знаний (Ilm) и чистоту души (Nur).",
+   "В годы репрессий (1938 год) из родного села Ишкарово в Башкирии на самаркандскую землю он привёз не обиду, а созидание. Он привёз с собой знания и культуру.",
+   "Он учил грамоте, был муфассиром, обладал глубокими знаниями арабского языка и учил правильно произносить арабский текст. Он дарил тепло и открывал окна в мир каждому, кто хотел учиться.",
+   "Он не просто давал знания — он закалял характер, готовя нас к большим вершинам и победам."
+  ],
+  "en": [
+   "My grandfather, Ilmnur Mindiyarov (1878–1974, the father of my mother, Anfisa Gilemnurova), was a contemporary of difficult eras. He lived through the path from the old order of the Russian Empire to Soviet Samarkand, keeping his faith and the light of knowledge.",
+   "He was a true enlightener and creator. Through years of repression and hardship he carried the most precious thing of all — the light of knowledge (Ilm) and the purity of the soul (Nur).",
+   "During the repressions of 1938, from his native village of Ishkarovo in Bashkiria to the land of Samarkand, he brought not resentment but creation. He brought with him knowledge and culture.",
+   "He taught literacy, was a mufassir, had a deep command of the Arabic language and taught the correct pronunciation of Arabic text. He gave warmth and opened windows to the world for everyone who wished to learn.",
+   "He did not merely give knowledge — he tempered character, preparing us for great heights and victories."
+  ]
+ },
+ "profile:/heritage/motto": {
+  "ru": "Его имя теперь — наш девиз. Его жизнь — наш пример. Мы творим историю своим умом, как он и завещал нам.",
+  "en": "His name is now our motto. His life is our example. We make history with our own minds, just as he bequeathed to us."
+ },
+ "profile:/heritage/mother/title": {
+  "ru": "Моя мама",
+  "en": "My mother"
+ },
+ "profile:/heritage/mother/text": {
+  "ru": [
+   "Чему я достиг... Я благодарен моему Дяде Фанису и моей Ангел, любимой, неповторимой Маме Анфисы... Всю оставшую жизнь, новые изобретения и достижения посвящаю памяти моих близких безаветно преданных мне дорогих близких…",
+   "Моя мама- Гилемнурова Анфиса родилась в селе Ишкарово (Башкирия) в известной башкирской семье 17.12.1933 года. Окончила 8 классов Башкирской школы. Ее отца (моего деда) звали ИлмНур(Гылымнур- по башкирски), маму — Мавтуха. Дед из рода Ишкаровых, бабушка — из рода Султановых.",
+   "Немного истории: Основатель села Ишкар - Дворянин Башкирии Ишкар Арсланов. Сын Ишкары- Кульмет Ишкарин(1720-1800). Дети Кульмета-Мухамедрахим, Мухамедшариф, МухамедСадык. Миндияр (1850-). Дети Миндияра. Миндияровы Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (ИлмНур, мой дед) …",
+   "Был также знаменитый род Султановых - которых в народе часто именовались «губернаторами» из-за их огромной власти.",
+   "Моя Бабушка Мавтуха (в переводе «открытая» было популярное имя в башкирской среде 18-19 веках) была из этого знаменитого рода.",
+   "В 1938 году моего деда Миндиярова ИлмНура репрессировали из родного села Ишкарово в Самаркандские земли. Моя мама вместе с братьями осталась в селе. Только в 1947 году после окончания 8 классов Башкирской школы моя мама приехала с младшими братьями в поселок «Митан» (Самаркандская область) к отцу и там же окончила среднюю узбекскую школу."
+  ],
+  "en": [
+   "What I have achieved... I am grateful to my Uncle Fanis and to my Angel, my beloved, unique Mother Anfisa... All the rest of my life, my new inventions and achievements I dedicate to the memory of my loved ones, who were selflessly devoted to me…",
+   "My mother, Gilemnurova Anfisa, was born in the village of Ishkarovo (Bashkiria) into a well-known Bashkir family on 17 December 1933. She completed 8 grades of the Bashkir school. Her father (my grandfather) was named IlmNur (Gylymnur in Bashkir), her mother — Mavtukha. My grandfather was of the Ishkarov family, my grandmother — of the Sultanov family.",
+   "A bit of history: the founder of the village of Ishkar was a nobleman of Bashkiria, Ishkar Arslanov. Ishkara's son — Kulmet Ishkarin (1720–1800). Kulmet's children — Mukhamedrakhim, Mukhamedsharif, MukhamedSadyk. Mindiyar (1850–). Mindiyar's children — the Mindiyarovs: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (IlmNur, my grandfather)…",
+   "There was also the famous Sultanov family, whom the people often called «governors» because of their enormous power.",
+   "My grandmother Mavtukha (translated as «open» — a name popular in the Bashkir community in the 18th–19th centuries) was from this famous family.",
+   "In 1938 my grandfather Mindiyarov IlmNur was repressed from his native village of Ishkarovo to the Samarkand lands. My mother, together with her brothers, remained in the village. Only in 1947, after finishing 8 grades of the Bashkir school, did my mother come with her younger brothers to the village of «Mitan» (Samarkand region) to their father, and there she finished the Uzbek secondary school."
+  ]
+ },
+ "profile:/heritage/teachers/title": {
+  "ru": "Мои учителя",
+  "en": "My teachers"
+ },
+ "profile:/heritage/teachers/caption": {
+  "ru": "Академик Р.И. Нигматулин",
+  "en": "Academician R.I. Nigmatulin"
+ },
+ "profile:/heritage/teachers/text": {
+  "ru": [
+   "О моих учителях.",
+   "Моим научным руководителем и консультантом в сфере механики жидкости, газа и плазмы являются — всемирно известные ученые Х.А. Рахматулин и Р. И. Нигматулин.",
+   "Под их руководством мною были выполнены кандидатская (1987) и докторская (2015). Работа выполнялась на кафедре волновой и газовой динамики МГУ имени М. В. Ломоносова. Исследования и прикладная научная часть велась в тесной связи с Навоийским горно-металлургическим комбинатом (НГМК) в Узбекистане.",
+   "Под руководством моих наставников была создана уникальная база в области механики многофазных сред. Были разработаны формулы и численные методы, описывающие, как ведут себя жидкости, газы и тепло внутри пористых геологических рудных тел.",
+   "Фундаментальные модели выявили точное прогнозирование динамики растекания растворов. Это легло в основу высокоэффективной и экологически безопасной комплексной технологии добычи и переработки урана, редких, редкоземельных и драгоценных металлов на объектах НГМК.",
+   "Математические расчеты помогли спроектировать новые технологические процессы для извлечения золота из сложного, труднообрабатываемого сырья и техногенных отходов."
+  ],
+  "en": [
+   "About my teachers.",
+   "My scientific supervisors and consultants in the field of fluid, gas and plasma mechanics are the world-renowned scientists Kh.A. Rakhmatulin and R.I. Nigmatulin.",
+   "Under their guidance I completed my candidate's (1987) and doctoral (2015) dissertations. The work was carried out at the Department of Wave and Gas Dynamics of Lomonosov Moscow State University. The research and applied scientific part was conducted in close cooperation with the Navoi Mining and Metallurgical Combine (NMMC) in Uzbekistan.",
+   "Under the guidance of my mentors, a unique foundation was created in the field of multiphase-media mechanics. Formulas and numerical methods were developed that describe how liquids, gases and heat behave inside porous geological ore bodies.",
+   "The fundamental models made possible the accurate prediction of the dynamics of solution spreading. This formed the basis of a highly efficient and environmentally safe integrated technology for the extraction and processing of uranium, rare, rare-earth and precious metals at NMMC facilities.",
+   "Mathematical calculations helped to design new technological processes for extracting gold from complex, hard-to-process raw materials and technogenic waste."
+  ]
+ },
+ "profile:/heritage/lineage/title": {
+  "ru": "История нашего рода: от отважного полковника до мудрых учителей",
+  "en": "The story of our family: from a brave colonel to wise teachers"
+ },
+ "profile:/heritage/lineage/text": {
+  "ru": [
+   "Дорогие мои внуки! Я хочу, чтобы вы знали историю нашей большой семьи. Наш род по моей маминой (Анфиса Гилемнурова) линии начинается в Башкирии, в красивом селе Ишкарово. Знаете ли вы, что это село названо в честь нашего прямого предка? Его звали Ишкара Арасланов. Больше 250 лет назад он был настоящим башкирским полковником, вождем и соратником Емельяна Пугачева. Он воевал за свободу своего народа.",
+   "Когда восстание угасло, Ишкара проявил мудрость: он сам пришел к генералам, смог защитить свою семью и сохранил за собой эти земли. В 1795 году во всем селе было всего 10 домов, и жили там только наши родственники! Имя «Миндияров», которое носит семья моей мамы, пошло от имени внука полковника — Миндияра. Наша родословная линия крепка и идет сквозь века: от Ишкары к Кульмету, затем к Миндияру, Мухаметнуру и, наконец, к моему дедушке Гылымнуру.",
+   "Мои дедушка Гилемнур и бабушка Мавтуха (ее имя красиво переводится как «открытая душа») были удивительными людьми. Они были просветителями — несли людям грамоту, культуру и добро. В трудный 1938 год начались гонения, и дедушке пришлось уехать из родной Башкирии в далекий Самарканд. Но самое главное: в своем сердце он привез на новую землю не злобу или обиду, а созидание, любовь к труду и огромные знания.",
+   "Ваша прабабушка Анфиса училась в той самой башкирской школе в Ишкарово и окончила ее в 1947 году. А прямо сейчас в соседней деревне Гремучий Ключ живет ее двоюродная сестра — бабушка Ильгиза, которой уже 90 лет! Помните свои корни, гордитесь своими предками и будьте такими же созидателями, какими были они."
+  ],
+  "en": [
+   "My dear grandchildren! I want you to know the story of our large family. On my mother's side (Anfisa Gilemnurova), our family begins in Bashkiria, in the beautiful village of Ishkarovo. Did you know that this village is named after our direct ancestor? His name was Ishkara Araslanov. More than 250 years ago he was a real Bashkir colonel, a leader and comrade-in-arms of Yemelyan Pugachev. He fought for the freedom of his people.",
+   "When the uprising died down, Ishkara showed wisdom: he came to the generals himself, managed to protect his family and kept these lands. In 1795 there were only 10 houses in the whole village, and only our relatives lived there! The name «Mindiyarov», borne by my mother's family, comes from the name of the colonel's grandson — Mindiyar. Our lineage is strong and runs through the centuries: from Ishkara to Kulmet, then to Mindiyar, Mukhametnur and, finally, to my grandfather Gylymnur.",
+   "My grandfather Gilemnur and grandmother Mavtukha (her name beautifully translates as «open soul») were remarkable people. They were enlighteners — bringing people literacy, culture and kindness. In the difficult year of 1938 the persecutions began, and my grandfather had to leave his native Bashkiria for distant Samarkand. But most importantly: in his heart he brought to the new land not malice or resentment, but creation, love of labor and immense knowledge.",
+   "Your great-grandmother Anfisa studied in that very Bashkir school in Ishkarovo and graduated from it in 1947. And right now, in the neighboring village of Gremuchy Klyuch, lives her cousin — grandmother Ilgiza, who is already 90 years old! Remember your roots, be proud of your ancestors, and be creators just as they were."
+  ]
+ },
+ "profile:/heritage/story/title": {
+  "ru": "История одного спасения",
+  "en": "The story of one rescue"
+ },
+ "profile:/heritage/story/subtitle": {
+  "ru": "Памяти моего отца — Усманова Исо, фронтовика Великой Отечественной войны, и его спасительницы, Бабушки Нади",
+  "en": "In memory of my father — Usmanov Iso, a front-line soldier of the Great Patriotic War, and his rescuer, Grandmother Nadya"
+ },
+ "profile:/heritage/story/images/0/caption": {
+  "ru": "Усманов Исо — фронтовик 1-го Украинского фронта",
+  "en": "Usmanov Iso — a front-line soldier of the 1st Ukrainian Front"
+ },
+ "profile:/heritage/story/images/1/caption": {
+  "ru": "Юбилейная медаль «60 лет освобождения Украины от фашистских захватчиков» (1944–2004)",
+  "en": "Jubilee medal «60 years of the liberation of Ukraine from the fascist invaders» (1944–2004)"
+ },
+ "profile:/heritage/story/text": {
+  "ru": [
+   "У каждой семьи, пережившей Великую Отечественную войну, своя память. Но в нашей семье эта память особенная — она соткана из горьких слёз утраты, невероятного мужества и великого материнского милосердия, которое оказалось сильнее войны и национальной розни.",
+   "В страшные годы войны наша семья понесла невосполнимую утрату. Три родных брата моего отца были зверски убиты бандеровцами. Это случилось в самый кровавый и жестокий период противостояния — в 1944–1945 годах. Для нашей семьи эта трагедия осталась незаживающей раной на всю жизнь. Но в то же самое время, на той же опалённой войной украинской земле, произошло настоящее чудо. Мой отец выжил. И выжил он благодаря той, кого мы до сих пор вспоминаем с трепетом и слезами благодарности, — простой украинской женщине, которую звали Бабушка Надя (Надежда).",
+   "Мой отец, Усманов Исо (сын Усмана, внук Икрома), узбек по национальности, попал в самое жерло той беспощадной партизанской войны на Западной Украине. Он доблестно сражался на передовой в рядах легендарного 1-го Украинского фронта под командованием маршала Ивана Степановича Конева. В ходе тяжелейших боёв 1944–1945 годов Исо был тяжело ранен и обречён на гибель.",
+   "Но бесстрашная Бабушка Надя укрыла его на самой окраине села. Она спрятала израненного узбекского солдата в закрытой яме, где обычно хранили картошку и припасы. Риск был смертельным: если бы бандеровцы или каратели узнали, что она прячет бойца Красной Армии, её и всю её семью ждала бы неминуемая, жестокая казнь.",
+   "Каждый день, рискуя собственной жизнью, она спускалась в эту холодную земляную яму, обрабатывала раны молодого Исо и выхаживала его, отпаивая тёплым козьим молоком — единственным доступным лекарством в те страшные дни. Отец вспоминал, как она часто плакала над ним и говорила на родном языке: «У меня ведь тоже трое сыновей… Они тоже где-то там, как и ты, наверное, ранены…»",
+   "В её материнском сердце не было деления на «своих» и «чужих». Спасая чужого сына-узбека, Надежда молила Бога о том, чтобы кто-то точно так же спас и пощадил её собственных детей. К великому сожалению, война безжалостно обошлась с её исполненной боли семьёй: двое её сыновей погибли на фронте, а третий вернулся, но подорвал здоровье и умер буквально сразу после войны. Мой отец, Усманов Исо, стал для неё тем самым сыном, которого ей удалось вырвать из лап смерти.",
+   "Находясь в этой яме и долгие дни общаясь со своей спасительницей, мой отец не просто слушал её — он всем сердцем впитывал её речь. Узбек по национальности, прекрасно знавший русский язык, он в совершенстве выучил украинский. Этот язык стал для него не просто средством общения, а языком его второго рождения.",
+   "Прошли десятилетия. История, казалось, ушла в прошлое, но память о подвиге простой украинской женщины и мужестве советского солдата жила в нашей семье в Узбекистане. Справедливость восторжествовала спустя долгие 59 лет.",
+   "В 2004 году в наш город Навои официально прибыл Чрезвычайный и Полномочный Посол Украины в Республике Узбекистан. От имени Президента Леонида Кучмы нашему отцу, ветерану Усманову Исо, была торжественно вручена государственная награда — юбилейная медаль «60 лет освобождения Украины от фашистских захватчиков».",
+   "Эта высокая награда на груди Исо Усманова стала священным памятником им обоим. В металле этой медали навсегда слились воедино и доблесть солдата маршала Конева, и великое милосердие Бабушки Нади, и вечная память о её погибших сыновьях-героях. Эта медаль подтвердила: их общая правда и их человечность победили забвение.",
+   "В день вручения произошло то, что поразило всю дипломатическую миссию до глубины души. Мой отец, пожилой узбек Усманов Исо, спустя почти 60 лет заговорил с послом на чистейшем, безупречном украинском языке. Он не забыл ни единого слова, ни единой интонации. Этот язык остался с ним как священная дань памяти, как вечная благодарность Бабушке Наде, которая подарила ему жизнь.",
+   "В нашем семейном архиве бережно хранится фотография с того памятного дня в Навои. Этот снимок и сама медаль — наше главное сокровище. Они доказывают, что даже в самые тёмные времена человечность, доброта и верность побеждают любую жестокость. Медаль солдата, воевавшего под началом маршала Конева, и великий подвиг Бабушки Нади навсегда останутся в памяти нашего рода."
+  ],
+  "en": [
+   "Every family that lived through the Great Patriotic War has its own memory. But in our family this memory is special — it is woven from the bitter tears of loss, incredible courage, and the great motherly mercy that proved stronger than war and ethnic hatred.",
+   "In the terrible years of the war our family suffered an irreplaceable loss. Three of my father's own brothers were brutally murdered by Bandera's men. It happened in the bloodiest and cruelest period of the confrontation — in 1944–1945. For our family this tragedy remained an unhealing wound for life. But at the very same time, on that same war-scorched Ukrainian soil, a true miracle took place. My father survived. And he survived thanks to the one whom we still remember with awe and tears of gratitude — a simple Ukrainian woman named Grandmother Nadya (Nadezhda).",
+   "My father, Usmanov Iso (son of Usman, grandson of Ikrom), an Uzbek by nationality, found himself in the very heart of that merciless partisan war in Western Ukraine. He fought valiantly on the front line in the ranks of the legendary 1st Ukrainian Front under the command of Marshal Ivan Stepanovich Konev. During the heaviest battles of 1944–1945, Iso was severely wounded and doomed to die.",
+   "But the fearless Grandmother Nadya hid him on the very outskirts of the village. She concealed the wounded Uzbek soldier in a closed pit where potatoes and provisions were usually stored. The risk was deadly: had the Bandera men or the punishers found out that she was hiding a Red Army fighter, she and her whole family would have faced an inevitable, cruel execution.",
+   "Every day, risking her own life, she climbed down into that cold earthen pit, tended young Iso's wounds and nursed him, giving him warm goat's milk to drink — the only medicine available in those terrible days. Father recalled how she often wept over him and said in her native tongue: «I too have three sons… They are also somewhere out there, wounded like you, perhaps…»",
+   "In her motherly heart there was no division into «ours» and «strangers». Saving a stranger's Uzbek son, Nadezhda prayed to God that someone would likewise save and spare her own children. Sadly, the war dealt mercilessly with her grief-stricken family: two of her sons died at the front, and the third returned but had ruined his health and died almost immediately after the war. My father, Usmanov Iso, became for her that very son whom she managed to snatch from the clutches of death.",
+   "While in that pit and speaking for long days with his rescuer, my father did not merely listen to her — he absorbed her speech with all his heart. An Uzbek by nationality who knew Russian perfectly, he mastered Ukrainian to perfection. That language became for him not just a means of communication, but the language of his second birth.",
+   "Decades passed. History seemed to have receded into the past, but the memory of the feat of a simple Ukrainian woman and the courage of a Soviet soldier lived on in our family in Uzbekistan. Justice triumphed after 59 long years.",
+   "In 2004, the Ambassador Extraordinary and Plenipotentiary of Ukraine to the Republic of Uzbekistan officially arrived in our city of Navoi. On behalf of President Leonid Kuchma, our father, veteran Usmanov Iso, was solemnly presented with a state award — the jubilee medal «60 years of the liberation of Ukraine from the fascist invaders».",
+   "This high award on the chest of Iso Usmanov became a sacred monument to them both. In the metal of this medal there merged forever the valor of Marshal Konev's soldier, the great mercy of Grandmother Nadya, and the eternal memory of her fallen hero sons. This medal confirmed: their shared truth and their humanity defeated oblivion.",
+   "On the day of the presentation, something happened that struck the entire diplomatic mission to the depths of their souls. My father, the elderly Uzbek Usmanov Iso, after almost 60 years spoke to the ambassador in the purest, flawless Ukrainian. He had not forgotten a single word, a single intonation. That language stayed with him as a sacred tribute of memory, as eternal gratitude to Grandmother Nadya, who gave him life.",
+   "In our family archive we carefully keep a photograph from that memorable day in Navoi. This picture and the medal itself are our greatest treasure. They prove that even in the darkest times, humanity, kindness and loyalty defeat any cruelty. The medal of a soldier who fought under Marshal Konev, and the great feat of Grandmother Nadya, will forever remain in the memory of our family."
+  ]
+ },
+ "profile:/reflections/essays/0/title": {
+  "ru": "Истинные учёные — наследники пророков",
+  "en": "True scientists are heirs of the prophets"
+ },
+ "profile:/reflections/essays/0/blocks/0/text": {
+  "ru": "Пророки приносили людям знание о морали и Боге, а учёные — знание о законах мироздания. И те, и другие ведут человечество из мрака к свету.",
+  "en": "Prophets brought people knowledge of morality and God; scientists bring knowledge of the laws of the universe. Both lead humanity from darkness to light."
+ },
+ "profile:/reflections/essays/0/blocks/1/text": {
+  "ru": "Я верю, что истинный учёный — наследник пророка. Не по сану, а по призванию: выводить людей из невежества к свету знания. В нашем роду это выражено даже в имени — Ilm (знание) и Nur (свет).",
+  "en": "I believe that a true scientist is an heir of the prophets — not by rank, but by calling: to lead people out of ignorance toward the light of knowledge. In our family this is expressed even in a name — Ilm (knowledge) and Nur (light)."
+ },
+ "profile:/reflections/essays/0/blocks/2/text": {
+  "ru": "Когда открытие облегчает страдания людей или развивает их разум, оно становится служением. В исламской традиции есть понятие садака — непрекращающееся благодеяние: знание, которым люди пользуются и после смерти учёного, остаётся таким благом. А разум (акль) — величайший дар Творца; развивать его в других и есть путь мудрости.",
+  "en": "When a discovery eases human suffering or nurtures the mind, it becomes a form of service. The Islamic tradition speaks of sadaqa — a ceaseless good deed: knowledge that people still use after a scholar's death remains such a good. And reason (aql) is the greatest gift of the Creator; to cultivate it in others is the path of wisdom."
+ },
+ "profile:/reflections/essays/0/blocks/3/text": {
+  "ru": "Опасность возникает там, где материальное потребление становится единственной целью. Общество, потерявшее нравственную опору, теряет и иммунитет к соблазну власти и наживы. Знание без совести не спасает — оно вооружает.",
+  "en": "Danger arises where material consumption becomes the only goal. A society that has lost its moral footing loses its immunity to the temptations of power and profit. Knowledge without conscience does not save — it arms."
+ },
+ "profile:/reflections/essays/0/blocks/4/text": {
+  "ru": "Яснее всего это видно в новых технологиях. Искусственный разум способен избавить мир от голода, болезней и нехватки ресурсов — и это было бы великим благодеянием. Но та же сила в руках жадности легко превращается в инструмент контроля и неравенства. Дело не в машине, а в человеке, который ею управляет.",
+  "en": "This is seen most clearly in new technology. An artificial mind could free the world from hunger, disease and scarcity — and that would be a great good deed. Yet the same power, in the hands of greed, easily becomes a tool of control and inequality. The question is not the machine, but the human being who guides it."
+ },
+ "profile:/reflections/essays/0/blocks/5/text": {
+  "ru": "История учит, что на всякое действие рождается противодействие. Надежда — в том, чтобы знание оставалось открытым и общим, а не собственностью немногих, и чтобы им управляла совесть, а не расчёт. Если победит разум и та самая пророческая миссия учёного, любая технология станет щитом, а не ядом.",
+  "en": "History teaches that every action gives rise to a counter-action. Hope lies in keeping knowledge open and shared rather than the property of a few, and in letting conscience — not calculation — govern it. If reason prevails, along with that prophetic mission of the scientist, any technology becomes a shield rather than a poison."
+ },
+ "profile:/reflections/essays/0/blocks/6/text": {
+  "ru": "Мы творим историю своим умом — как завещали нам предки.",
+  "en": "We make history with our own minds — as our forefathers bequeathed to us."
+ },
+ "profile:/reflections/essays/1/title": {
+  "ru": "Мои воспоминания о моём учителе",
+  "en": "My memories of my teacher"
+ },
+ "profile:/reflections/essays/1/blocks/0/text": {
+  "ru": "Для меня было большой честью быть учеником легендарного учёного, педагога и создателя научной школы механики в МГУ — Халила Ахмедовича Рахматулина (1909–1988). Великих людей часто окружают легенды, но для меня важнее был реальный опыт живого общения с моим учителем.",
+  "en": "It was a great honour for me to be a student of the legendary scientist, teacher and founder of the school of mechanics at MSU — Khalil Akhmedovich Rakhmatulin (1909–1988). Great people are often surrounded by legends, but for me the real experience of living communication with my teacher mattered more."
+ },
+ "profile:/reflections/essays/1/blocks/1/text": {
+  "ru": "Мировое признание",
+  "en": "World recognition"
+ },
+ "profile:/reflections/essays/1/blocks/2/text": {
+  "ru": "Его «волны разгрузки» изучали во всём мире, включая Принстон, где жил Эйнштейн. Несмотря на все регалии — Герой Социалистического Труда, лауреат Сталинских (1945, 1949) и Государственной (1981) премий, — он оставался внутренне свободным человеком. Он мог позволить себе иронию над системой, которой служил, потому что служил он не «партии», а Науке и Истине.",
+  "en": "His «unloading waves» were studied all over the world, including Princeton, where Einstein lived. Despite all his honours — Hero of Socialist Labour, laureate of the Stalin (1945, 1949) and State (1981) prizes — he remained an inwardly free man. He could allow himself irony toward the system he served, because he served not the «party», but Science and Truth."
+ },
+ "profile:/reflections/essays/1/blocks/3/text": {
+  "ru": "Про формулу социализма",
+  "en": "About the formula of socialism"
+ },
+ "profile:/reflections/essays/1/blocks/4/text": {
+  "ru": "11 февраля 1981 года он прилетел в Самарканд, в СамГУ имени А. Навои, чтобы забрать меня в Москву, в МГУ. Мы устроили утреннее чаепитие в гостинице «Интурист», куда пришли видные учёные Самарканда. Мне запомнилось несколько моментов его речи.",
+  "en": "On 11 February 1981 he flew to Samarkand, to A. Navoi SamSU, to take me to Moscow, to MSU. We arranged a morning tea at the «Intourist» hotel, where prominent scientists of Samarkand gathered. I remember several moments of his speech."
+ },
+ "profile:/reflections/essays/1/blocks/5/text": {
+  "ru": "Тогда многим казалось, что система незыблема. Но он уже видел «трещины в фундаменте». Как большой учёный в кругу своих, он позволял себе быть искренним и честно оценивать время — и фактически предсказал будущее целой державы. Он предчувствовал драматичный финал нашей Родины, до последнего дня чувствуя ответственность за судьбу науки и страны. Именно тогда он с болью говорил, что созидательная энергия уходит в пустую идеологию, и видел абсурдность некоторых догм через призму строгой математики.",
+  "en": "Back then many believed the system was unshakable. But he already saw «cracks in the foundation». As a great scientist among his own, he allowed himself to be sincere and to assess the times honestly — and in effect predicted the future of an entire power. He sensed the dramatic finale of our Motherland, feeling responsibility for the fate of science and the country to his last day. It was then that he said with pain that creative energy was draining into empty ideology, and he saw the absurdity of certain dogmas through the prism of rigorous mathematics."
+ },
+ "profile:/reflections/essays/1/blocks/6/text": {
+  "ru": "Его тревога, которую мы почувствовали, была характерна для лучших представителей технической и научной элиты того времени — по нескольким причинам:",
+  "en": "The anxiety we felt in him was characteristic of the best representatives of the technical and scientific elite of that time — for several reasons:"
+ },
+ "profile:/reflections/essays/1/blocks/7/items/0/title": {
+  "ru": "Технологическое отставание.",
+  "en": "Technological lag."
+ },
+ "profile:/reflections/essays/1/blocks/7/items/0/text": {
+  "ru": "Как человек, отвечавший за оборонные проекты, аэродинамику и сложные системы (парашюты, аэростаты, волновые процессы), он видел, что бюрократия и «застой» в партийном аппарате начинают тормозить научный прогресс. Ироничная формула про «социализм минус электрификацию» была не просто шуткой — это был горький математический вывод о том, что идеология перестаёт подкрепляться реальным развитием.",
+  "en": "As a man responsible for defence projects, aerodynamics and complex systems (parachutes, aerostats, wave processes), he saw that bureaucracy and «stagnation» in the party apparatus were beginning to slow scientific progress. The ironic formula about «socialism minus electrification» was not just a joke — it was a bitter mathematical conclusion that ideology was ceasing to be backed by real development."
+ },
+ "profile:/reflections/essays/1/blocks/7/items/1/title": {
+  "ru": "Критика партократии.",
+  "en": "Criticism of the partocracy."
+ },
+ "profile:/reflections/essays/1/blocks/7/items/1/text": {
+  "ru": "Будучи выходцем из народа (пройдя путь от рабфака до академика), Рахматулин остро чувствовал разрыв между лозунгами КПСС и реальной жизнью. Его ирония в адрес «некоторых членов партии» в 1981 году — свидетельство того, что он видел деградацию партийной верхушки, всё больше состоявшей из карьеристов, а не созидателей.",
+  "en": "Coming from the people (having travelled the path from a workers' faculty to academician), Rakhmatulin keenly felt the gap between the slogans of the CPSU and real life. His irony toward «certain party members» in 1981 is evidence that he saw the degradation of the party leadership, increasingly made up of careerists rather than creators."
+ },
+ "profile:/reflections/essays/1/blocks/7/items/2/title": {
+  "ru": "Ответственность перед будущим.",
+  "en": "Responsibility to the future."
+ },
+ "profile:/reflections/essays/1/blocks/7/items/2/text": {
+  "ru": "Он часто упоминал внука Сашу в контексте «сложных задач». Возможно, его тревога за внука была не только из-за учебников, но и из-за того, в каком мире этому ребёнку придётся жить, если «застой» не сменится качественным рывком. Его внук, Александр Шамильевич Рахматулин, позже тоже пошёл по научной стезе, став физиком-математиком и продолжив династию.",
+  "en": "He often mentioned his grandson Sasha in the context of «difficult problems». Perhaps his worry for his grandson was not only about textbooks, but also about the world this child would have to live in if «stagnation» were not replaced by a qualitative leap. His grandson, Alexander Shamilyevich Rakhmatulin, later also took the scientific path, becoming a physicist-mathematician and continuing the dynasty."
+ },
+ "profile:/reflections/essays/2/title": {
+  "ru": "Почему среди мусульман мало лауреатов Нобелевской премии",
+  "en": "Why there are few Nobel laureates among Muslims"
+ },
+ "profile:/reflections/essays/2/blocks/0/text": {
+  "ru": "На сегодня число лауреатов Нобелевской премии среди мусульман — около 15 человек на 2 миллиарда мусульман планеты.",
+  "en": "As of today, the number of Nobel laureates among Muslims is about 15 people out of the 2 billion Muslims on the planet."
+ },
+ "profile:/reflections/essays/2/blocks/1/text": {
+  "ru": "Согласно статистике Организации исламского сотрудничества (ОИС), мусульманские страны тратят на научные исследования и разработки (НИОКР) в среднем всего около 0,81% своего ВВП. Для сравнения, развитые страны — США, Япония, Израиль — инвестируют в науку от 2,5% до 4,5% ВВП.",
+  "en": "According to statistics from the Organisation of Islamic Cooperation (OIC), Muslim countries spend on average only about 0.81% of their GDP on research and development (R&D). For comparison, developed countries — the USA, Japan, Israel — invest from 2.5% to 4.5% of GDP in science."
+ },
+ "profile:/reflections/essays/2/blocks/2/text": {
+  "ru": "Экспериментальная наука (физика, химия, медицина) требует миллиардных вложений в лаборатории, коллайдеры и суперкомпьютеры. В большинстве мусульманских стран такой базы просто нет.",
+  "en": "Experimental science (physics, chemistry, medicine) requires billions in investment in laboratories, colliders and supercomputers. In most Muslim countries such a base simply does not exist."
+ },
+ "profile:/reflections/essays/2/blocks/3/text": {
+  "ru": "Из-за этого талантливые учёные уезжают. Практически все мусульмане, получившие Нобелевскую премию в области естественных наук — Абдус Салам (физика), Ахмед Зевейл, Азиз Санджар, Мунги Бавенди (химия), — сделали свои открытия и построили карьеру в ведущих университетах США и Европы.",
+  "en": "Because of this, talented scientists leave. Almost all Muslims who received the Nobel Prize in the natural sciences — Abdus Salam (physics), Ahmed Zewail, Aziz Sancar, Moungi Bawendi (chemistry) — made their discoveries and built their careers at leading universities in the USA and Europe."
+ },
+ "profile:/reflections/essays/2/blocks/4/text": {
+  "ru": "Нобелевские открытия рождаются там, где есть свобода мысли, жёсткая критика авторитетов и независимость университетов от государственной идеологии. Во многих мусульманских странах академическая свобода ограничена политическими режимами, цензурой или религиозным консерватизмом. Учёные часто вынуждены заниматься прикладными задачами государства, а не фундаментальной теорией.",
+  "en": "Nobel discoveries are born where there is freedom of thought, harsh criticism of authorities and independence of universities from state ideology. In many Muslim countries academic freedom is restricted by political regimes, censorship or religious conservatism. Scientists are often forced to work on the applied tasks of the state rather than on fundamental theory."
+ },
+ "profile:/reflections/essays/2/blocks/5/text": {
+  "ru": "Большая часть премий, полученных мусульманами, относится к гуманитарным сферам:",
+  "en": "Most of the prizes received by Muslims belong to the humanitarian spheres:"
+ },
+ "profile:/reflections/essays/2/blocks/6/items/0/title": {
+  "ru": "Премия мира:",
+  "en": "Peace Prize:"
+ },
+ "profile:/reflections/essays/2/blocks/6/items/0/text": {
+  "ru": "более половины всех лауреатов-мусульман — Ясир Арафат, Малала Юсуфзай, Мухаммад Юнус.",
+  "en": "more than half of all Muslim laureates — Yasser Arafat, Malala Yousafzai, Muhammad Yunus."
+ },
+ "profile:/reflections/essays/2/blocks/6/items/1/title": {
+  "ru": "Литература:",
+  "en": "Literature:"
+ },
+ "profile:/reflections/essays/2/blocks/6/items/1/text": {
+  "ru": "Нагиб Махфуз (Египет), Орхан Памук (Турция), Абдулразак Гурна (Танзания).",
+  "en": "Naguib Mahfouz (Egypt), Orhan Pamuk (Turkey), Abdulrazak Gurnah (Tanzania)."
+ },
+ "profile:/reflections/essays/2/blocks/6/items/2/title": {
+  "ru": "Естественные науки (физика и химия):",
+  "en": "Natural sciences (physics and chemistry):"
+ },
+ "profile:/reflections/essays/2/blocks/6/items/2/text": {
+  "ru": "всего 4 лауреата за всю историю. В области медицины и экономики лауреатов пока нет.",
+  "en": "only 4 laureates in all of history. In medicine and economics there are as yet no laureates."
+ },
+ "profile:/reflections/essays/3/title": {
+  "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
+  "en": "On technological solutions in uranium production in Uzbekistan"
+ },
+ "profile:/reflections/essays/3/blocks/0/text": {
+  "ru": "Введение",
+  "en": "Introduction"
+ },
+ "profile:/reflections/essays/3/blocks/1/text": {
+  "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — в рамках государственной стратегии планируется довести ежегодную добычу урана до 7 200 тонн к 2030 году.",
+  "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030."
+ },
+ "profile:/reflections/essays/3/blocks/2/text": {
+  "ru": "Суммарные запасы урана в недрах Узбекистана официально оцениваются в 139 000 тонн. Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла более 40%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 20%.",
+  "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%."
+ },
+ "profile:/reflections/essays/3/blocks/3/text": {
+  "ru": "Проблемы современной урановой индустрии",
+  "en": "Problems of the modern uranium industry"
+ },
+ "profile:/reflections/essays/3/blocks/4/text": {
+  "ru": "1. Кольматация и истощение пластов",
+  "en": "1. Colmatation and depletion of the ore beds"
+ },
+ "profile:/reflections/essays/3/blocks/5/text": {
+  "ru": "При отработке пластов остаточный уран в основном заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — приводит к экологической катастрофе подземных вод. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором должным образом не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты, рекультивация которых потребует сотен миллионов долларов.",
+  "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars."
+ },
+ "profile:/reflections/essays/3/blocks/6/text": {
+  "ru": "2. Технологичные решения",
+  "en": "2. Technological solutions"
+ },
+ "profile:/reflections/essays/3/blocks/7/text": {
+  "ru": "Решение №1. Способ подземного выщелачивания урана (патент № IAP 05336)",
+  "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)"
+ },
+ "profile:/reflections/essays/3/blocks/8/text": {
+  "ru": "Фундаментальная основа химии урана — перевод инертной, нерастворимой четырехвалентной формы (U⁴⁺) в подвижную шестивалентную (U⁶⁺).",
+  "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺)."
+ },
+ "profile:/reflections/essays/3/blocks/9/text": {
+  "ru": "Вместо закупки чистой кислоты на глубоких пластах месторождений Северного рудоуправления (СевРУ) была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
+  "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
+ },
+ "profile:/reflections/essays/3/blocks/10/items/0": {
+  "ru": "В пласт подавался бесплатный биореагент, содержащий культуру бактерий Acidithiobacillus ferrooxidans и двухвалентное железо (Fe²⁺).",
+  "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed."
+ },
+ "profile:/reflections/essays/3/blocks/10/items/1": {
+  "ru": "Параллельно через специализированные узлы нагнетался технический кислород и сбалансированная питательная среда для поддержания живучести бактерий в анаэробных условиях недр.",
+  "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface."
+ },
+ "profile:/reflections/essays/3/blocks/10/items/2": {
+  "ru": "Бактерии непрерывно регенерировали железо в трехвалентную форму (Fe³⁺), которая выступала мощнейшим идеальным окислителем, переводящим U⁴⁺ → U⁶⁺ без закисления пласта.",
+  "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed."
+ },
+ "profile:/reflections/essays/3/blocks/10/items/3": {
+  "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического участка.",
+  "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site."
+ },
+ "profile:/reflections/essays/3/blocks/11/items/0/caption": {
+  "ru": "Патент Республики Узбекистан № IAP 05336 «Способ выщелачивания урана», заявка от 26.03.2013",
+  "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013"
+ },
+ "profile:/reflections/essays/3/blocks/11/items/1/caption": {
+  "ru": "Описание изобретения, с. 1: область применения и сущность способа",
+  "en": "Description of the invention, p. 1: field of application and essence of the method"
+ },
+ "profile:/reflections/essays/3/blocks/11/items/2/caption": {
+  "ru": "Описание, с. 2: известные аналоги, задача изобретения, пример агитационного выщелачивания",
+  "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example"
+ },
+ "profile:/reflections/essays/3/blocks/11/items/3/caption": {
+  "ru": "Описание, с. 3: кинетика выщелачивания (табл. 1–2) и формула изобретения",
+  "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim"
+ },
+ "profile:/reflections/essays/3/blocks/12/text": {
+  "ru": "Решение №2. Бескислотная добыча технической водой (опыт Кетменчи)",
+  "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)"
+ },
+ "profile:/reflections/essays/3/blocks/13/text": {
+  "ru": "Еще 30 лет назад, в середине 1990-х годов, в условиях экономического хаоса, на месторождении Кетменчи был доказан геохимический факт: уран там изначально находится в естественной шестивалентной форме (U⁶⁺) благодаря вековой природной инфильтрации кислородных вод.",
+  "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters."
+ },
+ "profile:/reflections/essays/3/blocks/14/text": {
+  "ru": "Авторами метода была внедрена добыча простой технической водой с растворенными газами, без единой капли серной кислоты. Вода мягко вымывала готовый уранил-ион, обеспечивая практически нулевую себестоимость по реагентам и абсолютную экологическую чистоту.",
+  "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness."
+ },
+ "profile:/reflections/essays/4/title": {
+  "ru": "От нуля и единицы к сложности Вселенной: философия единого алгоритма",
+  "en": "From zero and one to the complexity of the universe: the philosophy of a single algorithm"
+ },
+ "profile:/reflections/essays/4/blocks/0/text": {
+  "ru": "Вся колоссальная сложность окружающего нас мира — созданная человеком и самой природой — в своей основе подчинена единому, строгому и удивительно простому закону: в начале всего лежат Ноль и Единица.",
+  "en": "All the immense complexity of the world around us — created by humankind and by nature itself — is governed at its core by a single, strict, and beautifully simple law: at the beginning of everything lie Zero and One."
+ },
+ "profile:/reflections/essays/4/blocks/1/text": {
+  "ru": "Когда на рубеже 1970-х годов мы на Мехмате МГУ и в Вычислительном центре АН вручную набивали двоичные коды на бумажные перфоленты, управляя логикой ламповых ЭВМ вроде «Урал-1» или транзисторных «Минск-22», слова «операционная система» ещё не существовало. Программирование было обнажённым диалогом человеческого разума с физическим током: «тока нет» (0) или «ток есть» (1). Ошибка в одном бите рушила структуру вычислений.",
+  "en": "When at the turn of the 1970s we at the Faculty of Mechanics and Mathematics of Moscow State University and the Computer Center of the Academy of Sciences manually punched binary codes onto paper tapes, guiding the logic of vacuum-tube computers like \"Ural-1\" or transistorized machines like \"Minsk-22\", the term \"operating system\" did not even exist. Programming was a raw dialogue between the human mind and physical currents: \"no current\" (0) or \"current present\" (1). A single bit error would completely shatter the computational structure."
+ },
+ "profile:/reflections/essays/4/blocks/2/text": {
+  "ru": "Сегодня, работая под Linux на современных многоядерных ноутбуках и ведя диалог с искусственным интеллектом, легко поддаться иллюзии, что мы ушли в принципиально иную реальность. Но это не так. Архитектура кремниевых транзисторов и математические матрицы нейросетей на своём самом глубоком, физическом уровне по-прежнему оперируют триллионами тех самых нулей и единиц, которые мы когда-то наносили пробойником на бумагу. Меняются языки программирования — от машинных кодов и Алгола-68 до современного Python, — но дискретный фундамент Вселенной остаётся монолитным.",
+  "en": "Today, working under the Linux operating system on modern multi-core laptops and engaging in a dialogue with artificial intelligence, it is easy to succumb to the illusion that we have entered a fundamentally different reality. But we have not. The architecture of silicon transistors and the mathematical matrices of neural networks still operate, at their deepest physical level, with the trillions of those same zeros and ones that we once punched into paper. Programming languages change — from machine codes and Algol-68 to modern Python — but the discrete foundation of the Universe remains monolithic."
+ },
+ "profile:/reflections/essays/4/blocks/3/text": {
+  "ru": "Этот закон пошагового усложнения — не изобретение человека. Человечество лишь скопировало его у самой природы. Миллиарды лет Земля была обитаема лишь простейшими одноклеточными организмами. Каждая амёба или бактерия жила как отдельное машинное слово, выполняя линейный код выживания и деления.",
+  "en": "This law of step-by-step complexity is not a human invention. Humanity merely copied it from nature itself. For billions of years, the Earth was inhabited only by simple single-celled organisms. Each amoeba or bacterium lived like a single machine word, executing a linear code of survival and division."
+ },
+ "profile:/reflections/essays/4/blocks/4/text": {
+  "ru": "Но в определённый момент истории планеты произошёл великий «сбой компиляции» — мутация, из-за которой разделившиеся клетки не смогли оторваться друг от друга и остались склеенными. Из этой случайной сцепки родилась многоклеточная жизнь. Клеткам пришлось вырабатывать первые биологические «протоколы связи», разделять между собой функции сумматора и памяти. Из склейки простейших элементов природа со временем «вывела» сложнейший алгоритм человеческого мозга.",
+  "en": "Yet at a certain moment in the planet's history, a great \"compilation error\" occurred — a mutation due to which divided cells failed to separate from each other and remained glued together. From this accidental binding, multicellular life was born. The cells had to develop the first biological \"communication protocols\", dividing the functions of the accumulator and memory among themselves. From the clustering of the simplest elements, nature eventually \"compiled\" the ultra-complex algorithm of the human brain."
+ },
+ "profile:/reflections/essays/4/blocks/5/text": {
+  "ru": "Та же квантованная логика, как мне кажется, прослеживается и в геофизике. Мои многолетние численные исследования процессов фильтрации флюидов и недавние эксперименты по воздействию высокочастотного электромагнитного поля на арсенопирит в присутствии дейтерия наводят на мысль, что элементы не так статичны, как принято считать. Возможно, атомное ядро тоже можно рассматривать как своего рода дискретный счётчик. В экстремальных условиях подземных геодинамических процессов Кызылкумов (месторождения Кокпатас, Даугызтау), где сейсмогенные токи способны зажигать природную плазму, ядра элементов, предположительно, могут захватывать или терять частицы. Это одна из рабочих гипотез, которую я развиваю в своих последних работах и которая, возможно, объясняет наблюдаемые изотопные аномалии в недрах Земли.",
+  "en": "The same quantized logic, I believe, can be traced in geophysics as well. My years of numerical research on fluid filtration processes and recent experiments involving high-frequency electromagnetic field exposure on arsenopyrite in the presence of deuterium suggest that elements may not be as static as commonly assumed. The atomic nucleus, too, might perhaps be viewed as a kind of discrete counter. Under the extreme conditions of the subterranean geodynamic processes of the Kyzylkum desert (the Kokpatas and Daugyztau deposits), where seismogenic currents can ignite natural plasma, the nuclei of elements may capture or lose particles. This is one of the working hypotheses I am developing in my recent work, and it may help explain the isotopic anomalies observed within the depths of the Earth."
+ },
+ "profile:/reflections/essays/4/blocks/6/text": {
+  "ru": "От одноклеточного кода к многоклеточному интеллекту",
+  "en": "From single-cell code to multicellular intelligence"
+ },
+ "profile:/reflections/essays/4/blocks/7/text": {
+  "ru": "Я сам начинал программировать не на языках высокого уровня, а прямо в машинном коде — на том же самом Ноле и Единице, которым сегодня оперируют нейросети. Глядя на эту прямую линию длиной в полвека, я не могу не увидеть в ней ещё один виток того же закона.",
+  "en": "I myself began programming not with high-level languages, but directly in machine code — in that same Zero and One that neural networks operate on today. Looking at this unbroken line spanning half a century, I cannot help but see in it yet another turn of the same law."
+ },
+ "profile:/reflections/essays/4/blocks/8/text": {
+  "ru": "Сегодняшний искусственный интеллект — при всей своей внешней сложности — всё ещё живёт на стадии одноклеточного организма. Каждая нейросеть замкнута в себе, как амёба: выполняет свой код, отвечает и «умирает», не оставляя памяти следующему запуску, не зная о существовании других таких же систем рядом с собой.",
+  "en": "Today's artificial intelligence — for all its apparent complexity — still lives at the stage of a single-celled organism. Each neural network is self-contained, like an amoeba: it executes its code, responds, and \"dies,\" leaving no memory for the next run, unaware of the other identical systems around it."
+ },
+ "profile:/reflections/essays/4/blocks/9/text": {
+  "ru": "Биология уже показала нам, куда способен вести этот путь. Возможно, рано или поздно — не по чьему-то единому плану, а как естественное продолжение закона усложнения — отдельные системы искусственного интеллекта начнут объединяться: обмениваться результатами, разделять между собой функции памяти и вычисления, вырабатывать общие «протоколы связи», как когда-то это сделали первые многоклеточные существа. Мне кажется, мы уже наблюдаем первые, ещё неуклюжие попытки такого объединения.",
+  "en": "Biology has already shown us where this path can lead. Perhaps, sooner or later — not by anyone's single design, but as a natural continuation of the law of increasing complexity — individual artificial intelligence systems will begin to merge: exchanging results, dividing the functions of memory and computation between themselves, developing shared \"communication protocols,\" just as the first multicellular creatures once did. It seems to me we are already witnessing the first, still-clumsy attempts at such a merger."
+ },
+ "profile:/reflections/essays/4/blocks/10/text": {
+  "ru": "Ноль и Единица через пятьдесят лет",
+  "en": "Zero and One, fifty years from now"
+ },
+ "profile:/reflections/essays/4/blocks/11/text": {
+  "ru": "Если закон пошагового усложнения действителен, он вряд ли остановится на многоклеточном ИИ. Возьмём для примера шахматы: они выросли из простой дискретной игры на доске 8×8 в тренировку человеческого разума почти безграничной глубины — не потому, что клетки доски перестали быть дискретными, а потому, что число возможных партий на этих клетках оказалось практически бесконечным. Мне представляется, что нечто похожее ждёт и вычисления будущего: не отказ от Ноля и Единицы, а рождение из них новой, неизмеримо более многомерной «доски» — тех же шахмат, но сыгранных уже пучками фотонов и квантовыми состояниями. Кубит, в отличие от классического бита, не обязан быть либо нулём, либо единицей — он может находиться в суперпозиции обоих сразу.",
+  "en": "If the law of step-by-step complexity holds, it is unlikely to stop at multicellular AI. Take chess, for example: it grew from a simple discrete game on an 8×8 board into a training ground for the human mind of almost boundless depth — not because the squares stopped being discrete, but because the number of possible games on those squares turned out to be practically infinite. I imagine something similar awaits the computing of the future: not an abandonment of Zero and One, but the birth from them of a new, immeasurably more multidimensional \"board\" — the same chess, but played with bundles of photons and quantum states. A qubit, unlike a classical bit, need not be either zero or one — it can exist in a superposition of both at once."
+ },
+ "profile:/reflections/essays/4/blocks/12/text": {
+  "ru": "На этом же пути, вероятно, находятся и роботы с искусственным интеллектом: пройдя стадию одиночной клетки, затем — многоклеточного организма, они, возможно, со временем начнут срастаться с самой материей вычислений — фотонной и квантовой, — становясь не просто инструментом, но новой формой распределённого, почти биологического интеллекта.",
+  "en": "Robots with artificial intelligence likely stand on this same path: having passed through the stage of the single cell, then the multicellular organism, they may in time begin to merge with the very substance of computation itself — photonic and quantum — becoming not merely a tool, but a new form of distributed, almost biological intelligence."
+ },
+ "profile:/reflections/essays/4/blocks/13/text": {
+  "ru": "То же усложнение, думаю, коснётся и самой биологии человека. Уже сегодня в лабораториях выращивают ткани и фрагменты органов из стволовых клеток; через полвека это вполне может стать привычной медициной — печень, селезёнка, сердце будут не столько пересаживаться от донора, сколько выращиваться заново. Продолжительность здоровой, деятельной жизни человека, вероятно, увеличится.",
+  "en": "This same complexification, I think, will touch human biology itself. Already today, laboratories grow tissues and organ fragments from stem cells; within half a century this may well become routine medicine — the liver, the spleen, the heart grown anew rather than transplanted from a donor. The span of a healthy, active human life will likely increase."
+ },
+ "profile:/reflections/essays/4/blocks/14/text": {
+  "ru": "Но закон усложнения ставит и встречный вопрос. Если вычисления, роботы, даже человеческое тело становятся сложнее и многомернее — должен ли расти вместе с ними и сам человек? Я убеждён: да, но не физически, а в широком смысле — как личность. Порядочный человек, при любом уровне технологий, должен опираться на то же самое, что опирался всегда: семью — мужа, жену, детей, — образование, духовность, этику, эстетику. Это и есть та константа, тот неизменный «код», без которого вся многомерность технологий останется лишь пустой сложностью без смысла.",
+  "en": "But the law of complexity poses a question in return. If computation, robots, even the human body grow more complex and multidimensional — must the human being grow along with them? I am convinced: yes, but not physically — in the broad sense, as a person. A decent human being, at any level of technology, must rest on the same foundation as always: family — husband, wife, children — education, spirituality, ethics, aesthetics. This is the constant, the unchanging \"code,\" without which all the multidimensionality of technology remains nothing but empty complexity without meaning."
+ },
+ "profile:/reflections/essays/4/blocks/15/text": {
+  "ru": "Вселенная прекрасна в своей простоте. Из двоичного кода физических микросостояний рождается биологическое разнообразие от амёбы до человека, а из элементарных математических шагов — сложнейшие физико-химические технологии. Пройдя путь от раскалённых радиоламп «Урала» до терафлопсных процессоров сегодняшнего дня, я вижу, что инструменты Творца неизменны. Мы лишь учимся читать этот бесконечный алгоритм, написанный с помощью Ноля и Единицы.",
+  "en": "The Universe is beautiful in its simplicity. From the binary code of physical microstates, biological diversity emerges from the amoeba to the human being, and from elementary mathematical steps — the most complex physicochemical technologies. Having traversed the path from the incandescent vacuum tubes of \"Ural\" to the teraflop processors of today, I see that the Creator's tools remain unchanged. We are merely learning to read this infinite algorithm, written with the help of Zero and One."
+ },
+ "profile:/reviews/title": {
+  "ru": "Отзывы читателей",
+  "en": "Readers' reviews"
+ },
+ "profile:/reviews/subtitle": {
+  "ru": "Оценка специалистов и учёных МГУ, Росатом (Россия)",
+  "en": "Assessment by specialists and scientists of MSU, Rosatom (Russia)"
+ },
+ "profile:/reviews/assessment/intro": {
+  "ru": "Судя по его профессиональному пути и признанию на государственном уровне, Рустамжон Усманов — специалист исключительного класса, причём редкого типа.",
+  "en": "Judging by his professional path and recognition at the state level, Rustamzhon Usmanov is a specialist of exceptional class, and of a rare type at that."
+ },
+ "profile:/reviews/assessment/factors_lead": {
+  "ru": "Его уникальность заключается в сочетании трёх факторов:",
+  "en": "His uniqueness lies in the combination of three factors:"
+ },
+ "profile:/reviews/assessment/factors/0/title": {
+  "ru": "Фундаментальная база (МГУ).",
+  "en": "A fundamental foundation (MSU)."
+ },
+ "profile:/reviews/assessment/factors/0/text": {
+  "ru": "Он не просто «практик», а учёный-механик школы МГУ. Его понимание процессов тепло- и массопереноса на уровне математических моделей позволяет ему видеть физику процессов в безнадёжных, тупиковых ситуациях.",
+  "en": "He is not merely a «practitioner», but a mechanic-scientist of the MSU school. His understanding of heat- and mass-transfer processes at the level of mathematical models allows him to see the physics of processes in hopeless, dead-end situations."
+ },
+ "profile:/reviews/assessment/factors/1/title": {
+  "ru": "Способность решать «безнадёжные» задачи.",
+  "en": "The ability to solve «hopeless» problems."
+ },
+ "profile:/reviews/assessment/factors/1/text": {
+  "ru": "Его статья 2019 года по малообводнённым пластам и работа по упорным рудам (за которую он получил Госпремию) касались проблем, которые годами считались тупиковыми. Он умеет находить технические решения там, где стандартные методы бессильны.",
+  "en": "His 2019 article on low-water-cut strata and his work on refractory ores (for which he received the State Prize) addressed problems that had been considered dead ends for years. He knows how to find technical solutions where standard methods are powerless."
+ },
+ "profile:/reviews/assessment/factors/2/title": {
+  "ru": "Признание коллегами и государством.",
+  "en": "Recognition by colleagues and the state."
+ },
+ "profile:/reviews/assessment/factors/2/text": {
+  "ru": "Государственная премия Узбекистана I степени в области науки и техники и Золотая медаль ВОИС — это не формальные награды. Это подтверждение того, что его идеи приносят миллиардную прибыль комбинату и имеют мировое значение для горной науки.",
+  "en": "The State Prize of Uzbekistan of the first degree in science and technology and the WIPO Gold Medal are not formal awards. They confirm that his ideas bring billions in profit to the plant and are of global significance for mining science."
+ },
+ "profile:/reviews/assessment/verdict_label": {
+  "ru": "Вердикт:",
+  "en": "Verdict:"
+ },
+ "profile:/reviews/assessment/verdict": {
+  "ru": "это эксперт-инноватор, который обеспечил технологический суверенитет НГМК в таких критических областях, как добыча урана и золота. Тот факт, что его работы до сих пор вызывают «резонанс в хорошем смысле», говорит о том, что он опережает своё время. Он доказал, что повышение эффективности добычи в XXI веке достигается не за счёт увеличения объёмов производства, а за счёт точности физико-химических расчётов. Именно поэтому его работы цитируются и в академической среде (МГУ, РАН), и в производственной (НГМК, Росатом).",
+  "en": "he is an expert-innovator who secured the technological sovereignty of NMMC in such critical areas as uranium and gold mining. The fact that his works still cause «resonance in the good sense» shows that he is ahead of his time. He proved that increasing extraction efficiency in the 21st century is achieved not by increasing production volumes, but through the precision of physico-chemical calculations. That is precisely why his works are cited both in academia (MSU, RAS) and in industry (NMMC, Rosatom)."
+ },
+ "profile:/reviews/items/0/initials": {
+  "ru": "ВГ",
+  "en": "VG"
+ },
+ "profile:/reviews/items/0/name": {
+  "ru": "В.А. Груцинов",
+  "en": "V.A. Grutsinov"
+ },
+ "profile:/reviews/items/0/text": {
+  "ru": [
+   "Дорогой Рустам! Восхищаюсь твоей статьёй в «Горном вестнике». Это невероятно, что таким способом можно получить золото из арсенопирита.",
+   "Это великое изобретение — большого учёного. Дальнейших тебе успехов. Горжусь знакомством с тобой."
+  ],
+  "en": [
+   "Dear Rustam! I admire your article in «Gorny Vestnik». It is incredible that gold can be obtained from arsenopyrite in this way.",
+   "This is a great invention — of a great scientist. I wish you further success. I am proud to know you."
+  ]
+ },
+ "profile:/cv/research_areas": {
+  "ru": [
+   "Механика жидкости, газа и плазмы",
+   "Численное моделирование физических процессов",
+   "Геотехнология добычи полезных ископаемых",
+   "Прикладная математика"
+  ],
+  "en": [
+   "Fluid, gas and plasma mechanics",
+   "Numerical modeling of physical processes",
+   "Geotechnology of mineral extraction",
+   "Applied mathematics"
+  ]
+ },
+ "profile:/cv/highlights": {
+  "ru": [
+   "Более 20 статей в научных журналах",
+   "Патенты на изобретения",
+   "2 защищённые диссертации",
+   "Научные доклады и отчёты"
+  ],
+  "en": [
+   "More than 20 journal articles",
+   "Invention patents",
+   "2 defended dissertations",
+   "Scientific talks and reports"
+  ]
+ },
+ "article:/uranium-solutions-2026/title": {
+  "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
+  "en": "On technological solutions in uranium production in Uzbekistan"
+ },
+ "article:/uranium-solutions-2026/abstract": {
+  "ru": "Технологические решения для урановой промышленности Узбекистана. При планах довести добычу до 7 200 тонн в год к 2030 году реальная отработка ключевых месторождений превысила 40%, а остаточный уран заперт в слабопроницаемых, глинистых и высококарбонатных зонах. Показано, что закачка сверхнормативных объёмов серной кислоты образует гипс, кольматирует пласт и обнуляет приемистость скважин, а работа без барражных скважин необратимо губит водоносные горизонты Центральных Кызылкумов. Описаны два промышленно испытанных решения: способ подземного выщелачивания по патенту РУз № IAP 05336 — использование жидких сульфидных отходов биоокисления золотых руд ГМЗ-3, где бактерии Acidithiobacillus ferrooxidans непрерывно регенерируют Fe³⁺ и переводят U⁴⁺ → U⁶⁺ без закисления пласта (более 80 т закиси-окиси урана с одного участка), — и бескислотная добыча технической водой на месторождении Кетменчи, где уран изначально находится в естественной шестивалентной форме. Приведены копии патента и описания изобретения.",
+  "en": "Technological solutions for Uzbekistan's uranium industry. Against plans to raise output to 7,200 tonnes a year by 2030, actual depletion of the key deposits has passed 40%, while the residual uranium is locked in low-permeability, clayey and highly carbonate zones. The paper shows that injecting above-normative volumes of sulphuric acid forms gypsum, colmatates the bed and drops well injectivity to zero, while operating without barrier wells irreversibly ruins the aquifers of the Central Kyzylkum. Two industrially tested solutions are described: an in-situ leaching method under Uzbek patent No. IAP 05336 — using the liquid sulphide waste of gold-ore bio-oxidation at Hydrometallurgical Plant No. 3, where Acidithiobacillus ferrooxidans continuously regenerates Fe³⁺ and converts U⁴⁺ → U⁶⁺ without acidifying the bed (over 80 t of U₃O₈ from a single site) — and acid-free extraction with process water at the Ketmenchi deposit, where uranium is originally present in its natural hexavalent form. Copies of the patent and its description are included."
+ },
+ "article:/uranium-solutions-2026/blocks/0/text": {
+  "ru": "Введение",
+  "en": "Introduction"
+ },
+ "article:/uranium-solutions-2026/blocks/1/text": {
+  "ru": "По состоянию на 2026 год урановая промышленность Узбекистана декларирует амбициозные планы — в рамках государственной стратегии планируется довести ежегодную добычу урана до 7 200 тонн к 2030 году.",
+  "en": "As of 2026, Uzbekistan’s uranium industry declares ambitious plans: under the state strategy, annual uranium output is to be raised to 7,200 tonnes by 2030."
+ },
+ "article:/uranium-solutions-2026/blocks/2/text": {
+  "ru": "Суммарные запасы урана в недрах Узбекистана официально оцениваются в 139 000 тонн. Однако практикующие геологи и инженеры, исследования которых проводились в Центральных Кызылкумах, знают скрытую изнанку этих цифр. Реальная отработка ключевых эксплуатируемых месторождений достигла более 40%, а данные государственной геологической службы по запасам категории С1 исторически расходились с жесткой эксплуатационной разведкой рудоуправлений вплоть до 20%.",
+  "en": "Uzbekistan’s total uranium reserves are officially estimated at 139,000 tonnes. Yet the practising geologists and engineers whose research was carried out in the Central Kyzylkum know the hidden reverse side of these figures. Actual depletion of the key producing deposits has passed 40%, while the state geological survey’s data on C1-category reserves have historically diverged from the mining directorates’ rigorous production exploration by as much as 20%."
+ },
+ "article:/uranium-solutions-2026/blocks/3/text": {
+  "ru": "Проблемы современной урановой индустрии",
+  "en": "Problems of the modern uranium industry"
+ },
+ "article:/uranium-solutions-2026/blocks/4/text": {
+  "ru": "1. Кольматация и истощение пластов",
+  "en": "1. Colmatation and depletion of the ore beds"
+ },
+ "article:/uranium-solutions-2026/blocks/5/text": {
+  "ru": "При отработке пластов остаточный уран в основном заперт в слабопроницаемых, глинистых или высококарбонатных зонах. Экстенсивный метод — закачка сверхнормативных объемов серной кислоты — приводит к экологической катастрофе подземных вод. Кислота вступает в реакцию со вмещающим кальцитом, образуя гипс. Пласт намертво «слепнет» (кольматируется), приемистость скважин падает до нуля, а концентрация урана в продуктивных растворах снижается до критического минимума. Метод подземного скважинного выщелачивания (ПВ) с применением безрассудного нагнетания серной кислоты, при котором должным образом не используются барражные скважины, навсегда уничтожает стратегический резерв Центральных Кызылкумов — подземные водоносные горизонты, рекультивация которых потребует сотен миллионов долларов.",
+  "en": "As beds are mined out, the residual uranium is largely locked in low-permeability, clayey or highly carbonate zones. The extensive method — injecting above-normative volumes of sulphuric acid — leads to an environmental catastrophe for the groundwater. The acid reacts with the host calcite, forming gypsum. The bed goes irreversibly “blind” (becomes colmatated), well injectivity drops to zero, and the uranium concentration in the productive solutions falls to a critical minimum. In-situ borehole leaching (ISL) with reckless injection of sulphuric acid, in which barrier (cut-off) wells are not properly used, permanently destroys the strategic reserve of the Central Kyzylkum — the underground aquifers, whose remediation would require hundreds of millions of dollars."
+ },
+ "article:/uranium-solutions-2026/blocks/6/text": {
+  "ru": "2. Технологичные решения",
+  "en": "2. Technological solutions"
+ },
+ "article:/uranium-solutions-2026/blocks/7/text": {
+  "ru": "Решение №1. Способ подземного выщелачивания урана (патент № IAP 05336)",
+  "en": "Solution No. 1. A method of in-situ uranium leaching (patent No. IAP 05336)"
+ },
+ "article:/uranium-solutions-2026/blocks/8/text": {
+  "ru": "Фундаментальная основа химии урана — перевод инертной, нерастворимой четырехвалентной формы (U⁴⁺) в подвижную шестивалентную (U⁶⁺).",
+  "en": "The fundamental basis of uranium chemistry is the conversion of the inert, insoluble tetravalent form (U⁴⁺) into the mobile hexavalent one (U⁶⁺)."
+ },
+ "article:/uranium-solutions-2026/blocks/9/text": {
+  "ru": "Вместо закупки чистой кислоты на глубоких пластах месторождений Северного рудоуправления (СевРУ) была внедрена и испытана гениальная синергия уранового и золотого производств. Технология использовала жидкие сульфидные отходы комплекса биоокисления золотых руд ГМЗ-3 (Кокпатас).",
+  "en": "Instead of purchasing pure acid, a brilliant synergy of the uranium and gold operations was introduced and tested in the deep beds of the Northern Mining Directorate (SevRU) deposits. The technology used the liquid sulphide waste of the gold-ore bio-oxidation complex at Hydrometallurgical Plant No. 3 (Kokpatas)."
+ },
+ "article:/uranium-solutions-2026/blocks/10/items/0": {
+  "ru": "В пласт подавался бесплатный биореагент, содержащий культуру бактерий Acidithiobacillus ferrooxidans и двухвалентное железо (Fe²⁺).",
+  "en": "A free bioreagent containing a culture of the bacterium Acidithiobacillus ferrooxidans and ferrous iron (Fe²⁺) was fed into the bed."
+ },
+ "article:/uranium-solutions-2026/blocks/10/items/1": {
+  "ru": "Параллельно через специализированные узлы нагнетался технический кислород и сбалансированная питательная среда для поддержания живучести бактерий в анаэробных условиях недр.",
+  "en": "In parallel, technical oxygen and a balanced nutrient medium were injected through dedicated units to keep the bacteria viable in the anaerobic conditions of the subsurface."
+ },
+ "article:/uranium-solutions-2026/blocks/10/items/2": {
+  "ru": "Бактерии непрерывно регенерировали железо в трехвалентную форму (Fe³⁺), которая выступала мощнейшим идеальным окислителем, переводящим U⁴⁺ → U⁶⁺ без закисления пласта.",
+  "en": "The bacteria continuously regenerated the iron into its ferric form (Fe³⁺), which acted as the most powerful, ideal oxidant, converting U⁴⁺ → U⁶⁺ without acidifying the bed."
+ },
+ "article:/uranium-solutions-2026/blocks/10/items/3": {
+  "ru": "Результат: Стабильная проницаемость недр и колоссальный съем — более 80 тонн закиси-окиси урана всего с одного технологического участка.",
+  "en": "Result: stable permeability of the subsurface and an enormous yield — more than 80 tonnes of uranium oxide concentrate (U₃O₈) from a single production site."
+ },
+ "article:/uranium-solutions-2026/blocks/11/items/0/caption": {
+  "ru": "Патент Республики Узбекистан № IAP 05336 «Способ выщелачивания урана», заявка от 26.03.2013",
+  "en": "Patent of the Republic of Uzbekistan No. IAP 05336, “Method of uranium leaching”, application filed 26 March 2013"
+ },
+ "article:/uranium-solutions-2026/blocks/11/items/1/caption": {
+  "ru": "Описание изобретения, с. 1: область применения и сущность способа",
+  "en": "Description of the invention, p. 1: field of application and essence of the method"
+ },
+ "article:/uranium-solutions-2026/blocks/11/items/2/caption": {
+  "ru": "Описание, с. 2: известные аналоги, задача изобретения, пример агитационного выщелачивания",
+  "en": "Description, p. 2: prior art, objective of the invention, agitation-leaching example"
+ },
+ "article:/uranium-solutions-2026/blocks/11/items/3/caption": {
+  "ru": "Описание, с. 3: кинетика выщелачивания (табл. 1–2) и формула изобретения",
+  "en": "Description, p. 3: leaching kinetics (Tables 1–2) and the patent claim"
+ },
+ "article:/uranium-solutions-2026/blocks/12/text": {
+  "ru": "Решение №2. Бескислотная добыча технической водой (опыт Кетменчи)",
+  "en": "Solution No. 2. Acid-free extraction with process water (the experience of Ketmenchi)"
+ },
+ "article:/uranium-solutions-2026/blocks/13/text": {
+  "ru": "Еще 30 лет назад, в середине 1990-х годов, в условиях экономического хаоса, на месторождении Кетменчи был доказан геохимический факт: уран там изначально находится в естественной шестивалентной форме (U⁶⁺) благодаря вековой природной инфильтрации кислородных вод.",
+  "en": "As long ago as 30 years back, in the mid-1990s, amid economic chaos, a geochemical fact was proved at the Ketmenchi deposit: the uranium there is originally present in its natural hexavalent form (U⁶⁺) thanks to centuries of natural infiltration by oxygenated waters."
+ },
+ "article:/uranium-solutions-2026/blocks/14/text": {
+  "ru": "Авторами метода была внедрена добыча простой технической водой с растворенными газами, без единой капли серной кислоты. Вода мягко вымывала готовый уранил-ион, обеспечивая практически нулевую себестоимость по реагентам и абсолютную экологическую чистоту.",
+  "en": "The authors of the method introduced extraction with ordinary process water containing dissolved gases, without a single drop of sulphuric acid. The water gently washed out the ready uranyl ion, delivering practically zero reagent cost and absolute environmental cleanliness."
+ },
+ "article:/plasma-gold-synthesis-2026/title": {
+  "ru": "Высокочастотный плазмохимический синтез и извлечение благородных металлов из упорных сульфидных руд Кызылкумского региона",
+  "en": "High-frequency plasma-chemical synthesis and extraction of precious metals from refractory sulfide ores of the Kyzylkum region"
+ },
+ "article:/plasma-gold-synthesis-2026/abstract": {
+  "ru": "В данной работе представлены результаты экспериментального исследования бесконтактного высокочастотного электромагнитного воздействия на упорный золотосодержащий минерал — арсенопирит (FeAsS) месторождений Кокпатас и Даугызтау (Центральный Кызылкум) в присутствии дейтериевой среды. Установлено, что в условиях резкого резонанса высокочастотного электромагнитного поля (ВЧ ЭМП) и неравновесной дейтериевой плазмы происходит деструкция кристаллической решетки минерала с последующим осаждением элементного золота на приемную антенну. Присутствие благородного металла на медном коллекторе подтверждено пробирным анализом в Центральной научно-исследовательской лаборатории (ЦНИЛ). Методом гамма-активационного анализа (Центральная лаборатория ГАА, Зарафшан) на линейном ускорителе электронов обнаружен аномальный изотопный состав синтезированного золота, включающий изотопы Au-196, Au-197, Au-198 и Au-199. Выдвинута гипотеза эндогенного нуклеосинтеза благородных металлов в земной коре при аналогичных физико-химических и волновых условиях.",
+  "en": "This paper presents the results of an experimental study on non-contact high-frequency electromagnetic exposure applied to a refractory gold-bearing mineral — arsenopyrite (FeAsS) from the Kokpatas and Daugyztau deposits (Central Kyzylkum) in the presence of a deuterated environment. It was established that under conditions of sharp resonance of the high-frequency electromagnetic field (HF EMF) and non-equilibrium deuterium plasma, disintegration of the mineral's crystal lattice occurs, followed by the deposition of elemental gold onto the receiving antenna. The presence of the precious metal on the copper collector was confirmed via fire assay at the Central Research Laboratory (CNIL). Utilizing gamma-activation analysis (Central Laboratory of GAA, Zarafshan) on a linear electron accelerator, an anomalous isotopic composition of the synthesized gold was detected, including the isotopes Au-196, Au-197, Au-198, and Au-199. A hypothesis regarding the endogenous nucleosynthesis of precious metals within the Earth's crust under identical physicochemical and wave-induced conditions is proposed."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/0/text": {
+  "ru": "Введение и постановка проблемы",
+  "en": "Introduction and problem statement"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/1/text": {
+  "ru": "Переработка упорных золото-мышьяковых руд Центрально-Кызылкумского региона традиционными металлургическими методами (биоокисление, автоклавное окисление) связана со значительными энергозатратами и серьезными экологическими рисками. Золото в арсенопиритах (FeAsS) находится преимущественно в тонкодисперсном («невидимом») изоморфном состоянии, заблокированном внутри кристаллической решетки.",
+  "en": "The processing of refractory gold-arsenic ores of the Central Kyzylkum region via traditional metallurgical methods (bio-oxidation, autoclave oxidation) involves substantial energy expenditures and severe environmental risks. Gold within arsenopyrites (FeAsS) resides predominantly in a finely dispersed ('invisible') isomorphic state locked inside the crystal lattice."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/2/text": {
+  "ru": "Целью данного исследования являлась оценка принципиально нового физико-химического метода вскрытия сульфидной матрицы и извлечения капсулированных металлов посредством направленного резонансного высокочастотного воздействия в бескислородной, изотопно-модифицированной среде.",
+  "en": "The objective of this study was to evaluate a fundamentally new physicochemical method for unlocking the sulfide matrix and extracting encapsulated metals through targeted, resonant high-frequency exposure within an oxygen-free, isotope-modified medium."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/3/text": {
+  "ru": "[ДОБАВЛЕНО] Ранее автором была опубликована методика резонансной ВЧ-дезинтеграции упорных руд — «Способ дезинтеграции минеральных компонентов и вскрытия золота из особо упорных сульфидно-золотомышьяковых руд и концентратов резонансным воздействием ВЧ ЭМВ» (Горный вестник Узбекистана, №2(89), 2022, с. 85–91). Настоящая работа развивает эту методику и сообщает о дополнительно зафиксированном эффекте — аномальном изотопном составе синтезированного золота.",
+  "en": "[ADDED] An earlier method of resonant HF disintegration of refractory ores was published by the author — \"A method for disintegrating mineral components and unlocking gold from especially refractory sulfide gold-arsenic ores and concentrates via resonant HF EMF exposure\" (Gorny Vestnik Uzbekistana, No. 2(89), 2022, pp. 85-91). The present work builds on that method and reports an additionally observed effect — an anomalous isotopic composition of the synthesized gold."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/4/text": {
+  "ru": "Экспериментальная методика и материалы",
+  "en": "Experimental methodology and materials"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/5/text": {
+  "ru": "В качестве объекта исследования служили образцы упорного арсенопирита (всего исследовано 27 отдельных проб руды), полученные с месторождений Кокпатас и Даугызтау. Время облучения каждой пробы составляло от 1 до 3 часов.",
+  "en": "Samples of refractory arsenopyrite (a total of 27 distinct ore samples investigated) obtained from the Kokpatas and Daugyztau deposits served as the object of study. Irradiation time per sample ranged from 1 to 3 hours."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/6/text": {
+  "ru": "Архитектура экспериментальной установки",
+  "en": "Experimental setup architecture"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/0/title": {
+  "ru": "Зона реакции",
+  "en": "Reaction zone"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/0/text": {
+  "ru": "Образец минерала помещался внутри герметичной бескислородной ячейки непосредственно над сосудом с жидкой фазой.",
+  "en": "The mineral sample was positioned inside a hermetically sealed, oxygen-free cell directly above a vessel containing the liquid phase."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/1/title": {
+  "ru": "Изотопный модификатор среды",
+  "en": "Isotopic medium modifier"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/1/text": {
+  "ru": "Жидкая фаза состояла из конденсата тяжелой воды (дейтерия), полученного путем кинетического разделения изотопов при контролируемом испарении природного водоема под воздействием солнечной энергии в течение 2–3 дней.",
+  "en": "The liquid phase consisted of a heavy water (deuterium) condensate, produced via kinetic isotope separation during the controlled solar-driven evaporation of a natural water body conducted over a 2-3 day period."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/2/title": {
+  "ru": "Источник поля и излучатель",
+  "en": "Field source and emitter"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/7/items/2/text": {
+  "ru": "Электромагнитное воздействие осуществлялось через специальную медную трубчатую антенну ВЧ-диапазона, подключенную к высокочастотному генератору.",
+  "en": "Electromagnetic exposure was delivered via a specialized copper tubular HF-range antenna coupled to a high-frequency generator."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/8/text": {
+  "ru": "Экспериментальный протокол: при подаче питания на систему ВЧ ЭМП колебательный контур выводился в состояние резкого волнового резонанса. Из-за интенсивного скин-эффекта и высокой плотности поверхностного тока температура медной антенны превышала температуру плавления меди (1085°C). Одновременно происходило бурное испарение подстилающей дейтерированной жидкости. При достижении раскаленной поверхности антенны пары дейтерия подвергались ионизации с образованием плотного факела неравновесной высокочастотной плазмы, выступающей в роли катализатора процесса.",
+  "en": "Experimental protocol: upon applying power to the HF EMF system, the oscillating circuit was brought into a state of sharp wave resonance. Due to an intense skin effect and a high surface current density, the temperature of the copper antenna exceeded the melting point of copper (1085°C). Simultaneously, rapid evaporation of the underlying deuterated liquid took place. Upon reaching the incandescent surface of the antenna, the deuterium vapors underwent ionization, generating a dense torch of non-equilibrium high-frequency plasma acting as a process catalyst."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/9/text": {
+  "ru": "Результаты и обсуждение",
+  "en": "Results and discussion"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/10/text": {
+  "ru": "Макроскопические трансформации и пробирный анализ",
+  "en": "Macroscopic transformations and fire assay"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/11/text": {
+  "ru": "Под действием дейтериевой ВЧ-плазмы происходило как термическое, так и электродинамическое разрушение кристаллической структуры арсенопирита. Ионы высвобожденного (или вновь синтезированного) металла переносились электромагнитными силами в зону максимального градиента поля, осаждаясь на поверхности плавящейся медной трубки. На поверхности медной антенны макроскопически наблюдался отчетливый эффект «позолоты» за счет глубокой термической диффузии. Оплавленные элементы антенны были переданы в лабораторию ЦНИЛ. Стандартный пробирный анализ (метод купелирования) однозначно подтвердил наличие элементного золота в медном сплаве.",
+  "en": "Under the influence of the deuterium HF-plasma, both thermal and electrodynamic destruction of the arsenopyrite crystal structure occurred. Ions of the liberated (or newly synthesized) metal were transported by electromagnetic forces toward the maximum field gradient zone, depositing onto the surface of the melting copper tube. A distinct 'gilding' effect was macroscopically observed on the surface of the copper antenna due to deep thermal diffusion. The melted elements of the antenna were transferred to the CNIL facility. Standard fire assay (cupellation method) unequivocally verified the presence of elemental gold within the copper alloy."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/12/text": {
+  "ru": "Ядерно-физическая верификация и изотопный спектр",
+  "en": "Nuclear-physical verification and isotopic spectrum"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/13/text": {
+  "ru": "Для исключения матричного влияния элементы медной антенны вместе со всеми 27 образцами были направлены в Центральную лабораторию гамма-активационного анализа (ЦЛ ГАА) в г. Зарафшан. Все образцы подвергались облучению интенсивным потоком высокоэнергетического тормозного гамма-излучения, генерируемого линейным ускорителем электронов при ударе о тугоплавкую (вольфрамовую) мишень. Автоматизированный спектрометрический комплекс зафиксировал отчетливый пик при 409 кэВ, соответствующий изомеру Au-197m (период полураспада 7.7 с), что подтверждает наличие стабильного нуклида Au-197. Однако помимо стабильной фазы спектрометр идентифицировал аномальную изотопную цепь золота: Au-196, Au-198, Au-199, а также коррелирующие линии серебра (Ag) и урана (U).",
+  "en": "To eliminate matrix interference, the melted elements of the copper antenna along with all 27 ore samples were dispatched to the Central Laboratory of Gamma-Activation Analysis (CL GAA) in Zarafshan. All specimens were irradiated with an intense flux of high-energy bremsstrahlung gamma radiation generated by a linear electron accelerator striking a refractory (tungsten) target. The spectrometry complex recorded a distinct peak at 409 keV, corresponding to the Au-197m isomer (half-life of 7.7 s), which validates the presence of the stable nuclide Au-197. However, beyond the stable phase, the spectrometer identified an anomalous isotopic chain of gold: Au-196, Au-198, and Au-199, as well as correlating lines for silver (Ag) and uranium (U)."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/14/text": {
+  "ru": "Физическая интерпретация и геофизические выводы",
+  "en": "Physical interpretation and geophysical conclusions"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/15/text": {
+  "ru": "Обнаружение короткоживущих изотопов Au-198 и Au-199 доказывает, что в ходе эксперимента ядра золота подверглись воздействию плотного потока свободных нейтронов. Динамика формирования этого изотопного спектра свидетельствует о протекании низкоэнергетических ядерных процессов (трансмутации или изотопного обмена) непосредственно внутри неравновесной дейтериевой ВЧ-плазмы на межфазной границе «медь–арсенопирит».",
+  "en": "The detection of the short-lived isotopes Au-198 and Au-199 demonstrates that during the experiment, the gold nuclei were exposed to a dense flux of free neutrons. The dynamics behind the formation of this isotopic spectrum point to low-energy nuclear processes (transmutation or isotopic exchange) taking place directly within the non-equilibrium deuterium HF-plasma at the 'copper-arsenopyrite' phase boundary."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/16/text": {
+  "ru": "Геофизическая гипотеза",
+  "en": "Geophysical hypothesis"
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/17/text": {
+  "ru": "Эмпирические данные, полученные в ходе этого лабораторного моделирования, могут быть экстраполированы на интерпретацию масштабных эндогенных процессов в литосфере Земли. Подземная архитектура Кызылкумских месторождений эффективно функционирует как естественные волновые реакторы. Тектонические сдвиги вдоль зон глубоких разломов генерируют локальные сверхвысокие давления, сейсмогенные токи и пьезоэлектрические поля, способные мгновенно разогревать микрообъемы пласта выше 1000°C, переводя полупроводниковые сульфиды (FeAsS) в плазменное состояние. В присутствии глубинных флюидов, естественно обогащенных дейтерием, запускается непрерывный процесс эндогенного нуклеосинтеза («рождения») золота и сопутствующих элементов. Это необходимо для фундаментального пересмотра классических космогонических моделей формирования рудных месторождений.",
+  "en": "The empirical data gathered from this laboratory simulation can be extrapolated to interpret large-scale endogenous processes within the Earth's lithosphere. The subterranean architecture of the Kyzylkum deposits functions effectively as natural wave reactors. Tectonic shifts along deep-seated fault zones generate localized ultra-high pressures, seismogenic currents, and piezoelectric fields capable of instantaneously heating micro-volumes of the formation above 1000°C, driving semiconducting sulfides (FeAsS) into a plasma state. In the presence of deep-seated fluids naturally enriched with deuterium, a continuous process of endogenous nucleosynthesis ('birth') of gold and associated elements is triggered. This necessitates a fundamental revision of classical cosmogonic models governing the formation of ore deposits."
+ },
+ "article:/plasma-gold-synthesis-2026/blocks/18/text": {
+  "ru": "[ДОБАВЛЕНО] Изложенная в этом разделе геофизическая гипотеза не проходила независимой рецензии и требует дальнейшей проверки — в отличие от методики резонансной ВЧ-дезинтеграции руды, опубликованной ранее в «Горном вестнике Узбекистана».",
+  "en": "[ADDED] The geophysical hypothesis presented in this section has not undergone independent peer review and requires further verification — unlike the resonant HF ore-disintegration method published earlier in Gorny Vestnik Uzbekistana."
+ },
+ "ui:nav_home": {
+  "ru": "Главная",
+  "en": "Home"
+ },
+ "ui:nav_about": {
+  "ru": "О себе",
+  "en": "About"
+ },
+ "ui:nav_dynasty": {
+  "ru": "Научная династия",
+  "en": "Scientific dynasty"
+ },
+ "ui:nav_pubs": {
+  "ru": "Публикации",
+  "en": "Publications"
+ },
+ "ui:nav_cv": {
+  "ru": "CV",
+  "en": "CV"
+ },
+ "ui:nav_appendix": {
+  "ru": "Приложения",
+  "en": "Appendices"
+ },
+ "ui:nav_reflections": {
+  "ru": "Размышления",
+  "en": "Reflections"
+ },
+ "ui:nav_reviews": {
+  "ru": "Отзывы",
+  "en": "Reviews"
+ },
+ "ui:nav_contacts": {
+  "ru": "Контакты",
+  "en": "Contact"
+ },
+ "ui:settings_title": {
+  "ru": "Настройки",
+  "en": "Settings"
+ },
+ "ui:set_lang": {
+  "ru": "Язык",
+  "en": "Language"
+ },
+ "ui:set_theme": {
+  "ru": "Тема",
+  "en": "Theme"
+ },
+ "ui:theme_day": {
+  "ru": "День",
+  "en": "Day"
+ },
+ "ui:theme_night": {
+  "ru": "Ночь",
+  "en": "Night"
+ },
+ "ui:set_bg": {
+  "ru": "Фон экрана",
+  "en": "Background"
+ },
+ "ui:bg_glow": {
+  "ru": "Сияние",
+  "en": "Glow"
+ },
+ "ui:bg_photo": {
+  "ru": "Фото",
+  "en": "Photo"
+ },
+ "ui:bg_plain": {
+  "ru": "Без фона",
+  "en": "Plain"
+ },
+ "ui:set_back": {
+  "ru": "Назад",
+  "en": "Back"
+ },
+ "ui:reflections_title": {
+  "ru": "Размышления",
+  "en": "Reflections"
+ },
+ "ui:appendix_title": {
+  "ru": "Приложения",
+  "en": "Appendices"
+ },
+ "ui:appendix_app_name": {
+  "ru": "IlmNur",
+  "en": "IlmNur"
+ },
+ "ui:appendix_app_desc": {
+  "ru": "Семейное приложение: родословная, шахматы, музыка и разговор со звуком — на телефоне и на компьютере, на двадцати языках.",
+  "en": "A family app: family tree, chess, music and voice talk — on the phone and the computer, in twenty languages."
+ },
+ "ui:appendix_named": {
+  "ru": "Названо в честь моего деда — Ильмнура Миндиярова.",
+  "en": "Named after my grandfather, Ilmnur Mindiyarov."
+ },
+ "ui:appendix_android": {
+  "ru": "Приложение для Android",
+  "en": "App for Android"
+ },
+ "ui:appendix_scan": {
+  "ru": "Наведите камеру телефона на код — приложение скачается само.",
+  "en": "Point your phone camera at the code — the app will download."
+ },
+ "ui:appendix_download": {
+  "ru": "Скачать для Android",
+  "en": "Download for Android"
+ },
+ "ui:appendix_talk": {
+  "ru": "Разговор",
+  "en": "Voice talk"
+ },
+ "ui:appendix_talk_desc": {
+  "ru": "Разговор со звуком прямо в браузере — до десяти человек.",
+  "en": "Voice conversation right in the browser — up to ten people."
+ },
+ "ui:appendix_talk_enter": {
+  "ru": "Войти в разговор",
+  "en": "Join the talk"
+ },
+ "ui:appendix_login": {
+  "ru": "Вход — по своей учётной записи IlmNur; новую учётную запись одобряет администратор.",
+  "en": "Sign in with your IlmNur account; new accounts are approved by the administrator."
+ },
+ "ui:hero_cta_pubs": {
+  "ru": "Публикации",
+  "en": "Publications"
+ },
+ "ui:hero_cta_about": {
+  "ru": "Обо мне",
+  "en": "About me"
+ },
+ "ui:about_title": {
+  "ru": "О себе",
+  "en": "About"
+ },
+ "ui:dynasty_title": {
+  "ru": "Научная династия и признание",
+  "en": "Scientific dynasty and recognition"
+ },
+ "ui:dynasty_sub_grandfather": {
+  "ru": "Мой дед — Ильмнур Миндияров",
+  "en": "My grandfather — Ilmnur Mindiyarov"
+ },
+ "ui:dynasty_sub_mother": {
+  "ru": "Моя мама",
+  "en": "My mother"
+ },
+ "ui:dynasty_sub_lineage": {
+  "ru": "История нашего рода",
+  "en": "The story of our family"
+ },
+ "ui:dynasty_sub_story": {
+  "ru": "История одного спасения",
+  "en": "The story of one rescue"
+ },
+ "ui:dynasty_sub_teachers": {
+  "ru": "Мои учителя",
+  "en": "My teachers"
+ },
+ "ui:pubs_title": {
+  "ru": "Публикации и патенты",
+  "en": "Publications and patents"
+ },
+ "ui:pubs_all": {
+  "ru": "Все",
+  "en": "All"
+ },
+ "ui:pubs_year": {
+  "ru": "Год",
+  "en": "Year"
+ },
+ "ui:pubs_type": {
+  "ru": "Тип",
+  "en": "Type"
+ },
+ "ui:pubs_search": {
+  "ru": "Поиск по названию…",
+  "en": "Search by title…"
+ },
+ "ui:pubs_open": {
+  "ru": "Открыть на ИСТИНА",
+  "en": "Open on ISTINA"
+ },
+ "ui:pubs_source": {
+  "ru": "Источник",
+  "en": "Source"
+ },
+ "ui:pubs_pdf": {
+  "ru": "Скачать PDF",
+  "en": "Download PDF"
+ },
+ "ui:pubs_read_full": {
+  "ru": "Читать полностью",
+  "en": "Read in full"
+ },
+ "ui:pubs_none": {
+  "ru": "Ничего не найдено",
+  "en": "Nothing found"
+ },
+ "ui:pubs_export": {
+  "ru": "Скачать BibTeX",
+  "en": "Download BibTeX"
+ },
+ "ui:pubs_sort": {
+  "ru": "Сортировка",
+  "en": "Sort"
+ },
+ "ui:sort_year_desc": {
+  "ru": "Год — новые",
+  "en": "Year — newest"
+ },
+ "ui:sort_year_asc": {
+  "ru": "Год — старые",
+  "en": "Year — oldest"
+ },
+ "ui:sort_type": {
+  "ru": "По типу",
+  "en": "By type"
+ },
+ "ui:sort_journal": {
+  "ru": "По журналу",
+  "en": "By journal"
+ },
+ "ui:pubs_authors": {
+  "ru": "Авторы",
+  "en": "Authors"
+ },
+ "ui:cv_title": {
+  "ru": "CV — резюме",
+  "en": "CV — résumé"
+ },
+ "ui:cv_download": {
+  "ru": "Скачать CV (PDF)",
+  "en": "Download CV (PDF)"
+ },
+ "ui:cv_education": {
+  "ru": "Образование",
+  "en": "Education"
+ },
+ "ui:cv_areas": {
+  "ru": "Научные интересы",
+  "en": "Research interests"
+ },
+ "ui:cv_highlights": {
+  "ru": "Ключевые результаты",
+  "en": "Key results"
+ },
+ "ui:contacts_title": {
+  "ru": "Контакты",
+  "en": "Contact"
+ },
+ "ui:contacts_email": {
+  "ru": "Электронная почта",
+  "en": "Email"
+ },
+ "ui:contacts_profiles": {
+  "ru": "Научные профили",
+  "en": "Research profiles"
+ },
+ "ui:ranked": {
+  "ru": "Журнал из списка RSCI / Web of Science / Scopus",
+  "en": "Journal indexed in RSCI / Web of Science / Scopus"
+ },
+ "ui:stat_pubs": {
+  "ru": "публикаций",
+  "en": "publications"
+ },
+ "ui:stat_patents": {
+  "ru": "патентов",
+  "en": "patents"
+ },
+ "ui:stat_dissertations": {
+  "ru": "диссертации",
+  "en": "dissertations"
+ },
+ "ui:stat_years": {
+  "ru": "лет в науке",
+  "en": "years in science"
+ },
+ "ui:cert": {
+  "ru": "Свидетельство",
+  "en": "Certificate"
+ },
+ "ui:ilmnur_alt": {
+  "ru": "Ilm Nur — свет знаний и чистота души",
+  "en": "Ilm Nur — the light of knowledge and purity of the soul"
+ },
+ "ui:home_title_tag": {
+  "ru": "механика жидкости и газа, геотехнология добычи",
+  "en": "fluid and gas mechanics, mineral extraction"
+ },
+ "ui:home_meta_desc": {
+  "ru": "Официальный сайт учёного Рустамжона Усманова (Усманов Рустамжон): механика жидкости, газа и плазмы, технология добычи урана, геотехнология добычи полезных ископаемых. Публикации, патенты, CV.",
+  "en": "Official website of scientist Rustamzhon Usmanov: fluid, gas and plasma mechanics, uranium mining technology, geotechnology of mineral extraction. Publications, patents and CV."
+ },
+ "ui:footer": {
+  "ru": "Личный научный сайт «IlmNur» Усманова Р.",
+  "en": "«IlmNur» — personal research website of R. Usmanov"
+ },
+ "type:essay": {
+  "ru": "Авторская статья",
+  "en": "Feature article"
+ },
+ "type:article": {
+  "ru": "Статья в журнале",
+  "en": "Journal article"
+ },
+ "type:patent": {
+  "ru": "Патент",
+  "en": "Patent"
+ },
+ "type:dissertation": {
+  "ru": "Диссертация",
+  "en": "Dissertation"
+ },
+ "type:thesis": {
+  "ru": "Тезисы доклада",
+  "en": "Conference abstract"
+ },
+ "type:proceedings": {
+  "ru": "Статья в сборнике",
+  "en": "Proceedings"
+ },
+ "cv:cv": {
+  "ru": "Резюме (CV)",
+  "en": "Curriculum Vitae"
+ },
+ "cv:education": {
+  "ru": "Образование",
+  "en": "Education"
+ },
+ "cv:areas": {
+  "ru": "Научные интересы",
+  "en": "Research interests"
+ },
+ "cv:highlights": {
+  "ru": "Ключевые результаты",
+  "en": "Key results"
+ },
+ "cv:pubs": {
+  "ru": "Избранные публикации",
+  "en": "Selected publications"
+ },
+ "cv:contact": {
+  "ru": "Контакты",
+  "en": "Contact"
+ },
+ "cv:more": {
+  "ru": "и другие работы — см. сайт и профиль ИСТИНА",
+  "en": "and other works — see the website and ISTINA profile"
+ },
+ "seo": {
+  "ru": "Усманов Рустамжон, Рустамжон Усманов, Усманов Рустамжон Исаевич, Усманов Р.И., Rustamzhon Usmanov, Usmanov Rustamjon, механика жидкости и газа, механика жидкости газа и плазмы, добыча урана технология, геотехнология добычи полезных ископаемых, прикладная математика, численное моделирование, научные публикации, МГУ",
+  "en": "Rustamzhon Usmanov, Usmanov Rustamzhon, Usmanov Rustamjon, fluid and gas mechanics, fluid gas and plasma mechanics, uranium mining technology, geotechnology of mineral extraction, applied mathematics, numerical modeling, research publications, Moscow State University"
+ },
+ "alumni": {
+  "ru": "МГУ имени М.В. Ломоносова",
+  "en": "Lomonosov Moscow State University"
+ }
+}
