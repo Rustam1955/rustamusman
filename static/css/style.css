@@ -1609,12 +1609,6 @@ a.pub-title:hover {
   margin-bottom: 0;
 }
 
-.app-logo {
-  flex: none;
-  width: 96px;
-  height: auto;
-}
-
 .app-hint {
   margin: 8px 0 0;
   font-size: .88rem;
