@@ -23,9 +23,11 @@
 
       <div class="app-ways">
         <!-- APK отдаёт Caddy облака; QR ведёт туда же — навёл камеру с экрана
-             компьютера, и скачалось. На самом телефоне QR прячется (CSS) -->
+             компьютера, и скачалось. На самом телефоне QR прячется (CSS).
+             Код рисует сам сайт (/apk-qr.svg) и всякий раз заново: картинку
+             в static телефон запоминал и показывал прежнюю (16.09.2026) -->
         <div class="app-way">
-          <img class="app-qr" src="{{ url_for('static', filename='img/ilmnur-apk-qr.svg') }}"
+          <img class="app-qr" src="{{ apk_qr_url }}"
             alt="QR: {{ apk_url }}" width="120" height="120">
           <div>
             <h3>{{ t.appendix_android }}</h3>

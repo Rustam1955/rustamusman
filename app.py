@@ -6,12 +6,17 @@ Flask-приложение, три языка RU/EN/UZ, данные из data/*
     .venv/bin/python app.py
     -> http://127.0.0.1:5000
 """
+import datetime
+import io
 import json
 import os
 import re
 from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
+
+import qrcode
+import qrcode.image.svg
 
 from flask import (
     Flask,
@@ -639,6 +644,48 @@ def export_bibtex(lang):
 # у всех посетителей — любой из интернета запускал бы программы на сервере
 APK_URL = os.environ.get("ILMNUR_APK_URL", "https://ilmnur.org/ilmnur.apk")
 TALK_URL = os.environ.get("ILMNUR_TALK_URL", "https://talk.ilmnur.org/")
+# Сам файл приложения: по его времени узнаём, какая сборка сейчас выложена
+APK_FILE = Path(os.environ.get("ILMNUR_APK_FILE", "/var/www/ilmnur/ilmnur.apk"))
+
+
+def apk_version():
+    """Отметка выложенной сборки — время файла, например «16.09.2026-0626».
+
+    Нужна затем, что и ссылка, и QR-код должны меняться вместе с программой.
+    Пока они были неизменны, телефон с чистой совестью показывал картинку,
+    сохранённую у себя месяц назад, и ставил APK, скачанный тогда же
+    (Рустам, 16.09.2026: «в сайте старый qr code»)"""
+    try:
+        когда = datetime.datetime.fromtimestamp(APK_FILE.stat().st_mtime)
+        return когда.strftime("%d.%m.%Y-%H%M")
+    except OSError:
+        # Файла рядом нет (так бывает на домашней машине) — сборку не назовём,
+        # но страница должна открыться
+        return "0"
+
+
+def apk_link():
+    """Ссылка на APK с отметкой сборки. Для Caddy отметка — пустой звук, файл
+    он отдаёт тот же; а вот браузер и «Загрузки» телефона видят новый адрес"""
+    return f"{APK_URL}?v={apk_version()}"
+
+
+@app.route("/apk-qr.svg")
+def apk_qr():
+    """QR-код на приложение — рисуется здесь и сейчас.
+
+    Раньше это была картинка в static, нарисованная однажды рукой. Устареть
+    ей было негде, но телефон держал у себя её копию и показывал прежнюю.
+    Теперь код собирается на каждый заход, ведёт на нынешнюю сборку и
+    просит себя не запоминать"""
+    код = qrcode.QRCode(border=2, error_correction=qrcode.constants.ERROR_CORRECT_M)
+    код.add_data(apk_link())
+    код.make(fit=True)
+    картинка = код.make_image(image_factory=qrcode.image.svg.SvgPathImage)
+    лист = io.BytesIO()
+    картинка.save(лист)
+    return Response(лист.getvalue(), mimetype="image/svg+xml",
+                    headers={"Cache-Control": "no-store, max-age=0"})
 
 
 @app.route("/<lang>/appendix/")
@@ -646,7 +693,8 @@ def appendix(lang):
     return render_template(
         "appendix.html",
         lang=valid_lang(lang),
-        apk_url=APK_URL,
+        apk_url=apk_link(),
+        apk_qr_url=url_for("apk_qr", v=apk_version()),
         talk_url=TALK_URL,
     )
 
