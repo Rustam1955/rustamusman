@@ -526,7 +526,10 @@ def inject_globals():
 
 @app.route("/")
 def root():
-    return redirect(url_for("home", lang=DEFAULT_LANG))
+    # 301, «переехало насовсем»: поисковик переносит на /ru/ всё, что знал о
+    # корне. При 302 он считал переход временным и продолжал держать в
+    # выдаче сам корень, у которого своего содержимого нет (16.09.2026)
+    return redirect(url_for("home", lang=DEFAULT_LANG), code=301)
 
 
 @app.route("/<lang>/")
