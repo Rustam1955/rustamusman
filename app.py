@@ -83,14 +83,16 @@ SEO_KEYWORDS = {
         "Усманов Р.И., Rustamzhon Usmanov, Usmanov Rustamjon, "
         "механика жидкости и газа, механика жидкости газа и плазмы, "
         "добыча урана технология, геотехнология добычи полезных ископаемых, "
-        "прикладная математика, численное моделирование, научные публикации, МГУ"
+        "прикладная математика, численное моделирование, научные публикации, МГУ, "
+        "золото, уран, редкоземельные металлы"
     ),
     "en": (
         "Rustamzhon Usmanov, Usmanov Rustamzhon, Usmanov Rustamjon, "
         "fluid and gas mechanics, fluid gas and plasma mechanics, "
         "uranium mining technology, geotechnology of mineral extraction, "
         "applied mathematics, numerical modeling, research publications, "
-        "Moscow State University"
+        "Moscow State University, "
+        "gold, uranium, rare earth metals, Усманов Рустамжон"
     ),
     "uz": (
         "Usmanov Rustamjon, Rustamjon Usmanov, Usmanov Rustamjon Isayevich, "
@@ -98,7 +100,8 @@ SEO_KEYWORDS = {
         "suyuqlik va gaz mexanikasi, suyuqlik, gaz va plazma mexanikasi, "
         "uran qazib olish texnologiyasi, foydali qazilmalarni qazib olish "
         "geotexnologiyasi, yer osti ishqorlash, amaliy matematika, "
-        "sonli modellashtirish, ilmiy nashrlar, MDU"
+        "sonli modellashtirish, ilmiy nashrlar, MDU, "
+        "oltin, uran, noyob yer metallari, Усманов Рустамжон"
     ),
 }
 
@@ -177,11 +180,12 @@ UI = {
         "stat_years": "лет в науке",
         "cert": "Свидетельство",
         "ilmnur_alt": "Ilm Nur — свет знаний и чистота души",
-        "home_title_tag": "механика жидкости и газа, геотехнология добычи",
+        "home_title_tag": "добыча урана, золота и редкоземельных металлов",
         "home_meta_desc": (
             "Официальный сайт учёного Рустамжона Усманова (Усманов Рустамжон): "
-            "механика жидкости, газа и плазмы, технология добычи урана, "
-            "геотехнология добычи полезных ископаемых. Публикации, патенты, CV."
+            "механика жидкости, газа и плазмы, технологии добычи урана, золота и "
+            "редкоземельных металлов, геотехнология добычи полезных ископаемых. "
+            "Публикации, патенты, CV."
         ),
         # Подвал — одной фразой, имя внутри (Рустам, 16.09.2026)
         "footer": "Личный научный сайт «IlmNur» Усманова Р.",
@@ -260,11 +264,12 @@ UI = {
         "stat_years": "years in science",
         "cert": "Certificate",
         "ilmnur_alt": "Ilm Nur — the light of knowledge and purity of the soul",
-        "home_title_tag": "fluid and gas mechanics, mineral extraction",
+        "home_title_tag": "uranium, gold and rare earth metals extraction",
         "home_meta_desc": (
-            "Official website of scientist Rustamzhon Usmanov: fluid, gas and "
-            "plasma mechanics, uranium mining technology, geotechnology of "
-            "mineral extraction. Publications, patents and CV."
+            "Official website of scientist Rustamzhon Usmanov (Usmanov Rustamjon): "
+            "fluid, gas and plasma mechanics, technologies for extracting uranium, "
+            "gold and rare earth metals, geotechnology of mineral extraction. "
+            "Publications, patents and CV."
         ),
         "footer": "«IlmNur» — personal research website of R. Usmanov",
     },
@@ -341,11 +346,12 @@ UI = {
         "stat_years": "yil ilmda",
         "cert": "Guvohnoma",
         "ilmnur_alt": "Ilm Nur — bilim nuri va qalb pokligi",
-        "home_title_tag": "suyuqlik va gaz mexanikasi, qazib olish geotexnologiyasi",
+        "home_title_tag": "uran, oltin va noyob yer metallarini qazib olish",
         "home_meta_desc": (
             "Olim Rustamjon Usmanovning rasmiy sayti: suyuqlik, gaz va plazma "
-            "mexanikasi, uran qazib olish texnologiyasi, foydali qazilmalarni "
-            "qazib olish geotexnologiyasi. Nashrlar, patentlar, CV."
+            "mexanikasi, uran, oltin va noyob yer metallarini qazib olish "
+            "texnologiyalari, foydali qazilmalarni qazib olish geotexnologiyasi. "
+            "Nashrlar, patentlar, CV."
         ),
         "footer": "Usmanov R.ning «IlmNur» shaxsiy ilmiy sayti",
     },
@@ -442,6 +448,38 @@ def valid_lang(lang):
     return lang if lang in LANGS else DEFAULT_LANG
 
 
+# Темы, по которым сайт должны находить (Рустам, 16.09.2026: «ключевые слова
+# для поиска: золото, уран, редкоземельные металлы, Усманов Рустамжон,
+# Usmanov Rustamjon»). Всё это правда о работах: патенты на извлечение золота,
+# добыча урана, «технологии добычи редких, редкоземельных и благородных
+# металлов» в биографии. Идут в карточку учёного для поисковиков (knowsAbout);
+# те же слова стоят в заголовке, описании и keywords главной
+SEO_TOPICS = {
+    "ru": ["золото", "уран", "редкоземельные металлы"],
+    "en": ["gold", "uranium", "rare earth metals"],
+    "uz": ["oltin", "uran", "noyob yer metallari"],
+    "ar": ["الذهب", "اليورانيوم", "المعادن الأرضية النادرة"],
+    "be": ["золата", "уран", "рэдказямельныя металы"],
+    "de": ["Gold", "Uran", "Seltenerdmetalle"],
+    "es": ["oro", "uranio", "metales de tierras raras"],
+    "fa": ["طلا", "اورانیوم", "فلزات خاکی کمیاب"],
+    "fr": ["or", "uranium", "terres rares"],
+    "he": ["זהב", "אורניום", "מתכות אדמה נדירות"],
+    "hi": ["सोना", "यूरेनियम", "दुर्लभ मृदा धातुएँ"],
+    "it": ["oro", "uranio", "terre rare"],
+    "ja": ["金", "ウラン", "レアアース"],
+    "kk": ["алтын", "уран", "сирек жер металдары"],
+    "ko": ["금", "우라늄", "희토류"],
+    "pl": ["złoto", "uran", "metale ziem rzadkich"],
+    "pt": ["ouro", "urânio", "metais de terras raras"],
+    "tg": ["тилло", "уран", "металлҳои нодири заминӣ"],
+    "tr": ["altın", "uranyum", "nadir toprak metalleri"],
+    "zh": ["金", "铀", "稀土金属"],
+}
+# Оба написания имени, которые Рустам назвал, — во всех языках
+SEO_NAMES = ("Усманов Рустамжон", "Usmanov Rustamjon")
+
+
 def build_person_jsonld(profile, lang):
     """Структурированные данные schema.org/Person — помогают поисковикам
     показать корректную карточку по запросу имени."""
@@ -452,13 +490,14 @@ def build_person_jsonld(profile, lang):
         "@context": "https://schema.org",
         "@type": "Person",
         "name": localized(name, lang),
-        "alternateName": sorted({name.get(l) for l in LANGS if name.get(l)}),
+        "alternateName": sorted({name.get(l) for l in LANGS if name.get(l)} | set(SEO_NAMES)),
         "url": SITE_URL + f"/{lang}/",
         "image": SITE_URL + url_for("static", filename=profile.get("photo", "img/photo.jpg")),
         "email": profile.get("email"),
         "jobTitle": localized(profile.get("tagline", {}), lang),
         "description": localized(profile.get("tagline", {}), lang),
-        "knowsAbout": localized(profile.get("cv", {}).get("research_areas", {}), lang) or [],
+        "knowsAbout": (localized(profile.get("cv", {}).get("research_areas", {}), lang) or [])
+                      + SEO_TOPICS.get(lang, SEO_TOPICS[FALLBACK_LANG]),
         "alumniOf": {
             "@type": "CollegeOrUniversity",
             "name": ALUMNI.get(lang, ALUMNI[FALLBACK_LANG]),
