@@ -243,7 +243,7 @@
   "ui:appendix_scan": "用手机摄像头对准二维码——应用将自动下载。",
   "ui:appendix_download": "下载 Android 版",
   "ui:appendix_talk": "通话",
-  "ui:appendix_talk_desc": "直接在浏览器中语音通话——最多十人。",
+  "ui:appendix_talk_desc": "直接在浏览器中语音通话——最多八人。",
   "ui:appendix_talk_enter": "加入通话",
   "ui:appendix_login": "使用您的IlmNur账户登录；新账户须经管理员批准。",
   "ui:hero_cta_pubs": "著作",

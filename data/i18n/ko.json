@@ -243,7 +243,7 @@
  "ui:appendix_scan": "휴대폰 카메라를 코드에 비추면 앱이 자동으로 다운로드됩니다.",
  "ui:appendix_download": "Android용 다운로드",
  "ui:appendix_talk": "음성 대화",
- "ui:appendix_talk_desc": "브라우저에서 바로 하는 음성 대화 — 최대 열 명까지.",
+ "ui:appendix_talk_desc": "브라우저에서 바로 하는 음성 대화 — 최대 여덟 명까지.",
  "ui:appendix_talk_enter": "대화 참여",
  "ui:appendix_login": "IlmNur 계정으로 로그인합니다. 새 계정은 관리자가 승인합니다.",
  "ui:hero_cta_pubs": "논문",

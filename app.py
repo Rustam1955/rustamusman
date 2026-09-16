@@ -133,7 +133,7 @@ UI = {
         "appendix_scan": "Наведите камеру телефона на код — приложение скачается само.",
         "appendix_download": "Скачать для Android",
         "appendix_talk": "Разговор",
-        "appendix_talk_desc": "Разговор со звуком прямо в браузере — до десяти человек.",
+        "appendix_talk_desc": "Разговор со звуком прямо в браузере — до восьми человек.",
         "appendix_talk_enter": "Войти в разговор",
         "appendix_login": "Вход — по своей учётной записи IlmNur; новую учётную запись одобряет администратор.",
         "hero_cta_pubs": "Публикации",
@@ -216,7 +216,7 @@ UI = {
         "appendix_scan": "Point your phone camera at the code — the app will download.",
         "appendix_download": "Download for Android",
         "appendix_talk": "Voice talk",
-        "appendix_talk_desc": "Voice conversation right in the browser — up to ten people.",
+        "appendix_talk_desc": "Voice conversation right in the browser — up to eight people.",
         "appendix_talk_enter": "Join the talk",
         "appendix_login": "Sign in with your IlmNur account; new accounts are approved by the administrator.",
         "hero_cta_pubs": "Publications",
@@ -297,7 +297,7 @@ UI = {
         "appendix_scan": "Telefon kamerasini kodga qarating — ilova oʻzi yuklab olinadi.",
         "appendix_download": "Android uchun yuklab olish",
         "appendix_talk": "Suhbat",
-        "appendix_talk_desc": "Toʻgʻridan-toʻgʻri brauzerda ovozli suhbat — oʻn kishigacha.",
+        "appendix_talk_desc": "Toʻgʻridan-toʻgʻri brauzerda ovozli suhbat — sakkiz kishigacha.",
         "appendix_talk_enter": "Suhbatga kirish",
         "appendix_login": "Kirish — oʻzingizning IlmNur hisobingiz orqali; yangi hisobni administrator tasdiqlaydi.",
         "hero_cta_pubs": "Nashrlar",
@@ -681,7 +681,10 @@ def apk_qr():
     код = qrcode.QRCode(border=2, error_correction=qrcode.constants.ERROR_CORRECT_M)
     код.add_data(apk_link())
     код.make(fit=True)
-    картинка = код.make_image(image_factory=qrcode.image.svg.SvgPathImage)
+    # ...Fill — с белой подложкой. Без неё код выходит прозрачным: на тёмной
+    # теме сайта чёрные клетки ложились на тёмное, и кода было не видно
+    # (Рустам, 16.09.2026). Телефон такой код не прочтёт и с экрана
+    картинка = код.make_image(image_factory=qrcode.image.svg.SvgPathFillImage)
     лист = io.BytesIO()
     картинка.save(лист)
     return Response(лист.getvalue(), mimetype="image/svg+xml",

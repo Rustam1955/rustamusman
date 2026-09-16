@@ -860,8 +860,8 @@
   "en": "Voice talk"
  },
  "ui:appendix_talk_desc": {
-  "ru": "Разговор со звуком прямо в браузере — до десяти человек.",
-  "en": "Voice conversation right in the browser — up to ten people."
+  "ru": "Разговор со звуком прямо в браузере — до восьми человек.",
+  "en": "Voice conversation right in the browser — up to eight people."
  },
  "ui:appendix_talk_enter": {
   "ru": "Войти в разговор",
