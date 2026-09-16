@@ -11,15 +11,10 @@
     <h1 class="page-title visually-hidden">{{ t.appendix_title }}</h1>
 
     <div class="app-card">
-      <!-- Ни книги-логотипа, ни крупного «IlmNur» (Рустам, 16.09.2026):
-           логотип и так в шапке, а место нужнее самому делу -->
-      <div class="app-head">
-        <div>
-          <h2 class="app-name visually-hidden">{{ t.appendix_app_name }}</h2>
-          <p class="app-desc">{{ t.appendix_app_desc }}</p>
-          <p class="app-hint"><a href="{{ url_for('dynasty', lang=lang) }}#grandfather">{{ t.appendix_named }}</a></p>
-        </div>
-      </div>
+      <!-- Ни логотипа, ни описания, ни строки о деде — только два дела:
+           скачать приложение и войти в разговор (Рустам, 16.09.2026).
+           Имя приложения остаётся для программ чтения с экрана -->
+      <h2 class="app-name visually-hidden">{{ t.appendix_app_name }}</h2>
 
       <div class="app-ways">
         <!-- APK отдаёт Caddy облака; QR ведёт туда же — навёл камеру с экрана
@@ -46,7 +41,6 @@
         </div>
       </div>
 
-      <p class="app-login">{{ t.appendix_login }}</p>
     </div>
   </div>
 </section>
