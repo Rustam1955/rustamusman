@@ -84,7 +84,8 @@ SEO_KEYWORDS = {
         "механика жидкости и газа, механика жидкости газа и плазмы, "
         "добыча урана технология, геотехнология добычи полезных ископаемых, "
         "прикладная математика, численное моделирование, научные публикации, МГУ, "
-        "золото, уран, редкоземельные металлы"
+        "золото, уран, редкоземельные металлы, "
+        "лауреат Государственной премии в области науки и техники, лауреат Государственной премии Республики Узбекистан"
     ),
     "en": (
         "Rustamzhon Usmanov, Usmanov Rustamzhon, Usmanov Rustamjon, "
@@ -92,7 +93,8 @@ SEO_KEYWORDS = {
         "uranium mining technology, geotechnology of mineral extraction, "
         "applied mathematics, numerical modeling, research publications, "
         "Moscow State University, "
-        "gold, uranium, rare earth metals, Усманов Рустамжон"
+        "gold, uranium, rare earth metals, Усманов Рустамжон, "
+        "laureate of the State Prize in science and technology, State Prize of the Republic of Uzbekistan"
     ),
     "uz": (
         "Usmanov Rustamjon, Rustamjon Usmanov, Usmanov Rustamjon Isayevich, "
@@ -101,7 +103,8 @@ SEO_KEYWORDS = {
         "uran qazib olish texnologiyasi, foydali qazilmalarni qazib olish "
         "geotexnologiyasi, yer osti ishqorlash, amaliy matematika, "
         "sonli modellashtirish, ilmiy nashrlar, MDU, "
-        "oltin, uran, noyob yer metallari, Усманов Рустамжон"
+        "oltin, uran, noyob yer metallari, Усманов Рустамжон, "
+        "fan va texnika sohasidagi Davlat mukofoti sovrindori, Oʻzbekiston Respublikasi Davlat mukofoti"
     ),
 }
 
@@ -476,6 +479,31 @@ SEO_TOPICS = {
     "tr": ["altın", "uranyum", "nadir toprak metalleri"],
     "zh": ["金", "铀", "稀土金属"],
 }
+# Награда — в карточку учёного (schema.org award). Рустам, 16.09.2026: «ещё
+# ключевое слово — лауреат Государственной премии в области науки и техники».
+# Слово в слово как в первой строке биографии на каждом языке
+SEO_AWARD = {
+    "ru": "Государственная премия Республики Узбекистан первой степени в области науки и техники",
+    "en": "State Prize of the Republic of Uzbekistan of the first degree in science and technology",
+    "uz": "Oʻzbekiston Respublikasining fan va texnika sohasidagi birinchi darajali Davlat mukofoti",
+    "ar": "جائزة الدولة لجمهورية أوزبكستان من الدرجة الأولى في مجال العلوم والتكنولوجيا",
+    "be": "Дзяржаўная прэмія Рэспублікі Узбекістан першай ступені ў галіне навукі і тэхнікі",
+    "de": "Staatspreis der Republik Usbekistan ersten Grades auf dem Gebiet von Wissenschaft und Technik",
+    "es": "Premio Estatal de la República de Uzbekistán de primer grado en ciencia y tecnología",
+    "fa": "جایزهٔ دولتی درجهٔ یک جمهوری ازبکستان در زمینهٔ علم و فناوری",
+    "fr": "Prix d'État de la République d'Ouzbékistan du premier degré dans le domaine de la science et de la technique",
+    "he": "פרס המדינה של הרפובליקה של אוזבקיסטן מדרגה ראשונה בתחום המדע והטכנולוגיה",
+    "hi": "विज्ञान और प्रौद्योगिकी के क्षेत्र में उज़्बेकिस्तान गणराज्य का प्रथम श्रेणी का राजकीय पुरस्कार",
+    "it": "Premio di Stato della Repubblica dell'Uzbekistan di primo grado nel campo della scienza e della tecnologia",
+    "ja": "ウズベキスタン共和国科学技術分野国家賞（一等）",
+    "kk": "Өзбекстан Республикасының ғылым және техника саласындағы бірінші дәрежелі Мемлекеттік сыйлығы",
+    "ko": "우즈베키스탄 공화국 과학기술 분야 1등급 국가상",
+    "pl": "Nagroda Państwowa Republiki Uzbekistanu pierwszego stopnia w dziedzinie nauki i techniki",
+    "pt": "Prêmio Estatal da República do Uzbequistão de primeiro grau na área de ciência e tecnologia",
+    "tg": "Мукофоти давлатии дараҷаи якуми Ҷумҳурии Ӯзбекистон дар соҳаи илм ва техника",
+    "tr": "Özbekistan Cumhuriyeti Bilim ve Teknoloji Alanında Birinci Derece Devlet Ödülü",
+    "zh": "乌兹别克斯坦共和国一等国家科学技术奖",
+}
 # Оба написания имени, которые Рустам назвал, — во всех языках
 SEO_NAMES = ("Усманов Рустамжон", "Usmanov Rustamjon")
 
@@ -498,6 +526,7 @@ def build_person_jsonld(profile, lang):
         "description": localized(profile.get("tagline", {}), lang),
         "knowsAbout": (localized(profile.get("cv", {}).get("research_areas", {}), lang) or [])
                       + SEO_TOPICS.get(lang, SEO_TOPICS[FALLBACK_LANG]),
+        "award": SEO_AWARD.get(lang, SEO_AWARD[FALLBACK_LANG]),
         "alumniOf": {
             "@type": "CollegeOrUniversity",
             "name": ALUMNI.get(lang, ALUMNI[FALLBACK_LANG]),
