@@ -90,7 +90,9 @@
       </button>
 
       <nav class="site-nav">
-        <a href="{{ url_for('home', lang=lang) }}" class="{{ 'active' if current_endpoint=='home' }}">{{ t.nav_home
+        <!-- В меню-занавеске телефона «Главной» нет (Рустам, 16.09.2026): там
+             ровно восемь пунктов, а на главную ведёт логотип -->
+        <a href="{{ url_for('home', lang=lang) }}" class="nav-home {{ 'active' if current_endpoint=='home' }}">{{ t.nav_home
           }}</a>
         <a href="{{ url_for('about', lang=lang) }}" class="{{ 'active' if current_endpoint=='about' }}">{{ t.nav_about
           }}</a>

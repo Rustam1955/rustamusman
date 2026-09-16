@@ -1917,32 +1917,18 @@ a.pub-title:hover {
     background: transparent;
   }
 
-  /* Дропдаун в мобильном меню — подпункты видны сразу, встроены в столбец */
-  .nav-dropdown {
-    width: 100%;
-  }
-
-  .nav-dropdown .caret {
+  /* В занавеске — ровно восемь пунктов, по одному на раздел (Рустам,
+     16.09.2026): О себе, Научная династия, Публикации, Приложения,
+     Размышления, CV, Отзывы, Контакты. «Главной» нет — на неё ведёт логотип;
+     подпунктов династии тоже нет — нажал «Научная династия», и открылся
+     раздел, а в нём уже дед, мама, род, спасение и учителя */
+  .nav-home {
     display: none;
   }
 
+  .nav-dropdown .caret,
   .nav-dropdown-menu {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: 0;
-    background: transparent;
-    padding-block: 6px 2px;
-    padding-inline: 14px 0;
-    margin-top: 6px;
-    min-width: 0;
-    border-inline-start: 1px solid var(--border);
-  }
-
-  .nav-dropdown-menu a {
-    padding: 6px 8px;
+    display: none;
   }
 }
 
