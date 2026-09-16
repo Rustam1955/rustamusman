@@ -94,7 +94,7 @@
              ровно восемь пунктов, а на главную ведёт логотип -->
         <a href="{{ url_for('home', lang=lang) }}" class="nav-home {{ 'active' if current_endpoint=='home' }}">{{ t.nav_home
           }}</a>
-        <a href="{{ url_for('about', lang=lang) }}" class="{{ 'active' if current_endpoint=='about' }}">{{ t.nav_about
+        <a href="{{ url_for('about', lang=lang) }}" class="nav-about {{ 'active' if current_endpoint=='about' }}">{{ t.nav_about
           }}</a>
 
         <div class="nav-dropdown {{ 'active' if current_endpoint=='dynasty' }}">
@@ -110,7 +110,7 @@
           </div>
         </div>
 
-        <a href="{{ url_for('publications', lang=lang) }}" class="{{ 'active' if current_endpoint=='publications' }}">{{
+        <a href="{{ url_for('publications', lang=lang) }}" class="nav-pubs {{ 'active' if current_endpoint=='publications' }}">{{
           t.nav_pubs }}</a>
         <a href="{{ url_for('appendix', lang=lang) }}" class="{{ 'active' if current_endpoint=='appendix' }}">{{
           t.nav_appendix }}</a>
