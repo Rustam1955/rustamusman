@@ -463,6 +463,23 @@ def build_person_jsonld(profile, lang):
     return json.dumps(data, ensure_ascii=False)
 
 
+@app.before_request
+def only_known_language():
+    """Неизвестный язык в адресе — не главная страница по-русски.
+
+    Раньше любой адрес вида /что-то/ подходил под правило /<lang>/ и
+    показывал русскую главную: так отвечал даже /static/. Теперь такой адрес
+    переводит на ту же страницу на языке по умолчанию (16.09.2026)"""
+    язык = (request.view_args or {}).get("lang")
+    if язык is None or язык in LANGS:
+        return None
+    try:
+        куда = url_for(request.endpoint, **{**request.view_args, "lang": DEFAULT_LANG})
+    except Exception:
+        куда = url_for("home", lang=DEFAULT_LANG)
+    return redirect(куда, code=302)
+
+
 @app.context_processor
 def inject_globals():
     lang = valid_lang(request.view_args.get("lang") if request.view_args else None)
