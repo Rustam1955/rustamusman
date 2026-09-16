@@ -2,9 +2,11 @@
 {% block title %}{{ t.dynasty_title }} — {{ profile.name|localized(lang) }}{% endblock %}
 
 {% block content %}
-<section class="section">
+<!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
+     подсвечен в меню. Он остаётся для поисковиков и программ чтения -->
+<section class="section section-no-title">
   <div class="container narrow">
-    <h1 class="page-title">{{ t.dynasty_title }}</h1>
+    <h1 class="page-title visually-hidden">{{ t.dynasty_title }}</h1>
 
     {% if profile.heritage %}
     {% set h = profile.heritage %}

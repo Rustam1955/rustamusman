@@ -2,9 +2,11 @@
 {% block title %}{{ t.pubs_title }} — {{ profile.name|localized(lang) }}{% endblock %}
 
 {% block content %}
-<section class="section">
+<!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
+     подсвечен в меню. Он остаётся для поисковиков и программ чтения -->
+<section class="section section-no-title">
   <div class="container">
-    <h1 class="page-title">{{ t.pubs_title }}</h1>
+    <h1 class="page-title visually-hidden">{{ t.pubs_title }}</h1>
 
     <div class="filters">
       <input type="search" id="pub-search" class="filter-search" placeholder="{{ t.pubs_search }}">

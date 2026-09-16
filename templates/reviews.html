@@ -2,9 +2,11 @@
 {% block title %}{{ profile.reviews.title|localized(lang) }} — {{ profile.name|localized(lang) }}{% endblock %}
 
 {% block content %}
-<section class="section">
+<!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
+     подсвечен в меню. Он остаётся для поисковиков и программ чтения -->
+<section class="section section-no-title">
   <div class="container narrow">
-    <h1 class="page-title">{{ profile.reviews.title|localized(lang) }}</h1>
+    <h1 class="page-title visually-hidden">{{ profile.reviews.title|localized(lang) }}</h1>
     {% if profile.reviews.subtitle %}
     <p class="reviews-subtitle">{{ profile.reviews.subtitle|localized(lang) }}</p>
     {% endif %}

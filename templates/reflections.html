@@ -4,9 +4,11 @@
 {% block meta_description %}{{ profile.tagline|localized(lang) }}{% endblock %}
 
 {% block content %}
-<section class="section">
+<!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
+     подсвечен в меню. Он остаётся для поисковиков и программ чтения -->
+<section class="section section-no-title">
   <div class="container narrow">
-    <h1 class="page-title">{{ t.reflections_title }}</h1>
+    <h1 class="page-title visually-hidden">{{ t.reflections_title }}</h1>
 
     <div class="accordion-list">
       {% for essay in profile.reflections.essays %}
