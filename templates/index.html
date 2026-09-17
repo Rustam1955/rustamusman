@@ -6,7 +6,9 @@
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
-      <p class="eyebrow">{{ profile.tagline|localized(lang) }}</p>
+      {# Строки «Прикладная математика и механика — …» над именем нет
+         (Рустам, 17.09.2026). profile.tagline остаётся в описании для
+         поисковиков #}
       <h1>{{ profile.name|localized(lang) }}</h1>
       <p class="lead">{{ profile.bio|localized(lang)|first }}</p>
       <div class="hero-actions">
