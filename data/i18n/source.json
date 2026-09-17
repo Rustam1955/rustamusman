@@ -26,12 +26,12 @@
   ]
  },
  "profile:/heritage/title": {
-  "ru": "Мой дед — Ильмнур Миндияров (1888–1974)",
+  "ru": "Мой дед — Илмнур Миндияров (1888–1974)",
   "en": "My grandfather — Ilmnur Mindiyarov (1888–1974)"
  },
  "profile:/heritage/text": {
   "ru": [
-   "Мой дед Ильмнур Миндияров (1888–1974, отец моей матери — Анфисы Гилемнуровой) — ровесник сложных эпох. Он прожил путь от старого уклада Российской империи до советского Самарканда, сохранив в себе веру и свет знаний.",
+   "Мой дед Илмнур Миндияров (1888–1974, отец моей матери — Анфисы Гилемнуровой) — ровесник сложных эпох. Он прожил путь от старого уклада Российской империи до советского Самарканда, сохранив в себе веру и свет знаний.",
    "Он был настоящим просветителем и созидателем. Сквозь годы репрессий и испытаний он пронёс самое ценное — свет знаний (Ilm) и чистоту души (Nur).",
    "В годы репрессий (1938 год) из родного села Ишкарово в Башкирии на самаркандскую землю он привёз не обиду, а созидание. Он привёз с собой знания и культуру.",
    "Он учил грамоте, был муфассиром, обладал глубокими знаниями арабского языка и учил правильно произносить арабский текст. Он дарил тепло и открывал окна в мир каждому, кто хотел учиться.",
@@ -123,6 +123,30 @@
    "When the uprising died down, Ishkara showed wisdom: he came to the generals himself, managed to protect his family and kept these lands. In 1795 there were only 10 houses in the whole village, and only our relatives lived there! The name «Mindiyarov», borne by my mother's family, comes from the name of the colonel's grandson — Mindiyar. Our lineage is strong and runs through the centuries: from Ishkara to Kulmet, then to Mindiyar, Mukhametnur and, finally, to my grandfather Gylymnur.",
    "My grandfather Gilemnur and grandmother Mavtukha (her name beautifully translates as «open soul») were remarkable people. They were enlighteners — bringing people literacy, culture and kindness. In the difficult year of 1938 the persecutions began, and my grandfather had to leave his native Bashkiria for distant Samarkand. But most importantly: in his heart he brought to the new land not malice or resentment, but creation, love of labor and immense knowledge.",
    "Your great-grandmother Anfisa studied in that very Bashkir school in Ishkarovo and graduated from it in 1947. And right now, in the neighboring village of Gremuchy Klyuch, lives her cousin — grandmother Ilgiza, who is already 90 years old! Remember your roots, be proud of your ancestors, and be creators just as they were."
+  ]
+ },
+ "profile:/heritage/silence/title": {
+  "ru": "Сквозь боль, молчание и унижения: история стойкости моей мамы и дедушки Миндиярова Илмнура",
+  "en": "Through pain, silence and humiliation: the story of the fortitude of my mother and my grandfather Ilmnur Mindiyarov"
+ },
+ "profile:/heritage/silence/text": {
+  "ru": [
+   "История нашей семьи — это незаживающая рана, оставленная тяжелыми годами репрессий. Это повествование о том, как безжалостные жернова сталинской эпохи ломали человеческие судьбы, и о том, какую непомерную, страшную цену пришлось заплатить моей маме, ее детям и всем нашим родственникам.",
+   "Все началось с ареста и преследования моего дедушки, Миндиярова Илмнура. В те черные годы клеймо «врага народа» мгновенно превратило уважаемого человека в изгоя, лишив его семью прав и защиты. Вместе с его арестом для близких начался настоящий ад, а конечной точкой их изгнания стал принудительный переезд в поселок Митан Самаркандской области.",
+   "Моя мама вынесла на своих плечах всю тяжесть этого бесчеловечного времени. Но самым болезненным ударом для нее оказалась человеческая жестокость, с которой им пришлось столкнуться на новом месте. Напуганные сталинским террором, ожесточенные нищетой и отравленные пропагандой, некоторые местные дети и взрослые вымещали злобу на беззащитных переселенцах.",
+   "Я был тогда совсем маленьким и помню, как соседские дети дразнили и обзывали нас «татарами» в самой плохой, унизительной манере. Мама стояла рядом. Она все это слышала. Каждое злое слово, брошенное в адрес ее маленьких детей, ранило ее прямо в сердце. Но она не могла кричать в ответ, не могла защитить нас открыто в чужом, враждебном поселке. Она молчала. Всю эту жгучую обиду, несправедливость и страх за наше будущее она покорно держала в себе, не говоря никому ни слова, чтобы не умножать беду.",
+   "Это многолетнее, раздирающее душу молчание не прошло бесследно. Подавленное горе и незащищенность подорвали ее здоровье. В конце концов, организм мамы не выдержал этого колоссального стресса: она заболела тяжелой, неизлечимой болезнью — болезнью Верльгофа. Ее кровь, ее тело буквально плакали от невыплаканных слез и несправедливости, перенесенной в Митане. Над ее семьей, над ее детьми издевались просто за то, что они были спецпереселенцами, и эта травма осталась с нами навсегда.",
+   "Но, даже угасая от болезни, моя мама не сломалась. Она сохранила в себе человечность, достоинство и безграничную любовь. Она пожертвовала своим здоровьем и жизнью, приняв весь удар на себя, чтобы сберечь нас.",
+   "Этот текст — дань памяти моему дедушке Миндиярову Илмнуру, моей дорогой маме и всем нашим родственникам. Их страдания не должны быть забыты. Мы помним их боль, мы преклоняемся перед маминым святым молчаливым подвигом, и эта память останется с нами навсегда."
+  ],
+  "en": [
+   "The history of our family is an unhealed wound left by the hard years of repression. It is a story of how the merciless millstones of the Stalin era broke human destinies, and of the exorbitant, terrible price that my mother, her children and all our relatives had to pay.",
+   "It all began with the arrest and persecution of my grandfather, Ilmnur Mindiyarov. In those dark years the brand of «enemy of the people» instantly turned a respected man into an outcast, depriving his family of rights and protection. With his arrest a real hell began for his loved ones, and the end point of their exile was a forced move to the settlement of Mitan in the Samarkand region.",
+   "My mother carried on her shoulders the whole burden of that inhuman time. But the most painful blow for her was the human cruelty they had to face in the new place. Frightened by the Stalinist terror, embittered by poverty and poisoned by propaganda, some local children and adults vented their anger on the defenseless resettlers.",
+   "I was very small then, and I remember how the neighbors' children teased us and called us «Tatars» in the worst, most humiliating way. My mother stood nearby. She heard it all. Every cruel word thrown at her little children wounded her right in the heart. But she could not shout back, could not defend us openly in a strange, hostile settlement. She kept silent. All that burning resentment, injustice and fear for our future she meekly kept inside, saying not a word to anyone, so as not to multiply the misfortune.",
+   "That long, soul-rending silence did not pass without a trace. Suppressed grief and defenselessness undermined her health. In the end my mother's body could not withstand this enormous stress: she fell ill with a severe, incurable disease — Werlhof's disease. Her blood, her body literally wept with unshed tears and the injustice endured in Mitan. Her family, her children were mocked simply because they were special settlers, and this trauma has stayed with us forever.",
+   "But even as she was fading from her illness, my mother did not break. She preserved her humanity, dignity and boundless love. She sacrificed her health and her life, taking the whole blow upon herself, to protect us.",
+   "This text is a tribute to the memory of my grandfather Ilmnur Mindiyarov, my dear mother and all our relatives. Their suffering must not be forgotten. We remember their pain, we bow before my mother's holy silent feat, and this memory will stay with us forever."
   ]
  },
  "profile:/heritage/story/title": {
@@ -852,7 +876,7 @@
   "en": "A family app: family tree, chess, music and voice talk — on the phone and the computer, in twenty languages."
  },
  "ui:appendix_named": {
-  "ru": "Названо в честь моего деда — Ильмнура Миндиярова.",
+  "ru": "Названо в честь моего деда — Илмнура Миндиярова.",
   "en": "Named after my grandfather, Ilmnur Mindiyarov."
  },
  "ui:appendix_android": {
@@ -900,7 +924,7 @@
   "en": "Scientific dynasty and recognition"
  },
  "ui:dynasty_sub_grandfather": {
-  "ru": "Мой дед — Ильмнур Миндияров",
+  "ru": "Мой дед — Илмнур Миндияров",
   "en": "My grandfather — Ilmnur Mindiyarov"
  },
  "ui:dynasty_sub_mother": {
@@ -910,6 +934,10 @@
  "ui:dynasty_sub_lineage": {
   "ru": "История нашего рода",
   "en": "The story of our family"
+ },
+ "ui:dynasty_sub_silence": {
+  "ru": "Сквозь боль и молчание",
+  "en": "Through pain and silence"
  },
  "ui:dynasty_sub_story": {
   "ru": "История одного спасения",

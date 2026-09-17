@@ -75,6 +75,22 @@
     </details>
     {% endif %}
 
+    {% if h.silence %}
+    <details class="acc" id="silence">
+      <summary>
+        <span class="acc-title">{{ h.silence.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        <div class="heritage-text">
+          {% for para in h.silence.text|localized(lang) %}
+          <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </details>
+    {% endif %}
+
     {% if h.story %}
     {% set story = h.story %}
     <details class="acc" id="salvation">

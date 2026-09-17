@@ -309,5 +309,16 @@
  "cv:contact": "Kontakt",
  "cv:more": "oraz inne prace — zob. stronę i profil ISTINA",
  "seo": "Усманов Рустамжон, Rustamżon Usmanow, Usmanow Rustamżon, Rustamżon Isajewicz Usmanow, Usmanow R.I., Rustamzhon Usmanov, Usmanov Rustamjon, mechanika cieczy i gazu, mechanika cieczy gazu i plazmy, technologia wydobycia uranu, geotechnologia wydobycia kopalin, matematyka stosowana, modelowanie numeryczne, publikacje naukowe, Uniwersytet Moskiewski, MGU, złoto, uran, metale ziem rzadkich, laureat Nagrody Państwowej w dziedzinie nauki i techniki",
- "alumni": "Uniwersytet Moskiewski im. M.W. Łomonosowa"
+ "alumni": "Uniwersytet Moskiewski im. M.W. Łomonosowa",
+ "profile:/heritage/silence/title": "Przez ból, milczenie i upokorzenia: historia hartu ducha mojej mamy i dziadka Ilmnura Mindijarowa",
+ "profile:/heritage/silence/text": [
+  "Historia naszej rodziny to niezabliźniona rana, którą pozostawiły ciężkie lata represji. To opowieść o tym, jak bezlitosne żarna epoki stalinowskiej łamały ludzkie losy, i o tym, jak niewspółmiernie wysoką, straszną cenę musieli zapłacić moja mama, jej dzieci i wszyscy nasi krewni.",
+  "Wszystko zaczęło się od aresztowania i prześladowania mojego dziadka, Ilmnura Mindijarowa. W tych czarnych latach piętno „wroga ludu” w jednej chwili zamieniało szanowanego człowieka w wyrzutka, pozbawiając jego rodzinę praw i ochrony. Wraz z jego aresztowaniem dla bliskich zaczęło się prawdziwe piekło, a kresem ich wygnania stało się przymusowe przesiedlenie do osiedla Mitan w obwodzie samarkandzkim.",
+  "Moja mama dźwigała na swoich barkach cały ciężar tamtych nieludzkich czasów. Ale najboleśniejszym ciosem okazało się dla niej ludzkie okrucieństwo, z którym przyszło im się zetknąć w nowym miejscu. Zastraszeni stalinowskim terrorem, zgorzkniali od biedy i zatruci propagandą, niektórzy miejscowi – dzieci i dorośli – wyładowywali złość na bezbronnych przesiedleńcach.",
+  "Byłem wtedy całkiem mały i pamiętam, jak dzieci sąsiadów drażniły się z nami i przezywały nas „Tatarami” w najgorszy, najbardziej poniżający sposób. Mama stała obok. Słyszała to wszystko. Każde złe słowo rzucone pod adresem jej małych dzieci raniło ją prosto w serce. Ale nie mogła odkrzyknąć, nie mogła otwarcie nas bronić w obcym, wrogim osiedlu. Milczała. Całą tę palącą krzywdę, niesprawiedliwość i lęk o naszą przyszłość pokornie dusiła w sobie, nie mówiąc nikomu ani słowa, aby nie pomnażać nieszczęścia.",
+  "To wieloletnie, rozdzierające duszę milczenie nie przeszło bez śladu. Stłumiony żal i bezbronność podkopały jej zdrowie. W końcu organizm mamy nie wytrzymał tego ogromnego stresu: zachorowała na ciężką, nieuleczalną chorobę – chorobę Werlhofa. Jej krew, jej ciało dosłownie płakały niewypłakanymi łzami i niesprawiedliwością doznaną w Mitanie. Jej rodzinę, jej dzieci poniżano tylko za to, że byli specjalnymi przesiedleńcami, i ta trauma pozostała z nami na zawsze.",
+  "Lecz nawet gasnąc z powodu choroby, moja mama się nie załamała. Zachowała w sobie człowieczeństwo, godność i bezgraniczną miłość. Złożyła w ofierze swoje zdrowie i życie, przyjmując cały cios na siebie, aby nas ocalić.",
+  "Ten tekst jest hołdem dla pamięci mojego dziadka Ilmnura Mindijarowa, mojej drogiej mamy i wszystkich naszych krewnych. Ich cierpienie nie może zostać zapomniane. Pamiętamy ich ból, chylimy czoła przed świętym, cichym bohaterstwem mamy, a ta pamięć pozostanie z nami na zawsze."
+ ],
+ "ui:dynasty_sub_silence": "Przez ból i milczenie"
 }
