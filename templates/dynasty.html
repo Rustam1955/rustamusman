@@ -114,13 +114,17 @@
         <span class="acc-icon" aria-hidden="true">+</span>
       </summary>
       <div class="acc-body">
-        {% if h.teachers.image %}
-        <figure class="story-figure story-figure--single">
-          <img src="{{ url_for('static', filename=h.teachers.image) }}"
-               alt="{{ h.teachers.caption|localized(lang) }}" loading="lazy"
-               onerror="this.closest('.story-figure').style.display='none';">
-          {% if h.teachers.caption %}<figcaption>{{ h.teachers.caption|localized(lang) }}</figcaption>{% endif %}
-        </figure>
+        {% if h.teachers.images %}
+        <div class="teachers-photos">
+          {% for img in h.teachers.images %}
+          <figure class="story-figure">
+            <img src="{{ url_for('static', filename=img.src) }}"
+                 alt="{{ img.caption|localized(lang) }}" loading="lazy"
+                 onerror="this.closest('.story-figure').style.display='none';">
+            <figcaption>{{ img.caption|localized(lang) }}</figcaption>
+          </figure>
+          {% endfor %}
+        </div>
         {% endif %}
         <div class="heritage-text">
           {% for para in h.teachers.text|localized(lang) %}

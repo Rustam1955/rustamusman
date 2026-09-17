@@ -112,12 +112,24 @@
         "en": "My teachers",
         "uz": "Ustozlarim"
       },
-      "image": "img/Nigmatullin_n.jpg",
-      "caption": {
-        "ru": "Академик Р.И. Нигматулин",
-        "en": "Academician R.I. Nigmatulin",
-        "uz": "Akademik R.I. Nigmatulin"
-      },
+      "images": [
+        {
+          "src": "img/Rakhmatulin.webp",
+          "caption": {
+            "ru": "Академик Х.А. Рахматулин",
+            "en": "Academician Kh.A. Rakhmatulin",
+            "uz": "Akademik X.A. Rahmatulin"
+          }
+        },
+        {
+          "src": "img/Nigmatullin_n.jpg",
+          "caption": {
+            "ru": "Академик Р.И. Нигматулин",
+            "en": "Academician R.I. Nigmatulin",
+            "uz": "Akademik R.I. Nigmatulin"
+          }
+        }
+      ],
       "text": {
         "ru": [
           "О моих учителях.",

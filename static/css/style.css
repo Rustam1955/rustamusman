@@ -1248,6 +1248,36 @@ img {
   margin: 0 0 26px;
 }
 
+/* Учителя рядом: снимки одной высоты, ширина — по своим пропорциям */
+.teachers-photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 18px;
+  margin: 0 0 26px;
+}
+
+.teachers-photos img {
+  width: auto;
+  max-width: none;
+  height: 380px;
+}
+
+.teachers-photos figure {
+  flex: none;
+  width: min-content;
+}
+
+@media (max-width: 640px) {
+  .teachers-photos {
+    gap: 12px;
+  }
+
+  .teachers-photos img {
+    height: 200px;
+  }
+}
+
 /* ---------- Essay / Reflections ---------- */
 .essay {
   max-width: 720px;
