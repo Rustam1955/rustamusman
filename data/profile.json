@@ -946,19 +946,22 @@
         "Механика жидкости, газа и плазмы",
         "Численное моделирование физических процессов",
         "Геотехнология добычи полезных ископаемых",
-        "Прикладная математика"
+        "Прикладная математика",
+        "Добыча, переработка и производство золота, серебра, урана, редких, редкоземельных и благородных металлов"
       ],
       "en": [
         "Fluid, gas and plasma mechanics",
         "Numerical modeling of physical processes",
         "Geotechnology of mineral extraction",
-        "Applied mathematics"
+        "Applied mathematics",
+        "Mining, processing and production of gold, silver, uranium, rare, rare-earth and precious metals"
       ],
       "uz": [
         "Suyuqlik, gaz va plazma mexanikasi",
         "Fizik jarayonlarni sonli modellashtirish",
         "Foydali qazilmalarni qazib olish geotexnologiyasi",
-        "Amaliy matematika"
+        "Amaliy matematika",
+        "Oltin, kumush, uran, nodir, noyob yer va qimmatbaho metallarni qazib olish, qayta ishlash va ishlab chiqarish"
       ]
     },
     "highlights": {
