@@ -1,4 +1,265 @@
 {
+  "science-industry-hub-2026": {
+    "title": {
+      "ru": "Стратегия интеграции науки и производства в Узбекистане",
+      "en": "A strategy for integrating science and industry in Uzbekistan",
+      "uz": "Oʻzbekistonda fan va ishlab chiqarish integratsiyasi strategiyasi"
+    },
+    "year": "2026",
+    "authors": [
+      "Усманов Р.И."
+    ],
+    "type_ru": "Авторская статья",
+    "type_en": "Feature article",
+    "type_uz": "Mualliflik maqolasi",
+    "abstract": {
+      "ru": "Манифест радикальной реформы научно-образовательной сферы Республики Узбекистан. Раздробленность ВУЗов и десятков изолированных НИИ ведет к профессиональной изоляции и технологическому отставанию от реального сектора экономики. В качестве альтернативы предложена модель Единого научно-технологического хаба: междисциплинарная синергия, сквозная интеграция науки с производством и сокращение управленческой надстройки на 90%. Обоснованы географический сдвиг прикладных научных центров к индустриальным кластерам (на примере Навоийской области), коренная перестройка высшего образования и привязка защиты ученых степеней исключительно к доказанному экономическому эффекту на производстве.",
+      "en": "A manifesto for a radical reform of the scientific and educational sectors in the Republic of Uzbekistan. The current fragmented structure of higher education institutions and academic research institutes leads to intellectual compartmentalization and a technological gap with the real economy. As an alternative, the paper proposes a model of a Unified Scientific and Technological Hub based on the principles of interdisciplinary synergy, end-to-end integration of science and industry, and a 90% reduction of redundant bureaucratic management. The study substantiates the necessity of shifting applied research centers toward major industrial growth zones (using Navoi region as a case study), fundamentally transforming the higher education curriculum, and linking the defense of academic degrees strictly to proven economic impacts on industrial production.",
+      "uz": "Oʻzbekiston Respublikasi ilm-fan va taʼlim sohasini tubdan isloh qilish manifesti. Oliygohlar va oʻnlab yakkalangan ilmiy-tadqiqot institutlarining parchalanganligi kasbiy yakkalanishga va iqtisodiyotning real sektoridan texnologik orqada qolishga olib keladi. Muqobil sifatida Yagona ilmiy-texnologik xab modeli taklif etiladi: fanlararo sinergiya, fan va ishlab chiqarishning uzluksiz integratsiyasi hamda boshqaruv ustqurmasini 90% ga qisqartirish. Amaliy ilmiy markazlarni sanoat klasterlari tomon geografik siljitish (Navoiy viloyati misolida), oliy taʼlimni tubdan qayta qurish va ilmiy darajalar himoyasini faqat ishlab chiqarishdagi isbotlangan iqtisodiy samaraga bogʻlash asoslanadi."
+    },
+    "blocks": [
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "Введение. Анализ деградации изолированных структур",
+          "en": "Introduction. The decay of isolated structures",
+          "uz": "Kirish. Yakkalangan tuzilmalarning yemirilishi tahlili"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Нынешняя раздробленная структура ВУЗов и Академии наук с десятками изолированных НИИ полностью изжила себя. Она порождает «капсулированность» умов, где специалисты-ученые, в частности, по автоматике не знают химии, а химики не понимают физику плазменных процессов. Это ведет к «продаже воздуха», составлению бумажных отчетов и технологической слепоте на реальном производстве.",
+          "en": "The present fragmented structure of universities and the Academy of Sciences, with dozens of isolated research institutes, has completely outlived itself. It breeds “encapsulated” minds: specialists in automation, for instance, do not know chemistry, while chemists do not understand the physics of plasma processes. This leads to “selling air”, to paper reports and to technological blindness on the shop floor.",
+          "uz": "Oliy oʻquv yurtlari va Fanlar akademiyasining oʻnlab yakkalangan ilmiy-tadqiqot institutlaridan iborat hozirgi parchalangan tuzilmasi oʻzini butunlay oqlamadi. U ongning «kapsulalanishiga» olib keladi: masalan, avtomatika boʻyicha olimlar kimyoni bilmaydi, kimyogarlar esa plazma jarayonlari fizikasini tushunmaydi. Bu «havo sotish»ga, qogʻozbozlikka va real ishlab chiqarishdagi texnologik koʻrlikka olib keladi."
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Новая модель — это полный отказ от бюрократических ниточек в пользу единого междисциплинарного научно-образовательного механизма, построенного на принципах сквозной интеграции, жесткой практики и концентрации умов.",
+          "en": "The new model means a complete break with bureaucratic strings in favour of a single interdisciplinary research-and-teaching mechanism built on end-to-end integration, hard practice and a concentration of minds.",
+          "uz": "Yangi model — byurokratik ipchalardan butunlay voz kechib, uzluksiz integratsiya, qatʼiy amaliyot va aqllar jamlanishi tamoyillariga qurilgan yagona fanlararo ilmiy-taʼlim mexanizmiga oʻtishdir."
+        }
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "I. Оптимизация управленческой структуры и создание Хаба",
+          "en": "I. Streamlining the management structure and creating the Hub",
+          "uz": "I. Boshqaruv tuzilmasini optimallashtirish va Xab tashkil etish"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Вместо десятков разбросанных по Узбекистану институтов со своими директорами, бухгалтериями и автопарками создается Единый научно-технологический хаб.",
+          "en": "Instead of dozens of institutes scattered across Uzbekistan, each with its own director, accounting office and car fleet, a Unified Scientific and Technological Hub is created.",
+          "uz": "Oʻzbekiston boʻylab sochilib ketgan, har birida oʻz direktori, buxgalteriyasi va avtoparki bor oʻnlab institutlar oʻrniga Yagona ilmiy-texnologik xab tuziladi."
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "title": {
+              "ru": "Концентрация в едином пространстве:",
+              "en": "Concentration in a single space:",
+              "uz": "Yagona makonda jamlanish:"
+            },
+            "text": {
+              "ru": "В качестве иллюстрации, Институт химии, Институт геологии, Институт минерального сырья, кафедры гидромеханики, физики и IT садятся под одной крышей в едином сквозном пространстве (Open Space). Потоки информации не застревают в межведомственной переписке, а циркулируют мгновенно.",
+              "en": "By way of illustration, the Institute of Chemistry, the Institute of Geology, the Institute of Mineral Resources and the departments of hydromechanics, physics and IT sit down under one roof in a single open space. Flows of information no longer get stuck in interdepartmental correspondence — they circulate instantly.",
+              "uz": "Misol uchun, Kimyo instituti, Geologiya instituti, Mineral xomashyo instituti, gidromexanika, fizika va IT kafedralari bir tom ostida, yagona ochiq makonda (Open Space) joylashadi. Axborot oqimlari idoralararo yozishmalarda tiqilib qolmaydi, balki bir zumda aylanadi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Единый аналитический центр («Мозг»):",
+              "en": "A single analytical centre (the “Brain”):",
+              "uz": "Yagona tahliliy markaz («Miya»):"
+            },
+            "text": {
+              "ru": "Управленческая надстройка сокращается на 90%. Единый центр координирует все направления, распределяет задачи, идущие от производства, и формирует под них сквозные междисциплинарные команды.",
+              "en": "The managerial superstructure is cut by 90%. One centre coordinates every line of work, distributes the tasks coming from industry and puts together end-to-end interdisciplinary teams for them.",
+              "uz": "Boshqaruv ustqurmasi 90% ga qisqaradi. Yagona markaz barcha yoʻnalishlarni muvofiqlashtiradi, ishlab chiqarishdan keladigan vazifalarni taqsimlaydi va ular uchun uzluksiz fanlararo jamoalar shakllantiradi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Ликвидация паразитических расходов:",
+              "en": "Eliminating parasitic spending:",
+              "uz": "Parazit xarajatlarni tugatish:"
+            },
+            "text": {
+              "ru": "Все освободившиеся миллиарды от содержания сотен чиновников от науки перенаправляются на закупку передового оборудования — к числу которого относятся хроматографы, спектрометры, линейные ускорители — и прямую финансовую мотивацию ученых-практиков.",
+              "en": "All the billions freed from maintaining hundreds of science officials are redirected to buying advanced equipment — chromatographs, spectrometers, linear accelerators — and to paying practising scientists directly.",
+              "uz": "Yuzlab fan amaldorlarini boqishdan boʻshagan milliardlar ilgʻor uskunalar — xromatograflar, spektrometrlar, chiziqli tezlatkichlar — xarid qilishga va amaliyotchi olimlarni bevosita moddiy ragʻbatlantirishga yoʻnaltiriladi."
+            }
+          }
+        ]
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "II. Междисциплинарные команды и сквозные задачи «под ключ»",
+          "en": "II. Interdisciplinary teams and turnkey end-to-end tasks",
+          "uz": "II. Fanlararo jamoalar va «kalit topshiriladigan» uzluksiz vazifalar"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Прорывные технологии и предвидение внештатных ситуаций рождаются только тогда, когда задача крутится со всех сторон одновременно.",
+          "en": "Breakthrough technologies — and the foresight of emergencies — are born only when a task is turned over from every side at once.",
+          "uz": "Yutuqli texnologiyalar va favqulodda vaziyatlarni oldindan koʻrish faqat vazifa bir vaqtning oʻzida har tomondan aylantirilgandagina tugʻiladi."
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "title": {
+              "ru": "Сквозная цепочка под ключ:",
+              "en": "A turnkey end-to-end chain:",
+              "uz": "Kalit topshiriladigan uzluksiz zanjir:"
+            },
+            "text": {
+              "ru": "Любая производственная задача — скажем, переработка упорных золотосульфидных руд или подземное выщелачивание урана — разбирается единой командой. Геолог моделирует залежь, механик просчитывает гидродинамику и фильтрацию пласта, химик настраивает реагенты биоокисления, а автоматчик сразу закладывает эти переменные в алгоритмы АСУ ТП.",
+              "en": "Any production task — say, the processing of refractory gold-sulphide ores or in-situ uranium leaching — is taken apart by one team. The geologist models the deposit, the mechanical engineer computes the hydrodynamics and filtration of the bed, the chemist tunes the bio-oxidation reagents, and the automation engineer writes these variables straight into the process control algorithms.",
+              "uz": "Har qanday ishlab chiqarish vazifasi — aytaylik, qiyin boyitiladigan oltin-sulfidli rudalarni qayta ishlash yoki uranni yer osti ishqorlash — yagona jamoa tomonidan tahlil qilinadi. Geolog konni modellashtiradi, mexanik qatlam gidrodinamikasi va filtratsiyasini hisoblaydi, kimyogar biooksidlanish reagentlarini sozlaydi, avtomatchi esa bu oʻzgaruvchilarni darhol jarayonni avtomatik boshqarish algoritmlariga kiritadi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Конец размытой ответственности:",
+              "en": "The end of blurred responsibility:",
+              "uz": "Mavhum javobgarlikka barham:"
+            },
+            "text": {
+              "ru": "Отвечает весь Хаб под руководством Единого мозга. Ситуация, например, когда «формула химиков идеальна, но автоматика подвела», становится невозможной. Результат оценивается исключительно по внедрению в цеху и на руднике.",
+              "en": "The whole Hub answers, led by the single Brain. A situation where “the chemists’ formula is perfect, but the automation let us down” becomes impossible. The result is judged solely by what is put to work in the shop and at the mine.",
+              "uz": "Yagona miya boshchiligida butun Xab javob beradi. Masalan, «kimyogarlarning formulasi mukammal, ammo avtomatika qoqilib qoldi» degan holat endi boʻlmaydi. Natija faqat sexda va konda joriy etilishiga qarab baholanadi."
+            }
+          }
+        ]
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "III. Интеграция с производством на базе практик НГМК",
+          "en": "III. Integration with industry on the basis of NMMC practice",
+          "uz": "III. NKMK amaliyoti asosida ishlab chiqarish bilan integratsiya"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "Наука обязана спуститься с трибун «на землю». Приоритет отдается не кабинетным гипотезам, а живому опыту ученых-производственников. За основу, к примеру, можно взять опыт специалистов Навоийского горно-металлургического комбината (НГМК).",
+          "en": "Science must come down from the rostrum to the ground. Priority goes not to armchair hypotheses but to the living experience of scientists who work in production. The experience of the specialists of the Navoi Mining and Metallurgical Company (NMMC), for example, can be taken as the basis.",
+          "uz": "Fan minbardan «yerga» tushishi shart. Ustuvorlik kabinet gipotezalariga emas, ishlab chiqarishdagi olimlarning jonli tajribasiga beriladi. Masalan, Navoiy kon-metallurgiya kombinati (NKMK) mutaxassislarining tajribasini asos qilib olish mumkin."
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "title": {
+              "ru": "Инженерный спецназ во главе угла:",
+              "en": "Engineering special forces at the cornerstone:",
+              "uz": "Muhandislik maxsus kuchlari — poydevorda:"
+            },
+            "text": {
+              "ru": "Основой Хаба становятся специалисты, прошедшие жесткую школу ведущих мировых вузов (таких как МГТУ им. Баумана, МГУ, Горный, МГРИ, исследовательские центры США, Германии, Японии, Австралии и т. д.) и, к примеру, закрепившие эти знания десятилетиями сложнейшей практики в Кызылкумах.",
+              "en": "The core of the Hub is made up of specialists trained in the hard school of leading world universities (Bauman Moscow State Technical University, Moscow State University, the Mining Institute, the Geological Prospecting University, research centres in the USA, Germany, Japan, Australia and so on) who have, for example, cemented that knowledge with decades of the most difficult practice in the Kyzylkum desert.",
+              "uz": "Xabning oʻzagini jahonning yetakchi oliygohlari (Bauman nomidagi MDTU, MDU, Togʻ-kon instituti, MGRI, AQSh, Germaniya, Yaponiya, Avstraliya ilmiy markazlari va h.k.) qatʼiy maktabini oʻtagan va, masalan, bu bilimni Qizilqumdagi oʻnlab yillik ogʻir amaliyot bilan mustahkamlagan mutaxassislar tashkil etadi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Модель цифрового моделирования:",
+              "en": "The digital modelling model:",
+              "uz": "Raqamli modellashtirish modeli:"
+            },
+            "text": {
+              "ru": "Программные и технологические комплексы создаются, например, по австралийскому опыту (Datamine). IT-специалисты пишут алгоритмы, находясь непосредственно в цехах и карьерах, закладывая в код реальный «грязный» опыт инженеров по ликвидации аварий, управлению разубоживанием руды и изменению гидрогеологии пласта.",
+              "en": "Software and technological suites are built, for instance, on the Australian experience (Datamine). IT specialists write the algorithms while standing in the shops and open pits themselves, putting into the code the real, “dirty” experience of engineers in clearing accidents, controlling ore dilution and coping with changes in the hydrogeology of the bed.",
+              "uz": "Dasturiy va texnologik majmualar, masalan, Avstraliya tajribasi (Datamine) asosida yaratiladi. IT mutaxassislari algoritmlarni bevosita sexlar va karyerlarda turib yozadi hamda kodga muhandislarning avariyalarni bartaraf etish, ruda kambagʻallashuvini boshqarish va qatlam gidrogeologiyasining oʻzgarishi boʻyicha haqiqiy «iflos» tajribasini joylaydi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Географический сдвиг:",
+              "en": "A geographical shift:",
+              "uz": "Geografik siljish:"
+            },
+            "text": {
+              "ru": "Хаб или его ключевые прикладные филиалы должны находиться не в тишине столичных кабинетов, а на местах — в частности, в Навоийской области (Зарафшан, Учкудук). Ученые должны каждое утро видеть карьеры в окно и дышать пылью реального производства.",
+              "en": "The Hub, or at least its key applied branches, must sit not in the quiet of capital-city offices but on site — in the Navoi region in particular (Zarafshan, Uchkuduk). Scientists should see the open pits from their window every morning and breathe the dust of real production.",
+              "uz": "Xab yoki uning asosiy amaliy filiallari poytaxt kabinetlarining sokinligida emas, joylarda — xususan, Navoiy viloyatida (Zarafshon, Uchquduq) joylashishi kerak. Olimlar har kuni ertalab deraza ortida karyerlarni koʻrishi va real ishlab chiqarish changidan nafas olishi lozim."
+            }
+          }
+        ]
+      },
+      {
+        "type": "subhead",
+        "text": {
+          "ru": "IV. Модернизация высшей школы и новая система ученых степеней",
+          "en": "IV. Modernising higher education and a new system of academic degrees",
+          "uz": "IV. Oliy maktabni modernizatsiya qilish va ilmiy darajalarning yangi tizimi"
+        }
+      },
+      {
+        "type": "para",
+        "text": {
+          "ru": "«Храм науки» жестко совмещен с высшим образованием нового типа, чтобы полностью ликвидировать катастрофический поколенческий разрыв.",
+          "en": "The “temple of science” is fused tightly with higher education of a new type, so as to close the catastrophic generation gap completely.",
+          "uz": "«Fan maʼbadi» yangi turdagi oliy taʼlim bilan qatʼiy birlashtiriladi — halokatli avlodlar uzilishini butunlay bartaraf etish uchun."
+        }
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "title": {
+              "ru": "Смерть узких кафедр:",
+              "en": "The death of narrow departments:",
+              "uz": "Tor kafedralarning oʻlimi:"
+            },
+            "text": {
+              "ru": "Студентов с первого курса учат междисциплинарности. Будущий автоматчик обязан сдавать зачеты по химии процессов и геологии, а будущий геолог — понимать цифровую диспетчеризацию и блочное моделирование.",
+              "en": "Students are taught across disciplines from the first year. A future automation engineer must pass tests in process chemistry and geology, and a future geologist must understand digital dispatching and block modelling.",
+              "uz": "Talabalar birinchi kursdanoq fanlararolikka oʻrgatiladi. Boʻlajak avtomatchi jarayonlar kimyosi va geologiyadan sinov topshirishi shart, boʻlajak geolog esa raqamli dispetcherlik va blokli modellashtirishni tushunishi kerak."
+            }
+          },
+          {
+            "title": {
+              "ru": "Полевая ротация как закон:",
+              "en": "Field rotation as law:",
+              "uz": "Dala rotatsiyasi — qonun:"
+            },
+            "text": {
+              "ru": "Ни один профессор не имеет права преподавать или руководить проектом, если он раз в два года не проходит обязательную полугодовую практику на реальном производстве. Теория без карьера — мертва.",
+              "en": "No professor has the right to teach or to lead a project unless, once every two years, he goes through a compulsory six-month placement in real production. Theory without the open pit is dead.",
+              "uz": "Har ikki yilda bir marta real ishlab chiqarishda majburiy olti oylik amaliyot oʻtamagan biror professor dars berishga yoki loyihaga rahbarlik qilishga haqli emas. Karyersiz nazariya — oʻlik nazariya."
+            }
+          },
+          {
+            "title": {
+              "ru": "Реформа ученых степеней:",
+              "en": "Reform of academic degrees:",
+              "uz": "Ilmiy darajalar islohoti:"
+            },
+            "text": {
+              "ru": "Защита диссертаций и штамповка корочек доктора наук привязываются исключительно к доказанному экономическому эффекту на производстве или патентам, решившим конкретный тупиковый узел в промышленности (например, утилизация отходов золотодобычи для нужд урановых геотехнологий).",
+              "en": "The defence of dissertations and the stamping out of doctoral diplomas are tied strictly to a proven economic effect in production, or to patents that have resolved a concrete dead-end problem in industry (for example, using gold-mining waste for the needs of uranium geotechnology).",
+              "uz": "Dissertatsiya himoyasi va fan doktori guvohnomalarini chop etish faqat ishlab chiqarishdagi isbotlangan iqtisodiy samaraga yoki sanoatdagi aniq boshi berk tugunni yechgan patentlarga bogʻlanadi (masalan, oltin qazib olish chiqindilarini uran geotexnologiyalari ehtiyojlari uchun utilizatsiya qilish)."
+            }
+          }
+        ]
+      }
+    ]
+  },
   "uranium-solutions-2026": {
     "title": {
       "ru": "К вопросу технологических решений в производстве урана в Узбекистане",
