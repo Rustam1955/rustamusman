@@ -296,7 +296,23 @@
                         "ru": "Майрам",
                         "en": "Mayram",
                         "uz": "Mayram"
-                      }
+                      },
+                      "kids": [
+                        {
+                          "name": {
+                            "ru": "Рамазон",
+                            "en": "Ramazon",
+                            "uz": "Ramazon"
+                          }
+                        },
+                        {
+                          "name": {
+                            "ru": "Ахтам",
+                            "en": "Akhtam",
+                            "uz": "Axtam"
+                          }
+                        }
+                      ]
                     },
                     {
                       "name": {
@@ -317,7 +333,30 @@
                         "ru": "Бахшилло",
                         "en": "Bakhshillo",
                         "uz": "Baxshillo"
-                      }
+                      },
+                      "kids": [
+                        {
+                          "name": {
+                            "ru": "Хасан",
+                            "en": "Khasan",
+                            "uz": "Hasan"
+                          }
+                        },
+                        {
+                          "name": {
+                            "ru": "Хусан",
+                            "en": "Khusan",
+                            "uz": "Husan"
+                          }
+                        },
+                        {
+                          "name": {
+                            "ru": "Тахир",
+                            "en": "Takhir",
+                            "uz": "Tohir"
+                          }
+                        }
+                      ]
                     }
                   ]
                 },
@@ -883,9 +922,9 @@
                     "uz": "Malik Xoʻja (1900–1970)"
                   },
                   "text": {
-                    "ru": "Старший сын. Его дети: Майрам, Мастура, Мабуб, Бахшилло.",
-                    "en": "The eldest son. His children: Mayram, Mastura, Mabub, Bakhshillo.",
-                    "uz": "Toʻngʻich oʻgʻil. Farzandlari: Mayram, Mastura, Mabub, Baxshillo."
+                    "ru": "Старший сын. Его дети: Майрам, Мастура, Мабуб, Бахшилло. Дети Майрам — Рамазон и Ахтам; дети Бахшилло — Хасан, Хусан и Тахир.",
+                    "en": "The eldest son. His children: Mayram, Mastura, Mabub, Bakhshillo. Mayram’s children: Ramazon and Akhtam; Bakhshillo’s children: Khasan, Khusan and Takhir.",
+                    "uz": "Toʻngʻich oʻgʻil. Farzandlari: Mayram, Mastura, Mabub, Baxshillo. Mayramning farzandlari — Ramazon va Axtam; Baxshilloning farzandlari — Hasan, Husan va Tohir."
                   }
                 },
                 {
