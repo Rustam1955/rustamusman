@@ -278,9 +278,9 @@
             },
             {
               "label": {
-                "ru": "Братья Исо Ходжи",
-                "en": "Brothers of Iso Khoja",
-                "uz": "Iso Xoʻjaning aka-ukalari"
+                "ru": "Братья Исо Ходжи и их дети",
+                "en": "Brothers of Iso Khoja and their children",
+                "uz": "Iso Xoʻjaning aka-ukalari va ularning farzandlari"
               },
               "members": [
                 {
@@ -289,28 +289,131 @@
                     "en": "Malik Khoja",
                     "uz": "Malik Xoʻja"
                   },
-                  "years": "1900–1970"
+                  "years": "1900–1970",
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Майрам",
+                        "en": "Mayram",
+                        "uz": "Mayram"
+                      }
+                    },
+                    {
+                      "name": {
+                        "ru": "Мастура",
+                        "en": "Mastura",
+                        "uz": "Mastura"
+                      }
+                    },
+                    {
+                      "name": {
+                        "ru": "Бахшилло",
+                        "en": "Bakhshillo",
+                        "uz": "Baxshillo"
+                      }
+                    }
+                  ]
                 },
                 {
                   "name": {
                     "ru": "Камбар Ходжа",
                     "en": "Kambar Khoja",
                     "uz": "Qambar Xoʻja"
-                  }
+                  },
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Садулла",
+                        "en": "Sadulla",
+                        "uz": "Sadulla"
+                      }
+                    },
+                    {
+                      "name": {
+                        "ru": "Робия",
+                        "en": "Robiya",
+                        "uz": "Robiya"
+                      }
+                    }
+                  ]
                 },
                 {
                   "name": {
                     "ru": "Мухтор Ходжа",
                     "en": "Mukhtor Khoja",
                     "uz": "Muxtor Xoʻja"
-                  }
+                  },
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Озод",
+                        "en": "Ozod",
+                        "uz": "Ozod"
+                      }
+                    }
+                  ]
                 },
                 {
                   "name": {
                     "ru": "Ражаб Ходжа",
                     "en": "Rajab Khoja",
                     "uz": "Rajab Xoʻja"
-                  }
+                  },
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Шароф Ходжа",
+                        "en": "Sharof Khoja",
+                        "uz": "Sharof Xoʻja"
+                      },
+                      "kids": [
+                        {
+                          "name": {
+                            "ru": "Шахзода",
+                            "en": "Shakhzoda",
+                            "uz": "Shahzoda"
+                          }
+                        },
+                        {
+                          "name": {
+                            "ru": "Лутфулло",
+                            "en": "Lutfullo",
+                            "uz": "Lutfullo"
+                          },
+                          "kids": [
+                            {
+                              "name": {
+                                "ru": "Умид",
+                                "en": "Umid",
+                                "uz": "Umid"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Лазиз",
+                                "en": "Laziz",
+                                "uz": "Laziz"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": {
+                        "ru": "Бобожон",
+                        "en": "Bobojon",
+                        "uz": "Bobojon"
+                      }
+                    },
+                    {
+                      "name": {
+                        "ru": "Шавкат",
+                        "en": "Shavkat",
+                        "uz": "Shavkat"
+                      }
+                    }
+                  ]
                 },
                 {
                   "name": {
@@ -324,7 +427,16 @@
                     "ru": "Лукмон Ходжа",
                     "en": "Lukmon Khoja",
                     "uz": "Luqmon Xoʻja"
-                  }
+                  },
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Хидоят",
+                        "en": "Khidoyat",
+                        "uz": "Hidoyat"
+                      }
+                    }
+                  ]
                 }
               ]
             }

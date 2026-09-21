@@ -87,6 +87,7 @@
       {% if n.years %}<span class="shz-years">{{ n.years|localized(lang) if n.years is mapping else n.years }}</span>{% endif %}
     </div>
     {% endmacro %}
+    {% macro shz_kids(kids) %}{% for k in kids %}{{ k.name|localized(lang) }}{% if k.kids %} ({{ shz_kids(k.kids) }}){% endif %}{{ ', ' if not loop.last }}{% endfor %}{% endmacro %}
     <details class="acc" id="shezhere">
       <summary>
         <span class="acc-title">{{ sz.title|localized(lang) }}</span>
@@ -108,7 +109,13 @@
                 <div class="shz-group">
                   <div class="shz-group-title">{{ n.label|localized(lang) }}</div>
                   <div class="shz-group-members">
-                    {% for m in n.members %}{{ shz_node(m, "shz-kid") }}{% endfor %}
+                    {% for m in n.members %}
+                    <div class="shz-node shz-brother">
+                      <span class="shz-name">{{ m.name|localized(lang) }}</span>
+                      {% if m.years %}<span class="shz-years">{{ m.years }}</span>{% endif %}
+                      {% if m.kids %}<span class="shz-brother-kids">{{ shz_kids(m.kids) }}</span>{% endif %}
+                    </div>
+                    {% endfor %}
                   </div>
                 </div>
                 {% else %}{{ shz_node(n) }}{% endif %}

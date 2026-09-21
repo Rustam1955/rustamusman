@@ -1211,8 +1211,24 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 5px;
+}
+
+/* Брат отца — карточка: имя, под ним его дети (внуки — в скобках) */
+.shz-brother {
+  flex: 1 1 128px;
+  margin: 0;
+  padding: 6px 8px;
+  font-size: .85rem;
+}
+
+.shz-brother-kids {
+  display: block;
+  margin-top: 3px;
+  font-size: .78rem;
+  line-height: 1.35;
+  color: var(--text-soft);
 }
 
 /* Родители: брачная двойная линия между карточками */
