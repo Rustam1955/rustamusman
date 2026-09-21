@@ -399,6 +399,13 @@
                                 "en": "Otabek",
                                 "uz": "Otabek"
                               }
+                            },
+                            {
+                              "name": {
+                                "ru": "Шерали",
+                                "en": "Sherali",
+                                "uz": "Sherali"
+                              }
                             }
                           ]
                         }
@@ -776,9 +783,9 @@
                     "uz": "Qambar Xoʻja"
                   },
                   "text": {
-                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия. У Робии дети: Рокия (её дети — Гуламдон, Азамат, Джамиля, Яшин, Лочин), Розия и Камол (его сын — Отабек).",
-                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya. Robiya’s children: Rokiya (her children are Gulamdon, Azamat, Dzhamilya, Yashin and Lochin), Roziya and Kamol (whose son is Otabek).",
-                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya. Robiyaning farzandlari: Roqiya (farzandlari — Gʻulomdon, Azamat, Jamila, Yashin, Lochin), Roziya va Kamol (oʻgʻli — Otabek)."
+                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия. У Робии дети: Рокия (её дети — Гуламдон, Азамат, Джамиля, Яшин, Лочин), Розия и Камол (его дети — Отабек и Шерали).",
+                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya. Robiya’s children: Rokiya (her children are Gulamdon, Azamat, Dzhamilya, Yashin and Lochin), Roziya and Kamol (whose children are Otabek and Sherali).",
+                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya. Robiyaning farzandlari: Roqiya (farzandlari — Gʻulomdon, Azamat, Jamila, Yashin, Lochin), Roziya va Kamol (farzandlari — Otabek va Sherali)."
                   }
                 },
                 {
