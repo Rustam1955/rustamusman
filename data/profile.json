@@ -307,6 +307,13 @@
                     },
                     {
                       "name": {
+                        "ru": "Мабуб",
+                        "en": "Mabub",
+                        "uz": "Mabub"
+                      }
+                    },
+                    {
+                      "name": {
                         "ru": "Бахшилло",
                         "en": "Bakhshillo",
                         "uz": "Baxshillo"
@@ -876,9 +883,9 @@
                     "uz": "Malik Xoʻja (1900–1970)"
                   },
                   "text": {
-                    "ru": "Старший сын. Его дети: Майрам, Мастура, Бахшилло.",
-                    "en": "The eldest son. His children: Mayram, Mastura, Bakhshillo.",
-                    "uz": "Toʻngʻich oʻgʻil. Farzandlari: Mayram, Mastura, Baxshillo."
+                    "ru": "Старший сын. Его дети: Майрам, Мастура, Мабуб, Бахшилло.",
+                    "en": "The eldest son. His children: Mayram, Mastura, Mabub, Bakhshillo.",
+                    "uz": "Toʻngʻich oʻgʻil. Farzandlari: Mayram, Mastura, Mabub, Baxshillo."
                   }
                 },
                 {
