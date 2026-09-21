@@ -886,7 +886,16 @@
                     "ru": "Мухаметнур",
                     "en": "Mukhametnur",
                     "uz": "Muhammadnur"
-                  }
+                  },
+                  "kids": [
+                    {
+                      "name": {
+                        "ru": "Ильгиза (1936–2025)",
+                        "en": "Ilgiza (1936–2025)",
+                        "uz": "Ilgʻiza (1936–2025)"
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -1223,9 +1232,9 @@
                     "uz": "Mindiyar Valiahmadov (1850 —)"
                   },
                   "text": {
-                    "ru": "Пра-пра-правнук Ишкара Арсланова, указный азанчи. От него пошла фамилия Миндияровых. Его дети: Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (Илмнур).",
-                    "en": "The great-great-great-grandson of Ishkar Arslanov, an ukaz-appointed azanchi. The Mindiyarov surname comes from him. His children: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (Ilmnur).",
-                    "uz": "Ishqar Arslanovning evarasining oʻgʻli, farmon bilan tayinlangan azonchi. Mindiyarovlar familiyasi undan boshlangan. Farzandlari: Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (Ilmnur)."
+                    "ru": "Пра-пра-правнук Ишкара Арсланова, указный азанчи. От него пошла фамилия Миндияровых. Его дети: Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (Илмнур). Дочь Мухаметнура — Ильгиза (1936–2025), двоюродная сестра мамы.",
+                    "en": "The great-great-great-grandson of Ishkar Arslanov, an ukaz-appointed azanchi. The Mindiyarov surname comes from him. His children: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (Ilmnur). Mukhametnur’s daughter was Ilgiza (1936–2025), my mother’s cousin.",
+                    "uz": "Ishqar Arslanovning evarasining oʻgʻli, farmon bilan tayinlangan azonchi. Mindiyarovlar familiyasi undan boshlangan. Farzandlari: Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (Ilmnur). Muhammadnurning qizi — Ilgʻiza (1936–2025), onamning amakivachchasi."
                   }
                 },
                 {
