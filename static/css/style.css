@@ -1109,13 +1109,17 @@ img {
 
 .shz-lines {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* minmax(0, 1fr): строго пополам. Просто 1fr не даёт колонке стать уже
+     её самого длинного слова и самого глубокого отступа — и отцовская линия
+     с пятью коленами у Камбар Ходжи выталкивала материнскую за край */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 16px;
 }
 
 .shz-line {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .shz-line-label {
@@ -1152,6 +1156,7 @@ img {
   position: relative;
   z-index: 1;
   margin: 0 auto;
+  min-width: 0;            /* иначе flex не сожмёт карточку уже её длинного слова */
   max-width: 100%;
   padding: 8px 12px;
   border: 1px solid var(--border);
@@ -1201,6 +1206,7 @@ img {
 .shz-group {
   position: relative;
   z-index: 1;
+  min-width: 0;
   padding: 8px 8px 10px;
   border: 1px dashed var(--shz-line);
   border-radius: 12px;
@@ -1228,12 +1234,15 @@ img {
 /* Брат отца — карточка: имя, под ним его дети (внуки — в скобках) */
 .shz-brother {
   flex: 1 1 128px;
+  min-width: 0;
   margin: 0;
   padding: 6px 8px;
   font-size: .85rem;
 }
 
 .shz-brother-kids {
+  overflow-wrap: break-word;
+  hyphens: auto;
   margin-top: 4px;
   font-size: .78rem;
   line-height: 1.35;
@@ -1256,7 +1265,7 @@ img {
 .shz-parents {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: center;
   gap: 16px;
   margin-top: var(--shz-gap);
@@ -1315,7 +1324,7 @@ img {
 .shz-children {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 22px;
   padding-top: 18px;
 }
@@ -1363,6 +1372,8 @@ img {
 
 .shz-kids {
   position: relative;
+  min-width: 0;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1388,8 +1399,10 @@ img {
 
 .shz-kid .shz-name {
   font-weight: 500;
-  white-space: nowrap;     /* имя внука не рвать посреди слова */
-  overflow-wrap: normal;
+  /* Имя рвётся, только если целиком не влезает (крупный шрифт в телефоне),
+     и тогда по слогам, с дефисом — а не вылезает за край схемы */
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 /* Продолжатели мужской линии — как в тексте, заглавными */
@@ -1449,7 +1462,22 @@ img {
   }
 
   .shz-kid {
-    padding: 4px 8px;
+    padding: 4px 6px;
+  }
+
+  /* Глубокие ветки: отступ на колено поменьше, иначе к пятому колену
+     на текст остаётся полкарточки */
+  .shz-kin .shz-kin {
+    margin-inline-start: 1px;
+    padding-inline-start: 5px;
+  }
+
+  .shz-group {
+    padding: 6px 4px 8px;
+  }
+
+  .shz-brother {
+    padding: 6px 5px;
   }
 
   .shz-heir .shz-name {
