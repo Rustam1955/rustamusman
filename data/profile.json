@@ -554,33 +554,138 @@
         },
         "maternal": {
           "label": {
-            "ru": "Материнская линия (Миндияровы)",
-            "en": "Maternal line (Mindiyarovs)",
-            "uz": "Ona tomoni (Mindiyarovlar)"
+            "ru": "Материнская линия (Ишкаровы, Миндияровы)",
+            "en": "Maternal line (Ishkarovs, Mindiyarovs)",
+            "uz": "Ona tomoni (Ishqarovlar, Mindiyarovlar)"
           },
           "nodes": [
             {
               "name": {
-                "ru": "Миндияр (родоначальник ветви)",
-                "en": "Mindiyar (founder of the branch)",
-                "uz": "Mindiyar (tarmoq asoschisi)"
+                "ru": "Ишкар Арсланов",
+                "en": "Ishkar Arslanov",
+                "uz": "Ishqar Arslanov"
+              },
+              "about": {
+                "ru": "дворянин Башкирии, основатель села Ишкарово",
+                "en": "nobleman of Bashkiria, founder of Ishkarovo",
+                "uz": "Boshqirdiston dvoryani, Ishqarovo asoschisi"
               }
             },
             {
               "name": {
-                "ru": "Поколения интеллигенции",
-                "en": "Generations of intelligentsia",
-                "uz": "Ziyolilar avlodlari"
+                "ru": "Кульмет Ишкарин",
+                "en": "Kulmet Ishkarin",
+                "uz": "Kulmet Ishqarin"
+              },
+              "years": "1720–1800"
+            },
+            {
+              "label": {
+                "ru": "Дети Кульмета",
+                "en": "Kulmet’s children",
+                "uz": "Kulmetning farzandlari"
+              },
+              "members": [
+                {
+                  "name": {
+                    "ru": "Мухамедрахим",
+                    "en": "Mukhamedrakhim",
+                    "uz": "Muhammadrahim"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Мухамедшариф",
+                    "en": "Mukhamedsharif",
+                    "uz": "Muhammadsharif"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "МухамедСадык",
+                    "en": "MukhamedSadyk",
+                    "uz": "Muhammadsodiq"
+                  }
+                }
+              ]
+            },
+            {
+              "name": {
+                "ru": "Поколения рода Ишкаровых",
+                "en": "Generations of the Ishkarov family",
+                "uz": "Ishqarovlar nasli avlodlari"
               },
               "muted": true
             },
             {
               "name": {
-                "ru": "Илмнур Миндияров",
-                "en": "Ilmnur Mindiyarov",
-                "uz": "Ilmnur Mindiyarov"
+                "ru": "Миндияр",
+                "en": "Mindiyar",
+                "uz": "Mindiyar"
               },
-              "years": "1888 — 1974"
+              "years": "1850 —",
+              "about": {
+                "ru": "от него — фамилия Миндияровых",
+                "en": "the Mindiyarov surname comes from him",
+                "uz": "Mindiyarov familiyasi undan"
+              }
+            },
+            {
+              "label": {
+                "ru": "Братья Илмнура",
+                "en": "Ilmnur’s brothers",
+                "uz": "Ilmnurning aka-ukalari"
+              },
+              "members": [
+                {
+                  "name": {
+                    "ru": "Сафуан",
+                    "en": "Safuan",
+                    "uz": "Safuan"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Лутфулла",
+                    "en": "Lutfulla",
+                    "uz": "Lutfulla"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Шарифулла",
+                    "en": "Sharifulla",
+                    "uz": "Sharifulla"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Хайрулла",
+                    "en": "Khairulla",
+                    "uz": "Xayrulla"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Мухаметнур",
+                    "en": "Mukhametnur",
+                    "uz": "Muhammadnur"
+                  }
+                }
+              ]
+            },
+            {
+              "name": {
+                "ru": "Илмнур (Гылымнур) Миндияров",
+                "en": "Ilmnur (Gylymnur) Mindiyarov",
+                "uz": "Ilmnur (Gʻilimnur) Mindiyarov"
+              },
+              "years": "1888 — 1974",
+              "spouse": {
+                "ru": "жена — Мавтуха, из рода Султановых",
+                "en": "wife — Mavtukha, of the Sultanov family",
+                "uz": "rafiqasi — Mavtuxa, Sultonovlar naslidan"
+              }
             }
           ]
         },
@@ -873,26 +978,50 @@
               "items": [
                 {
                   "label": {
-                    "ru": "Родоначальник",
-                    "en": "Founder of the line",
-                    "uz": "Urugʻ boshi"
+                    "ru": "Родоначальник — Ишкар Арсланов",
+                    "en": "Founder of the line — Ishkar Arslanov",
+                    "uz": "Urugʻ boshi — Ishqar Arslanov"
                   },
                   "text": {
-                    "ru": "Миндияр (выдающийся представитель старинного рода из Башкирии).",
-                    "en": "Mindiyar (an outstanding member of an old family from Bashkiria).",
-                    "uz": "Mindiyar (Boshqirdistondagi qadimiy urugʻning atoqli vakili)."
+                    "ru": "Дворянин Башкирии, основатель села Ишкарово. Его сын — Кульмет Ишкарин (1720–1800); дети Кульмета — Мухамедрахим, Мухамедшариф, МухамедСадык.",
+                    "en": "A nobleman of Bashkiria and the founder of the village of Ishkarovo. His son was Kulmet Ishkarin (1720–1800); Kulmet’s children were Mukhamedrakhim, Mukhamedsharif and MukhamedSadyk.",
+                    "uz": "Boshqirdiston dvoryani, Ishqarovo qishlogʻiga asos solgan. Oʻgʻli — Kulmet Ishqarin (1720–1800); Kulmetning farzandlari — Muhammadrahim, Muhammadsharif, Muhammadsodiq."
                   }
                 },
                 {
                   "label": {
-                    "ru": "Дед по матери — Илмнур Миндияров (1888 — 1974)",
-                    "en": "Maternal grandfather — Ilmnur Mindiyarov (1888 – 1974)",
-                    "uz": "Ona tomondan bobom — Ilmnur Mindiyarov (1888 — 1974)"
+                    "ru": "Миндияр (1850 —)",
+                    "en": "Mindiyar (b. 1850)",
+                    "uz": "Mindiyar (1850 —)"
+                  },
+                  "text": {
+                    "ru": "От него пошла фамилия Миндияровых. Его дети: Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (Илмнур).",
+                    "en": "The Mindiyarov surname comes from him. His children: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (Ilmnur).",
+                    "uz": "Mindiyarovlar familiyasi undan boshlangan. Farzandlari: Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (Ilmnur)."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Дед по матери — Илмнур (Гылымнур — по-башкирски) Миндияров (1888 — 1974)",
+                    "en": "Maternal grandfather — Ilmnur (Gylymnur in Bashkir) Mindiyarov (1888 – 1974)",
+                    "uz": "Ona tomondan bobom — Ilmnur (boshqirdcha — Gʻilimnur) Mindiyarov (1888 — 1974)"
                   },
                   "text": {
                     "ru": "Башкирский интеллигент, чье имя буквально переводится как «Свет Знания». В трагическом 1938 году, спасаясь от сталинских репрессий, покинул родное село Ишкарово в Башкирии и переселился на самаркандскую землю. Обладал уникальным интеллектом, безупречно владел арабским языком и был признанным муфассиром — толкователем священных смыслов Корана, до конца дней обучая людей грамоте.",
                     "en": "A Bashkir intellectual whose name literally translates as “Light of Knowledge”. In the tragic year of 1938, fleeing Stalin’s repressions, he left his native village of Ishkarovo in Bashkiria and resettled on Samarkand land. He had a unique intellect, an impeccable command of Arabic and was a recognised mufassir — an interpreter of the sacred meanings of the Quran — teaching people to read and write to the end of his days.",
-                    "uz": "Ismi aynan «Bilim nuri» deb tarjima qilinadigan boshqird ziyolisi. Fojiali 1938-yilda Stalin qatagʻonlaridan qutulish uchun Boshqirdistondagi ona qishlogʻi Ishkarovoni tark etib, Samarqand zaminiga koʻchib oʻtdi. Noyob aql egasi edi, arab tilini mukammal bilardi va eʼtirof etilgan mufassir — Qurʼon muqaddas maʼnolarining sharhlovchisi boʻlib, umrining oxirigacha odamlarga savod oʻrgatdi."
+                    "uz": "Ismi aynan «Bilim nuri» deb tarjima qilinadigan boshqird ziyolisi. Fojiali 1938-yilda Stalin qatagʻonlaridan qutulish uchun Boshqirdistondagi ona qishlogʻi Ishqarovoni tark etib, Samarqand zaminiga koʻchib oʻtdi. Noyob aql egasi edi, arab tilini mukammal bilardi va eʼtirof etilgan mufassir — Qurʼon muqaddas maʼnolarining sharhlovchisi boʻlib, umrining oxirigacha odamlarga savod oʻrgatdi."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Бабушка по матери — Мавтуха",
+                    "en": "Maternal grandmother — Mavtukha",
+                    "uz": "Ona tomondan buvim — Mavtuxa"
+                  },
+                  "text": {
+                    "ru": "Из знаменитого рода Султановых, которых в народе часто именовали «губернаторами» из-за их огромной власти. Имя Мавтуха (в переводе «открытая») было популярным в башкирской среде в XVIII–XIX веках.",
+                    "en": "She came from the famous Sultanov family, whom the people often called “governors” because of their enormous power. The name Mavtukha (translated as “open”) was popular in the Bashkir community in the 18th–19th centuries.",
+                    "uz": "Xalq orasida ulkan hokimiyati tufayli koʻpincha «gubernatorlar» deb atalgan mashhur Sultonovlar naslidan. Mavtuxa ismi (tarjimasi — «ochiq») XVIII–XIX asrlarda boshqird muhitida mashhur boʻlgan."
                   }
                 },
                 {
@@ -902,9 +1031,9 @@
                     "uz": "Onam — Anfisa Gilemnurova (Usmanova) (17.12.1933 — 21.12.1998)"
                   },
                   "text": {
-                    "ru": "Женщина исключительной внутренней культуры, бережно передавшая детям тягу к книгам, уважение к труду и фундаментальному знанию.",
-                    "en": "A woman of exceptional inner culture who lovingly passed on to her children a love of books and respect for work and fundamental knowledge.",
-                    "uz": "Favqulodda ichki madaniyat sohibasi; farzandlariga kitobga mehrni, mehnat va fundamental bilimga hurmatni ehtiyotkorlik bilan yuqtirdi."
+                    "ru": "Родилась в селе Ишкарово (Башкирия) в известной башкирской семье, окончила 8 классов башкирской школы. Женщина исключительной внутренней культуры, бережно передавшая детям тягу к книгам, уважение к труду и фундаментальному знанию.",
+                    "en": "She was born in the village of Ishkarovo (Bashkiria) into a well-known Bashkir family and completed 8 grades of the Bashkir school. A woman of exceptional inner culture who lovingly passed on to her children a love of books and respect for work and fundamental knowledge.",
+                    "uz": "Ishqarovo qishlogʻida (Boshqirdiston) mashhur boshqird oilasida tugʻilgan, boshqird maktabining 8 sinfini tugatgan. Favqulodda ichki madaniyat sohibasi; farzandlariga kitobga mehrni, mehnat va fundamental bilimga hurmatni ehtiyotkorlik bilan yuqtirdi."
                   }
                 }
               ]

@@ -85,6 +85,8 @@
     <div class="shz-node {{ cls }}{{ ' shz-muted' if n.muted }}{{ ' shz-heir' if n.heir }}">
       <span class="shz-name">{{ n.name|localized(lang) }}</span>
       {% if n.years %}<span class="shz-years">{{ n.years|localized(lang) if n.years is mapping else n.years }}</span>{% endif %}
+      {% if n.about %}<span class="shz-years">{{ n.about|localized(lang) }}</span>{% endif %}
+      {% if n.spouse %}<span class="shz-spouse">{{ n.spouse|localized(lang) }}</span>{% endif %}
     </div>
     {% endmacro %}
     {# Потомки брата — маленьким древом: у кого есть дети — своей строкой,

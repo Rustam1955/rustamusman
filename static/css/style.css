@@ -1176,6 +1176,16 @@ img {
   margin-top: 2px;
 }
 
+.shz-spouse {
+  display: block;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px dashed var(--border);
+  font-size: .8rem;
+  font-style: italic;
+  color: var(--text-soft);
+}
+
 .shz-muted {
   border-style: dashed;
   background: var(--bg-soft);
