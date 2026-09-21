@@ -126,7 +126,7 @@
                   <div class="shz-group-title">{{ n.label|localized(lang) }}</div>
                   <div class="shz-group-members">
                     {% for m in n.members %}
-                    <div class="shz-node shz-brother">
+                    <div class="shz-node shz-brother{{ ' shz-heir' if m.heir }}">
                       <span class="shz-name">{{ m.name|localized(lang) }}</span>
                       {% if m.years %}<span class="shz-years">{{ m.years }}</span>{% endif %}
                       {% if m.kids %}<div class="shz-brother-kids">{{ shz_kids(m.kids) }}</div>{% endif %}

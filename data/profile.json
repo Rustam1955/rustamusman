@@ -779,28 +779,62 @@
                     "en": "MukhamedSadyk",
                     "uz": "Muhammadsodiq"
                   }
+                },
+                {
+                  "name": {
+                    "ru": "Амир",
+                    "en": "Amir",
+                    "uz": "Amir"
+                  },
+                  "heir": true
                 }
               ]
             },
             {
               "name": {
-                "ru": "Ещё два поколения Ишкаровых",
-                "en": "Two more generations of Ishkarovs",
-                "uz": "Ishqarovlarning yana ikki avlodi"
+                "ru": "Мухаметамин Амиров",
+                "en": "Mukhametamin Amirov",
+                "uz": "Muhammadamin Amirov"
               },
-              "muted": true
+              "years": {
+                "ru": "ок. 1787",
+                "en": "c. 1787",
+                "uz": "taxm. 1787"
+              },
+              "about": {
+                "ru": "указный азанчи",
+                "en": "ukaz-appointed azanchi (muezzin)",
+                "uz": "farmon bilan tayinlangan azonchi"
+              }
             },
             {
               "name": {
-                "ru": "Миндияр",
-                "en": "Mindiyar",
-                "uz": "Mindiyar"
+                "ru": "Валиахмет Мухаметаминев",
+                "en": "Valiakhmet Mukhametaminev",
+                "uz": "Valiahmad Muhammadaminov"
+              },
+              "years": {
+                "ru": "ок. 1817",
+                "en": "c. 1817",
+                "uz": "taxm. 1817"
+              },
+              "about": {
+                "ru": "указный соборный имам",
+                "en": "ukaz-appointed imam of the cathedral mosque",
+                "uz": "farmon bilan tayinlangan jome masjidi imomi"
+              }
+            },
+            {
+              "name": {
+                "ru": "Миндияр Валиахметов",
+                "en": "Mindiyar Valiakhmetov",
+                "uz": "Mindiyar Valiahmadov"
               },
               "years": "1850 —",
               "about": {
-                "ru": "пра-пра-правнук Ишкара; от него — фамилия Миндияровых",
-                "en": "Ishkar’s great-great-great-grandson; the Mindiyarov surname comes from him",
-                "uz": "Ishqarning evarasining oʻgʻli; Mindiyarov familiyasi undan"
+                "ru": "указный азанчи; от него — фамилия Миндияровых",
+                "en": "ukaz-appointed azanchi; the Mindiyarov surname comes from him",
+                "uz": "farmon bilan tayinlangan azonchi; Mindiyarov familiyasi undan"
               }
             },
             {
@@ -1156,21 +1190,33 @@
                     "uz": "Urugʻ boshi — Ishqar Arslanov"
                   },
                   "text": {
-                    "ru": "Дворянин Башкирии, основатель села Ишкарово. Дед Илмнур и мама рассказывали мне, когда я был совсем маленьким: Ишкар — наш родоначальник, и его имя означает «богиня любви». Его сын — Кульмет Ишкарин (1720–1800); дети Кульмета — Мухамедрахим, Мухамедшариф, МухамедСадык.",
-                    "en": "A nobleman of Bashkiria and the founder of the village of Ishkarovo. When I was very small, my grandfather Ilmnur and my mother told me: Ishkar is our forefather, and his name means “goddess of love”. His son was Kulmet Ishkarin (1720–1800); Kulmet’s children were Mukhamedrakhim, Mukhamedsharif and MukhamedSadyk.",
-                    "uz": "Boshqirdiston dvoryani, Ishqarovo qishlogʻiga asos solgan. Men juda kichikligimda bobom Ilmnur va onam aytib berishgan: Ishqar — bizning urugʻ boshimiz, uning ismi «muhabbat maʼbudasi» degan maʼnoni bildiradi. Oʻgʻli — Kulmet Ishqarin (1720–1800); Kulmetning farzandlari — Muhammadrahim, Muhammadsharif, Muhammadsodiq."
+                    "ru": "Дворянин Башкирии, основатель села Ишкарово. Дед Илмнур и мама рассказывали мне, когда я был совсем маленьким: Ишкар — наш родоначальник, и его имя означает «богиня любви». Его сын — Кульмет Ишкарин (1720–1800); дети Кульмета — Мухамедрахим, Мухамедшариф, МухамедСадык и Амир.",
+                    "en": "A nobleman of Bashkiria and the founder of the village of Ishkarovo. When I was very small, my grandfather Ilmnur and my mother told me: Ishkar is our forefather, and his name means “goddess of love”. His son was Kulmet Ishkarin (1720–1800); Kulmet’s children were Mukhamedrakhim, Mukhamedsharif, MukhamedSadyk and Amir.",
+                    "uz": "Boshqirdiston dvoryani, Ishqarovo qishlogʻiga asos solgan. Men juda kichikligimda bobom Ilmnur va onam aytib berishgan: Ishqar — bizning urugʻ boshimiz, uning ismi «muhabbat maʼbudasi» degan maʼnoni bildiradi. Oʻgʻli — Kulmet Ishqarin (1720–1800); Kulmetning farzandlari — Muhammadrahim, Muhammadsharif, Muhammadsodiq va Amir."
                   }
                 },
                 {
                   "label": {
-                    "ru": "Миндияр (1850 —)",
-                    "en": "Mindiyar (b. 1850)",
-                    "uz": "Mindiyar (1850 —)"
+                    "ru": "Прямая линия от Кульмета к Миндияру",
+                    "en": "The direct line from Kulmet to Mindiyar",
+                    "uz": "Kulmetdan Mindiyargacha toʻgʻri tarmoq"
                   },
                   "text": {
-                    "ru": "Пра-пра-правнук Ишкара Арсланова. От него пошла фамилия Миндияровых. Его дети: Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (Илмнур).",
-                    "en": "The great-great-great-grandson of Ishkar Arslanov. The Mindiyarov surname comes from him. His children: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (Ilmnur).",
-                    "uz": "Ishqar Arslanovning evarasining oʻgʻli. Mindiyarovlar familiyasi undan boshlangan. Farzandlari: Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (Ilmnur)."
+                    "ru": "Амир Кульметов — сын Кульмета. Его сын — Мухаметамин Амиров (род. ок. 1787), указный азанчи. Его сын — Валиахмет Мухаметаминев (род. ок. 1817), указный соборный имам. Его сын — Миндияр Валиахметов.",
+                    "en": "Amir Kulmetov was Kulmet’s son. His son was Mukhametamin Amirov (born c. 1787), an ukaz-appointed azanchi (muezzin). His son was Valiakhmet Mukhametaminev (born c. 1817), an ukaz-appointed imam of the cathedral mosque. His son was Mindiyar Valiakhmetov.",
+                    "uz": "Amir Kulmetov — Kulmetning oʻgʻli. Uning oʻgʻli — Muhammadamin Amirov (taxm. 1787-yilda tugʻilgan), farmon bilan tayinlangan azonchi. Uning oʻgʻli — Valiahmad Muhammadaminov (taxm. 1817-yilda tugʻilgan), farmon bilan tayinlangan jome masjidi imomi. Uning oʻgʻli — Mindiyar Valiahmadov."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Миндияр Валиахметов (1850 —)",
+                    "en": "Mindiyar Valiakhmetov (b. 1850)",
+                    "uz": "Mindiyar Valiahmadov (1850 —)"
+                  },
+                  "text": {
+                    "ru": "Пра-пра-правнук Ишкара Арсланова, указный азанчи. От него пошла фамилия Миндияровых. Его дети: Сафуан, Лутфулла, Шарифулла, Хайрулла, Мухаметнур, Гылымнур (Илмнур).",
+                    "en": "The great-great-great-grandson of Ishkar Arslanov, an ukaz-appointed azanchi. The Mindiyarov surname comes from him. His children: Safuan, Lutfulla, Sharifulla, Khairulla, Mukhametnur, Gylymnur (Ilmnur).",
+                    "uz": "Ishqar Arslanovning evarasining oʻgʻli, farmon bilan tayinlangan azonchi. Mindiyarovlar familiyasi undan boshlangan. Farzandlari: Safuan, Lutfulla, Sharifulla, Xayrulla, Muhammadnur, Gʻilimnur (Ilmnur)."
                   }
                 },
                 {
