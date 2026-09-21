@@ -1224,11 +1224,22 @@ img {
 }
 
 .shz-brother-kids {
-  display: block;
-  margin-top: 3px;
+  margin-top: 4px;
   font-size: .78rem;
   line-height: 1.35;
   color: var(--text-soft);
+  text-align: start;
+}
+
+.shz-kin .shz-kin {
+  margin: 1px 0 2px 3px;
+  padding-inline-start: 7px;
+  border-inline-start: 1px solid var(--shz-line);
+}
+
+.shz-kin-parent {
+  color: var(--text);
+  font-weight: 500;
 }
 
 /* Родители: брачная двойная линия между карточками */

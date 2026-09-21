@@ -333,7 +333,76 @@
                         "ru": "Робия",
                         "en": "Robiya",
                         "uz": "Robiya"
-                      }
+                      },
+                      "kids": [
+                        {
+                          "name": {
+                            "ru": "Рокия",
+                            "en": "Rokiya",
+                            "uz": "Roqiya"
+                          },
+                          "kids": [
+                            {
+                              "name": {
+                                "ru": "Гуламдон",
+                                "en": "Gulamdon",
+                                "uz": "Gʻulomdon"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Азамат",
+                                "en": "Azamat",
+                                "uz": "Azamat"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Джамиля",
+                                "en": "Dzhamilya",
+                                "uz": "Jamila"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Яшин",
+                                "en": "Yashin",
+                                "uz": "Yashin"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Лочин",
+                                "en": "Lochin",
+                                "uz": "Lochin"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "name": {
+                            "ru": "Розия",
+                            "en": "Roziya",
+                            "uz": "Roziya"
+                          }
+                        },
+                        {
+                          "name": {
+                            "ru": "Камол",
+                            "en": "Kamol",
+                            "uz": "Kamol"
+                          },
+                          "kids": [
+                            {
+                              "name": {
+                                "ru": "Отабек",
+                                "en": "Otabek",
+                                "uz": "Otabek"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -707,9 +776,9 @@
                     "uz": "Qambar Xoʻja"
                   },
                   "text": {
-                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия.",
-                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya.",
-                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya."
+                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия. У Робии дети: Рокия (её дети — Гуламдон, Азамат, Джамиля, Яшин, Лочин), Розия и Камол (его сын — Отабек).",
+                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya. Robiya’s children: Rokiya (her children are Gulamdon, Azamat, Dzhamilya, Yashin and Lochin), Roziya and Kamol (whose son is Otabek).",
+                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya. Robiyaning farzandlari: Roqiya (farzandlari — Gʻulomdon, Azamat, Jamila, Yashin, Lochin), Roziya va Kamol (oʻgʻli — Otabek)."
                   }
                 },
                 {

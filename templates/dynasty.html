@@ -87,7 +87,18 @@
       {% if n.years %}<span class="shz-years">{{ n.years|localized(lang) if n.years is mapping else n.years }}</span>{% endif %}
     </div>
     {% endmacro %}
-    {% macro shz_kids(kids) %}{% for k in kids %}{{ k.name|localized(lang) }}{% if k.kids %} ({{ shz_kids(k.kids) }}){% endif %}{{ ', ' if not loop.last }}{% endfor %}{% endmacro %}
+    {# Потомки брата — маленьким древом: у кого есть дети — своей строкой,
+       его дети ниже с отступом; бездетные соседи идут через запятую #}
+    {% macro shz_kids(kids) %}<div class="shz-kin">
+      {%- set ns = namespace(buf=[]) %}
+      {%- for k in kids %}
+      {%- if k.kids %}
+      {%- if ns.buf %}<div class="shz-kin-row">{{ ns.buf|join(', ') }}</div>{% set ns.buf = [] %}{% endif %}
+      <div class="shz-kin-row shz-kin-parent">{{ k.name|localized(lang) }}</div>{{ shz_kids(k.kids) }}
+      {%- else %}{% set ns.buf = ns.buf + [k.name|localized(lang)] %}{% endif %}
+      {%- endfor %}
+      {%- if ns.buf %}<div class="shz-kin-row">{{ ns.buf|join(', ') }}</div>{% endif %}
+    </div>{% endmacro %}
     <details class="acc" id="shezhere">
       <summary>
         <span class="acc-title">{{ sz.title|localized(lang) }}</span>
@@ -113,7 +124,7 @@
                     <div class="shz-node shz-brother">
                       <span class="shz-name">{{ m.name|localized(lang) }}</span>
                       {% if m.years %}<span class="shz-years">{{ m.years }}</span>{% endif %}
-                      {% if m.kids %}<span class="shz-brother-kids">{{ shz_kids(m.kids) }}</span>{% endif %}
+                      {% if m.kids %}<div class="shz-brother-kids">{{ shz_kids(m.kids) }}</div>{% endif %}
                     </div>
                     {% endfor %}
                   </div>
