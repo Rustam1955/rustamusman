@@ -435,11 +435,15 @@
                             "en": "Ibrahim",
                             "uz": "Ibrohim"
                           },
-                          "note": {
-                            "ru": "внук — Баходир Жураев",
-                            "en": "grandson — Bakhodir Zhuraev",
-                            "uz": "nevara — Bahodir Joʻrayev"
-                          }
+                          "kids": [
+                            {
+                              "name": {
+                                "ru": "Баходир Жураев",
+                                "en": "Bakhodir Zhuraev",
+                                "uz": "Bahodir Joʻrayev"
+                              }
+                            }
+                          ]
                         },
                         {
                           "name": {
@@ -739,9 +743,9 @@
                     "uz": "Zikrillo Xoʻja"
                   },
                   "text": {
-                    "ru": "Его имя, несущее глубокую суфийскую традицию поминания Аллаха, стало важной частью общего духовного стержня братьев. Его дочь: Муборак; её дети — Ибрахим (внук — Баходир Жураев) и Махмуд.",
-                    "en": "His name, which carries the deep Sufi tradition of the remembrance of God, became an important part of the brothers’ shared spiritual core. His daughter: Muborak; her children are Ibrahim (grandson — Bakhodir Zhuraev) and Makhmud.",
-                    "uz": "Allohni zikr qilishdek chuqur soʻfiylik anʼanasini oʻzida mujassam etgan ismi aka-ukalarning umumiy maʼnaviy oʻzagining muhim qismiga aylandi. Qizi: Muborak; uning farzandlari — Ibrohim (nevara — Bahodir Joʻrayev) va Mahmud."
+                    "ru": "Его имя, несущее глубокую суфийскую традицию поминания Аллаха, стало важной частью общего духовного стержня братьев. Его дочь: Муборак; её дети — Ибрахим (его сын — Баходир Жураев) и Махмуд.",
+                    "en": "His name, which carries the deep Sufi tradition of the remembrance of God, became an important part of the brothers’ shared spiritual core. His daughter: Muborak; her children are Ibrahim (whose son is Bakhodir Zhuraev) and Makhmud.",
+                    "uz": "Allohni zikr qilishdek chuqur soʻfiylik anʼanasini oʻzida mujassam etgan ismi aka-ukalarning umumiy maʼnaviy oʻzagining muhim qismiga aylandi. Qizi: Muborak; uning farzandlari — Ibrohim (oʻgʻli — Bahodir Joʻrayev) va Mahmud."
                   }
                 },
                 {

@@ -87,7 +87,7 @@
       {% if n.years %}<span class="shz-years">{{ n.years|localized(lang) if n.years is mapping else n.years }}</span>{% endif %}
     </div>
     {% endmacro %}
-    {% macro shz_kids(kids) %}{% for k in kids %}{{ k.name|localized(lang) }}{% if k.note %} ({{ k.note|localized(lang) }}){% endif %}{% if k.kids %} ({{ shz_kids(k.kids) }}){% endif %}{{ ', ' if not loop.last }}{% endfor %}{% endmacro %}
+    {% macro shz_kids(kids) %}{% for k in kids %}{{ k.name|localized(lang) }}{% if k.kids %} ({{ shz_kids(k.kids) }}){% endif %}{{ ', ' if not loop.last }}{% endfor %}{% endmacro %}
     <details class="acc" id="shezhere">
       <summary>
         <span class="acc-title">{{ sz.title|localized(lang) }}</span>
