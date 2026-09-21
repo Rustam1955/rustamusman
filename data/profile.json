@@ -270,7 +270,63 @@
                 "en": "Usman Khoja",
                 "uz": "Usmon Xoʻja"
               },
-              "years": "1880-е — 1924"
+              "years": {
+                "ru": "1880-е — 1924",
+                "en": "1880s – 1924",
+                "uz": "1880-yillar — 1924"
+              }
+            },
+            {
+              "label": {
+                "ru": "Братья Исо Ходжи",
+                "en": "Brothers of Iso Khoja",
+                "uz": "Iso Xoʻjaning aka-ukalari"
+              },
+              "members": [
+                {
+                  "name": {
+                    "ru": "Малик Ходжа",
+                    "en": "Malik Khoja",
+                    "uz": "Malik Xoʻja"
+                  },
+                  "years": "1900–1970"
+                },
+                {
+                  "name": {
+                    "ru": "Камбар Ходжа",
+                    "en": "Kambar Khoja",
+                    "uz": "Qambar Xoʻja"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Мухтор Ходжа",
+                    "en": "Mukhtor Khoja",
+                    "uz": "Muxtor Xoʻja"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Ражаб Ходжа",
+                    "en": "Rajab Khoja",
+                    "uz": "Rajab Xoʻja"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Зикрилло Ходжа",
+                    "en": "Zikrillo Khoja",
+                    "uz": "Zikrillo Xoʻja"
+                  }
+                },
+                {
+                  "name": {
+                    "ru": "Лукмон Ходжа",
+                    "en": "Lukmon Khoja",
+                    "uz": "Luqmon Xoʻja"
+                  }
+                }
+              ]
             }
           ]
         },

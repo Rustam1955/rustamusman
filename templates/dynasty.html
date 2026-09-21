@@ -84,7 +84,7 @@
     {% macro shz_node(n, cls="") %}
     <div class="shz-node {{ cls }}{{ ' shz-muted' if n.muted }}{{ ' shz-heir' if n.heir }}">
       <span class="shz-name">{{ n.name|localized(lang) }}</span>
-      {% if n.years %}<span class="shz-years">{{ n.years }}</span>{% endif %}
+      {% if n.years %}<span class="shz-years">{{ n.years|localized(lang) if n.years is mapping else n.years }}</span>{% endif %}
     </div>
     {% endmacro %}
     <details class="acc" id="shezhere">
@@ -102,7 +102,17 @@
             <div class="shz-line">
               <div class="shz-line-label">{{ line.label|localized(lang) }}</div>
               <div class="shz-chain">
-                {% for n in line.nodes %}{{ shz_node(n) }}{% endfor %}
+                {% for n in line.nodes %}
+                {% if n.members %}
+                {# Братья одного поколения — рамкой на той же линии #}
+                <div class="shz-group">
+                  <div class="shz-group-title">{{ n.label|localized(lang) }}</div>
+                  <div class="shz-group-members">
+                    {% for m in n.members %}{{ shz_node(m, "shz-kid") }}{% endfor %}
+                  </div>
+                </div>
+                {% else %}{{ shz_node(n) }}{% endif %}
+                {% endfor %}
               </div>
             </div>
             {% endfor %}

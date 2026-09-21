@@ -1187,6 +1187,34 @@ img {
   color: var(--text-soft);
 }
 
+/* Братья Исо Ходжи — рамка на отцовской линии между Усман Ходжой и Исо */
+.shz-group {
+  position: relative;
+  z-index: 1;
+  padding: 8px 8px 10px;
+  border: 1px dashed var(--shz-line);
+  border-radius: 12px;
+  background: var(--surface);
+  text-align: center;
+}
+
+.shz-group-title {
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  margin: 0 0 6px;
+}
+
+.shz-group-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 /* Родители: брачная двойная линия между карточками */
 .shz-parents {
   position: relative;
