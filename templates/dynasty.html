@@ -94,13 +94,6 @@
       </summary>
       <div class="acc-body">
         <h3 class="shz-heading">{{ sz.heading|localized(lang) }}</h3>
-        <p class="story-subtitle">{{ sz.tagline|localized(lang) }}</p>
-        <p class="shz-byline">{{ sz.byline|localized(lang) }}</p>
-
-        <h3 class="essay-subhead">{{ sz.intro.title|localized(lang) }}</h3>
-        <div class="heritage-text">
-          {% for para in sz.intro.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
-        </div>
 
         <h3 class="essay-subhead">{{ sc.title|localized(lang) }}</h3>
         <figure class="shz-tree" aria-label="{{ sc.title|localized(lang) }}">
@@ -134,31 +127,30 @@
           </div>
         </figure>
 
+        {# Части — набор блоков: абзац, подзаголовок, список «имя — о нём»
+           (у пункта может быть вложенный список, как линии внуков) #}
+        {% macro shz_items(items, ordered) %}
+        <{{ 'ol' if ordered else 'ul' }} class="essay-list shz-list">
+          {% for it in items %}
+          <li>
+            <strong>{{ it.label|localized(lang) }}</strong>{% if it.text %}: {{ it.text|localized(lang) }}{% endif %}
+            {% if it.sub %}{{ shz_items(it.sub, false) }}{% endif %}
+          </li>
+          {% endfor %}
+        </{{ 'ol' if ordered else 'ul' }}>
+        {% endmacro %}
         {% for part in sz.parts %}
         <h3 class="essay-subhead">{{ part.title|localized(lang) }}</h3>
-        <div class="heritage-text">
-          {% for para in part.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
-        </div>
-        {% for person in part.people %}
-        <h4 class="essay-subhead2">{{ person.title|localized(lang) }}</h4>
-        <div class="heritage-text">
-          {% for para in person.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
-        </div>
-        {% endfor %}
-        {% for g in part.groups %}
-        <p class="shz-group-label">{{ g.label|localized(lang) }}</p>
-        <ul class="essay-list shz-list">
-          {% for item in g.entries|localized(lang) %}<li>{{ item }}</li>{% endfor %}
-        </ul>
-        {% endfor %}
-        {% if part.closing %}
-        <div class="heritage-text">
-          {% for para in part.closing|localized(lang) %}<p>{{ para }}</p>{% endfor %}
-        </div>
+        {% for bl in part.blocks %}
+        {% if bl.type == "p" %}
+        <div class="heritage-text"><p>{{ bl.text|localized(lang) }}</p></div>
+        {% elif bl.type == "h4" %}
+        <h4 class="essay-subhead2">{{ bl.text|localized(lang) }}</h4>
+        {% elif bl.type == "list" %}
+        {{ shz_items(bl['items'], bl.ordered) }}
         {% endif %}
         {% endfor %}
-
-        <p class="shz-note">{{ sz.note|localized(lang) }}</p>
+        {% endfor %}
       </div>
     </details>
     {% endif %}

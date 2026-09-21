@@ -1095,11 +1095,6 @@ img {
   margin: 4px 0 10px;
 }
 
-.shz-byline {
-  font-size: .9rem;
-  color: var(--text-soft);
-  margin: -14px 0 8px;
-}
 
 .shz-tree {
   --shz-line: color-mix(in srgb, var(--text-soft) 45%, transparent);
@@ -1343,23 +1338,23 @@ img {
   color: var(--accent);
 }
 
-.shz-group-label {
-  font-weight: 600;
-  color: var(--text);
-  margin: 18px 0 6px;
-}
 
 .shz-list {
-  gap: 8px;
+  gap: 10px;
 }
 
-.shz-note {
-  margin: 28px 0 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--border);
-  font-size: .85rem;
-  color: var(--text-soft);
+/* Пункты — тем же цветом и кеглем, что абзацы рубрики, а не серым, как
+   в общих списках сайта: здесь это основной текст, а не пояснение */
+.shz-list li {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
 }
+
+.shz-list .shz-list {
+  margin: 8px 0 0;
+}
+
 
 @media (max-width: 520px) {
   /* На телефоне схема выходит в поля карточки: две колонки по ~130px

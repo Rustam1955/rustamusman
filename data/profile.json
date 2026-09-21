@@ -203,37 +203,9 @@
         "uz": "Mening shajaram"
       },
       "heading": {
-        "ru": "Полная семейная летопись и шежере рода Усмановых (Ходжа)",
-        "en": "The complete family chronicle and shezhere of the Usmanov (Khoja) family",
-        "uz": "Usmanovlar (Xoʻja) urugʻining toʻliq oilaviy solnomasi va shajarasi"
-      },
-      "tagline": {
-        "ru": "На стыке веры, воли и науки: Объединенное шежере рода Усмановых",
-        "en": "Where faith, will and science meet: the united shezhere of the Usmanov family",
-        "uz": "Imon, iroda va ilm tutashgan joyda: Usmanovlar urugʻining birlashgan shajarasi"
-      },
-      "byline": {
-        "ru": "Официальный текст для публикации и семейного архива · Автор научной династии: Рустамжон Усманов",
-        "en": "Official text for publication and the family archive · Founder of the scientific dynasty: Rustamzhon Usmanov",
-        "uz": "Nashr va oilaviy arxiv uchun rasmiy matn · Ilmiy sulola asoschisi: Usmanov Rustamjon"
-      },
-      "intro": {
-        "title": {
-          "ru": "Введение",
-          "en": "Introduction",
-          "uz": "Kirish"
-        },
-        "text": {
-          "ru": [
-            "История рода Рустамжона Усманова — это уникальная хроника, в которой воедино слились две мощные созидательные силы: духовная независимость бухарской аристократии (ходжей) и академическое, просветительское наследие поволжской интеллигенции. Этот союз породил научную династию, для которой знание, честь и служение истине стали главным жизненным ориентиром. Генетический код просвещения, заложенный великими предками, прошел сквозь войны, репрессии и трагедии, воплотившись в выдающихся достижениях современной фундаментальной и прикладной науки."
-          ],
-          "en": [
-            "The history of Rustamzhon Usmanov’s family is a unique chronicle in which two powerful creative forces merged into one: the spiritual independence of the Bukharan aristocracy (the Khojas) and the academic, enlightening heritage of the Volga intelligentsia. This union gave rise to a scientific dynasty for which knowledge, honour and service to truth became the main guiding principles in life. The genetic code of enlightenment laid down by great ancestors passed through wars, repressions and tragedies and came to life in outstanding achievements of modern fundamental and applied science."
-          ],
-          "uz": [
-            "Rustamjon Usmanov urugʻining tarixi — ikki qudratli bunyodkor kuch bir butun boʻlib qoʻshilgan noyob solnomadir: Buxoro zodagonlari (xoʻjalar)ning maʼnaviy mustaqilligi hamda Volgaboʻyi ziyolilarining akademik, maʼrifatparvarlik merosi. Bu ittifoqdan ilmiy sulola tugʻildi: uning uchun bilim, sharaf va haqiqatga xizmat hayotdagi asosiy moʻljalga aylandi. Buyuk ajdodlar solgan maʼrifatning genetik kodi urushlar, qatagʻonlar va fojialardan oʻtib, zamonaviy fundamental va amaliy fanning ulkan yutuqlarida namoyon boʻldi."
-          ]
-        }
+        "ru": "На стыке веры, воли и науки: летопись рода Усман Ходжи",
+        "en": "Where faith, will and science meet: the chronicle of the family of Usman Khoja",
+        "uz": "Imon, iroda va ilm tutashgan joyda: Usmon Xoʻja urugʻining solnomasi"
       },
       "scheme": {
         "title": {
@@ -439,291 +411,338 @@
       "parts": [
         {
           "title": {
-            "ru": "Часть I. Отцовское крыло: священный статус и несгибаемая воля",
-            "en": "Part I. The paternal wing: sacred status and unbending will",
-            "uz": "I qism. Ota tomoni: muqaddas maqom va egilmas iroda"
+            "ru": "I. Отцовское крыло: История и судьбы братьев Усман Ходжи",
+            "en": "I. The paternal wing: the history and fates of the Usman Khoja brothers",
+            "uz": "I. Ota tomoni: Usmon Xoʻja oʻgʻillarining tarixi va taqdiri"
           },
-          "text": {
-            "ru": [
-              "По отцовской линии род восходит к благородному клану бану Хашим племени курайшитов, к самому Хазрату Али ибн Абу Талибу — двоюродному брату, зятю и сподвижнику пророка Мухаммеда. В Центральной Азии потомки этой ветви традиционно почитаются в сословии ходжей (хожалар)."
-            ],
-            "en": [
-              "On the paternal side the family traces its descent to the noble Banu Hashim clan of the Quraysh tribe — to Hazrat Ali ibn Abi Talib himself, the cousin, son-in-law and companion of the Prophet Muhammad. In Central Asia the descendants of this branch are traditionally honoured as members of the Khoja estate (khojalar)."
-            ],
-            "uz": [
-              "Ota tomonidan urugʻ Quraysh qabilasining olijanob Banu Hoshim urugʻiga — Paygʻambar Muhammadning amakivachchasi, kuyovi va safdoshi Hazrati Ali ibn Abu Tolibning oʻziga borib taqaladi. Markaziy Osiyoda bu tarmoq avlodlari anʼanaviy ravishda xoʻjalar tabaqasi sifatida eʼzozlanadi."
-            ]
-          },
-          "people": [
+          "blocks": [
             {
-              "title": {
-                "ru": "1. Хазрат Али ибн Абу Талиб",
-                "en": "1. Hazrat Ali ibn Abi Talib",
-                "uz": "1. Hazrati Ali ibn Abu Tolib"
-              },
+              "type": "p",
               "text": {
-                "ru": [
-                  "Четвертый Праведный Халиф, первый Имам, получивший от Пророка прозвище «Асадуллах» (Лев Аллаха). Его прямая линия продолжается через его сына Мухаммада ибн аль-Ханафия (рожденного от Хавлы бинт Джафар из племени Бану Ханифа)."
-                ],
-                "en": [
-                  "The fourth Rightly Guided Caliph and the first Imam, who received from the Prophet the epithet “Asadullah” (the Lion of God). His direct line continues through his son Muhammad ibn al-Hanafiyya (born to Khawla bint Ja’far of the Banu Hanifa tribe)."
-                ],
-                "uz": [
-                  "Toʻrtinchi xalifai roshid va birinchi Imom; Paygʻambardan «Asadulloh» (Allohning sheri) laqabini olgan. Uning toʻgʻridan-toʻgʻri avlodi oʻgʻli Muhammad ibn al-Hanafiya (Banu Hanifa qabilasidan boʻlgan Xavla binti Jaʼfardan tugʻilgan) orqali davom etadi."
-                ]
+                "ru": "По отцовской линии род восходит к благородному клану бану Хашим племени курайшитов, к самому Хазрату Али ибн Абу Талибу — четвертому Праведному Халифу и зятю пророка Мухаммеда. В Центральной Азии потомки этой ветви традиционно почитаются в сословии ходжей (хожалар).",
+                "en": "On the paternal side the family traces its descent to the noble Banu Hashim clan of the Quraysh tribe — to Hazrat Ali ibn Abi Talib himself, the fourth Rightly Guided Caliph and son-in-law of the Prophet Muhammad. In Central Asia the descendants of this branch are traditionally honoured as members of the Khoja estate (khojalar).",
+                "uz": "Ota tomonidan urugʻ Quraysh qabilasining olijanob Banu Hoshim urugʻiga — toʻrtinchi xalifai roshid, Paygʻambar Muhammadning kuyovi Hazrati Ali ibn Abu Tolibning oʻziga borib taqaladi. Markaziy Osiyoda bu tarmoq avlodlari anʼanaviy ravishda xoʻjalar tabaqasi sifatida eʼzozlanadi."
               }
             },
             {
-              "title": {
-                "ru": "2. Имам Исхак Ходжа (Исхак-баб)",
-                "en": "2. Imam Ishaq Khoja (Ishaq Bab)",
-                "uz": "2. Imom Isʼhoq Xoʻja (Isʼhoq Bob)"
-              },
+              "type": "list",
+              "ordered": false,
+              "items": [
+                {
+                  "label": {
+                    "ru": "Имам Исхак Ходжа (Исхак-баб)",
+                    "en": "Imam Ishaq Khoja (Ishaq Bab)",
+                    "uz": "Imom Isʼhoq Xoʻja (Isʼhoq Bob)"
+                  },
+                  "text": {
+                    "ru": "Прямой потомок Хазрата Али, выдающийся миссионер. Его линия преемственности заложила оплот грамотности и просвещения в Каракульском оазисе Бухарского эмирата.",
+                    "en": "A direct descendant of Hazrat Ali and an outstanding missionary. His line of succession laid the stronghold of literacy and enlightenment in the Karakul oasis of the Emirate of Bukhara.",
+                    "uz": "Hazrati Alining toʻgʻridan-toʻgʻri avlodi, atoqli muballigʻ. Uning vorislik silsilasi Buxoro amirligining Qorakoʻl vohasida savodxonlik va maʼrifat tayanchini yaratdi."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Икром Ходжа",
+                    "en": "Ikrom Khoja",
+                    "uz": "Ikrom Xoʻja"
+                  },
+                  "text": {
+                    "ru": "Почтенный хранитель традиций рода в Каракуле на стыке XIX и XX веков.",
+                    "en": "A venerable keeper of the family’s traditions in Karakul at the turn of the 19th and 20th centuries.",
+                    "uz": "XIX va XX asrlar tutashuvida Qorakoʻlda urugʻ anʼanalarini saqlagan muhtaram zot."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Дед — Усман Ходжа, сын Икром Ходжи (1880-е — 1924)",
+                    "en": "Grandfather — Usman Khoja, son of Ikrom Khoja (1880s – 1924)",
+                    "uz": "Bobom — Usmon Xoʻja, Ikrom Xoʻjaning oʻgʻli (1880-yillar — 1924)"
+                  },
+                  "text": {
+                    "ru": "Человек легендарной воли. В возрасте 16 лет ушел из Каракуля в Карману абсолютно босым, пообещав добиться всего своим умом. Стал крупнейшим землевладельцем (400 танобов земли) и меценатом — давал работу десяткам людей, бесплатно делая их образованными. В 1924 году был зверски убит басмачами, защищая свой дом (ички и ташки ховли) и отказавшись отдать коней и золото.",
+                    "en": "A man of legendary will. At the age of 16 he walked from Karakul to Karmana completely barefoot, promising to achieve everything by his own mind. He became the largest landowner (400 tanobs of land) and a patron — he gave work to dozens of people and had them educated free of charge. In 1924 he was brutally killed by basmachi while defending his home (its inner and outer courtyards, ichki and tashqi hovli) and refusing to hand over his horses and gold.",
+                    "uz": "Afsonaviy iroda sohibi. 16 yoshida Qorakoʻldan Karmanaga butunlay yalangoyoq keldi va hamma narsaga oʻz aqli bilan erishishga ahd qildi. Eng yirik yer egasi (400 tanob yer) va homiy boʻldi — oʻnlab odamlarga ish berib, ularni tekinga oʻqitdi. 1924-yilda uyini (ichki va tashqi hovlisini) himoya qilib, otlar va oltinni berishdan bosh tortgani uchun bosmachilar tomonidan vahshiylarcha oʻldirildi."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "h4",
               "text": {
-                "ru": [
-                  "Прямой потомок Хазрата Али, ставший одним из ключевых исламских миссионеров и просветителей Мавераннахра. Его потомки, неся священную миссию распространения грамотности, судебного дела и духовного наставничества, на протяжении веков обосновались в Каракульском оазисе Бухарского государства, сформировав там глубоко уважаемую династию."
-                ],
-                "en": [
-                  "A direct descendant of Hazrat Ali who became one of the key Islamic missionaries and enlighteners of Transoxiana (Mawarannahr). His descendants, carrying the sacred mission of spreading literacy, administering justice and giving spiritual guidance, settled over the centuries in the Karakul oasis of the Bukhara state and formed a deeply respected dynasty there."
-                ],
-                "uz": [
-                  "Hazrati Alining toʻgʻridan-toʻgʻri avlodi, Movarounnahrning eng muhim islom muballigʻlari va maʼrifatparvarlaridan biri. Uning avlodlari savodxonlikni yoyish, qozilik ishi va maʼnaviy ustozlikdek muqaddas vazifani ado etib, asrlar davomida Buxoro davlatining Qorakoʻl vohasida oʻrnashdilar va u yerda chuqur hurmatga sazovor sulolani shakllantirdilar."
-                ]
+                "ru": "Судьбы детей Усман Ходжи (Братья Исо Ходжи):",
+                "en": "The fates of Usman Khoja’s children (the brothers of Iso Khoja):",
+                "uz": "Usmon Xoʻja farzandlarining taqdiri (Iso Xoʻjaning aka-ukalari):"
               }
             },
             {
-              "title": {
-                "ru": "3. Икром Ходжа",
-                "en": "3. Ikrom Khoja",
-                "uz": "3. Ikrom Xoʻja"
-              },
+              "type": "p",
               "text": {
-                "ru": [
-                  "Почтенный хранитель вековых традиций рода в Каракуле на стыке XIX и XX веков."
-                ],
-                "en": [
-                  "A venerable keeper of the family’s age-old traditions in Karakul at the turn of the 19th and 20th centuries."
-                ],
-                "uz": [
-                  "XIX va XX asrlar tutashuvida Qorakoʻlda urugʻning asriy anʼanalarini saqlagan muhtaram zot."
-                ]
+                "ru": "Трагедия 1924 года оставила большую семью без главы, однако сыновья Усман Ходжи проявили сплоченность и мужество, сохранив род в тяжелейшие годы советских репрессий и коллективизации:",
+                "en": "The tragedy of 1924 left the large family without its head, yet Usman Khoja’s sons showed unity and courage and preserved the family through the hardest years of Soviet repressions and collectivization:",
+                "uz": "1924-yil fojiasi katta oilani boshsiz qoldirdi, biroq Usmon Xoʻjaning oʻgʻillari jipslik va mardlik koʻrsatib, sovet qatagʻonlari va jamoalashtirishning eng ogʻir yillarida urugʻni saqlab qolishdi:"
               }
             },
             {
-              "title": {
-                "ru": "4. Дед: Усман Ходжа (1880-е — 1924)",
-                "en": "4. Grandfather: Usman Khoja (1880s – 1924)",
-                "uz": "4. Bobom: Usmon Xoʻja (1880-yillar — 1924)"
-              },
-              "text": {
-                "ru": [
-                  "Легендарная личность в истории региона. В возрасте 16 лет он принял волевое решение, покинул Каракуль и прибыл в столичный вилаят Бухарского эмирата — Карману — абсолютно босым и без единого гроша в кармане, заявив родственникам, что всё равно добьется богатства и грамотности. Благодаря феноменальному уму и трудолюбию, он построил крупнейшее, передовое по тем временам хозяйство, став владельцем 400 танобов (около 100 гектаров) плодородной земли и десятков лошадей.",
-                  "Главным его наследием была благотворительность и просвещение: в его имении трудились десятки бедных людей, и Усман Ходжа оплачивал их обучение, выводя их из невежества. Он полностью стер грань между своими и чужими, приняв в дом и полностью опекая бедствующую вдову с ребенком — Лукмоном, который вырос как его родной сын. Дом Усман Ходжи представлял собой укрепленную усадьбу с внутренним и внешним дворами (ички ховли и ташки ховли), охраняемую караулом. В трагическом 1924 году Усман Ходжа был зверски убит басмачами, совершившими налет с требованием отдать табун лошадей и золото. Он погиб как мужчина, отказавшись подчиниться силе и защищая честь своей семьи."
-                ],
-                "en": [
-                  "A legendary figure in the history of the region. At the age of 16 he made a resolute decision, left Karakul and arrived in Karmana, the capital vilayat of the Emirate of Bukhara, completely barefoot and without a single coin in his pocket, telling his relatives that he would achieve wealth and literacy all the same. Thanks to his phenomenal intelligence and hard work he built the largest farm of the area, advanced for its time, and became the owner of 400 tanobs (about 100 hectares) of fertile land and dozens of horses.",
-                  "His main legacy was charity and education: dozens of poor people worked on his estate, and Usman Khoja paid for their schooling, leading them out of ignorance. He completely erased the line between his own and strangers: he took into his home and fully cared for a destitute widow with a child, Lukmon, who grew up as his own son. Usman Khoja’s house was a fortified estate with inner and outer courtyards (ichki hovli and tashqi hovli), guarded by sentries. In the tragic year of 1924 Usman Khoja was brutally killed by basmachi who raided the estate demanding his herd of horses and gold. He died as a man, refusing to submit to force and defending the honour of his family."
-                ],
-                "uz": [
-                  "Mintaqa tarixidagi afsonaviy shaxs. 16 yoshida qatʼiy qarorga kelib, Qorakoʻlni tark etdi va Buxoro amirligining poytaxt viloyati — Karmanaga butunlay yalangoyoq, choʻntagida bir chaqa ham boʻlmay yetib keldi va qarindoshlariga baribir boylik va savodga erishishini aytdi. Gʻoyat oʻtkir aqli va mehnatsevarligi tufayli u oʻz davri uchun eng yirik va ilgʻor xoʻjalikni barpo etdi: 400 tanob (qariyb 100 gektar) unumdor yer va oʻnlab otlar egasi boʻldi.",
-                  "Uning asosiy merosi xayriya va maʼrifat edi: mulkida oʻnlab kambagʻallar ishlardi, Usmon Xoʻja esa ularning oʻqishi uchun haq toʻlab, ularni jaholatdan olib chiqardi. U oʻziniki va begona orasidagi chegarani butunlay yoʻqotdi: qiyin ahvolga tushgan beva ayolni bolasi — Luqmon bilan uyiga olib, toʻliq gʻamxoʻrlik qildi, Luqmon esa uning oʻz oʻgʻlidek ulgʻaydi. Usmon Xoʻjaning uyi ichki va tashqi hovlilari boʻlgan, qorovullar qoʻriqlaydigan mustahkam qoʻrgʻon edi. Fojiali 1924-yilda Usmon Xoʻja otlar uyuri va oltinni talab qilib bostirib kelgan bosmachilar tomonidan vahshiylarcha oʻldirildi. U kuchga boʻysunishdan bosh tortib, oilasining sharafini himoya qilib, mard kabi halok boʻldi."
-                ]
-              }
-            },
-            {
-              "title": {
-                "ru": "5. Отец: Исо Ходжа (Усманов Исо) (1922 — 2013)",
-                "en": "5. Father: Iso Khoja (Iso Usmanov) (1922 – 2013)",
-                "uz": "5. Otam: Iso Xoʻja (Usmanov Iso) (1922 — 2013)"
-              },
-              "text": {
-                "ru": [
-                  "Младший сын Усман Ходжи от его четвертой жены, оставшийся младенцем после гибели отца. Был воспитан старшим братом Малик Ходжой (1900–1970), который спас большую семью в тяжелейшие годы сталинских раскулачиваний и коллективизации. В годы Второй мировой войны Исо Ходжа воевал на передовой 1-го Украинского фронта. Получив тяжелейшее ранение, он чудом выжил на Западной Украине благодаря подвигу местной жительницы — Бабушки Надежды (Нади), которая, ежедневно рискуя жизнью своей семьи, укрывала и выхаживала раненого узбекского солдата в картофельной яме.",
-                  "Исо Ходжа прожил долгую, достойную жизнь (91 год) и заложил фундамент мировоззрения своего старшего сына Рустамжона. Еще в детстве он дал сыну пророческое наставление: никогда не поддаваться фанатизму — ни партийному (отказавшись вступать в КПСС), ни религиозному, а всегда выбирать «золотую середину» умеренности, опираясь исключительно на разум, внутреннюю свободу и знания."
-                ],
-                "en": [
-                  "The youngest son of Usman Khoja by his fourth wife, left an infant by his father’s death. He was raised by his elder brother Malik Khoja (1900–1970), who saved the large family in the hardest years of Stalin’s dekulakization and collectivization. During the Second World War Iso Khoja fought on the front line of the 1st Ukrainian Front. Gravely wounded, he miraculously survived in Western Ukraine thanks to the heroism of a local woman, Grandma Nadezhda (Nadya), who, risking the lives of her family every day, hid and nursed the wounded Uzbek soldier in a potato pit.",
-                  "Iso Khoja lived a long and worthy life (91 years) and laid the foundation of the worldview of his eldest son Rustamzhon. While his son was still a child, he gave him a prophetic instruction: never to give in to fanaticism — neither party fanaticism (he refused to join the CPSU) nor religious — but always to choose the “golden mean” of moderation, relying solely on reason, inner freedom and knowledge."
-                ],
-                "uz": [
-                  "Usmon Xoʻjaning toʻrtinchi xotinidan boʻlgan kenja oʻgʻli; otasi halok boʻlganda goʻdak edi. Uni katta akasi Malik Xoʻja (1900–1970) tarbiyalab oʻstirdi — u Stalin davridagi quloqlashtirish va jamoalashtirishning eng ogʻir yillarida katta oilani saqlab qoldi. Ikkinchi jahon urushi yillarida Iso Xoʻja 1-Ukraina frontining oldingi safida jang qildi. Ogʻir yaralangan Iso Gʻarbiy Ukrainada mahalliy ayol — Nadya buvi (Nadejda)ning jasorati tufayli moʻjizaviy tarzda omon qoldi: u har kuni oilasining hayotini xavf ostiga qoʻyib, yarador oʻzbek askarini kartoshka chuqurida yashirdi va parvarishlab oyoqqa turgʻizdi.",
-                  "Iso Xoʻja uzoq va munosib umr koʻrdi (91 yil) va toʻngʻich oʻgʻli Rustamjonning dunyoqarashiga poydevor qoʻydi. U oʻgʻliga hali bolaligidayoq bashoratli nasihat qilgan edi: hech qachon aqidaparastlikka berilmaslik — na partiyaviy (oʻzi KPSSga kirishdan bosh tortgan), na diniy aqidaparastlikka, balki doimo moʻtadillikning «oltin oʻrtaligi»ni tanlash, faqat aql, ichki erkinlik va bilimga tayanish."
-                ]
-              }
+              "type": "list",
+              "ordered": true,
+              "items": [
+                {
+                  "label": {
+                    "ru": "Малик Ходжа (1900–1970)",
+                    "en": "Malik Khoja (1900–1970)",
+                    "uz": "Malik Xoʻja (1900–1970)"
+                  },
+                  "text": {
+                    "ru": "Старший сын. В возрасте 24 лет после гибели отца принял на себя всю полноту ответственности за младших братьев и матерей. Именно благодаря его стойкости семья выжила. Его дети: Майрам, Мастура, Бахшилло.",
+                    "en": "The eldest son. At the age of 24, after his father’s death, he took on full responsibility for his younger brothers and the mothers. It was thanks to his steadfastness that the family survived. His children: Mayram, Mastura, Bakhshillo.",
+                    "uz": "Toʻngʻich oʻgʻil. Otasi halok boʻlgach, 24 yoshida ukalari va onalar uchun butun masʼuliyatni oʻz zimmasiga oldi. Aynan uning matonati tufayli oila omon qoldi. Farzandlari: Mayram, Mastura, Baxshillo."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Камбар Ходжа",
+                    "en": "Kambar Khoja",
+                    "uz": "Qambar Xoʻja"
+                  },
+                  "text": {
+                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия.",
+                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya.",
+                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Мухтор Ходжа",
+                    "en": "Mukhtor Khoja",
+                    "uz": "Muxtor Xoʻja"
+                  },
+                  "text": {
+                    "ru": "Достойный представитель рода. Его сын: Озод.",
+                    "en": "A worthy member of the family. His son: Ozod.",
+                    "uz": "Urugʻning munosib vakili. Oʻgʻli: Ozod."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Ражаб Ходжа",
+                    "en": "Rajab Khoja",
+                    "uz": "Rajab Xoʻja"
+                  },
+                  "text": {
+                    "ru": "Оставил после себя большую, разветвленную ветвь. Его сын — Шароф Ходжа (отец Шахзоды и Лутфулло; у Лутфулло родились дети — Умид и Лазиз). Также его сыновья: Бобожон и Шавкат.",
+                    "en": "He left behind a large, far-reaching branch. His son is Sharof Khoja (the father of Shakhzoda and Lutfullo; Lutfullo’s children are Umid and Laziz). His other sons: Bobojon and Shavkat.",
+                    "uz": "Oʻzidan katta, koʻp tarmoqli shox qoldirdi. Oʻgʻli — Sharof Xoʻja (Shahzoda va Lutfulloning otasi; Lutfulloning farzandlari — Umid va Laziz). Boshqa oʻgʻillari: Bobojon va Shavkat."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Зикрилло Ходжа",
+                    "en": "Zikrillo Khoja",
+                    "uz": "Zikrillo Xoʻja"
+                  },
+                  "text": {
+                    "ru": "Его имя, несущее глубокую суфийскую традицию поминания Аллаха, стало важной частью общего духовного стержня братьев.",
+                    "en": "His name, which carries the deep Sufi tradition of the remembrance of God, became an important part of the brothers’ shared spiritual core.",
+                    "uz": "Allohni zikr qilishdek chuqur soʻfiylik anʼanasini oʻzida mujassam etgan ismi aka-ukalarning umumiy maʼnaviy oʻzagining muhim qismiga aylandi."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Лукмон Ходжа (Приемный сын, ставший родным)",
+                    "en": "Lukmon Khoja (an adopted son who became one of their own)",
+                    "uz": "Luqmon Xoʻja (tugʻishgandek boʻlib ketgan asrandi oʻgʻil)"
+                  },
+                  "text": {
+                    "ru": "Сын бедствующей вдовы, которую Усман Ходжа взял под опеку, спасая от нищеты. Дед стер разницу между родными и приемными, дав Лукмону статус ходжи и вырастив его наравне со всеми. Его достойный сын: Хидоят («Верный путь»).",
+                    "en": "The son of a destitute widow whom Usman Khoja took into his care, saving her from poverty. Grandfather erased the difference between born and adopted children: he gave Lukmon the status of a khoja and raised him on an equal footing with everyone. His worthy son: Khidoyat (“the Right Path”).",
+                    "uz": "Usmon Xoʻja qashshoqlikdan qutqarib, homiyligiga olgan beva ayolning oʻgʻli. Bobom tugʻishgan va asrandi farzand orasidagi farqni yoʻqotdi: Luqmonga xoʻjalik maqomini berdi va uni hammadek teng tarbiyaladi. Munosib oʻgʻli: Hidoyat («Toʻgʻri yoʻl»)."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Отец — Исо Ходжа (Усманов Исо) (1922 — 2013)",
+                    "en": "Father — Iso Khoja (Iso Usmanov) (1922 – 2013)",
+                    "uz": "Otam — Iso Xoʻja (Usmanov Iso) (1922 — 2013)"
+                  },
+                  "text": {
+                    "ru": "Младший сын Усман Ходжи (от его четвертой жены). Прошел ад Великой Отечественной войны на передовой 1-го Украинского фронта. Тяжелораненым был спасен и выхожен в картофельной яме украинской женщиной — Бабушкой Надеждой, рисковавшей жизнью своей семьи. Ушел из жизни в возрасте 91 года, оставив сыновьям завет «золотой середины» — отказ от партийного фанатизма КПСС и религиозного радикализма в пользу свободы разума.",
+                    "en": "The youngest son of Usman Khoja (by his fourth wife). He went through the hell of the Great Patriotic War on the front line of the 1st Ukrainian Front. Gravely wounded, he was saved and nursed back to health in a potato pit by a Ukrainian woman, Grandma Nadezhda, who risked the lives of her own family. He passed away at the age of 91, leaving his sons the precept of the “golden mean”: rejecting the party fanaticism of the CPSU and religious radicalism in favour of freedom of the mind.",
+                    "uz": "Usmon Xoʻjaning kenja oʻgʻli (toʻrtinchi xotinidan). Ulugʻ Vatan urushining doʻzaxini 1-Ukraina frontining oldingi safida bosib oʻtdi. Ogʻir yaralangan holda uni ukrain ayoli — oʻz oilasining hayotini xavf ostiga qoʻygan Nadya buvi (Nadejda) kartoshka chuqurida saqlab qolib, parvarishlab oyoqqa turgʻizdi. 91 yoshida olamdan oʻtdi va oʻgʻillariga «oltin oʻrtalik» vasiyatini qoldirdi: KPSSning partiyaviy aqidaparastligi va diniy radikalizmdan voz kechib, aql erkinligini tanlash."
+                  }
+                }
+              ]
             }
           ]
         },
         {
           "title": {
-            "ru": "Часть II. Материнское крыло: «Свет знания» Илмнура Миндиярова",
-            "en": "Part II. The maternal wing: the “Light of Knowledge” of Ilmnur Mindiyarov",
-            "uz": "II qism. Ona tomoni: Ilmnur Mindiyarovning «Bilim nuri»"
+            "ru": "II. Материнское крыло: «Свет Знания» Илмнура Миндиярова",
+            "en": "II. The maternal wing: the “Light of Knowledge” of Ilmnur Mindiyarov",
+            "uz": "II. Ona tomoni: Ilmnur Mindiyarovning «Bilim nuri»"
           },
-          "text": {
-            "ru": [
-              "Материнская линия принесла в род глубокую академическую эрудицию, интеллигентность и тягу к тексту, зародившиеся на землях Поволжья."
-            ],
-            "en": [
-              "The maternal line brought into the family deep academic erudition, refinement and a love of the written word, born in the lands of the Volga region."
-            ],
-            "uz": [
-              "Ona tomoni urugʻga Volgaboʻyi zaminida kurtak yozgan chuqur akademik bilimdonlik, ziyolilik va matnga mehrni olib kirdi."
-            ]
-          },
-          "people": [
+          "blocks": [
             {
-              "title": {
-                "ru": "1. Дед по матери: Илмнур Миндияров (1888 — 1974)",
-                "en": "1. Maternal grandfather: Ilmnur Mindiyarov (1888 – 1974)",
-                "uz": "1. Ona tomondan bobom: Ilmnur Mindiyarov (1888 — 1974)"
-              },
+              "type": "p",
               "text": {
-                "ru": [
-                  "Выдающийся башкирский просветитель и ученый, чье имя переводится с арабского языка как «Свет Знания». Родовое гнездо находилось в селе Ишкарово (Башкирия). В трагическом 1938 году, спасаясь от волны сталинских репрессий и чисток, Илмнур-бобо был вынужден покинуть родину вместе с семьей и переселиться на самаркандскую землю. Человек высочайшей культуры и выдающегося интеллекта, он безупречно владел арабским языком и графикой, являлся признанным муфассиром (толкователем священных смыслов Корана). В сложные советские годы он тайно и явно обучал людей грамоте, став духовным и интеллектуальным ориентиром для региона."
-                ],
-                "en": [
-                  "An outstanding Bashkir enlightener and scholar whose name translates from Arabic as “Light of Knowledge”. The family nest was in the village of Ishkarovo (Bashkiria). In the tragic year of 1938, fleeing the wave of Stalin’s repressions and purges, Ilmnur-bobo was forced to leave his homeland together with his family and resettle on Samarkand land. A man of the highest culture and outstanding intellect, he had an impeccable command of the Arabic language and script and was a recognised mufassir (interpreter of the sacred meanings of the Quran). In the difficult Soviet years he taught people to read and write, both secretly and openly, and became a spiritual and intellectual guide for the region."
-                ],
-                "uz": [
-                  "Atoqli boshqird maʼrifatparvari va olimi; ismi arab tilidan «Bilim nuri» deb tarjima qilinadi. Urugʻ oshyonasi Boshqirdistondagi Ishkarovo qishlogʻida edi. Fojiali 1938-yilda Stalin qatagʻonlari va tozalashlari toʻlqinidan qutulish uchun Ilmnur bobo oilasi bilan birga vatanini tark etib, Samarqand zaminiga koʻchib oʻtishga majbur boʻldi. Yuksak madaniyat va atoqli aql egasi boʻlgan bu inson arab tili va yozuvini mukammal bilardi, eʼtirof etilgan mufassir (Qurʼon muqaddas maʼnolarining sharhlovchisi) edi. Ogʻir sovet yillarida u odamlarga yashirin va oshkora savod oʻrgatib, mintaqa uchun maʼnaviy va intellektual yoʻlboshchiga aylandi."
-                ]
+                "ru": "Материнская линия принесла в род тонкую интеллектуальную эрудицию и академическую стойкость.",
+                "en": "The maternal line brought into the family refined intellectual erudition and academic steadfastness.",
+                "uz": "Ona tomoni urugʻga nozik intellektual bilimdonlik va akademik matonatni olib kirdi."
               }
             },
             {
-              "title": {
-                "ru": "2. Мать: Анфиса Гилемнурова (17.12.1933 — 21.12.1998)",
-                "en": "2. Mother: Anfisa Gilemnurova (17.12.1933 – 21.12.1998)",
-                "uz": "2. Onam: Anfisa Gilemnurova (17.12.1933 — 21.12.1998)"
-              },
-              "text": {
-                "ru": [
-                  "Дочь Илмнура Миндиярова, женщина редкой внутренней красоты, душевной стойкости и высокой грамотности. Связав свою жизнь с Исо Ходжой, она перенесла всю нежность и академическую строгость поволжской интеллигенции в Карманинский оазис, воспитав достойных детей."
-                ],
-                "en": [
-                  "The daughter of Ilmnur Mindiyarov, a woman of rare inner beauty, strength of spirit and high literacy. Having joined her life with Iso Khoja, she brought all the tenderness and academic rigour of the Volga intelligentsia to the Karmana oasis and raised worthy children."
-                ],
-                "uz": [
-                  "Ilmnur Mindiyarovning qizi; kamdan-kam uchraydigan ichki goʻzallik, ruhiy bardosh va yuksak savod egasi. Iso Xoʻja bilan hayotini bogʻlab, Volgaboʻyi ziyolilarining butun mehri va akademik qatʼiyatini Karmana vohasiga olib keldi va munosib farzandlarni tarbiyalab voyaga yetkazdi."
-                ]
-              }
+              "type": "list",
+              "ordered": false,
+              "items": [
+                {
+                  "label": {
+                    "ru": "Родоначальник",
+                    "en": "Founder of the line",
+                    "uz": "Urugʻ boshi"
+                  },
+                  "text": {
+                    "ru": "Миндияр (выдающийся представитель старинного рода из Башкирии).",
+                    "en": "Mindiyar (an outstanding member of an old family from Bashkiria).",
+                    "uz": "Mindiyar (Boshqirdistondagi qadimiy urugʻning atoqli vakili)."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Дед по матери — Илмнур Миндияров (1888 — 1974)",
+                    "en": "Maternal grandfather — Ilmnur Mindiyarov (1888 – 1974)",
+                    "uz": "Ona tomondan bobom — Ilmnur Mindiyarov (1888 — 1974)"
+                  },
+                  "text": {
+                    "ru": "Башкирский интеллигент, чье имя буквально переводится как «Свет Знания». В трагическом 1938 году, спасаясь от сталинских репрессий, покинул родное село Ишкарово в Башкирии и переселился на самаркандскую землю. Обладал уникальным интеллектом, безупречно владел арабским языком и был признанным муфассиром — толкователем священных смыслов Корана, до конца дней обучая людей грамоте.",
+                    "en": "A Bashkir intellectual whose name literally translates as “Light of Knowledge”. In the tragic year of 1938, fleeing Stalin’s repressions, he left his native village of Ishkarovo in Bashkiria and resettled on Samarkand land. He had a unique intellect, an impeccable command of Arabic and was a recognised mufassir — an interpreter of the sacred meanings of the Quran — teaching people to read and write to the end of his days.",
+                    "uz": "Ismi aynan «Bilim nuri» deb tarjima qilinadigan boshqird ziyolisi. Fojiali 1938-yilda Stalin qatagʻonlaridan qutulish uchun Boshqirdistondagi ona qishlogʻi Ishkarovoni tark etib, Samarqand zaminiga koʻchib oʻtdi. Noyob aql egasi edi, arab tilini mukammal bilardi va eʼtirof etilgan mufassir — Qurʼon muqaddas maʼnolarining sharhlovchisi boʻlib, umrining oxirigacha odamlarga savod oʻrgatdi."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Мать — Анфиса Гилемнурова (Усманова) (17.12.1933 — 21.12.1998)",
+                    "en": "Mother — Anfisa Gilemnurova (Usmanova) (17.12.1933 – 21.12.1998)",
+                    "uz": "Onam — Anfisa Gilemnurova (Usmanova) (17.12.1933 — 21.12.1998)"
+                  },
+                  "text": {
+                    "ru": "Женщина исключительной внутренней культуры, бережно передавшая детям тягу к книгам, уважение к труду и фундаментальному знанию.",
+                    "en": "A woman of exceptional inner culture who lovingly passed on to her children a love of books and respect for work and fundamental knowledge.",
+                    "uz": "Favqulodda ichki madaniyat sohibasi; farzandlariga kitobga mehrni, mehnat va fundamental bilimga hurmatni ehtiyotkorlik bilan yuqtirdi."
+                  }
+                }
+              ]
             }
           ]
         },
         {
           "title": {
-            "ru": "Часть III. Настоящее и будущее научной династии",
-            "en": "Part III. The present and future of the scientific dynasty",
-            "uz": "III qism. Ilmiy sulolaning buguni va kelajagi"
+            "ru": "III. Настоящее и будущее: Научная династия Рустамжона Усманова",
+            "en": "III. The present and the future: the scientific dynasty of Rustamzhon Usmanov",
+            "uz": "III. Bugun va kelajak: Rustamjon Usmanovning ilmiy sulolasi"
           },
-          "text": {
-            "ru": [
-              "Все уникальные качества предков — железная созидательная воля Усман Ходжи, независимый «срединный путь» Исо Ходжи и академический «Свет Знания» (Илмнур) деда Илмнура — в полной мере воплотились в старшем сыне, Рустамжоне Усманове.",
-              "Выпускник Московского государственного университета (МГУ), выдающийся ученый в области прикладной математики и механики, лауреат Государственной премии Республики Узбекистан I степени и обладатель Золотой медали ВОИС, Рустамжон Усманов более 40 лет посвятил фундаментальной науке, успешно решая сложнейшие задачи для горно-металлургической индустрии страны. Создав передовой научно-производственный бренд, он напрямую увековечил имя своего любимого деда Илмнура Миндиярова в названии «IlmNur» (Знание и Свет), претворив в жизнь вековую семейную мечту о просвещении.",
-              "Сегодня великое древо продолжает расти и приносить плоды в лице детей и внуков, бережно сохраняющих память рода:"
-            ],
-            "en": [
-              "All the unique qualities of the ancestors — the iron creative will of Usman Khoja, the independent “middle path” of Iso Khoja and the academic “Light of Knowledge” (Ilmnur) of grandfather Ilmnur — were fully embodied in the eldest son, Rustamzhon Usmanov.",
-              "A graduate of Lomonosov Moscow State University (MSU), a distinguished scientist in applied mathematics and mechanics, laureate of the State Prize of the Republic of Uzbekistan of the first degree and holder of the WIPO Gold Medal, Rustamzhon Usmanov has devoted more than 40 years to fundamental science, successfully solving the most complex problems of the country’s mining and metallurgical industry. Having created an advanced research-and-production brand, he directly immortalised the name of his beloved grandfather Ilmnur Mindiyarov in the name “IlmNur” (Knowledge and Light), bringing to life the family’s centuries-old dream of enlightenment.",
-              "Today the great tree continues to grow and bear fruit in the children and grandchildren who carefully preserve the memory of the family:"
-            ],
-            "uz": [
-              "Ajdodlarning barcha noyob fazilatlari — Usmon Xoʻjaning temir bunyodkor irodasi, Iso Xoʻjaning mustaqil «oʻrta yoʻli» va bobo Ilmnurning akademik «Bilim nuri» (Ilmnur) — toʻngʻich oʻgʻil Rustamjon Usmanovda toʻla mujassam boʻldi.",
-              "M.V. Lomonosov nomidagi Moskva davlat universiteti (MDU) bitiruvchisi, amaliy matematika va mexanika sohasidagi atoqli olim, Oʻzbekiston Respublikasi I darajali Davlat mukofoti sovrindori va JIMT Oltin medali sohibi Rustamjon Usmanov 40 yildan ortiq umrini fundamental fanga bagʻishlab, mamlakat togʻ-metallurgiya sanoati uchun eng murakkab masalalarni muvaffaqiyatli hal qilib keldi. Ilgʻor ilmiy-ishlab chiqarish brendini yaratib, u sevimli bobosi Ilmnur Mindiyarovning ismini «IlmNur» (Bilim va Nur) nomida bevosita abadiylashtirdi va urugʻning asriy maʼrifat orzusini roʻyobga chiqardi.",
-              "Bugun ulugʻ daraxt urugʻ xotirasini ehtiyotlab saqlayotgan farzandlar va nevaralarda oʻsishda va meva berishda davom etmoqda:"
-            ]
-          },
-          "groups": [
+          "blocks": [
             {
-              "label": {
-                "ru": "Братья и сестры Рустамжона:",
-                "en": "Rustamzhon’s brothers and sisters:",
-                "uz": "Rustamjonning aka-uka va opa-singillari:"
-              },
-              "entries": {
-                "ru": [
-                  "Уктам, Эркин, Тулкин, Гулчехра, Гулсара."
-                ],
-                "en": [
-                  "Uktam, Erkin, Tulkin, Gulchehra, Gulsara."
-                ],
-                "uz": [
-                  "Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara."
-                ]
+              "type": "p",
+              "text": {
+                "ru": "Все качества великих предков — созидательный дух Усман Ходжи, мудрый «срединный путь» Исо Ходжи и «Свет Знания» деда Илмнура — в полной мере воплотились в старшем сыне, Рустамжоне Усманове. Выпускник МГУ, выдающийся ученый в области прикладной математики и механики, лауреат Государственной премии Республики Узбекистан I степени, он посвятил жизнь выводу людей из невежества к свету науки. Символично, что имя своего научного бренда — IlmNur — он напрямую посвятил памяти своего любимого дедушки Илмнура Миндиярова, объединив под этим именем наследие обеих ветвей.",
+                "en": "All the qualities of the great ancestors — the creative spirit of Usman Khoja, the wise “middle path” of Iso Khoja and the “Light of Knowledge” of grandfather Ilmnur — were fully embodied in the eldest son, Rustamzhon Usmanov. A graduate of Moscow State University, a distinguished scientist in applied mathematics and mechanics and laureate of the State Prize of the Republic of Uzbekistan of the first degree, he has devoted his life to leading people out of ignorance towards the light of science. Symbolically, he dedicated the name of his scientific brand, IlmNur, directly to the memory of his beloved grandfather Ilmnur Mindiyarov, uniting the heritage of both branches under this name.",
+                "uz": "Buyuk ajdodlarning barcha fazilatlari — Usmon Xoʻjaning bunyodkor ruhi, Iso Xoʻjaning donishmand «oʻrta yoʻli» va bobo Ilmnurning «Bilim nuri» — toʻngʻich oʻgʻil Rustamjon Usmanovda toʻla mujassam boʻldi. MDU bitiruvchisi, amaliy matematika va mexanika sohasidagi atoqli olim, Oʻzbekiston Respublikasi I darajali Davlat mukofoti sovrindori boʻlgan Rustamjon Usmanov umrini odamlarni jaholatdan ilm nuriga olib chiqishga bagʻishladi. Ramziy maʼnoga egaki, u ilmiy brendining nomi — IlmNurni sevimli bobosi Ilmnur Mindiyarov xotirasiga bevosita bagʻishlab, bu nom ostida ikki tarmoqning merosini birlashtirdi."
               }
             },
             {
-              "label": {
-                "ru": "Дети Рустамжона:",
-                "en": "Rustamzhon’s children:",
-                "uz": "Rustamjonning farzandlari:"
-              },
-              "entries": {
-                "ru": [
-                  "Гайрат — назван в честь фамильного мужества и чести.",
-                  "Нилуфар — поэтичное и благородное имя.",
-                  "Мухайё — продолжательница семейной гармонии."
-                ],
-                "en": [
-                  "Gayrat — named in honour of the family’s courage and honour.",
-                  "Nilufar — a poetic and noble name.",
-                  "Mukhayyo — who carries on the family harmony."
-                ],
-                "uz": [
-                  "Gʻayrat — urugʻning mardligi va or-nomusi sharafiga atalgan.",
-                  "Nilufar — sheʼriy va olijanob ism.",
-                  "Muhayyo — oila totuvligining davomchisi."
-                ]
+              "type": "p",
+              "text": {
+                "ru": "Сегодня это великое древо продолжает расти и крепнуть через детей и внуков Рустамжона Усманова:",
+                "en": "Today this great tree continues to grow and grow stronger through the children and grandchildren of Rustamzhon Usmanov:",
+                "uz": "Bugun bu ulugʻ daraxt Rustamjon Usmanovning farzandlari va nevaralari orqali oʻsishda va mustahkamlanishda davom etmoqda:"
               }
             },
             {
-              "label": {
-                "ru": "Внуки (Пятое поколение от Усман Ходжи и Илмнура Миндиярова):",
-                "en": "Grandchildren (the fifth generation from Usman Khoja and Ilmnur Mindiyarov):",
-                "uz": "Nevaralar (Usmon Xoʻja va Ilmnur Mindiyarovdan beshinchi avlod):"
-              },
-              "entries": {
-                "ru": [
-                  "Мадина — в честь священного города.",
-                  "АЛИШЕР — продолжатель прямой мужской линии, соединивший в имени первопредка Али и мыслителя Навои.",
-                  "Наргис, Муаттар — хранительницы семейной красоты.",
-                  "АМИРШАХ — продолжатель мужской линии, царственное имя.",
-                  "Ясмина — символ чистоты и цветения."
-                ],
-                "en": [
-                  "Madina — in honour of the holy city.",
-                  "ALISHER — who continues the direct male line, uniting in his name the forefather Ali and the thinker Navoi.",
-                  "Nargis, Muattar — keepers of the family’s beauty.",
-                  "AMIRSHAH — who continues the male line; a royal name.",
-                  "Yasmina — a symbol of purity and blossoming."
-                ],
-                "uz": [
-                  "Madina — muqaddas shahar sharafiga.",
-                  "ALISHER — toʻgʻridan-toʻgʻri erkak avlodning davomchisi; ismida ilk ajdod Ali va mutafakkir Navoiyni birlashtirgan.",
-                  "Nargis, Muattar — oila goʻzalligining posbonlari.",
-                  "AMIRSHOH — erkak avlodning davomchisi, shohona ism.",
-                  "Yasmina — poklik va gullash ramzi."
-                ]
+              "type": "list",
+              "ordered": false,
+              "items": [
+                {
+                  "label": {
+                    "ru": "Братья и сестры",
+                    "en": "Brothers and sisters",
+                    "uz": "Aka-uka va opa-singillari"
+                  },
+                  "text": {
+                    "ru": "Уктам, Эркин, Тулкин, Гулчехра, Гулсара.",
+                    "en": "Uktam, Erkin, Tulkin, Gulchehra, Gulsara.",
+                    "uz": "Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Дети Рустамжона",
+                    "en": "Rustamzhon’s children",
+                    "uz": "Rustamjonning farzandlari"
+                  },
+                  "text": {
+                    "ru": "Гайрат, Нилуфар, Мухайё.",
+                    "en": "Gayrat, Nilufar, Mukhayyo.",
+                    "uz": "Gʻayrat, Nilufar, Muhayyo."
+                  }
+                },
+                {
+                  "label": {
+                    "ru": "Внуки (Пятое поколение от Усман Ходжи и Илмнура Миндиярова)",
+                    "en": "Grandchildren (the fifth generation from Usman Khoja and Ilmnur Mindiyarov)",
+                    "uz": "Nevaralar (Usmon Xoʻja va Ilmnur Mindiyarovdan beshinchi avlod)"
+                  },
+                  "text": null,
+                  "sub": [
+                    {
+                      "label": {
+                        "ru": "Линия Гайрата",
+                        "en": "Gayrat’s line",
+                        "uz": "Gʻayrat tarmogʻi"
+                      },
+                      "text": {
+                        "ru": "Мадина, АЛИШЕР (продолжатель прямой мужской линии).",
+                        "en": "Madina, ALISHER (who continues the direct male line).",
+                        "uz": "Madina, ALISHER (toʻgʻridan-toʻgʻri erkak avlodning davomchisi)."
+                      }
+                    },
+                    {
+                      "label": {
+                        "ru": "Линия Нилуфар",
+                        "en": "Nilufar’s line",
+                        "uz": "Nilufar tarmogʻi"
+                      },
+                      "text": {
+                        "ru": "Наргис, Муаттар.",
+                        "en": "Nargis, Muattar.",
+                        "uz": "Nargis, Muattar."
+                      }
+                    },
+                    {
+                      "label": {
+                        "ru": "Линия Мухайё",
+                        "en": "Mukhayyo’s line",
+                        "uz": "Muhayyo tarmogʻi"
+                      },
+                      "text": {
+                        "ru": "АМИРШАХ (продолжатель мужской линии), Ясмина.",
+                        "en": "AMIRSHAH (who continues the male line), Yasmina.",
+                        "uz": "AMIRSHOH (erkak avlodning davomchisi), Yasmina."
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": {
+                "ru": "История нашей династии доказывает: богатство можно отнять, дома можно разрушить, но генетический код просвещения, чести и знаний, заложенный великими предками, уничтожить невозможно. Он продолжает жить в будущем.",
+                "en": "The history of our dynasty proves it: wealth can be taken away and houses can be destroyed, but the genetic code of enlightenment, honour and knowledge laid down by great ancestors cannot be destroyed. It lives on in the future.",
+                "uz": "Sulolamiz tarixi shuni isbotlaydi: boylikni tortib olish, uylarni buzish mumkin, ammo buyuk ajdodlar solgan maʼrifat, sharaf va bilimning genetik kodini yoʻq qilib boʻlmaydi. U kelajakda yashashda davom etadi."
               }
             }
-          ],
-          "closing": {
-            "ru": [
-              "История этой династии, зафиксированная на страницах портала RustamUsman.com, доказывает главную истину, передаваемую в сословии ходжей: земное богатство и золото можно отнять силой, но внутренний свет знаний, благородство крови и силу человеческого разума уничтожить невозможно. Они вечны."
-            ],
-            "en": [
-              "The history of this dynasty, recorded on the pages of the RustamUsman.com portal, proves the main truth passed down in the Khoja estate: earthly wealth and gold can be taken away by force, but the inner light of knowledge, nobility of blood and the power of the human mind cannot be destroyed. They are eternal."
-            ],
-            "uz": [
-              "Bu sulolaning RustamUsman.com portali sahifalarida qayd etilgan tarixi xoʻjalar tabaqasida avloddan avlodga oʻtib kelayotgan asosiy haqiqatni isbotlaydi: dunyoviy boylik va oltinni kuch bilan tortib olish mumkin, ammo bilimning ichki nurini, qon olijanobligini va inson aqlining kuchini yoʻq qilib boʻlmaydi. Ular abadiydir."
-            ]
-          }
+          ]
         }
-      ],
-      "note": {
-        "ru": "© Семейный архив династии Усмановых. Материал подготовлен для публикации на официальном портале RustamUsman.com.",
-        "en": "© Usmanov dynasty family archive. The material has been prepared for publication on the official portal RustamUsman.com.",
-        "uz": "© Usmanovlar sulolasining oilaviy arxivi. Material RustamUsman.com rasmiy portalida nashr etish uchun tayyorlangan."
-      }
+      ]
     },
     "silence": {
       "title": {
