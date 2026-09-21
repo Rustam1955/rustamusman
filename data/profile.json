@@ -504,6 +504,43 @@
                                 "ru": "Отабек",
                                 "en": "Otabek",
                                 "uz": "Otabek"
+                              },
+                              "kids": [
+                                {
+                                  "name": {
+                                    "ru": "Гузал",
+                                    "en": "Guzal",
+                                    "uz": "Goʻzal"
+                                  }
+                                },
+                                {
+                                  "name": {
+                                    "ru": "Амирбек",
+                                    "en": "Amirbek",
+                                    "uz": "Amirbek"
+                                  }
+                                },
+                                {
+                                  "name": {
+                                    "ru": "Асилбек",
+                                    "en": "Asilbek",
+                                    "uz": "Asilbek"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "name": {
+                                "ru": "Санобар",
+                                "en": "Sanobar",
+                                "uz": "Sanobar"
+                              }
+                            },
+                            {
+                              "name": {
+                                "ru": "Феруза",
+                                "en": "Feruza",
+                                "uz": "Feruza"
                               }
                             },
                             {
@@ -511,7 +548,37 @@
                                 "ru": "Шерали",
                                 "en": "Sherali",
                                 "uz": "Sherali"
-                              }
+                              },
+                              "kids": [
+                                {
+                                  "name": {
+                                    "ru": "Муниса",
+                                    "en": "Munisa",
+                                    "uz": "Munisa"
+                                  }
+                                },
+                                {
+                                  "name": {
+                                    "ru": "Рахматулло",
+                                    "en": "Rakhmatullo",
+                                    "uz": "Rahmatullo"
+                                  }
+                                },
+                                {
+                                  "name": {
+                                    "ru": "Камолжон",
+                                    "en": "Kamolzhon",
+                                    "uz": "Kamoljon"
+                                  }
+                                },
+                                {
+                                  "name": {
+                                    "ru": "Робия",
+                                    "en": "Robiya",
+                                    "uz": "Robiya"
+                                  }
+                                }
+                              ]
                             }
                           ]
                         }
@@ -994,9 +1061,9 @@
                     "uz": "Qambar Xoʻja"
                   },
                   "text": {
-                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия. У Робии дети: Рокия (её дети — Гуламдон, Азамат, Джамиля, Яшин, Лочин), Розия и Камол (его дети — Отабек и Шерали).",
-                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya. Robiya’s children: Rokiya (her children are Gulamdon, Azamat, Dzhamilya, Yashin and Lochin), Roziya and Kamol (whose children are Otabek and Sherali).",
-                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya. Robiyaning farzandlari: Roqiya (farzandlari — Gʻulomdon, Azamat, Jamila, Yashin, Lochin), Roziya va Kamol (farzandlari — Otabek va Sherali)."
+                    "ru": "Назван в честь верного сподвижника Хазрата Али. Его дети: Садулла и Робия. У Робии дети: Рокия (её дети — Гуламдон, Азамат, Джамиля, Яшин, Лочин), Розия и Камол. Дети Камола — Отабек, Санобар, Феруза и Шерали; дети Отабека — Гузал, Амирбек и Асилбек; дети Шерали — Муниса, Рахматулло, Камолжон и Робия.",
+                    "en": "Named after the loyal companion of Hazrat Ali. His children: Sadulla and Robiya. Robiya’s children: Rokiya (her children are Gulamdon, Azamat, Dzhamilya, Yashin and Lochin), Roziya and Kamol. Kamol’s children: Otabek, Sanobar, Feruza and Sherali; Otabek’s children: Guzal, Amirbek and Asilbek; Sherali’s children: Munisa, Rakhmatullo, Kamolzhon and Robiya.",
+                    "uz": "Hazrati Alining sodiq safdoshi sharafiga atalgan. Farzandlari: Sadulla va Robiya. Robiyaning farzandlari: Roqiya (farzandlari — Gʻulomdon, Azamat, Jamila, Yashin, Lochin), Roziya va Kamol. Kamolning farzandlari — Otabek, Sanobar, Feruza va Sherali; Otabekning farzandlari — Goʻzal, Amirbek va Asilbek; Sheralining farzandlari — Munisa, Rahmatullo, Kamoljon va Robiya."
                   }
                 },
                 {
