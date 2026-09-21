@@ -713,9 +713,9 @@
           }
         },
         "siblings": {
-          "ru": "Братья и сестры: Уктам, Эркин, Тулкин, Гулчехра, Гулсара",
-          "en": "Brothers and sisters: Uktam, Erkin, Tulkin, Gulchehra, Gulsara",
-          "uz": "Aka-uka va opa-singillari: Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara"
+          "ru": "Братья и сестры: Уктам, Эркин, Тулкин, Гулчехра, Гулсара, Гулбахор",
+          "en": "Brothers and sisters: Uktam, Erkin, Tulkin, Gulchehra, Gulsara, Gulbakhor",
+          "uz": "Aka-uka va opa-singillari: Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara, Gulbahor"
         },
         "children": [
           {
@@ -1074,9 +1074,9 @@
                     "uz": "Aka-uka va opa-singillari"
                   },
                   "text": {
-                    "ru": "Уктам, Эркин, Тулкин, Гулчехра, Гулсара.",
-                    "en": "Uktam, Erkin, Tulkin, Gulchehra, Gulsara.",
-                    "uz": "Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara."
+                    "ru": "Уктам, Эркин, Тулкин, Гулчехра, Гулсара, Гулбахор.",
+                    "en": "Uktam, Erkin, Tulkin, Gulchehra, Gulsara, Gulbakhor.",
+                    "uz": "Oʻktam, Erkin, Toʻlqin, Gulchehra, Gulsara, Gulbahor."
                   }
                 },
                 {
