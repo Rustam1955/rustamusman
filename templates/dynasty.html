@@ -75,6 +75,94 @@
     </details>
     {% endif %}
 
+    {% if h.shezhere %}
+    {% set sz = h.shezhere %}
+    {% set sc = sz.scheme %}
+    {# Шежере — отдельная рубрика: весь текст Рустама и схема рода.
+       Схема нарисована разметкой, а не картинкой: читается на телефоне,
+       переводится вместе с текстом и не расплывается при увеличении #}
+    {% macro shz_node(n, cls="") %}
+    <div class="shz-node {{ cls }}{{ ' shz-muted' if n.muted }}{{ ' shz-heir' if n.heir }}">
+      <span class="shz-name">{{ n.name|localized(lang) }}</span>
+      {% if n.years %}<span class="shz-years">{{ n.years }}</span>{% endif %}
+    </div>
+    {% endmacro %}
+    <details class="acc" id="shezhere">
+      <summary>
+        <span class="acc-title">{{ sz.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        <h3 class="shz-heading">{{ sz.heading|localized(lang) }}</h3>
+        <p class="story-subtitle">{{ sz.tagline|localized(lang) }}</p>
+        <p class="shz-byline">{{ sz.byline|localized(lang) }}</p>
+
+        <h3 class="essay-subhead">{{ sz.intro.title|localized(lang) }}</h3>
+        <div class="heritage-text">
+          {% for para in sz.intro.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
+        </div>
+
+        <h3 class="essay-subhead">{{ sc.title|localized(lang) }}</h3>
+        <figure class="shz-tree" aria-label="{{ sc.title|localized(lang) }}">
+          <div class="shz-lines">
+            {% for line in [sc.paternal, sc.maternal] %}
+            <div class="shz-line">
+              <div class="shz-line-label">{{ line.label|localized(lang) }}</div>
+              <div class="shz-chain">
+                {% for n in line.nodes %}{{ shz_node(n) }}{% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="shz-parents">
+            {{ shz_node(sc.father, "shz-parent") }}
+            {{ shz_node(sc.mother, "shz-parent") }}
+          </div>
+          <div class="shz-self-wrap">
+            {{ shz_node(sc.self, "shz-self") }}
+            <p class="shz-siblings">{{ sc.siblings|localized(lang) }}</p>
+          </div>
+          <div class="shz-children">
+            {% for c in sc.children %}
+            <div class="shz-branch">
+              {{ shz_node(c, "shz-child") }}
+              <div class="shz-kids">
+                {% for k in c.kids %}{{ shz_node(k, "shz-kid") }}{% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </figure>
+
+        {% for part in sz.parts %}
+        <h3 class="essay-subhead">{{ part.title|localized(lang) }}</h3>
+        <div class="heritage-text">
+          {% for para in part.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
+        </div>
+        {% for person in part.people %}
+        <h4 class="essay-subhead2">{{ person.title|localized(lang) }}</h4>
+        <div class="heritage-text">
+          {% for para in person.text|localized(lang) %}<p>{{ para }}</p>{% endfor %}
+        </div>
+        {% endfor %}
+        {% for g in part.groups %}
+        <p class="shz-group-label">{{ g.label|localized(lang) }}</p>
+        <ul class="essay-list shz-list">
+          {% for item in g.entries|localized(lang) %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+        {% endfor %}
+        {% if part.closing %}
+        <div class="heritage-text">
+          {% for para in part.closing|localized(lang) %}<p>{{ para }}</p>{% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        <p class="shz-note">{{ sz.note|localized(lang) }}</p>
+      </div>
+    </details>
+    {% endif %}
+
     {% if h.silence %}
     <details class="acc" id="silence">
       <summary>
