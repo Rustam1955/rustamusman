@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 {% block title %}{{ t.dynasty_title }} — {{ profile.name|localized(lang) }}{% endblock %}
+{# Своё описание для поисковиков и превью ссылки (Telegram и др.): перечень
+   рубрик. Без него шёл девиз главной «Прикладная математика и механика…» #}
+{% block meta_description %}{{ t.dynasty_sub_grandfather }} · {{ t.dynasty_sub_mother }} · {{ t.dynasty_sub_lineage }} · {{ t.dynasty_sub_shezhere }} · {{ t.dynasty_sub_silence }} · {{ t.dynasty_sub_story }} · {{ t.dynasty_sub_teachers }}{% endblock %}
 
 {% block content %}
 <!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
