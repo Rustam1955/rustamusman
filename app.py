@@ -138,6 +138,9 @@ UI = {
         "appendix_android": "Приложение для Android",
         "appendix_scan": "Наведите камеру телефона на код — приложение скачается само.",
         "appendix_download": "Скачать для Android",
+        "appendix_linux": "Приложение для Linux",
+        "appendix_linux_desc": "Для Ubuntu 24.04, Linux Mint 22 и новее. Откройте скачанный файл двойным нажатием и установите — IlmNur появится в меню.",
+        "appendix_download_linux": "Скачать для Linux (.deb)",
         "appendix_talk": "Разговор",
         "appendix_talk_desc": "Разговор со звуком прямо в браузере — до восьми человек.",
         "appendix_talk_enter": "Войти в разговор",
@@ -224,6 +227,9 @@ UI = {
         "appendix_android": "App for Android",
         "appendix_scan": "Point your phone camera at the code — the app will download.",
         "appendix_download": "Download for Android",
+        "appendix_linux": "App for Linux",
+        "appendix_linux_desc": "For Ubuntu 24.04, Linux Mint 22 and newer. Double-click the downloaded file and install it — IlmNur will appear in the menu.",
+        "appendix_download_linux": "Download for Linux (.deb)",
         "appendix_talk": "Voice talk",
         "appendix_talk_desc": "Voice conversation right in the browser — up to eight people.",
         "appendix_talk_enter": "Join the talk",
@@ -308,6 +314,9 @@ UI = {
         "appendix_android": "Android uchun ilova",
         "appendix_scan": "Telefon kamerasini kodga qarating — ilova oʻzi yuklab olinadi.",
         "appendix_download": "Android uchun yuklab olish",
+        "appendix_linux": "Linux uchun ilova",
+        "appendix_linux_desc": "Ubuntu 24.04, Linux Mint 22 va undan yangilari uchun. Yuklab olingan faylni ikki marta bosib oching va oʻrnating — IlmNur menyuda paydo boʻladi.",
+        "appendix_download_linux": "Linux uchun yuklab olish (.deb)",
         "appendix_talk": "Suhbat",
         "appendix_talk_desc": "Toʻgʻridan-toʻgʻri brauzerda ovozli suhbat — sakkiz kishigacha.",
         "appendix_talk_enter": "Suhbatga kirish",
@@ -723,6 +732,18 @@ APK_URL = os.environ.get("ILMNUR_APK_URL", "https://ilmnur.org/ilmnur.apk")
 TALK_URL = os.environ.get("ILMNUR_TALK_URL", "https://talk.ilmnur.org/")
 # Сам файл приложения: по его времени узнаём, какая сборка сейчас выложена
 APK_FILE = Path(os.environ.get("ILMNUR_APK_FILE", "/var/www/ilmnur/ilmnur.apk"))
+# Пакет для Ubuntu и Linux Mint (22.09.2026) — рядом с APK, тоже через Caddy
+DEB_URL = os.environ.get("ILMNUR_DEB_URL", "https://ilmnur.org/ilmnur.deb")
+DEB_FILE = Path(os.environ.get("ILMNUR_DEB_FILE", "/var/www/ilmnur/ilmnur.deb"))
+
+
+def deb_link():
+    """Ссылка на пакет .deb с отметкой сборки — по той же причине, что у APK"""
+    try:
+        когда = datetime.datetime.fromtimestamp(DEB_FILE.stat().st_mtime)
+        return f"{DEB_URL}?v={когда.strftime('%d.%m.%Y-%H%M')}"
+    except OSError:
+        return DEB_URL
 
 
 def apk_version():
@@ -775,6 +796,7 @@ def appendix(lang):
         lang=valid_lang(lang),
         apk_url=apk_link(),
         apk_qr_url=url_for("apk_qr", v=apk_version()),
+        deb_url=deb_link(),
         talk_url=TALK_URL,
     )
 
