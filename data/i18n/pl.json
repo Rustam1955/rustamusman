@@ -322,5 +322,8 @@
   "To wieloletnie, rozdzierające duszę milczenie nie przeszło bez śladu. Stłumiony żal i bezbronność podkopały jej zdrowie. W końcu organizm mamy nie wytrzymał tego ogromnego stresu: zachorowała na ciężką, nieuleczalną chorobę – chorobę Werlhofa. Jej krew, jej ciało dosłownie płakały niewypłakanymi łzami i niesprawiedliwością doznaną w Mitanie.",
   "Jej rodzinę, jej dzieci poniżano tylko za to, że byli specjalnymi przesiedleńcami, i ta trauma pozostała z nami na zawsze. Lecz nawet gasnąc z powodu choroby, moja mama się nie załamała. Zachowała w sobie człowieczeństwo, godność i bezgraniczną miłość. Złożyła w ofierze swoje zdrowie i życie, przyjmując cały cios na siebie, aby nas ocalić. Ten tekst jest hołdem dla pamięci mojego dziadka Ilmnura Mindijarowa, mojej drogiej mamy i wszystkich naszych krewnych. Ich cierpienie nie może zostać zapomniane. Pamiętamy ich ból, chylimy czoła przed świętym, cichym bohaterstwem mamy, a ta pamięć pozostanie z nami na zawsze."
  ],
- "ui:dynasty_sub_silence": "Przez ból i milczenie"
+ "ui:dynasty_sub_silence": "Przez ból i milczenie",
+ "ui:appendix_site": "Strona aplikacji",
+ "ui:appendix_site_desc": "Wszystko o IlmNur w jednym miejscu — na osobnej stronie aplikacji.",
+ "ui:appendix_site_open": "Otwórz ilmnur.org"
 }

@@ -17,6 +17,17 @@
       <h2 class="app-name visually-hidden">{{ t.appendix_app_name }}</h2>
 
       <div class="app-ways">
+        <!-- Сайт самого приложения — первым (Рустам, 29.09.2026): rustamusman.com
+             — основной сайт, ilmnur.org — приложение; «в разделе приложения
+             сделай отдельную ссылку на приложение ilmnur.org» -->
+        <div class="app-way">
+          <div>
+            <h3>{{ t.appendix_site }}</h3>
+            <p>{{ t.appendix_site_desc }}</p>
+            <a class="btn btn-primary" href="https://ilmnur.org/">{{ t.appendix_site_open }}</a>
+          </div>
+        </div>
+
         <!-- APK отдаёт Caddy облака; QR ведёт туда же — навёл камеру с экрана
              компьютера, и скачалось. На самом телефоне QR прячется (CSS).
              Код рисует сам сайт (/apk-qr.svg) и всякий раз заново: картинку

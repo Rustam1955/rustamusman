@@ -322,5 +322,8 @@
   "Ce silence de longues années, qui déchirait l'âme, n'a pas été sans conséquences. Le chagrin refoulé et le sentiment d'être sans défense ont miné sa santé. Pour finir, l'organisme de ma mère n'a pas résisté à ce stress colossal : elle est tombée gravement malade d'une maladie incurable, la maladie de Werlhof. Son sang, son corps pleuraient littéralement les larmes qu'elle n'avait pas versées et l'injustice subie à Mitan.",
   "On s'en était pris à sa famille, à ses enfants, simplement parce qu'ils étaient des colons spéciaux, et ce traumatisme est resté en nous pour toujours. Mais, même en s'éteignant de sa maladie, ma mère ne s'est pas brisée. Elle a gardé en elle son humanité, sa dignité et un amour sans bornes. Elle a sacrifié sa santé et sa vie, en prenant tout le coup sur elle, pour nous préserver. Ce texte est un hommage à la mémoire de mon grand-père Ilmnur Mindiarov, de ma chère mère et de tous nos proches. Leurs souffrances ne doivent pas être oubliées. Nous nous souvenons de leur douleur, nous nous inclinons devant l'exploit sacré et silencieux de ma mère, et ce souvenir restera avec nous pour toujours."
  ],
- "ui:dynasty_sub_silence": "À travers la douleur et le silence"
+ "ui:dynasty_sub_silence": "À travers la douleur et le silence",
+ "ui:appendix_site": "Site de l’application",
+ "ui:appendix_site_desc": "Tout sur IlmNur au même endroit — sur le site propre de l’application.",
+ "ui:appendix_site_open": "Ouvrir ilmnur.org"
 }

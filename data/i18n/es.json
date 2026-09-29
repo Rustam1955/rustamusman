@@ -322,5 +322,8 @@
   "Aquel silencio de tantos años, que desgarraba el alma, no pasó sin dejar huella. La pena reprimida y el desamparo minaron su salud. Al final, el cuerpo de mi madre no resistió aquel estrés descomunal: contrajo una enfermedad grave e incurable, la enfermedad de Werlhof. Su sangre, su cuerpo lloraban literalmente las lágrimas no derramadas y la injusticia sufrida en Mitán.",
   "Se ensañaron con su familia, con sus hijos, simplemente porque eran colonos especiales, y esa herida se quedó con nosotros para siempre. Pero, aun consumiéndose por la enfermedad, mi madre no se quebró. Conservó su humanidad, su dignidad y un amor sin límites. Sacrificó su salud y su vida, recibiendo ella sola todo el golpe, para protegernos. Este texto es un homenaje a la memoria de mi abuelo Ilmnur Mindiyárov, de mi querida madre y de todos nuestros parientes. Su sufrimiento no debe caer en el olvido. Recordamos su dolor, nos inclinamos ante la santa y silenciosa hazaña de mi madre, y este recuerdo permanecerá con nosotros para siempre."
  ],
- "ui:dynasty_sub_silence": "A través del dolor y el silencio"
+ "ui:dynasty_sub_silence": "A través del dolor y el silencio",
+ "ui:appendix_site": "Sitio de la aplicación",
+ "ui:appendix_site_desc": "Todo sobre IlmNur en un solo lugar: en el sitio propio de la aplicación.",
+ "ui:appendix_site_open": "Abrir ilmnur.org"
 }

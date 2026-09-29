@@ -895,6 +895,18 @@
   "ru": "Скачать для Android",
   "en": "Download for Android"
  },
+ "ui:appendix_site": {
+  "ru": "Сайт приложения",
+  "en": "App website"
+ },
+ "ui:appendix_site_desc": {
+  "ru": "Всё об IlmNur в одном месте — на отдельном сайте приложения.",
+  "en": "Everything about IlmNur in one place — on the app's own website."
+ },
+ "ui:appendix_site_open": {
+  "ru": "Открыть ilmnur.org",
+  "en": "Open ilmnur.org"
+ },
  "ui:appendix_talk": {
   "ru": "Разговор",
   "en": "Voice talk"
