@@ -109,6 +109,161 @@
         ]
       }
     },
+    "memory": {
+      "title": {
+        "ru": "Моя память",
+        "en": "My memory",
+        "uz": "Xotiram"
+      },
+      "stanzas": {
+        "ru": [
+          [
+            "Без тебя эта жизнь мне лишь снится,",
+            "Это ты, моё нежное чудо.",
+            "Твоих глаз бесконечная мудрость",
+            "И твой голос, что слышу повсюду."
+          ],
+          [
+            "Я на звёзды смотрю в тишине,",
+            "Веря: там, в безмятежном просторе,",
+            "Вместе с ангелами наравне,",
+            "Ты уносишь земное горе."
+          ],
+          [
+            "О тебе мои мысли и сны,",
+            "И в тиши тихо плачут глаза.",
+            "Наша добрая сказка вернёт",
+            "Нас на тёплые те берега."
+          ],
+          [
+            "Я ладонь твою к сердцу прижму,",
+            "Ощущая родное тепло,",
+            "И сквозь слёзы тебя обниму:",
+            "«Мы вернулись, и время пришло!»"
+          ],
+          [
+            "Будешь самым прекрасным ты сном,",
+            "Самым сладким, что память хранит.",
+            "Даже в мире ином, неземном,",
+            "Образ твой меня вмиг исцелит."
+          ],
+          [
+            "Я у Бога — Аллаха молю",
+            "Лишь одну эту встречу для нас.",
+            "Чтобы снова сказать: «Я люблю, Мама»,",
+            "Чтобы свет в моём сердце не гас."
+          ]
+        ],
+        "en": [
+          [
+            "Without you this life is only a dream to me,",
+            "It is you, my tender miracle.",
+            "The endless wisdom of your eyes",
+            "And your voice that I hear everywhere."
+          ],
+          [
+            "I look at the stars in the silence,",
+            "Believing: there, in the serene expanse,",
+            "Together with the angels, as their equal,",
+            "You carry away earthly grief."
+          ],
+          [
+            "My thoughts and dreams are of you,",
+            "And in the quiet my eyes softly weep.",
+            "Our kind fairy tale will bring",
+            "Us back to those warm shores."
+          ],
+          [
+            "I will press your palm to my heart,",
+            "Feeling the dear, familiar warmth,",
+            "And through tears I will embrace you:",
+            "“We have come back, the time has come!”"
+          ],
+          [
+            "You will be the most beautiful dream,",
+            "The sweetest that memory keeps.",
+            "Even in the other, unearthly world,",
+            "Your image heals me in an instant."
+          ],
+          [
+            "I pray to God — to Allah —",
+            "For just this one meeting for us,",
+            "To say once again: “I love you, Mama,”",
+            "So that the light in my heart never fades."
+          ]
+        ],
+        "uz": [
+          [
+            "Sensiz bu hayot menga faqat tushdek,",
+            "Bu sensan, mening mehribon moʻjizam.",
+            "Koʻzlaringdagi cheksiz donolik",
+            "Va har yerda eshitadigan ovozing."
+          ],
+          [
+            "Jimjitlikda yulduzlarga qarayman,",
+            "Ishonaman: u yoqda, osuda kenglikda,",
+            "Farishtalar bilan teng yonma-yon",
+            "Sen yerdagi gʻamni olib ketasan."
+          ],
+          [
+            "Fikru tushlarim faqat sen haqingda,",
+            "Sukunatda koʻzlarim sekin yigʻlaydi.",
+            "Bizning mehribon ertagimiz",
+            "Bizni oʻsha iliq sohillarga qaytaradi."
+          ],
+          [
+            "Kaftingni yuragimga bosaman,",
+            "Qadrdon iliqlikni his qilib,",
+            "Koʻz yoshlar orasidan seni quchaman:",
+            "«Biz qaytdik, vaqti keldi!»"
+          ],
+          [
+            "Sen eng goʻzal tushim boʻlasan,",
+            "Xotira saqlagan eng shirin tush.",
+            "Hatto u dunyoda, samoviy olamda ham",
+            "Siymoing meni bir zumda davolaydi."
+          ],
+          [
+            "Xudodan — Allohdan tilayman",
+            "Faqat shu bir uchrashuvni biz uchun,",
+            "Yana aytish uchun: «Seni sevaman, Onajon»,",
+            "Yuragimdagi nur soʻnmasin deb."
+          ]
+        ]
+      },
+      "dedication": {
+        "ru": [
+          "…..Моя мама Гилемнурова Анфиса",
+          "была моим храмом любви,",
+          "нежности, вдохновения.",
+          "Как не хватает тебя и",
+          "так скучаю по тебе…",
+          "Моя милая неповторимая,",
+          "мудрая, любимая…",
+          "Твои внуки повзрослели..."
+        ],
+        "en": [
+          "…My mother, Anfisa Gilemnurova,",
+          "was my temple of love,",
+          "tenderness, inspiration.",
+          "How I miss you and",
+          "how I long for you…",
+          "My dear, one and only,",
+          "wise, beloved…",
+          "Your grandchildren have grown up..."
+        ],
+        "uz": [
+          "…Onam Gilemnurova Anfisa",
+          "mening muhabbat,",
+          "mehr va ilhom ibodatxonam edi.",
+          "Seni shunchalik sogʻindim,",
+          "seni shunchalik qoʻmsayman…",
+          "Mening aziz, betakror,",
+          "dono, suyukli onam…",
+          "Nevaralaring ulgʻayishdi..."
+        ]
+      }
+    },
     "teachers": {
       "title": {
         "ru": "Мои учителя",

@@ -2465,3 +2465,9 @@ a.pub-title:hover {
     border-right: 0;
   }
 }
+
+/* «Моя память» — стихи: четверостишия с воздухом между ними, по центру
+   колонки; посвящение — плашкой, как девиз деда (30.09.2026) */
+.poem { max-width: 34em; margin: 0 auto; font-family: "Source Serif 4", serif; }
+.poem-stanza { margin: 0 0 1.4em; font-size: 1.12rem; line-height: 1.7; color: var(--text); }
+.poem-dedication { max-width: 34em; margin-inline: auto; }

@@ -2,7 +2,7 @@
 {% block title %}{{ t.dynasty_title }} — {{ profile.name|localized(lang) }}{% endblock %}
 {# Своё описание для поисковиков и превью ссылки (Telegram и др.): перечень
    рубрик. Без него шёл девиз главной «Прикладная математика и механика…» #}
-{% block meta_description %}{{ t.dynasty_sub_grandfather }} · {{ t.dynasty_sub_mother }} · {{ t.dynasty_sub_lineage }} · {{ t.dynasty_sub_shezhere }} · {{ t.dynasty_sub_silence }} · {{ t.dynasty_sub_story }} · {{ t.dynasty_sub_teachers }}{% endblock %}
+{% block meta_description %}{{ t.dynasty_sub_grandfather }} · {{ t.dynasty_sub_mother }} · {{ t.dynasty_sub_memory }} · {{ t.dynasty_sub_lineage }} · {{ t.dynasty_sub_shezhere }} · {{ t.dynasty_sub_silence }} · {{ t.dynasty_sub_story }} · {{ t.dynasty_sub_teachers }}{% endblock %}
 
 {% block content %}
 <!-- Крупного заголовка на экране нет (Рустам, 16.09.2026): раздел и так
@@ -58,6 +58,26 @@
           <p>{{ para }}</p>
           {% endfor %}
         </div>
+      </div>
+    </details>
+    {% endif %}
+
+    {# «Моя память» — стихи Рустама маме, Анфисе Гилемнуровой (30.09.2026) #}
+    {% if h.memory %}
+    <details class="acc" id="memory">
+      <summary>
+        <span class="acc-title">{{ h.memory.title|localized(lang) }}</span>
+        <span class="acc-icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="acc-body">
+        <div class="poem">
+          {% for stanza in h.memory.stanzas|localized(lang) %}
+          <p class="poem-stanza">{% for line in stanza %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+          {% endfor %}
+        </div>
+        {% if h.memory.dedication %}
+        <blockquote class="heritage-motto poem-dedication">{% for line in h.memory.dedication|localized(lang) %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</blockquote>
+        {% endif %}
       </div>
     </details>
     {% endif %}
