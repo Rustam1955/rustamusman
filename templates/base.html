@@ -42,6 +42,8 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- Material 3 поверх прежних стилей (01.10.2026); убрать строку — прежний вид -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/m3.css') }}?v=2">
   <script type="application/ld+json">{{ person_jsonld|safe }}</script>
   <script>
     // Применяем сохранённые тему и фон до первой отрисовки — без этого

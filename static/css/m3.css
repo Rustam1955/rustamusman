@@ -1,0 +1,209 @@
+/* ===================== MATERIAL 3 для rustamusman.com (01.10.2026) =====================
+   Рустам: «улучши сайт rustamusman.com, используя концепции Material Design 3».
+   Весь новый вид — в этом файле, подключён ПОСЛЕ style.css и лишь
+   переопределяет его. Убрать строку <link … m3.css> в base.html — и сайт снова
+   прежний. Точка возврата в git: метка do-m3-01102026.
+
+   Цвета — из синего сайта #2f5eff по Material Color Utilities: схема M3
+   «fidelity» (она сохраняет сам фирменный синий, а не выцветший), контейнеры
+   светлой темы — тоны 90/10 палитр той же схемы. Прежние имена (--accent, --surface…) переведены на роли M3 —
+   весь старый код сразу получает новые цвета. Научные шрифты (Source Serif
+   в заголовках статей) не трогаем: это лицо сайта. */
+
+:root {
+  --md-primary: #0043e1; --md-on-primary: #ffffff;
+  --md-primary-container: #dde1ff; --md-on-primary-container: #001354;
+  --md-brand: #2f5eff;
+  --md-secondary: #495aa2; --md-secondary-container: #dde1ff; --md-on-secondary-container: #2e4087;
+  --md-tertiary-container: #ffd7f3; --md-on-tertiary-container: #350632;
+  --md-surface: #fbf8ff; --md-on-surface: #191b24; --md-on-surface-variant: #434656;
+  --md-outline: #747687; --md-outline-variant: #c4c5d9;
+  --md-surface-container-lowest: #ffffff; --md-surface-container-low: #f3f2ff;
+  --md-surface-container: #ededfa; --md-surface-container-high: #e7e7f4;
+  --md-surface-container-highest: #e2e1ee;
+}
+:root[data-theme="dark"] {
+  --md-primary: #b8c4ff; --md-on-primary: #002486;
+  --md-primary-container: #2f5eff; --md-on-primary-container: #f3f2ff;
+  --md-brand: #6d8bff;
+  --md-secondary: #b8c4ff; --md-secondary-container: #304188; --md-on-secondary-container: #dde1ff;
+  --md-tertiary-container: #683461; --md-on-tertiary-container: #ffd7f3;
+  --md-surface: #11131c; --md-on-surface: #e2e1ee; --md-on-surface-variant: #c4c5d9;
+  --md-outline: #8e90a2; --md-outline-variant: #434656;
+  --md-surface-container-lowest: #0c0e16; --md-surface-container-low: #191b24;
+  --md-surface-container: #1d1f28; --md-surface-container-high: #282933;
+  --md-surface-container-highest: #33343e;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --md-primary: #b8c4ff; --md-on-primary: #002486;
+    --md-primary-container: #2f5eff; --md-on-primary-container: #f3f2ff;
+    --md-brand: #6d8bff;
+    --md-secondary: #b8c4ff; --md-secondary-container: #304188; --md-on-secondary-container: #dde1ff;
+    --md-tertiary-container: #683461; --md-on-tertiary-container: #ffd7f3;
+    --md-surface: #11131c; --md-on-surface: #e2e1ee; --md-on-surface-variant: #c4c5d9;
+    --md-outline: #8e90a2; --md-outline-variant: #434656;
+    --md-surface-container-lowest: #0c0e16; --md-surface-container-low: #191b24;
+    --md-surface-container: #1d1f28; --md-surface-container-high: #282933;
+    --md-surface-container-highest: #33343e;
+  }
+}
+
+/* Прежние имена — на роли M3 (во всех темах сразу) */
+:root, :root[data-theme="dark"], :root[data-theme="light"], :root:not([data-theme]) {
+  --bg: var(--md-surface);
+  --bg-soft: var(--md-surface-container-low);
+  --surface: var(--md-surface-container-low);
+  --text: var(--md-on-surface);
+  --text-soft: var(--md-on-surface-variant);
+  --border: var(--md-outline-variant);
+  --accent: var(--md-primary);
+  --accent-soft: var(--md-secondary-container);
+  /* Формы и подъём M3 */
+  --radius: 16px;
+  --md-shape-xs: 4px; --md-shape-s: 8px; --md-shape-m: 12px; --md-shape-l: 16px;
+  --md-shape-xl: 28px; --md-shape-full: 999px;
+  --md-elev-1: 0 1px 2px rgb(0 0 0 / .3), 0 1px 3px 1px rgb(0 0 0 / .15);
+  --md-elev-2: 0 1px 2px rgb(0 0 0 / .3), 0 2px 6px 2px rgb(0 0 0 / .15);
+  --md-elev-3: 0 4px 8px 3px rgb(0 0 0 / .15), 0 1px 3px rgb(0 0 0 / .3);
+  --shadow: none;
+}
+
+/* -------------------------------- ШАПКА --------------------------------
+   Top app bar M3: поверхность surface-container, без резкой черты; пункт
+   меню — «таблетка» с выделением активного (navigation rail/tabs M3) */
+.site-header {
+  background: color-mix(in srgb, var(--md-surface-container) 86%, transparent);
+  border-bottom: 0;
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--md-outline-variant) 55%, transparent);
+}
+.site-nav > a, .nav-dropdown-toggle {
+  padding: 8px 14px; border-radius: var(--md-shape-full);
+  color: var(--md-on-surface-variant); font-weight: 500; letter-spacing: .1px;
+  transition: background-color .15s, color .15s;
+}
+.site-nav > a:hover, .nav-dropdown-toggle:hover {
+  background: color-mix(in srgb, var(--md-on-surface) 8%, transparent); color: var(--md-on-surface);
+}
+.site-nav > a.active, .nav-dropdown-toggle.active, .nav-dropdown.active .nav-dropdown-toggle {
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+}
+.site-nav > a.active::after, .nav-dropdown-toggle.active::after { display: none; }
+
+/* Меню (выпадающее, настройки) — Menu M3: surface-container, подъём 2, строки 48 */
+.nav-dropdown-menu, .settings-menu {
+  background: var(--md-surface-container); border: 0;
+  border-radius: var(--md-shape-xs); box-shadow: var(--md-elev-2); padding: 8px 0;
+}
+.nav-dropdown-menu a, .set-item, .set-back {
+  min-height: 48px; border-radius: 0; padding: 12px 16px;
+  display: flex; align-items: center;
+}
+.nav-dropdown-menu a:hover, .set-item:hover, .set-back:hover {
+  background: color-mix(in srgb, var(--md-on-surface) 8%, transparent);
+}
+.set-item.active { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.settings-btn {
+  border-radius: var(--md-shape-full) !important; border: 0 !important;
+  background: transparent !important; color: var(--md-on-surface-variant);
+}
+.settings-btn:hover { background: color-mix(in srgb, var(--md-on-surface) 8%, transparent) !important; }
+
+/* -------------------------------- КНОПКИ --------------------------------
+   Filled (главная), outlined/tonal (ghost), «таблетка», label-large 14/20 */
+.btn {
+  min-height: 40px; padding: 10px 24px; border-radius: var(--md-shape-full);
+  font-weight: 500; font-size: .875rem; letter-spacing: .1px; border-width: 1px;
+}
+.btn-primary {
+  background: var(--md-primary); color: var(--md-on-primary); box-shadow: none;
+}
+.btn-primary:hover {
+  background: color-mix(in srgb, var(--md-on-primary) 8%, var(--md-primary)); box-shadow: var(--md-elev-1);
+  transform: none;
+}
+.btn-ghost {
+  background: transparent; backdrop-filter: none; -webkit-backdrop-filter: none;
+  border-color: var(--md-outline); color: var(--md-primary);
+}
+.btn-ghost:hover { background: color-mix(in srgb, var(--md-primary) 8%, transparent); transform: none; }
+.btn-sm { min-height: 32px; padding: 6px 16px; }
+.btn:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--md-primary); outline-offset: 2px;
+}
+
+/* -------------------------------- КАРТОЧКИ --------------------------------
+   Карточки M3: filled (surface-container) и elevated; рамки убраны —
+   выделяет тон, а не линия. Стеклянные (stat, app, contact) — тот же тон,
+   чуть прозрачный: под ними фон экрана */
+.acc, .pub-item, .review-card {
+  border: 0; border-radius: var(--md-shape-l);
+  background: var(--md-surface-container-low); box-shadow: var(--md-elev-1);
+}
+.stat, .app-card, .contact-card, .app-way {
+  border: 0; border-radius: var(--md-shape-l);
+  background: color-mix(in srgb, var(--md-surface-container) 80%, transparent);
+}
+.stat:hover { transform: none; box-shadow: var(--md-elev-1); }
+.stat-num { color: var(--md-primary); }
+.acc summary { border-radius: var(--md-shape-l); }
+.acc summary:hover { background: color-mix(in srgb, var(--md-on-surface) 5%, transparent); }
+.acc[open] summary { background: var(--md-surface-container); border-radius: var(--md-shape-l) var(--md-shape-l) 0 0; }
+.acc-icon {
+  display: grid; place-items: center; width: 32px; height: 32px; border-radius: var(--md-shape-full);
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container);
+}
+.heritage-motto, .poem-dedication {
+  border-inline-start: 0; border-radius: var(--md-shape-l);
+  background: var(--md-primary-container); color: var(--md-on-primary-container);
+}
+.pub-item:hover { box-shadow: var(--md-elev-2); }
+
+/* -------------------------------- ЧИПЫ, ПОЛЯ --------------------------------
+   Filter chip M3: форма small (8), выбранный — secondary-container с галочкой */
+.chip {
+  border-radius: var(--md-shape-s); border-color: var(--md-outline-variant);
+  background: transparent; color: var(--md-on-surface-variant); min-height: 32px;
+  font-weight: 500; letter-spacing: .1px;
+}
+.chip:hover { background: color-mix(in srgb, var(--md-on-surface) 8%, transparent); }
+.chip.active {
+  background: var(--md-secondary-container); border-color: transparent; color: var(--md-on-secondary-container);
+}
+.chip.active::before { content: "✓ "; }
+.tag { background: var(--md-secondary-container); color: var(--md-on-secondary-container); border-radius: var(--md-shape-s); }
+:root[data-theme="dark"] .tag { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.badge { background: var(--md-tertiary-container); color: var(--md-on-tertiary-container); border-radius: var(--md-shape-xs); }
+:root[data-theme="dark"] .badge { background: var(--md-tertiary-container); color: var(--md-on-tertiary-container); }
+/* Search bar M3 — «таблетка» на surface-container-high */
+.filter-search {
+  border: 0; border-radius: var(--md-shape-full); min-height: 48px; padding: 0 20px;
+  background: var(--md-surface-container-high); color: var(--md-on-surface);
+}
+.filter-search:focus { outline: none; box-shadow: inset 0 0 0 2px var(--md-primary); }
+.filter-select {
+  border-radius: var(--md-shape-xs); border: 1px solid var(--md-outline); min-height: 48px;
+  background: transparent; color: var(--md-on-surface);
+}
+
+/* -------------------------------- ТЕКСТ --------------------------------
+   Шкала M3 для служебного текста; заголовки статей — прежний Source Serif */
+.eyebrow { letter-spacing: .5px; font-weight: 500; color: var(--md-primary); }
+.lead { color: var(--md-on-surface-variant); }
+.hero h1 { background: linear-gradient(120deg, var(--md-on-surface) 30%, var(--md-brand) 130%); -webkit-background-clip: text; background-clip: text; }
+.page-title, .section-head h2 { letter-spacing: 0; }
+.pub-link, .link-more, .site-footer a, .pub-journal a { color: var(--md-primary); }
+.site-footer { background: var(--md-surface-container-low); border-top: 0; }
+.cv-block h2 { border-bottom-color: var(--md-outline-variant); }
+.pub-year {
+  align-self: start; justify-self: start; padding: 4px 10px; height: auto;
+  background: var(--md-secondary-container); color: var(--md-on-secondary-container); border-radius: var(--md-shape-s);
+}
+.profile-link { border-radius: var(--md-shape-m); border-color: var(--md-outline-variant); }
+.profile-link:hover { background: color-mix(in srgb, var(--md-on-surface) 6%, transparent); }
+
+/* Телефон: меню-занавеска — navigation drawer M3 */
+@media (max-width: 900px) {
+  .site-nav { background: var(--md-surface-container-low); border-radius: 0 0 var(--md-shape-l) var(--md-shape-l); }
+  .site-nav > a, .nav-dropdown-toggle { border-radius: var(--md-shape-full); }
+}
