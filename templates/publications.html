@@ -61,6 +61,8 @@
             {% if p.source_url %}<a class="pub-link pub-source" href="{{ p.source_url }}" target="_blank" rel="noopener">{{ t.pubs_source }} <span class="arrow" aria-hidden="true">↗</span></a>{% endif %}
             {% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">DOI: {{ p.doi }}</a>{% endif %}
             {% if p.url %}<a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">{{ t.pubs_open }} <span class="arrow" aria-hidden="true">→</span></a>{% endif %}
+            {# Полного текста в открытом доступе нет — бесплатно у автора (Рустам, 01.10.2026) #}
+            {% if p.on_request and profile.email %}<a class="pub-link pub-request" href="mailto:{{ profile.email }}?subject={{ (t.pubs_request_subject ~ ': ' ~ p.title)|urlencode }}">{{ t.pubs_request }} <span class="arrow" aria-hidden="true">✉</span></a>{% endif %}
             {% if p.pdf %}
               {% set pdf_path = p.pdf if '/' in p.pdf else 'pdfs/' + p.pdf %}
               <a class="pub-link" href="{{ url_for('static', filename=pdf_path) }}" target="_blank">{{ t.pubs_pdf }} ↓</a>
