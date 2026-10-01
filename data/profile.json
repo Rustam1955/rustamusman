@@ -38,9 +38,18 @@
     ]
   },
   "mission": {
-    "ru": "Пусть наука несёт людям добро и сохраняет природу чистой.",
-    "en": "May science bring good to people and keep nature clean.",
-    "uz": "Ilm odamlarga ezgulik keltirsin va tabiatni pok saqlasin."
+    "ru": [
+      "Моя цель — служить людям и сберечь для них чистую природу.",
+      "Пусть наука несёт людям добро и сохраняет природу чистой."
+    ],
+    "en": [
+      "My goal is to serve people and to preserve clean nature for them.",
+      "May science bring good to people and keep nature clean."
+    ],
+    "uz": [
+      "Maqsadim — odamlarga xizmat qilish va ular uchun pok tabiatni asrash.",
+      "Ilm odamlarga ezgulik keltirsin va tabiatni pok saqlasin."
+    ]
   },
   "heritage": {
     "title": {
