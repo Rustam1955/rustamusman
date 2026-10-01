@@ -39,7 +39,7 @@
         <span class="pub-year">{{ p.year or '—' }}</span>
         <div class="pub-body">
           <div class="pub-top">
-            {% if p.url %}<a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+            {% if p.url %}<a class="pub-title" href="{{ p.title_url or p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
             {% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}
             {% if p.ranked %}<span class="badge" title="{{ t.ranked }}">★ WoS/Scopus</span>{% endif %}
           </div>
