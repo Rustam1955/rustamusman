@@ -11,6 +11,8 @@
          поисковиков #}
       <h1>{{ profile.name|localized(lang) }}</h1>
       <p class="lead">{{ profile.bio|localized(lang)|first }}</p>
+      {# Зачем эта наука — словами Рустама (01.10.2026) #}
+      {% if profile.mission %}<p class="mission">{{ profile.mission|localized(lang) }}</p>{% endif %}
       <div class="hero-actions">
         <a class="btn btn-primary" href="{{ url_for('publications', lang=lang) }}">{{ t.hero_cta_pubs }} <span class="arrow" aria-hidden="true">→</span></a>
         <a class="btn btn-ghost" href="{{ url_for('about', lang=lang) }}">{{ t.hero_cta_about }}</a>
