@@ -27,8 +27,8 @@
   <meta property="og:url" content="{{ canonical }}">{% endif %}
   <meta property="og:locale" content="{{ og_locale }}">
   <meta property="og:image" content="{{ site_url }}{{ url_for('static', filename=profile.photo) }}">
-  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}?v=2">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/favicon-180.png') }}?v=2">
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}?v=3">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='img/favicon-180.png') }}?v=3">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -81,7 +81,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="{{ url_for('home', lang=lang) }}">
-        <img src="{{ url_for('static', filename='img/logo_513.png') }}" alt="IlmNur"
+        <!-- Логотип — новый, книга и ILMNUR в золоте (Рустам, 06.10.2026) -->
+        <img src="{{ url_for('static', filename='img/logo_2026.png') }}" alt="IlmNur"
           class="brand-logo">
         <!-- Имени рядом с логотипом нет (Рустам, 16.09.2026): оно крупно на
              самой странице, а в шапке тесно — девять пунктов меню -->
