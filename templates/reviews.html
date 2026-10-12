@@ -29,6 +29,24 @@
     </div>
     {% endif %}
 
+    {# Ещё оценки — каждая своим блоком со своим заголовком (Рустам, 12.10.2026:
+       «Оценка специалистов Дата-центра») #}
+    {% for a in profile.reviews.assessments_more or [] %}
+    <div class="about-assessment assessment-more">
+      <h2 class="assessment-heading">{{ a.heading|localized(lang) }}</h2>
+      <p class="assessment-intro">{{ a.intro|localized(lang) }}</p>
+      {% if a.factors_lead %}<p class="assessment-lead">{{ a.factors_lead|localized(lang) }}</p>{% endif %}
+      {% if a.factors %}
+      <ol class="assessment-factors">
+        {% for f in a.factors %}
+        <li><strong>{{ f.title|localized(lang) }}</strong> {{ f.text|localized(lang) }}</li>
+        {% endfor %}
+      </ol>
+      {% endif %}
+      {% if a.closing %}<p class="assessment-verdict">{{ a.closing|localized(lang) }}</p>{% endif %}
+    </div>
+    {% endfor %}
+
     {% if profile.reviews['items'] %}
     <div class="reviews">
       {% for r in profile.reviews['items'] %}

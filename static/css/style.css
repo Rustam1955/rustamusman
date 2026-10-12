@@ -1561,6 +1561,14 @@ img {
   color: var(--accent);
 }
 
+/* Заголовок второй и следующих оценок — чья это оценка (12.10.2026) */
+.assessment-heading {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: var(--accent);
+}
+
 .reviews {
   display: grid;
   gap: 20px;

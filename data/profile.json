@@ -2354,6 +2354,68 @@
           ]
         }
       }
+    ],
+    "assessments_more": [
+      {
+        "heading": {
+          "ru": "Оценка специалистов архитектуры нейронных сетей из Дата-центра Нидерландов",
+          "en": "Assessment by neural-network architecture specialists from a Data Center in the Netherlands",
+          "uz": "Niderlandiyadagi Data-markazning neyron tarmoqlar arxitekturasi mutaxassislari bahosi"
+        },
+        "intro": {
+          "ru": "Оценивая Рустамжона Усманова сквозь призму его навыков программирования и создания цифровых продуктов, можно с уверенностью сказать: его подход к кодингу — это не просто ремесло разработчика, а высокое искусство прикладного математика.",
+          "en": "Assessing Rustamzhon Usmanov through the lens of his programming skills and his creation of digital products, one can say with confidence: his approach to coding is not merely a developer's craft, but the high art of an applied mathematician.",
+          "uz": "Rustamjon Usmanovni dasturlash va raqamli mahsulotlar yaratish mahorati nuqtayi nazaridan baholar ekanmiz, ishonch bilan aytish mumkin: uning kod yozishga yondashuvi shunchaki dasturchi hunari emas, balki amaliy matematikning yuksak sanʼatidir."
+        },
+        "factors_lead": {
+          "ru": "В ИТ-индустрии и науке его навыки программирования заслуживают самой высокой оценки по нескольким причинам:",
+          "en": "In the IT industry and in science, his programming skills deserve the highest assessment for several reasons:",
+          "uz": "IT sohasida va fanda uning dasturlash mahorati bir necha sababga koʻra eng yuksak bahoga loyiq:"
+        },
+        "factors": [
+          {
+            "title": {
+              "ru": "Фундаментальное превосходство (Computer Science в чистом виде).",
+              "en": "Fundamental excellence (Computer Science in its pure form).",
+              "uz": "Fundamental ustunlik (sof koʻrinishdagi Computer Science)."
+            },
+            "text": {
+              "ru": "Поскольку Рустамжон Усманов — выходец из мехмата МГУ, алгоритмическое мышление заложено в его базе. Для него код — это лишь инструмент для перевода сложнейших дифференциальных уравнений и гидродинамических моделей в рабочие алгоритмы. Учёные такого уровня не просто пишут код, они создают математическую логику, которая работает без сбоев.",
+              "en": "Since Rustamzhon Usmanov is a graduate of the MSU Faculty of Mechanics and Mathematics, algorithmic thinking is built into his foundation. For him, code is merely a tool for turning the most complex differential equations and hydrodynamic models into working algorithms. Scientists of this level do not just write code — they create mathematical logic that works without failure.",
+              "uz": "Rustamjon Usmanov MDU mexanika-matematika fakultetini tamomlagani bois algoritmik tafakkur uning poydevoriga singgan. U uchun kod — eng murakkab differensial tenglamalar va gidrodinamik modellarni ishlaydigan algoritmlarga aylantirish vositasi, xolos. Bunday darajadagi olimlar shunchaki kod yozmaydi — ular uzilishsiz ishlaydigan matematik mantiq yaratadi."
+            }
+          },
+          {
+            "title": {
+              "ru": "Универсальность и архитектурное мышление.",
+              "en": "Versatility and architectural thinking.",
+              "uz": "Universallik va arxitektura tafakkuri."
+            },
+            "text": {
+              "ru": "Создание приложения IlmNur доказывает, что он владеет искусством full-stack и кроссплатформенной разработки. Спроектировать архитектуру, которая одновременно стабильно работает на Android, Linux, ПК и в браузере, поддерживает 20 языков и синхронизирует разнородные модули (от тяжёлой базы данных генеалогического древа до сетевого голосового чата и шахматного движка) — это задача уровня Senior-архитектора.",
+              "en": "Creating the IlmNur application proves his mastery of full-stack and cross-platform development. Designing an architecture that runs stably on Android, Linux, PC and in the browser at once, supports 20 languages and keeps diverse modules in sync (from a heavy family-tree database to networked voice chat and a chess engine) is a task at the level of a Senior architect.",
+              "uz": "IlmNur ilovasining yaratilishi uning full-stack va krossplatforma dasturlash sanʼatini egallaganini isbotlaydi. Bir vaqtning oʻzida Android, Linux, kompyuter va brauzerda barqaror ishlaydigan, 20 tilni qoʻllab-quvvatlaydigan va turli modullarni (ogʻir shajara maʼlumotlar bazasidan tarmoq orqali ovozli suhbat va shaxmat dvigatelgacha) uygʻunlashtiradigan arxitekturani loyihalash — Senior-arxitektor darajasidagi vazifa."
+            }
+          },
+          {
+            "title": {
+              "ru": "Изящество оптимизации.",
+              "en": "Elegance of optimization.",
+              "uz": "Optimallashtirish nafisligi."
+            },
+            "text": {
+              "ru": "В программировании высшим искусством считается умение писать «лёгкий», быстродействующий код без лишних перегруженных библиотек. Тот факт, что сложные математические алгоритмы и многофункциональные семейные сервисы упакованы им в компактные и быстро работающие программы, говорит о глубоком понимании низкоуровневых процессов и оптимизации памяти.",
+              "en": "In programming, the highest art is the ability to write «light», fast code without unnecessary bloated libraries. The fact that he has packed complex mathematical algorithms and multifunctional family services into compact, fast programs speaks of a deep understanding of low-level processes and memory optimization.",
+              "uz": "Dasturlashda ortiqcha ogʻir kutubxonalarsiz «yengil», tez ishlaydigan kod yoza olish eng yuksak sanʼat hisoblanadi. Murakkab matematik algoritmlar va koʻp funksiyali oilaviy xizmatlarni ixcham va tez ishlaydigan dasturlarga joylagani past darajadagi jarayonlar va xotirani optimallashtirishni chuqur tushunishidan dalolat beradi."
+            }
+          }
+        ],
+        "closing": {
+          "ru": "Его искусство программирования уникально тем, что оно находится на стыке строгой академической науки (где важна точность до сотых долей) и пользовательского UX/UI-дизайна (где важна простота для обычного человека). Это редкий пример, когда выдающийся учёный-теоретик оказывается ещё и превосходным инженером-практиком.",
+          "en": "His art of programming is unique in that it lies at the junction of rigorous academic science (where precision to hundredths matters) and user-facing UX/UI design (where simplicity for an ordinary person matters). It is a rare case when an outstanding theoretical scientist also turns out to be an excellent practical engineer.",
+          "uz": "Uning dasturlash sanʼati betakror, chunki u qatʼiy akademik fan (bu yerda yuzdan bir ulushgacha aniqlik muhim) va foydalanuvchi UX/UI dizayni (bu yerda oddiy inson uchun soddalik muhim) tutashgan joyda turadi. Bu — atoqli nazariyotchi olimning ayni paytda zoʻr amaliyotchi muhandis ham boʻlib chiqqan kamdan-kam misoli."
+        }
+      }
     ]
   },
   "cv": {
