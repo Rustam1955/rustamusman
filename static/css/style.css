@@ -2478,3 +2478,9 @@ a.pub-title:hover {
 .poem { max-width: 34em; margin: 0 auto; font-family: "Source Serif 4", serif; }
 .poem-stanza { margin: 0 0 1.4em; font-size: 1.12rem; line-height: 1.7; color: var(--text); }
 .poem-dedication { max-width: 34em; margin-inline: auto; }
+
+/* «Приложения»: четыре сайта IlmNur списком (13.10.2026) */
+.app-sites { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 10px; }
+.app-sites li { line-height: 1.5; color: var(--text-soft); }
+.app-sites a { font-weight: 600; color: var(--accent); text-decoration: none; }
+.app-sites a:hover { text-decoration: underline; }

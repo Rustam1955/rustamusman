@@ -17,14 +17,18 @@
       <h2 class="app-name visually-hidden">{{ t.appendix_app_name }}</h2>
 
       <div class="app-ways">
-        <!-- Сайт самого приложения — первым (Рустам, 29.09.2026): rustamusman.com
-             — основной сайт, ilmnur.org — приложение; «в разделе приложения
-             сделай отдельную ссылку на приложение ilmnur.org» -->
+        <!-- Сайты IlmNur — все четыре адреса (Рустам, 13.10.2026): ilmnur.org —
+             основное приложение, message / chess / music — разделы отдельными
+             сайтами на той же службе -->
         <div class="app-way">
           <div>
-            <h3>{{ t.appendix_site }}</h3>
-            <p>{{ t.appendix_site_desc }}</p>
-            <a class="btn btn-primary" href="https://ilmnur.org/">{{ t.appendix_site_open }}</a>
+            <h3>{{ t.appendix_sites }}</h3>
+            <ul class="app-sites">
+              <li><a href="https://ilmnur.org/">ilmnur.org</a> — {{ t.appendix_site_main }}</li>
+              <li><a href="https://message.ilmnur.org/">message.ilmnur.org</a> — {{ t.appendix_site_message }}</li>
+              <li><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}</li>
+              <li><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}</li>
+            </ul>
           </div>
         </div>
 
@@ -52,14 +56,6 @@
           </div>
         </div>
 
-        <div class="app-way">
-          <div>
-            <h3>{{ t.appendix_talk }}</h3>
-            <p>{{ t.appendix_talk_desc }}</p>
-            <!-- Язык передаём странице разговора: она тоже на 20 языках -->
-          <a class="btn btn-primary" href="{{ talk_url }}?lang={{ lang }}">{{ t.appendix_talk_enter }}</a>
-          </div>
-        </div>
       </div>
 
     </div>
