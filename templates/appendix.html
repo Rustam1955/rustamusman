@@ -25,7 +25,13 @@
             <h3>{{ t.appendix_sites }}</h3>
             <ul class="app-sites">
               <li><a href="https://ilmnur.org/">ilmnur.org</a> — {{ t.appendix_site_main }}</li>
-              <li><a href="https://message.ilmnur.org/">message.ilmnur.org</a> — {{ t.appendix_site_message }}</li>
+              <!-- QR на сообщения — с экрана компьютера на телефон (16.10.2026) -->
+              <li class="app-site-qr">
+                <span><a href="https://message.ilmnur.org/">message.ilmnur.org</a> — {{ t.appendix_site_message }}
+                  <small class="app-scan">{{ t.appendix_site_scan }}</small></span>
+                <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='message') }}"
+                     alt="QR: https://message.ilmnur.org/" width="96" height="96">
+              </li>
               <li><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}</li>
               <li><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}</li>
             </ul>

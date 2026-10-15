@@ -2484,3 +2484,8 @@ a.pub-title:hover {
 .app-sites li { line-height: 1.5; color: var(--text-soft); }
 .app-sites a { font-weight: 600; color: var(--accent); text-decoration: none; }
 .app-sites a:hover { text-decoration: underline; }
+
+/* QR рядом с message.ilmnur.org (16.10.2026) */
+.app-site-qr { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.app-site-qr small { display: block; margin-top: 4px; }
+.app-qr-small { width: 96px; height: 96px; flex: none; }

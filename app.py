@@ -144,6 +144,7 @@ UI = {
         "appendix_sites": "Сайты IlmNur",
         "appendix_site_main": "основное (главное) приложение IlmNur",
         "appendix_site_message": "сообщения и видеозвонки",
+        "appendix_site_scan": "Наведите камеру телефона на код — откроются сообщения.",
         "appendix_site_chess": "шахматы",
         "appendix_site_music": "музыка",
         "appendix_linux": "Приложение для Linux",
@@ -244,6 +245,7 @@ UI = {
         "appendix_sites": "IlmNur websites",
         "appendix_site_main": "the main IlmNur app",
         "appendix_site_message": "messages and video calls",
+        "appendix_site_scan": "Point your phone camera at the code — messages will open.",
         "appendix_site_chess": "chess",
         "appendix_site_music": "music",
         "appendix_linux": "App for Linux",
@@ -342,6 +344,7 @@ UI = {
         "appendix_sites": "IlmNur saytlari",
         "appendix_site_main": "IlmNurning asosiy ilovasi",
         "appendix_site_message": "xabarlar va videoqoʻngʻiroqlar",
+        "appendix_site_scan": "Telefon kamerasini kodga qarating — xabarlar ochiladi.",
         "appendix_site_chess": "shaxmat",
         "appendix_site_music": "musiqa",
         "appendix_linux": "Linux uchun ilova",
@@ -820,6 +823,25 @@ def apk_qr():
     картинка.save(лист)
     return Response(лист.getvalue(), mimetype="image/svg+xml",
                     headers={"Cache-Control": "no-store, max-age=0"})
+
+
+# QR-коды на сайты разделов IlmNur (Рустам, 16.10.2026): навёл камеру
+# телефона — открылся раздел. Адреса постоянные, рисуем один раз
+SECTION_QR = {"message": "https://message.ilmnur.org/"}
+
+
+@app.route("/site-qr/<name>.svg")
+def site_qr(name):
+    адрес = SECTION_QR.get(name)
+    if not адрес:
+        return Response("", status=404)
+    код = qrcode.QRCode(border=2, error_correction=qrcode.constants.ERROR_CORRECT_M)
+    код.add_data(адрес)
+    код.make(fit=True)
+    лист = io.BytesIO()
+    код.make_image(image_factory=qrcode.image.svg.SvgPathFillImage).save(лист)
+    return Response(лист.getvalue(), mimetype="image/svg+xml",
+                    headers={"Cache-Control": "public, max-age=86400"})
 
 
 @app.route("/<lang>/appendix/")
