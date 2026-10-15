@@ -2494,3 +2494,4 @@ a.pub-title:hover {
 .app-site-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .btn-small { padding: 6px 14px; font-size: .9rem; }
 .app-site-qr { padding: 6px 0; }
+.app-sites .app-site-btns a.btn-primary { color: #fff; font-weight: 600; text-decoration: none; }
