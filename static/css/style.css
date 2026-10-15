@@ -2489,3 +2489,8 @@ a.pub-title:hover {
 .app-site-qr { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 .app-site-qr small { display: block; margin-top: 4px; }
 .app-qr-small { width: 96px; height: 96px; flex: none; }
+
+/* Кнопки скачать приложение раздела (16.10.2026) */
+.app-site-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.btn-small { padding: 6px 14px; font-size: .9rem; }
+.app-site-qr { padding: 6px 0; }

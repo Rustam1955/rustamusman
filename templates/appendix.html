@@ -28,19 +28,34 @@
               <!-- QR на сообщения — с экрана компьютера на телефон (16.10.2026) -->
               <li class="app-site-qr">
                 <span><a href="https://message.ilmnur.org/">message.ilmnur.org</a> — {{ t.appendix_site_message }}
-                  <small class="app-scan">{{ t.appendix_site_scan }}</small></span>
+                  <small class="app-scan">{{ t.appendix_site_scan }}</small>
+                  <!-- Отдельное приложение раздела (Рустам, 16.10.2026) -->
+                  <span class="app-site-btns">
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-messages.apk">{{ t.appendix_download }}</a>
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-messages.deb">{{ t.appendix_download_linux }}</a>
+                  </span></span>
                 <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='message') }}"
                      alt="QR: https://message.ilmnur.org/" width="96" height="96">
               </li>
               <li class="app-site-qr">
                 <span><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}
-                  <small class="app-scan">{{ t.appendix_site_scan_chess }}</small></span>
+                  <small class="app-scan">{{ t.appendix_site_scan_chess }}</small>
+                  <!-- Отдельное приложение раздела (Рустам, 16.10.2026) -->
+                  <span class="app-site-btns">
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-chess.apk">{{ t.appendix_download }}</a>
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-chess.deb">{{ t.appendix_download_linux }}</a>
+                  </span></span>
                 <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='chess') }}"
                      alt="QR: https://chess.ilmnur.org/" width="96" height="96">
               </li>
               <li class="app-site-qr">
                 <span><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}
-                  <small class="app-scan">{{ t.appendix_site_scan_music }}</small></span>
+                  <small class="app-scan">{{ t.appendix_site_scan_music }}</small>
+                  <!-- Отдельное приложение раздела (Рустам, 16.10.2026) -->
+                  <span class="app-site-btns">
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-music.apk">{{ t.appendix_download }}</a>
+                    <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-music.deb">{{ t.appendix_download_linux }}</a>
+                  </span></span>
                 <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='music') }}"
                      alt="QR: https://music.ilmnur.org/" width="96" height="96">
               </li>
