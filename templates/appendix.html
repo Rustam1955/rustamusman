@@ -32,8 +32,18 @@
                 <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='message') }}"
                      alt="QR: https://message.ilmnur.org/" width="96" height="96">
               </li>
-              <li><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}</li>
-              <li><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}</li>
+              <li class="app-site-qr">
+                <span><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}
+                  <small class="app-scan">{{ t.appendix_site_scan_chess }}</small></span>
+                <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='chess') }}"
+                     alt="QR: https://chess.ilmnur.org/" width="96" height="96">
+              </li>
+              <li class="app-site-qr">
+                <span><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}
+                  <small class="app-scan">{{ t.appendix_site_scan_music }}</small></span>
+                <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='music') }}"
+                     alt="QR: https://music.ilmnur.org/" width="96" height="96">
+              </li>
             </ul>
           </div>
         </div>

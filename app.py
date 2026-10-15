@@ -145,6 +145,8 @@ UI = {
         "appendix_site_main": "основное (главное) приложение IlmNur",
         "appendix_site_message": "сообщения и видеозвонки",
         "appendix_site_scan": "Наведите камеру телефона на код — откроются сообщения.",
+        "appendix_site_scan_chess": "Наведите камеру телефона на код — откроются шахматы.",
+        "appendix_site_scan_music": "Наведите камеру телефона на код — откроется музыка.",
         "appendix_site_chess": "шахматы",
         "appendix_site_music": "музыка",
         "appendix_linux": "Приложение для Linux",
@@ -246,6 +248,8 @@ UI = {
         "appendix_site_main": "the main IlmNur app",
         "appendix_site_message": "messages and video calls",
         "appendix_site_scan": "Point your phone camera at the code — messages will open.",
+        "appendix_site_scan_chess": "Point your phone camera at the code — chess will open.",
+        "appendix_site_scan_music": "Point your phone camera at the code — music will open.",
         "appendix_site_chess": "chess",
         "appendix_site_music": "music",
         "appendix_linux": "App for Linux",
@@ -345,6 +349,8 @@ UI = {
         "appendix_site_main": "IlmNurning asosiy ilovasi",
         "appendix_site_message": "xabarlar va videoqoʻngʻiroqlar",
         "appendix_site_scan": "Telefon kamerasini kodga qarating — xabarlar ochiladi.",
+        "appendix_site_scan_chess": "Telefon kamerasini kodga qarating — shaxmat ochiladi.",
+        "appendix_site_scan_music": "Telefon kamerasini kodga qarating — musiqa ochiladi.",
         "appendix_site_chess": "shaxmat",
         "appendix_site_music": "musiqa",
         "appendix_linux": "Linux uchun ilova",
@@ -827,7 +833,8 @@ def apk_qr():
 
 # QR-коды на сайты разделов IlmNur (Рустам, 16.10.2026): навёл камеру
 # телефона — открылся раздел. Адреса постоянные, рисуем один раз
-SECTION_QR = {"message": "https://message.ilmnur.org/"}
+SECTION_QR = {"message": "https://message.ilmnur.org/", "chess": "https://chess.ilmnur.org/",
+              "music": "https://music.ilmnur.org/"}
 
 
 @app.route("/site-qr/<name>.svg")
