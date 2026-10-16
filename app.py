@@ -831,10 +831,13 @@ def apk_qr():
                     headers={"Cache-Control": "no-store, max-age=0"})
 
 
-# QR-коды на сайты разделов IlmNur (Рустам, 16.10.2026): навёл камеру
-# телефона — открылся раздел. Адреса постоянные, рисуем один раз
-SECTION_QR = {"message": "https://message.ilmnur.org/", "chess": "https://chess.ilmnur.org/",
-              "music": "https://music.ilmnur.org/"}
+# QR-коды разделов IlmNur. Сначала вели на сайт раздела, с 16.10.2026 —
+# на APK его приложения и стоят рядом с «Скачать для Android»: камерой
+# телефона на код наводят ради телефона (Рустам: «QR-code касаются только
+# андроид»). Сайт раздела открывается ссылкой в заголовке
+SECTION_QR = {"message": "https://ilmnur.org/apps/ilmnur-messages.apk",
+              "chess": "https://ilmnur.org/apps/ilmnur-chess.apk",
+              "music": "https://ilmnur.org/apps/ilmnur-music.apk"}
 
 
 @app.route("/site-qr/<name>.svg")

@@ -2486,7 +2486,7 @@ a.pub-title:hover {
 .app-sites a:hover { text-decoration: underline; }
 
 /* QR рядом с message.ilmnur.org (16.10.2026) */
-.app-site-qr { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.app-site-qr { display: block; }
 .app-site-qr small { display: block; margin-top: 4px; }
 .app-qr-small { width: 96px; height: 96px; flex: none; }
 
@@ -2495,3 +2495,9 @@ a.pub-title:hover {
 .btn-small { padding: 6px 14px; font-size: .9rem; }
 .app-site-qr { padding: 6px 0; }
 .app-sites .app-site-btns a.btn-primary { color: #fff; font-weight: 600; text-decoration: none; }
+
+/* QR — рядом с кнопкой Android, он скачивает APK раздела (16.10.2026) */
+.app-site-btns { align-items: center; gap: 12px; }
+.app-site-android { display: flex; align-items: center; gap: 12px; }
+.app-site-android small { margin: 0 0 6px; }
+.app-site-pair { display: flex; flex-wrap: wrap; gap: 8px; }
