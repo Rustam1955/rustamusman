@@ -13,110 +13,47 @@
     <!-- Золото IlmNur, Material Design 3 (Рустам, 18.10.2026): эта страница —
          про приложение, поэтому в цветах IlmNur, а не научного сайта -->
     <div class="app-card ilmnur-gold">
-      <!-- «О IlmNur» — текст Рустама (18.10.2026), выправлен по логике -->
+      <!-- «О IlmNur» — текст Рустама (18.10.2026), выправлен по логике.
+           У каждого раздела описание и скачивание вместе (Рустам: «под ним —
+           message.ilmnur.org, QR, скачать, скачать»); прежний отдельный список
+           сайтов и отдельные «Android / Linux» были повтором -->
+      {% macro get_app(site, label, apk, deb, qr_src) -%}
+        <div class="about-get">
+          <p class="about-site-line"><a class="about-site" href="https://{{ site }}/">{{ site }}</a> — {{ label }}</p>
+          <div class="about-get-row">
+            <img class="app-qr app-qr-small" src="{{ qr_src }}" alt="QR: {{ apk }}" width="96" height="96">
+            <div>
+              <small class="app-scan">{{ t.appendix_scan }}</small>
+              <span class="app-site-pair">
+                <a class="btn btn-primary btn-small" href="{{ apk }}">{{ t.appendix_download }}</a>
+                <a class="btn btn-primary btn-small" href="{{ deb }}">{{ t.appendix_download_linux }}</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      {%- endmacro %}
       <div class="app-about">
         <h2 class="about-title">{{ t.ilmnur_about_title }}</h2>
         <p class="about-lead">{{ t.ilmnur_about_lead }}</p>
         <ul class="about-list">
-          <li><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3><p>{{ t.ilmnur_about_talk }}</p></div></li>
-          <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p></div></li>
-          <li><span class="about-ic" aria-hidden="true">🎵</span><div><h3>{{ t.ilmnur_about_music_h }}</h3><p>{{ t.ilmnur_about_music }}</p></div></li>
-          <li><span class="about-ic" aria-hidden="true">🌳</span><div><h3>{{ t.ilmnur_about_family_h }}</h3><p>{{ t.ilmnur_about_family }}</p></div></li>
+          <li><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3><p>{{ t.ilmnur_about_talk }}</p>
+            {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}</div></li>
+          <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p>
+            {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2)) }}</div></li>
+          <li><span class="about-ic" aria-hidden="true">🎵</span><div><h3>{{ t.ilmnur_about_music_h }}</h3><p>{{ t.ilmnur_about_music }}</p>
+            {{ get_app("music.ilmnur.org", t.appendix_site_music, "https://ilmnur.org/apps/ilmnur-music.apk", "https://ilmnur.org/apps/ilmnur-music.deb", url_for('site_qr', name='music', v=2)) }}</div></li>
+          <!-- Главное приложение — ilmnur.org: в нём всё, и родословная с учёбой -->
+          <li><span class="about-ic" aria-hidden="true">🌳</span><div><h3>{{ t.ilmnur_about_family_h }}</h3><p>{{ t.ilmnur_about_family }}</p>
+            {{ get_app("ilmnur.org", t.appendix_site_main, apk_url, deb_url, apk_qr_url) }}</div></li>
         </ul>
+        <!-- Для Linux — одна строка про систему для всех пакетов .deb -->
+        <p class="about-linux">{{ t.appendix_linux_desc }}</p>
         <p class="about-join">{{ t.ilmnur_about_join }}</p>
       </div>
-      <!-- Ни логотипа, ни описания, ни строки о деде — только два дела:
-           скачать приложение и войти в разговор (Рустам, 16.09.2026).
-           Имя приложения остаётся для программ чтения с экрана -->
+
       <h2 class="app-name visually-hidden">{{ t.appendix_app_name }}</h2>
 
       <div class="app-ways">
-        <!-- Сайты IlmNur — все четыре адреса (Рустам, 13.10.2026): ilmnur.org —
-             основное приложение, message / chess / music — разделы отдельными
-             сайтами на той же службе -->
-        <div class="app-way">
-          <div>
-            <h3>{{ t.appendix_sites }}</h3>
-            <ul class="app-sites">
-              <li><a href="https://ilmnur.org/">ilmnur.org</a> — {{ t.appendix_site_main }}</li>
-              <!-- QR скачивает приложение раздела для Android и стоит рядом с его кнопкой:
-                   камерой телефона наводят только на Android (Рустам, 16.10.2026) -->
-              <li class="app-site-qr">
-                <span><a href="https://message.ilmnur.org/">message.ilmnur.org</a> — {{ t.appendix_site_message }}</span>
-                <span class="app-site-btns">
-                  <span class="app-site-android">
-                    <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='message', v=2) }}"
-                         alt="QR: https://ilmnur.org/apps/ilmnur-messages.apk" width="96" height="96">
-                    <span>
-                      <small class="app-scan">{{ t.appendix_scan }}</small>
-                      <span class="app-site-pair">
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-messages.apk">{{ t.appendix_download }}</a>
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-messages.deb">{{ t.appendix_download_linux }}</a>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </li>
-              <li class="app-site-qr">
-                <span><a href="https://chess.ilmnur.org/">chess.ilmnur.org</a> — {{ t.appendix_site_chess }}</span>
-                <span class="app-site-btns">
-                  <span class="app-site-android">
-                    <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='chess', v=2) }}"
-                         alt="QR: https://ilmnur.org/apps/ilmnur-chess.apk" width="96" height="96">
-                    <span>
-                      <small class="app-scan">{{ t.appendix_scan }}</small>
-                      <span class="app-site-pair">
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-chess.apk">{{ t.appendix_download }}</a>
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-chess.deb">{{ t.appendix_download_linux }}</a>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </li>
-              <li class="app-site-qr">
-                <span><a href="https://music.ilmnur.org/">music.ilmnur.org</a> — {{ t.appendix_site_music }}</span>
-                <span class="app-site-btns">
-                  <span class="app-site-android">
-                    <img class="app-qr app-qr-small" src="{{ url_for('site_qr', name='music', v=2) }}"
-                         alt="QR: https://ilmnur.org/apps/ilmnur-music.apk" width="96" height="96">
-                    <span>
-                      <small class="app-scan">{{ t.appendix_scan }}</small>
-                      <span class="app-site-pair">
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-music.apk">{{ t.appendix_download }}</a>
-                        <a class="btn btn-primary btn-small" href="https://ilmnur.org/apps/ilmnur-music.deb">{{ t.appendix_download_linux }}</a>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- APK отдаёт Caddy облака; QR ведёт туда же — навёл камеру с экрана
-             компьютера, и скачалось. На самом телефоне QR прячется (CSS).
-             Код рисует сам сайт (/apk-qr.svg) и всякий раз заново: картинку
-             в static телефон запоминал и показывал прежнюю (16.09.2026) -->
-        <div class="app-way">
-          <img class="app-qr" src="{{ apk_qr_url }}"
-            alt="QR: {{ apk_url }}" width="120" height="120">
-          <div>
-            <h3>{{ t.appendix_android }}</h3>
-            <p class="app-scan">{{ t.appendix_scan }}</p>
-            <a class="btn btn-primary" href="{{ apk_url }}">{{ t.appendix_download }}</a>
-          </div>
-        </div>
-
-        <!-- Пакет для Ubuntu и Linux Mint — та же программа, что на телефоне
-             (22.09.2026). QR здесь не нужен: скачивают на том же компьютере -->
-        <div class="app-way">
-          <div>
-            <h3>{{ t.appendix_linux }}</h3>
-            <p>{{ t.appendix_linux_desc }}</p>
-            <a class="btn btn-primary" href="{{ deb_url }}">{{ t.appendix_download_linux }}</a>
-          </div>
-        </div>
-
         <div class="app-way">
           <div>
             <h3>{{ t.appendix_talk }}</h3>

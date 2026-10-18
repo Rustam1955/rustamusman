@@ -2546,3 +2546,14 @@ a.pub-title:hover {
   margin: 16px 0 0; padding: 12px 16px; border-radius: 999px; text-align: center; font-weight: 600;
   background: rgba(212, 175, 55, .16); border: 1px solid rgba(212, 175, 55, .5); color: var(--g-cream) !important;
 }
+
+/* Описание и скачивание раздела — в одной карточке (18.10.2026) */
+.about-list { grid-template-columns: 1fr; }
+.about-list li > div { flex: 1; min-width: 0; }
+.about-get { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(212, 175, 55, .3); }
+.about-get .about-site { font-weight: 700; color: var(--g-primary); text-decoration: none; }
+.about-get .about-site:hover { text-decoration: underline; }
+.about-get-row { display: flex; align-items: center; gap: 14px; margin-top: 8px; flex-wrap: wrap; }
+.about-get-row small { display: block; margin-bottom: 6px; }
+.about-linux { margin: 14px 0 0; font-size: .88rem; }
+.about-site-line { margin: 0; color: var(--g-soft); }
