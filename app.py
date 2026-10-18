@@ -143,7 +143,7 @@ UI = {
         "appendix_site_open": "Открыть ilmnur.org",
         "appendix_sites": "Сайты IlmNur",
         "ilmnur_about_title": "Добро пожаловать в IlmNur",
-        "ilmnur_about_brand": "IlmNur — это персональный научно-просветительский бренд и экосистема приложений узбекского учёного Рустамжона Усманова (специалиста в области гидромеханики и технологий добычи урана и золота). Название платформы «IlmNur» переводится как «Свет знаний» и посвящено памяти его деда, Илмнура Миндиярова.",
+        "ilmnur_about_brand": "IlmNur — shaxsiy ilmiy-maʼrifiy brend va ilovalar ekotizimi, uning nomi «Bilim nuri» deb tarjima qilinadi. Loyiha aziz insonlarim — bobom Ilmnur Mindiyarov va onam Anfisa Gilemnurovaning yorqin xotirasiga bagʻishlangan.",
         "ilmnur_about_lead": "IlmNur — цифровое пространство для науки, культуры и общения. Главное приложение — ilmnur.org: здесь у каждого есть всё нужное для работы, общения и отдыха.",
         "ilmnur_about_talk_h": "Сообщения и видеозвонки",
         "ilmnur_about_talk": "Видеозвонки, где собеседника можно раскрыть на весь экран, — удобно для языка жестов и чтения по губам. Чат, который читают программы экранного доступа для незрячих, голосовые команды, вызовы звуком и светом.",
