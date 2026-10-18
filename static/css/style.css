@@ -2501,3 +2501,48 @@ a.pub-title:hover {
 .app-site-android { display: flex; align-items: center; gap: 12px; }
 .app-site-android small { margin: 0 0 6px; }
 .app-site-pair { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ============ «Приложения» — золото IlmNur, Material Design 3 (18.10.2026) ============
+   Роли M3 из золота IlmNur #d4af37 (Material Color Utilities, tonal spot,
+   тёмная схема): primary #e2c46d, on-primary #3c2f00, primary-container
+   #574500 / #ffe088; поверхности — ночной фиолетовый #1a1033, как в
+   «Сообщениях» и «Музыке» IlmNur. Только эта карточка: научный сайт — в своих цветах */
+.app-card.ilmnur-gold {
+  --g-primary: #e2c46d; --g-on-primary: #3c2f00; --g-gold: #d4af37; --g-gold-deep: #b8902f;
+  --g-cream: #fbf1d4; --g-soft: #e3d6b4; --g-night: #1a1033; --g-night-2: #20143d;
+  background: rgba(26, 16, 51, .95); color: var(--g-cream);
+  border: 1px solid rgba(212, 175, 55, .55); border-radius: 28px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .4);
+}
+.ilmnur-gold h2, .ilmnur-gold h3 { color: var(--g-primary); }
+.ilmnur-gold p, .ilmnur-gold li { color: var(--g-soft); }
+.ilmnur-gold .app-way {
+  background: var(--g-night-2); border: 1px solid rgba(212, 175, 55, .35); border-radius: 16px;
+}
+.ilmnur-gold .app-sites a, .ilmnur-gold a:not(.btn) { color: var(--g-primary); }
+.ilmnur-gold .btn-primary, .ilmnur-gold .app-sites .app-site-btns a.btn-primary {
+  background: linear-gradient(180deg, #f6e3a8, #d6b25c); color: #2a1d05 !important;
+  border: none; box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+.ilmnur-gold .btn-primary:hover { filter: brightness(1.05); box-shadow: 0 2px 8px rgba(0, 0, 0, .45); }
+.ilmnur-gold .app-qr { border: 2px solid var(--g-gold-deep); }
+/* «О IlmNur» */
+.app-about { margin-bottom: 20px; }
+.app-about .about-title { font-size: 1.6rem; margin: 0 0 8px; }
+.app-about .about-lead { font-size: 1.05rem; line-height: 1.6; margin: 0 0 16px; color: var(--g-cream); }
+.about-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); }
+.about-list li {
+  display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px;
+  background: var(--g-night-2); border: 1px solid rgba(212, 175, 55, .35); border-radius: 16px;
+}
+.about-list h3 { margin: 0 0 4px; font-size: 1rem; }
+.about-list p { margin: 0; font-size: .92rem; line-height: 1.5; }
+.about-ic {
+  flex: none; width: 44px; height: 44px; display: grid; place-items: center; font-size: 22px;
+  border-radius: 12px; background: #574500; color: #ffe088;
+}
+.about-join {
+  margin: 16px 0 0; padding: 12px 16px; border-radius: 999px; text-align: center; font-weight: 600;
+  background: rgba(212, 175, 55, .16); border: 1px solid rgba(212, 175, 55, .5); color: var(--g-cream) !important;
+}

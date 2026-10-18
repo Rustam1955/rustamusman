@@ -10,7 +10,21 @@
   <div class="container narrow">
     <h1 class="page-title visually-hidden">{{ t.appendix_title }}</h1>
 
-    <div class="app-card">
+    <!-- Золото IlmNur, Material Design 3 (Рустам, 18.10.2026): эта страница —
+         про приложение, поэтому в цветах IlmNur, а не научного сайта -->
+    <div class="app-card ilmnur-gold">
+      <!-- «О IlmNur» — текст Рустама (18.10.2026), выправлен по логике -->
+      <div class="app-about">
+        <h2 class="about-title">{{ t.ilmnur_about_title }}</h2>
+        <p class="about-lead">{{ t.ilmnur_about_lead }}</p>
+        <ul class="about-list">
+          <li><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3><p>{{ t.ilmnur_about_talk }}</p></div></li>
+          <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p></div></li>
+          <li><span class="about-ic" aria-hidden="true">🎵</span><div><h3>{{ t.ilmnur_about_music_h }}</h3><p>{{ t.ilmnur_about_music }}</p></div></li>
+          <li><span class="about-ic" aria-hidden="true">🌳</span><div><h3>{{ t.ilmnur_about_family_h }}</h3><p>{{ t.ilmnur_about_family }}</p></div></li>
+        </ul>
+        <p class="about-join">{{ t.ilmnur_about_join }}</p>
+      </div>
       <!-- Ни логотипа, ни описания, ни строки о деде — только два дела:
            скачать приложение и войти в разговор (Рустам, 16.09.2026).
            Имя приложения остаётся для программ чтения с экрана -->
