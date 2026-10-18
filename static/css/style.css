@@ -2557,3 +2557,5 @@ a.pub-title:hover {
 .about-get-row small { display: block; margin-bottom: 6px; }
 .about-linux { margin: 14px 0 0; font-size: .88rem; }
 .about-site-line { margin: 0; color: var(--g-soft); }
+.about-brand { font-size: 1.02rem; line-height: 1.6; margin: 0 0 12px; color: var(--g-cream) !important;
+  padding: 12px 16px; border-left: 3px solid var(--g-gold); background: rgba(212, 175, 55, .08); border-radius: 0 12px 12px 0; }
