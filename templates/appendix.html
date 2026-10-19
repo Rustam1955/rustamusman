@@ -17,9 +17,9 @@
            У каждого раздела описание и скачивание вместе (Рустам: «под ним —
            message.ilmnur.org, QR, скачать, скачать»); прежний отдельный список
            сайтов и отдельные «Android / Linux» были повтором -->
-      {% macro get_app(site, label, apk, deb, qr_src) -%}
+      {% macro get_app(site, label, apk, deb, qr_src, path="") -%}
         <div class="about-get">
-          <p class="about-site-line"><a class="about-site" href="https://{{ site }}/">{{ site }}</a> — {{ label }}</p>
+          <p class="about-site-line"><a class="about-site" href="https://{{ site }}/{{ path }}">{{ site }}</a> — {{ label }}</p>
           <div class="about-get-row">
             <img class="app-qr app-qr-small" src="{{ qr_src }}" alt="QR: {{ apk }}" width="96" height="96">
             <div>
@@ -41,7 +41,7 @@
           <li><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3><p>{{ t.ilmnur_about_talk }}</p>
             {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}</div></li>
           <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p>
-            {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2)) }}</div></li>
+            {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2), "chess-online") }}</div></li>
           <li><span class="about-ic" aria-hidden="true">🎵</span><div><h3>{{ t.ilmnur_about_music_h }}</h3><p>{{ t.ilmnur_about_music }}</p>
             {{ get_app("music.ilmnur.org", t.appendix_site_music, "https://ilmnur.org/apps/ilmnur-music.apk", "https://ilmnur.org/apps/ilmnur-music.deb", url_for('site_qr', name='music', v=2)) }}</div></li>
           <!-- Главное приложение — ilmnur.org: в нём всё, и родословная с учёбой -->
