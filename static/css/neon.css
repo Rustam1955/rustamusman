@@ -83,3 +83,44 @@
               inset 0 1px 0 rgba(255, 255, 255, .45) !important;
 }
 }
+
+/* ---------- Верхнее меню (Рустам, 21.10.2026: «верхние кнопки тоже») ----------
+   Как вкладки в IlmNur: открытый раздел — золото, прочие — синий перламутр */
+.site-nav > a, .nav-dropdown-toggle {
+  --n-dark: #030517; --n-glow: #1f4df2; --n-glow2: #b8a8ff; --n-text: #e6ecff; --n-sheen: 1;
+  color: var(--n-text) !important;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% -10%,
+      color-mix(in srgb, var(--n-glow2) calc(55% * var(--n-sheen) + 25%), transparent) 0%, transparent 70%),
+    var(--n-dark) !important;
+  border: 1.5px solid color-mix(in srgb, var(--n-glow) 70%, white) !important;
+  box-shadow:
+    inset 0 0 10px 1px color-mix(in srgb, var(--n-glow) 80%, transparent),
+    inset 0 4px 10px -4px color-mix(in srgb, var(--n-glow2) 80%, white),
+    0 0 8px -2px color-mix(in srgb, var(--n-glow) 60%, transparent) !important;
+  margin: 0 3px;
+  transition: transform .2s ease-out, filter .2s ease-out !important;
+}
+.site-nav > a.active, .nav-dropdown-toggle.active, .nav-dropdown.active .nav-dropdown-toggle {
+  --n-dark: #120a02; --n-glow: #f2ad2e; --n-glow2: #d9801f; --n-text: #fff0c8; --n-sheen: 0;
+}
+.site-nav > a:hover, .nav-dropdown-toggle:hover { filter: brightness(1.15); }
+.site-nav > a:active, .nav-dropdown-toggle:active { transform: translateY(2px) scale(.97); filter: brightness(.9); }
+:root[data-theme="light"] :is(.site-nav > a, .nav-dropdown-toggle) {
+  color: #fff !important; text-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .28) 0%, transparent 45%),
+              linear-gradient(90deg, color-mix(in srgb, var(--n-glow) 92%, white),
+                                     color-mix(in srgb, var(--n-glow2) 85%, black)) !important;
+  border: 1px solid color-mix(in srgb, var(--n-glow) 70%, black) !important;
+  box-shadow: 0 3px 8px -2px color-mix(in srgb, var(--n-glow) 45%, rgba(0, 0, 0, .35)) !important;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) :is(.site-nav > a, .nav-dropdown-toggle) {
+    color: #fff !important; text-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .28) 0%, transparent 45%),
+                linear-gradient(90deg, color-mix(in srgb, var(--n-glow) 92%, white),
+                                       color-mix(in srgb, var(--n-glow2) 85%, black)) !important;
+    border: 1px solid color-mix(in srgb, var(--n-glow) 70%, black) !important;
+    box-shadow: 0 3px 8px -2px color-mix(in srgb, var(--n-glow) 45%, rgba(0, 0, 0, .35)) !important;
+  }
+}
