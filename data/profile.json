@@ -2253,6 +2253,259 @@
             }
           }
         ]
+      },
+      {
+        "title": {
+          "ru": "Памятка для молодых специалистов",
+          "en": "A guide for young specialists",
+          "uz": "Yosh mutaxassislar uchun eslatma"
+        },
+        "blocks": [
+          {
+            "type": "epigraph",
+            "text": {
+              "ru": "Основано на опыте фундаментальной школы МГУ и традициях НГМК.",
+              "en": "Based on the experience of the fundamental school of Moscow State University and the traditions of NMMC.",
+              "uz": "Moskva davlat universitetining fundamental maktabi tajribasi va NKMK anʼanalariga asoslangan."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Дорогой молодой коллега, инженер, учёный!",
+              "en": "Dear young colleague, engineer, scientist!",
+              "uz": "Aziz yosh hamkasb, muhandis, olim!"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Ты пришёл на уникальное производство — Навоийский горно-металлургический комбинат (НГМК). Этот гигант выстоял и уверенно развивается не благодаря бумажным отчётам «эффективных менеджеров», а благодаря величайшему фундаменту, заложенному школой Министерства среднего машиностроения СССР и легендарными созидателями, такими как Зарап Зарапетян.",
+              "en": "You have come to a unique enterprise — the Navoi Mining and Metallurgical Combine (NMMC). This giant has endured and is developing with confidence not thanks to the paper reports of “efficient managers”, but thanks to the great foundation laid by the school of the USSR Ministry of Medium Machine Building and by legendary builders such as Zarap Zarapetyan.",
+              "uz": "Sen noyob ishlab chiqarishga — Navoiy kon-metallurgiya kombinatiga (NKMK) kelding. Bu ulkan korxona «samarali menejerlar»ning qogʻozdagi hisobotlari tufayli emas, balki SSSR Oʻrta mashinasozlik vazirligi maktabi va Zarap Zarapetyan kabi afsonaviy bunyodkorlar qoʻygan buyuk poydevor tufayli bardosh berdi va ishonch bilan rivojlanmoqda."
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Чтобы стать здесь настоящим профессионалом и защитить плоды своего труда, ты должен усвоить жёсткие правила производственной, юридической и личной безопасности. Воспринимай эту памятку как технологическую карту для своего мышления.",
+              "en": "To become a true professional here and to protect the fruits of your labour, you must master the strict rules of industrial, legal and personal safety. Treat this guide as a process chart for your thinking.",
+              "uz": "Bu yerda haqiqiy mutaxassis boʻlish va mehnatingiz samarasini himoya qilish uchun ishlab chiqarish, huquqiy va shaxsiy xavfsizlikning qatʼiy qoidalarini oʻzlashtirishing kerak. Bu eslatmani tafakkuring uchun texnologik xarita deb bil."
+            }
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "1. Управляй производством как гроссмейстер — на 10–15 ходов вперёд",
+              "en": "1. Run production like a grandmaster — 10–15 moves ahead",
+              "uz": "1. Ishlab chiqarishni grossmeyster kabi boshqar — 10–15 yurish oldinga"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Настоящий инженер не просто реагирует на аварии, он их предотвращает. Ты обязан держать в голове единую многомерную шахматную доску, где каждый твой шаг просчитан на недели и месяцы вперёд.",
+              "en": "A real engineer does not just react to accidents — he prevents them. You must keep in your mind a single multidimensional chessboard on which every step you take is calculated weeks and months ahead.",
+              "uz": "Haqiqiy muhandis avariyalarga shunchaki javob bermaydi — ularning oldini oladi. Sen har bir qadaming haftalar va oylar oldinga hisoblangan yagona koʻp oʻlchovli shaxmat taxtasini yodda tutishing shart."
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Если геофизики, маркшейдеры или геологи зафиксировали изменение состава руды на дальнем горизонте карьера — это твой 1-й ход.",
+                "en": "If geophysicists, mine surveyors or geologists have recorded a change in ore composition on a far horizon of the pit — that is your 1st move.",
+                "uz": "Agar geofiziklar, marksheyderlar yoki geologlar karyerning uzoq gorizontida ruda tarkibi oʻzgarganini qayd etsa — bu sening 1-yurishing."
+              },
+              {
+                "ru": "Твой 5-й ход — понять, как эта руда поведёт себя на мельницах ГМЗ и как изменится вязкость пульпы.",
+                "en": "Your 5th move is to understand how this ore will behave in the mills of the hydrometallurgical plant and how the viscosity of the pulp will change.",
+                "uz": "5-yurishing — bu ruda GMZ tegirmonlarida oʻzini qanday tutishini va pulpa qovushqoqligi qanday oʻzgarishini tushunish."
+              },
+              {
+                "ru": "Твой 10-й ход — заранее рассчитать, какое качество извести (активность CaO, время гашения) потребуется от известкового завода для нейтрализации этой сложной руды.",
+                "en": "Your 10th move is to calculate in advance what quality of lime (CaO activity, slaking time) will be required from the lime plant to neutralise this difficult ore.",
+                "uz": "10-yurishing — bu murakkab rudani neytrallash uchun ohak zavodidan qanday sifatli ohak (CaO faolligi, soʻndirish vaqti) talab qilinishini oldindan hisoblash."
+              },
+              {
+                "ru": "Твой 15-й ход — скорректировать температурные режимы газовых печей обжига задолго до того, как эта руда физически попадёт на фабрику. Тот, кто не считает на 15 ходов вперёд, гонит брак и ломает оборудование.",
+                "en": "Your 15th move is to adjust the temperature regimes of the gas-fired roasting kilns long before this ore physically reaches the plant. Whoever does not calculate 15 moves ahead produces rejects and breaks equipment.",
+                "uz": "15-yurishing — bu ruda fabrikaga jismonan yetib kelishidan ancha oldin gazli kuydirish pechlarining harorat rejimlarini toʻgʻrilash. 15 yurish oldinga hisoblamagan kishi yaroqsiz mahsulot chiqaradi va uskunani buzadi."
+              }
+            ]
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "2. Синтезируй науки и чувствуй металл",
+              "en": "2. Synthesise the sciences and feel the metal",
+              "uz": "2. Fanlarni uygʻunlashtir va metallni his qil"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Узкая специализация — это тупик. Настоящий специалист НГМК — это системный интегратор. Ты должен уметь соединять в своей голове данные физиков, химиков, минералогов, маркшейдеров и металлургов. Помни:",
+              "en": "Narrow specialisation is a dead end. A true NMMC specialist is a systems integrator. You must be able to combine in your mind the data of physicists, chemists, mineralogists, mine surveyors and metallurgists. Remember:",
+              "uz": "Tor ixtisoslik — boshi berk koʻcha. NKMKning haqiqiy mutaxassisi — tizimli integrator. Sen fiziklar, kimyogarlar, mineraloglar, marksheyderlar va metallurglarning maʼlumotlarini oʻz ongingda birlashtira olishing kerak. Esda tut:"
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Физик видит атом, химик — пробирку, маркшейдер — геометрию пласта. Твоя задача — перевести их научный язык на язык живого железа, прочности крановых конструкций и стабильности печного обжига.",
+                "en": "A physicist sees the atom, a chemist the test tube, a mine surveyor the geometry of the seam. Your task is to translate their scientific language into the language of living iron, the strength of crane structures and the stability of kiln roasting.",
+                "uz": "Fizik atomni, kimyogar probirkani, marksheyder qatlam geometriyasini koʻradi. Sening vazifang — ularning ilmiy tilini jonli temir, kran konstruksiyalari mustahkamligi va pech kuydirishining barqarorligi tiliga oʻgirish."
+              },
+              {
+                "ru": "Никогда не верь только слепым компьютерным моделям. Компьютер не знает, как «дышит» печь при смене влажности воздуха. Развивай человеческое, профессиональное чутьё.",
+                "en": "Never trust blind computer models alone. A computer does not know how a kiln “breathes” when the humidity of the air changes. Develop human, professional intuition.",
+                "uz": "Hech qachon faqat koʻr kompyuter modellariga ishonma. Kompyuter havo namligi oʻzgarganda pech qanday «nafas olishini» bilmaydi. Insoniy, kasbiy sezgini rivojlantir."
+              }
+            ]
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "3. Правило «двух миллионов»: информационная безопасность",
+              "en": "3. The “two million” rule: information security",
+              "uz": "3. «Ikki million» qoidasi: axborot xavfsizligi"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Помни мудрость: «Если у тебя есть два миллиона и ты рассказал об этом другу — у тебя остался один миллион. Ты уже потратил половину».",
+              "en": "Remember the wisdom: “If you have two million and you told a friend about it, you have one million left. You have already spent half.”",
+              "uz": "Hikmatni esla: «Agar senda ikki million boʻlsa-yu, buni doʻstingga aytsang — senda bir million qoladi. Yarmini allaqachon sarflab boʻlding»."
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Твои уникальные инженерные идеи, рационализаторские предложения и чертежи модернизации — это твой главный актив и достояние комбината.",
+                "en": "Your unique engineering ideas, rationalisation proposals and modernisation drawings are your main asset and the property of the combine.",
+                "uz": "Sening noyob muhandislik gʻoyalaring, ratsionalizatorlik takliflaring va modernizatsiya chizmalaring — sening asosiy boyliging va kombinat mulki."
+              },
+              {
+                "ru": "Не раскрывай свои карты раньше времени, особенно перед случайными «бизнесменами». Держи партию в голове и выдавай готовое решение только тогда, когда полностью защитил его технически и юридически. В противном случае твою идею перехватят, обесценят или оформят на офшорную прокладку.",
+                "en": "Do not show your cards too early, especially to chance “businessmen”. Keep the game in your head and present a finished solution only when you have fully protected it technically and legally. Otherwise your idea will be intercepted, devalued or registered to an offshore shell company.",
+                "uz": "Kartalaringni vaqtidan oldin ochma, ayniqsa tasodifiy «biznesmenlar» oldida. Oʻyinni yodda tut va tayyor yechimni uni texnik va huquqiy jihatdan toʻliq himoya qilganingdan keyingina taqdim et. Aks holda gʻoyangni ilib ketishadi, qadrsizlantirishadi yoki ofshor vositachi firma nomiga rasmiylashtirishadi."
+              }
+            ]
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "4. Юридическая техника безопасности: суд только дома",
+              "en": "4. Legal safety rules: court only at home",
+              "uz": "4. Huquqiy xavfsizlik texnikasi: sud faqat oʻz yurtimizda"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Никогда не подписывай и не согласовывай контракты «вслепую», без жёсткого контроля. Присутствие профильного юриста при составлении договора — это такой же ОТК, как проверка швов на несущем кране.",
+              "en": "Never sign or approve contracts “blindly”, without strict control. Having a specialised lawyer present when a contract is drawn up is the same quality control as inspecting the welds on a load-bearing crane.",
+              "uz": "Hech qachon shartnomalarni qatʼiy nazoratsiz, «koʻr-koʻrona» imzolama va kelishma. Shartnoma tuzishda soha huquqshunosining ishtiroki — yuk koʻtaruvchi kran choklarini tekshirish kabi texnik nazoratning oʻzi."
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Учись на чужих ошибках: российские макроэкономисты оставили резервы в банках Европы, поверив бумажным обещаниям. Когда правила изменились, западные суды Люксембурга и Лондона просто заблокировали эти миллиарды, проигнорировав понятие форс-мажора и права собственности.",
+                "en": "Learn from the mistakes of others: Russian macroeconomists left reserves in European banks, trusting paper promises. When the rules changed, the Western courts of Luxembourg and London simply froze those billions, ignoring the notion of force majeure and property rights.",
+                "uz": "Boshqalarning xatolaridan oʻrgan: rossiyalik makroiqtisodchilar qogʻozdagi vaʼdalarga ishonib, zaxiralarni Yevropa banklarida qoldirishdi. Qoidalar oʻzgarganda, Lyuksemburg va Londonning gʻarb sudlari fors-major va mulk huquqi tushunchalarini eʼtiborsiz qoldirib, bu milliardlarni shunchaki muzlatib qoʻyishdi."
+              },
+              {
+                "ru": "Наш щит — это независимость. При работе с любыми зарубежными заказчиками (будь то из Европы или США) всегда требуй фиксации одного правила: все споры решаются исключительно в Арбитражном суде Узбекистана. Если продукция нашего завода им действительно нужна — они согласятся на наши условия. Если они отказываются от нашего суда — они изначально планируют сыграть нечестно.",
+                "en": "Our shield is independence. When working with any foreign customers (whether from Europe or the USA), always insist on fixing one rule: all disputes are settled exclusively in the Arbitration Court of Uzbekistan. If they really need our plant’s products, they will accept our terms. If they refuse our court, they intend to play unfairly from the start.",
+                "uz": "Bizning qalqonimiz — mustaqillik. Har qanday xorijiy buyurtmachilar (Yevropa yoki AQShdan boʻlsin) bilan ishlaganda doimo bitta qoidani mustahkamlashni talab qil: barcha nizolar faqat Oʻzbekiston Iqtisodiy sudida hal qilinadi. Agar zavodimiz mahsuloti ularga haqiqatan kerak boʻlsa — ular shartlarimizga rozi boʻlishadi. Agar ular sudimizdan bosh tortsa — demak, boshidanoq nohaq oʻynashni rejalashtirgan."
+              }
+            ]
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "5. Опирайся на свои силы и избегай паразитов",
+              "en": "5. Rely on your own strength and avoid parasites",
+              "uz": "5. Oʻz kuchingga tayan va parazitlardan saqlan"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Свой завод ты должен знать и реконструировать своими силами. Передача модернизации псевдозарубежным инжиниринговым компаниям — это добровольная сдача в технологический плен.",
+              "en": "You must know your plant and reconstruct it with your own forces. Handing modernisation over to pseudo-foreign engineering companies is voluntary surrender into technological captivity.",
+              "uz": "Oʻz zavodingni bilishing va uni oʻz kuching bilan qayta qurishing kerak. Modernizatsiyani soxta xorijiy injiniring kompaniyalariga topshirish — ixtiyoriy ravishda texnologik asirlikka taslim boʻlish."
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Иностранные прокладки (сингапурские, кипрские или дубайские) часто создаются лишь для выкачивания маржи из реального сектора. Когда узбекский газ или металл продаётся местному заводу через фирму в Сингапуре — это экономическое преступление, которое душит производство искусственным завышением себестоимости.",
+                "en": "Foreign shell intermediaries (Singaporean, Cypriot or Dubai-based) are often created only to siphon margin out of the real sector. When Uzbek gas or metal is sold to a local plant through a firm in Singapore, that is an economic crime that strangles production by artificially inflating costs.",
+                "uz": "Xorijiy vositachi firmalar (Singapur, Kipr yoki Dubay firmalari) koʻpincha real sektordan foydani soʻrib olish uchungina tuziladi. Oʻzbek gazi yoki metali mahalliy zavodga Singapurdagi firma orqali sotilsa — bu tannarxni sunʼiy oshirib, ishlab chiqarishni boʻgʻadigan iqtisodiy jinoyat."
+              },
+              {
+                "ru": "Изучай оборудование сам, занимайся обратным инжинирингом, знай каждую строчку кода автоматики. Независимость предприятия куётся в собственных ремонтных цехах.",
+                "en": "Study the equipment yourself, do reverse engineering, know every line of the automation code. An enterprise’s independence is forged in its own repair shops.",
+                "uz": "Uskunani oʻzing oʻrgan, teskari injiniring bilan shugʻullan, avtomatika kodining har bir satrini bil. Korxona mustaqilligi oʻz taʼmirlash sexlarida yaratiladi."
+              }
+            ]
+          },
+          {
+            "type": "subhead",
+            "text": {
+              "ru": "6. Будь волком профессиональной стаи",
+              "en": "6. Be a wolf of the professional pack",
+              "uz": "6. Kasbiy galaning boʻrisi boʻl"
+            }
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Профессиональная среда определяет твою судьбу. Помни правило: «Если в стадо баранов попадёт один волк — среда сомнёт его, и он станет бараном. Но если вокруг стая волков — то и один баран станет волком».",
+              "en": "Your professional environment determines your fate. Remember the rule: “If one wolf gets into a flock of sheep, the environment will crush him and he will become a sheep. But if there is a pack of wolves around, even a single sheep will become a wolf.”",
+              "uz": "Kasbiy muhit taqdiringni belgilaydi. Qoidani esla: «Agar qoʻylar suruviga bitta boʻri tushib qolsa — muhit uni ezadi va u qoʻyga aylanadi. Ammo atrofda boʻrilar galasi boʻlsa — bitta qoʻy ham boʻriga aylanadi»."
+            }
+          },
+          {
+            "type": "bullets",
+            "items": [
+              {
+                "ru": "Средмаш строился как «волчья стая» в лучшем смысле этого слова — как братство бескомпромиссных профессионалов высокой дисциплины. Здесь не прощали халатности, но всегда протягивали руку тому, кто хочет учиться.",
+                "en": "Sredmash was built as a “wolf pack” in the best sense of the word — a brotherhood of uncompromising professionals of high discipline. Negligence was not forgiven here, but a hand was always held out to anyone who wanted to learn.",
+                "uz": "Sredmash soʻzning eng yaxshi maʼnosida «boʻrilar galasi» sifatida — yuksak intizomli, murosasiz mutaxassislar birodarligi sifatida qurilgan edi. Bu yerda loqaydlik kechirilmasdi, ammo oʻrganishni istagan kishiga doimo yordam qoʻli choʻzilardi."
+              },
+              {
+                "ru": "Если ты видишь вокруг себя равнодушие чиновников или непрофильных назначенцев («агрономов и ветеринаров в бизнесе») — не ломайся под их давлением. Ищи единомышленников, держись за опытных мастеров-аксакалов, сохраняй в себе жёсткие стандарты качества.",
+                "en": "If you see around you the indifference of officials or of appointees from outside the field (“agronomists and veterinarians in business”), do not break under their pressure. Look for like-minded people, hold on to experienced master craftsmen, the aksakals, and keep strict quality standards within yourself.",
+                "uz": "Agar atrofingda amaldorlarning befarqligini yoki sohaga aloqasiz tayinlanganlarni («biznesdagi agronom va veterinarlar»ni) koʻrsang — ularning bosimi ostida sinma. Hamfikrlarni izla, tajribali usta-oqsoqollarga suyan, oʻzingda qatʼiy sifat standartlarini saqla."
+              }
+            ]
+          },
+          {
+            "type": "para",
+            "text": {
+              "ru": "Пока на комбинатах работают люди-энциклопедии, способные защищать технологию с чертежами и законами в руках, наше производство будет оставаться нерушимым фундаментом государства.",
+              "en": "As long as walking encyclopaedias work at the combines, people able to defend technology with drawings and laws in hand, our industry will remain the unshakeable foundation of the state.",
+              "uz": "Kombinatlarda chizmalar va qonunlar bilan texnologiyani himoya qila oladigan qomusiy insonlar ishlar ekan, ishlab chiqarishimiz davlatning mustahkam poydevori boʻlib qolaveradi."
+            }
+          },
+          {
+            "type": "closing",
+            "text": {
+              "ru": "Внедряй эти правила в работу каждый день. Заводы работают, пока у руля стоят инженеры!",
+              "en": "Put these rules into practice every day. Plants keep working as long as engineers are at the helm!",
+              "uz": "Bu qoidalarni har kuni ishingga tatbiq et. Zavodlar muhandislar boshqaruvda ekan, ishlayveradi!"
+            }
+          }
+        ]
       }
     ]
   },
