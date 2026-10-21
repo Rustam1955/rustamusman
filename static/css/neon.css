@@ -1,0 +1,85 @@
+/* ================= Неоновые кнопки Рустама (21.10.2026) =================
+   Те же, что в IlmNur (программа на компьютере и ilmnur.org; придумал
+   Рустам): ночью кнопка — тёмное стекло, светящееся изнутри неоном, с
+   перламутровым бликом сверху; днём — выпуклая цветная с мягкой тенью;
+   при нажатии быстро вдавливается и плавно отпускается.
+     золото  — главное действие (.btn-primary: «Обо мне», «Скачать CV»…);
+     синий   — обычное (.btn, .btn-ghost);
+     серебро — фильтр не выбран (.chip);
+     золото  — фильтр выбран (.chip.active).
+   Подключается ПОСЛЕДНИМ. Вернуть прежние кнопки — убрать строку
+   <link … neon.css> в templates/base.html. */
+
+.btn, .btn-ghost {
+  --n-dark: #030517; --n-glow: #1f4df2; --n-glow2: #b8a8ff; --n-text: #e6ecff; --n-sheen: 1;
+}
+.btn-primary, .chip.active {
+  --n-dark: #120a02; --n-glow: #f2ad2e; --n-glow2: #d9801f; --n-text: #fff0c8; --n-sheen: 0;
+}
+.chip {
+  --n-dark: #08080b; --n-glow: #9ea3b3; --n-glow2: #d1d6e5; --n-text: #eceef4; --n-sheen: 0;
+}
+
+/* ---------- Ночь: неон в тёмном стекле ---------- */
+.btn, .btn-primary, .btn-ghost, .chip, .chip.active,
+.ilmnur-gold .btn-primary, .app-sites .app-site-btns a.btn-primary {
+  color: var(--n-text) !important;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% -10%,
+      color-mix(in srgb, var(--n-glow2) calc(55% * var(--n-sheen) + 25%), transparent) 0%, transparent 70%),
+    linear-gradient(90deg,
+      color-mix(in srgb, var(--n-glow) 30%, transparent) 0%, transparent 18%,
+      transparent 82%, color-mix(in srgb, var(--n-glow2) 30%, transparent) 100%),
+    var(--n-dark) !important;
+  border: 1.5px solid color-mix(in srgb, var(--n-glow) 75%, white) !important;
+  box-shadow:
+    inset 0 0 14px 2px color-mix(in srgb, var(--n-glow) 85%, transparent),
+    inset 0 5px 12px -4px color-mix(in srgb, var(--n-glow2) 80%, white),
+    0 0 12px -2px color-mix(in srgb, var(--n-glow) 70%, transparent) !important;
+  text-decoration: none;
+  transition: transform .2s ease-out, filter .2s ease-out, box-shadow .2s !important;
+}
+.btn:hover, .chip:hover {
+  filter: brightness(1.12);
+  transform: none;
+  box-shadow:
+    inset 0 0 18px 3px color-mix(in srgb, var(--n-glow) 90%, transparent),
+    inset 0 5px 12px -4px color-mix(in srgb, var(--n-glow2) 85%, white),
+    0 0 18px -1px color-mix(in srgb, var(--n-glow) 80%, transparent) !important;
+}
+/* Нажатие: быстро вдавливается — чуть меньше и ниже, темнее */
+.btn:active, .chip:active {
+  transform: translateY(2px) scale(.97);
+  filter: brightness(.9);
+  transition-duration: .08s !important;
+}
+/* «✓» у выбранного фильтра — цветом надписи */
+.chip.active::before { color: inherit; }
+
+/* ---------- День: выпуклая цветная с мягкой тенью ----------
+   Светлая тема выбрана — или не выбрана, а у компьютера светлая */
+:root[data-theme="light"] :is(.btn, .btn-primary, .btn-ghost, .chip, .chip.active) {
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .28) 0%, transparent 45%),
+    linear-gradient(90deg, color-mix(in srgb, var(--n-glow) 92%, white),
+                           color-mix(in srgb, var(--n-glow2) 85%, black)) !important;
+  border: 1px solid color-mix(in srgb, var(--n-glow) 70%, black) !important;
+  box-shadow: 0 4px 10px -2px color-mix(in srgb, var(--n-glow) 45%, rgba(0, 0, 0, .35)),
+              inset 0 1px 0 rgba(255, 255, 255, .45) !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) :is(.btn, .btn-primary, .btn-ghost, .chip, .chip.active) {
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .28) 0%, transparent 45%),
+    linear-gradient(90deg, color-mix(in srgb, var(--n-glow) 92%, white),
+                           color-mix(in srgb, var(--n-glow2) 85%, black)) !important;
+  border: 1px solid color-mix(in srgb, var(--n-glow) 70%, black) !important;
+  box-shadow: 0 4px 10px -2px color-mix(in srgb, var(--n-glow) 45%, rgba(0, 0, 0, .35)),
+              inset 0 1px 0 rgba(255, 255, 255, .45) !important;
+}
+}
