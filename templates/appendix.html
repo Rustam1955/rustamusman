@@ -38,9 +38,23 @@
         <h2 class="about-title visually-hidden">{{ t.ilmnur_about_title }}</h2>
         <p class="about-lead">{{ t.ilmnur_about_lead }}</p>
         <ul class="about-list">
-          <li><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3><p>{{ t.ilmnur_about_talk }}</p>
-            {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}</div></li>
+          {# «Сообщения» — привлекательнее (Рустам, 28.10.2026: «что ещё можем
+             сделать?» — «все»): строка об отличии, пункты со значками, снимки
+             экрана (выдуманные собеседники — настоящих переписок на сайте нет),
+             «Открыть в браузере», iPhone — скоро #}
+          <li class="msg-card"><span class="about-ic" aria-hidden="true">💬</span><div><h3>{{ t.ilmnur_about_talk_h }}</h3>
+            <p class="msg-tagline">{{ t.ilmnur_msg_tagline }}</p>
+            <ul class="msg-points">{% for point in t.ilmnur_msg_points %}<li>{{ point }}</li>{% endfor %}</ul>
+            <div class="msg-shots">
+              <figure><img src="{{ url_for('static', filename='img/apps/chat_day.webp') }}?v=1" alt="{{ t.ilmnur_shot_day }}" loading="lazy" width="1200" height="670"><figcaption>{{ t.ilmnur_shot_day }}</figcaption></figure>
+              <figure><img src="{{ url_for('static', filename='img/apps/chat_night.webp') }}?v=1" alt="{{ t.ilmnur_shot_night }}" loading="lazy" width="1200" height="670"><figcaption>{{ t.ilmnur_shot_night }}</figcaption></figure>
+            </div>
+            <p class="msg-more">{{ t.ilmnur_about_talk }}</p>
+            {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}
+            <p class="msg-extra"><a class="btn btn-small msg-open" href="https://message.ilmnur.org/">{{ t.ilmnur_msg_open }}</a>
+              <span class="msg-ios" aria-label="{{ t.ilmnur_msg_ios }}"> {{ t.ilmnur_msg_ios }}</span></p></div></li>
           <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p>
+            <figure class="chess-shot"><img src="{{ url_for('static', filename='img/apps/chess.webp') }}?v=1" alt="{{ t.ilmnur_shot_chess }}" loading="lazy" width="700" height="700"></figure>
             {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2), "chess-online") }}</div></li>
           {# «Музыка» и «Родословная и учёба» убраны (Рустам, 28.10.2026): в
              приложении «Сообщения» (message.ilmnur.org) есть и музыка, и
