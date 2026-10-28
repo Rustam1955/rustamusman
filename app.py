@@ -892,9 +892,9 @@ def apk_qr():
 # на APK его приложения и стоят рядом с «Скачать для Android»: камерой
 # телефона на код наводят ради телефона (Рустам: «QR-code касаются только
 # андроид»). Сайт раздела открывается ссылкой в заголовке
+# «music ilmnur» убрали 28.10.2026: музыка есть в каждом приложении IlmNur
 SECTION_QR = {"message": "https://ilmnur.org/apps/ilmnur-messages.apk",
-              "chess": "https://ilmnur.org/apps/ilmnur-chess.apk",
-              "music": "https://ilmnur.org/apps/ilmnur-music.apk"}
+              "chess": "https://ilmnur.org/apps/ilmnur-chess.apk"}
 
 
 @app.route("/site-qr/<name>.svg")
