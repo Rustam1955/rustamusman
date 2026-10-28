@@ -42,11 +42,10 @@
             {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}</div></li>
           <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p>
             {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2), "chess-online") }}</div></li>
-          <li><span class="about-ic" aria-hidden="true">🎵</span><div><h3>{{ t.ilmnur_about_music_h }}</h3><p>{{ t.ilmnur_about_music }}</p>
-            {{ get_app("music.ilmnur.org", t.appendix_site_music, "https://ilmnur.org/apps/ilmnur-music.apk", "https://ilmnur.org/apps/ilmnur-music.deb", url_for('site_qr', name='music', v=2)) }}</div></li>
-          <!-- Главное приложение — ilmnur.org: в нём всё, и родословная с учёбой -->
-          <li><span class="about-ic" aria-hidden="true">🌳</span><div><h3>{{ t.ilmnur_about_family_h }}</h3><p>{{ t.ilmnur_about_family }}</p>
-            {{ get_app("ilmnur.org", t.appendix_site_main, apk_url, deb_url, apk_qr_url) }}</div></li>
+          {# «Музыка» и «Родословная и учёба» убраны (Рустам, 28.10.2026): в
+             приложении «Сообщения» (message.ilmnur.org) есть и музыка, и
+             родословная с учёбой — отдельные карточки были повтором.
+             Прежние строки — в истории git (коммит до этого) #}
         </ul>
         <!-- Для Linux — одна строка про систему для всех пакетов .deb -->
         <p class="about-linux">{{ t.appendix_linux_desc }}</p>
