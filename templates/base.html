@@ -41,7 +41,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=14">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=15">
   <!-- Material 3 поверх прежних стилей (01.10.2026); убрать строку — прежний вид -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/m3.css') }}?v=4">
   <!-- Неоновые кнопки Рустама (21.10.2026), как в IlmNur; убрать строку — прежние кнопки -->
@@ -58,7 +58,7 @@
         // Фон — «glow», «plain» или картинка из набора приложения IlmNur
         // «img:<имя>» (её отдаёт служба IlmNur: /backgrounds/<имя>).
         // Прежний «photo» — та же картинка, она есть в наборе
-        var bg = localStorage.getItem('bg') || 'glow';
+        var bg = localStorage.getItem('bg') || 'gaa';
         if (bg === 'photo') bg = 'img:site_bg.jpg';
         if (bg.indexOf('img:') === 0) {
           root.style.setProperty('--bg-image',
@@ -197,6 +197,8 @@
             <div class="set-panel" data-panel="bg" hidden>
               <button type="button" class="set-back" data-open="main"><span class="arrow" aria-hidden="true">←</span> {{ t.set_back }}</button>
               <div class="set-bg-grid" id="set-bg-grid" data-list="/backgrounds">
+                <button type="button" class="set-bg-tile" data-bg-value="gaa" title="ГАА">
+                  <img src="{{ url_for('static', filename='img/site_bg_gaa.webp') }}" loading="lazy" alt=""></button>
                 <button type="button" class="set-bg-tile set-bg-glow" data-bg-value="glow" title="{{ t.bg_glow }}">
                   <span>{{ t.bg_glow }}</span></button>
                 <button type="button" class="set-bg-tile set-bg-plain" data-bg-value="plain" title="{{ t.bg_plain }}">
@@ -220,7 +222,7 @@
     </div>
   </footer>
 
-  <script src="{{ url_for('static', filename='js/settings.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='js/settings.js') }}?v=2" defer></script>
   {% block scripts %}{% endblock %}
 </body>
 

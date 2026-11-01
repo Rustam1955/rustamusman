@@ -235,6 +235,31 @@ img {
   }
 }
 
+/* Схема гамма-активационного анализа (Рустам, 01.11.2026): фон научного сайта по
+   умолчанию; в приложение IlmNur он не идёт, потому лежит здесь, а не в его наборе */
+:root[data-bg="gaa"] .bg-orb,
+:root[data-bg="gaa"] .bg-grid {
+  display: none;
+}
+
+/* Приглушён сильнее других: на картинке свой текст, он не должен спорить с текстом страницы */
+:root[data-bg="gaa"] .bg-decor {
+  background-image: url("../img/site_bg_gaa.webp");
+  background-size: cover;
+  background-position: center;
+  opacity: .24;
+}
+
+:root[data-theme="dark"][data-bg="gaa"] .bg-decor {
+  opacity: .3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])[data-bg="gaa"] .bg-decor {
+    opacity: .3;
+  }
+}
+
 /* Фон из набора приложения IlmNur: картинку (--bg-image) ставит скрипт в
    <head> и settings.js, отдаёт служба IlmNur (/backgrounds/<имя>). Как в
    приложении — картинка под всем экраном; приглушена, чтобы текст читался */

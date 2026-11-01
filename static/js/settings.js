@@ -28,7 +28,7 @@
 
   // Прежний вариант «photo» — та же картинка, она есть в наборе приложения
   function currentBackground() {
-    const bg = read("bg", "glow");
+    const bg = read("bg", "gaa");
     return bg === "photo" ? "img:site_bg.jpg" : bg;
   }
 
