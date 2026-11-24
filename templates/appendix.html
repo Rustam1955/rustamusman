@@ -52,7 +52,8 @@
             <p class="msg-more">{{ t.ilmnur_about_talk }}</p>
             {{ get_app("message.ilmnur.org", t.appendix_site_message, "https://ilmnur.org/apps/ilmnur-messages.apk", "https://ilmnur.org/apps/ilmnur-messages.deb", url_for('site_qr', name='message', v=2)) }}
             <p class="msg-extra"><a class="btn btn-small msg-open" href="https://message.ilmnur.org/">{{ t.ilmnur_msg_open }}</a>
-              <span class="msg-ios" aria-label="{{ t.ilmnur_msg_ios }}"> {{ t.ilmnur_msg_ios }}</span></p></div></li>
+              {# Было «iPhone — скоро»; с 24.11.2026 IlmNur ставится из браузера (PWA) — ?install открывает подсказку #}
+              <a class="msg-ios" href="https://message.ilmnur.org/?install">{{ t.ilmnur_msg_ios }}</a></p></div></li>
           <li><span class="about-ic" aria-hidden="true">♞</span><div><h3>{{ t.ilmnur_about_chess_h }}</h3><p>{{ t.ilmnur_about_chess }}</p>
             <figure class="chess-shot"><img src="{{ url_for('static', filename='img/apps/chess.webp') }}?v=1" alt="{{ t.ilmnur_shot_chess }}" loading="lazy" width="700" height="700"></figure>
             {{ get_app("chess.ilmnur.org", t.appendix_site_chess, "https://ilmnur.org/apps/ilmnur-chess.apk", "https://ilmnur.org/apps/ilmnur-chess.deb", url_for('site_qr', name='chess', v=2), "chess-online") }}</div></li>
