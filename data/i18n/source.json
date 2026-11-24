@@ -823,6 +823,18 @@
   "ru": "Контакты",
   "en": "Contact"
  },
+ "ui:nav_science": {
+  "ru": "Наука и публикации",
+  "en": "Science & publications"
+ },
+ "ui:nav_apps": {
+  "ru": "Приложения IlmNur",
+  "en": "IlmNur apps"
+ },
+ "ui:nav_more": {
+  "ru": "Ещё",
+  "en": "More"
+ },
  "ui:settings_title": {
   "ru": "Настройки",
   "en": "Settings"

@@ -41,7 +41,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=15">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=16">
   <!-- Material 3 поверх прежних стилей (01.10.2026); убрать строку — прежний вид -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/m3.css') }}?v=4">
   <!-- Неоновые кнопки Рустама (21.10.2026), как в IlmNur; убрать строку — прежние кнопки -->
@@ -87,7 +87,7 @@
         <img src="{{ url_for('static', filename='img/logo_2026.png') }}" alt="IlmNur"
           class="brand-logo">
         <!-- Имени рядом с логотипом нет (Рустам, 16.09.2026): оно крупно на
-             самой странице, а в шапке тесно — девять пунктов меню -->
+             самой странице -->
       </a>
 
       <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">
@@ -95,12 +95,12 @@
       </button>
 
       <nav class="site-nav">
-        <!-- В меню-занавеске телефона «Главной» нет (Рустам, 16.09.2026): там
-             ровно восемь пунктов, а на главную ведёт логотип -->
-        <a href="{{ url_for('home', lang=lang) }}" class="nav-home {{ 'active' if current_endpoint=='home' }}">{{ t.nav_home
-          }}</a>
-        <a href="{{ url_for('about', lang=lang) }}" class="nav-about {{ 'active' if current_endpoint=='about' }}">{{ t.nav_about
-          }}</a>
+        <!-- Главное — три раздела: наука, приложения IlmNur, династия; остальное —
+             в «Ещё» (Рустам, 24.11.2026). «Главной» в шапке нет: на неё ведёт логотип -->
+        <a href="{{ url_for('publications', lang=lang) }}" class="nav-pubs {{ 'active' if current_endpoint=='publications' }}">{{
+          t.nav_science }}</a>
+        <a href="{{ url_for('appendix', lang=lang) }}" class="{{ 'active' if current_endpoint=='appendix' }}">{{
+          t.nav_apps }}</a>
 
         <div class="nav-dropdown {{ 'active' if current_endpoint=='dynasty' }}">
           <a href="{{ url_for('dynasty', lang=lang) }}"
@@ -118,17 +118,18 @@
           </div>
         </div>
 
-        <a href="{{ url_for('publications', lang=lang) }}" class="nav-pubs {{ 'active' if current_endpoint=='publications' }}">{{
-          t.nav_pubs }}</a>
-        <a href="{{ url_for('appendix', lang=lang) }}" class="{{ 'active' if current_endpoint=='appendix' }}">{{
-          t.nav_appendix }}</a>
-        <a href="{{ url_for('reflections', lang=lang) }}" class="{{ 'active' if current_endpoint=='reflections' }}">{{
-          t.nav_reflections }}</a>
-        <a href="{{ url_for('cv', lang=lang) }}" class="{{ 'active' if current_endpoint=='cv' }}">{{ t.nav_cv }}</a>
-        <a href="{{ url_for('reviews', lang=lang) }}" class="{{ 'active' if current_endpoint=='reviews' }}">{{
-          t.nav_reviews }}</a>
-        <a href="{{ url_for('contacts', lang=lang) }}" class="{{ 'active' if current_endpoint=='contacts' }}">{{
-          t.nav_contacts }}</a>
+        {% set more_pages = ('about', 'reflections', 'reviews', 'cv', 'contacts') %}
+        <div class="nav-dropdown nav-more {{ 'active' if current_endpoint in more_pages }}">
+          <button type="button" class="nav-dropdown-toggle {{ 'active' if current_endpoint in more_pages }}"
+            aria-haspopup="true">{{ t.nav_more }}<span class="caret" aria-hidden="true">▾</span></button>
+          <div class="nav-dropdown-menu">
+            <a href="{{ url_for('about', lang=lang) }}" class="{{ 'active' if current_endpoint=='about' }}">{{ t.nav_about }}</a>
+            <a href="{{ url_for('reflections', lang=lang) }}" class="{{ 'active' if current_endpoint=='reflections' }}">{{ t.nav_reflections }}</a>
+            <a href="{{ url_for('reviews', lang=lang) }}" class="{{ 'active' if current_endpoint=='reviews' }}">{{ t.nav_reviews }}</a>
+            <a href="{{ url_for('cv', lang=lang) }}" class="{{ 'active' if current_endpoint=='cv' }}">{{ t.nav_cv }}</a>
+            <a href="{{ url_for('contacts', lang=lang) }}" class="{{ 'active' if current_endpoint=='contacts' }}">{{ t.nav_contacts }}</a>
+          </div>
+        </div>
 
         <!-- ЕДИНАЯ КНОПКА НАСТРОЕК: язык + тема (день/ночь) + фон экрана -->
         <div class="settings">
@@ -222,7 +223,7 @@
     </div>
   </footer>
 
-  <script src="{{ url_for('static', filename='js/settings.js') }}?v=2" defer></script>
+  <script src="{{ url_for('static', filename='js/settings.js') }}?v=3" defer></script>
   {% block scripts %}{% endblock %}
 </body>
 

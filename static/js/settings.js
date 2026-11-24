@@ -143,3 +143,30 @@
 
   sync();
 })();
+
+// «Ещё» в шапке (Рустам, 24.11.2026): нажатие открывает и закрывает список.
+// Одного наведения мало — на телефоне его нет, а Safari на iPhone не даёт
+// кнопке фокус при нажатии, и :focus-within там не срабатывает
+(function () {
+  const more = document.querySelector(".nav-more");
+  if (!more) return;
+  const toggle = more.querySelector(".nav-dropdown-toggle");
+  toggle.setAttribute("aria-expanded", "false");
+  function setOpen(open) {
+    more.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  toggle.addEventListener("click", (event) => {
+    event.stopPropagation();
+    setOpen(!more.classList.contains("open"));
+  });
+  document.addEventListener("click", (event) => {
+    if (!more.contains(event.target)) setOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && more.classList.contains("open")) {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+})();

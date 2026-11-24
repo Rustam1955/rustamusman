@@ -642,6 +642,40 @@ img {
   color: var(--text);
 }
 
+/* «Ещё» — второстепенные разделы одной кнопкой (Рустам, 24.11.2026):
+   О себе, Размышления, Отзывы, CV, Контакты. Это кнопка, а не ссылка —
+   своей страницы у «Ещё» нет. Список прижат к правому краю: справа от
+   «Ещё» только настройки, и слева направо он ушёл бы за край экрана */
+.nav-more > .nav-dropdown-toggle {
+  appearance: none;
+  font: inherit;
+  font-weight: 500;
+  line-height: inherit;
+}
+
+.nav-more .nav-dropdown-menu {
+  inset-inline-start: auto;
+  inset-inline-end: 0;
+  min-width: 210px;
+}
+
+.nav-more.open .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-more.open .caret {
+  transform: rotate(180deg);
+}
+
+/* Открытый сейчас раздел виден и внутри списка */
+.nav-dropdown-menu a.active {
+  background: var(--bg-soft);
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* ---------- Hero ---------- */
 .hero {
   padding: 72px 0 40px;
@@ -2431,6 +2465,26 @@ a.pub-title:hover {
   .nav-dropdown .caret,
   .nav-dropdown-menu {
     display: none;
+  }
+
+  /* «Ещё» в занавеске — раскрывается списком прямо под кнопкой */
+  .nav-more .caret {
+    display: inline;
+  }
+
+  .nav-more .nav-dropdown-menu {
+    position: static;
+    margin-top: 8px;
+    min-width: 0;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: none;
+  }
+
+  .nav-more.open .nav-dropdown-menu {
+    display: block;
   }
 }
 
